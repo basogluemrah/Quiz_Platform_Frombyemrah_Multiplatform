@@ -2,7 +2,34 @@
 // Admin Panel - JavaScript
 // ===================================
 
+// ===================================
+// Password Protection
+// ===================================
+const ADMIN_PASSWORD = 'quiz2024'; // Şifreyi buradan değiştirebilirsin
+
+function checkPassword() {
+    const savedAuth = sessionStorage.getItem('adminAuth');
+    if (savedAuth === 'true') return true;
+    
+    const password = prompt('🔐 Admin Şifresi:');
+    if (password === ADMIN_PASSWORD) {
+        sessionStorage.setItem('adminAuth', 'true');
+        return true;
+    } else {
+        alert('❌ Yanlış şifre!');
+        window.location.href = '/';
+        return false;
+    }
+}
+
+// Check password on page load
+if (!checkPassword()) {
+    throw new Error('Unauthorized');
+}
+
+// ===================================
 // Navigation
+// ===================================
 const navItems = document.querySelectorAll('.nav-item');
 const sections = document.querySelectorAll('.section');
 
