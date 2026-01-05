@@ -1,0 +1,66 @@
+{
+    "courseId": "isg",
+    "courseName": "İş Sağlığı ve Güvenliği",
+    "specialModes": [
+        {
+            "id": "mixed",
+            "name": "🎲 Karışık Quiz",
+            "description": "Tüm ünitelerden rastgele sorular",
+            "icon": "🎲"
+        }
+    ],
+    "units": [
+        {
+            "id": 1,
+            "name": "İş Sağlığı ve Güvenliğine Giriş"
+        },
+        {
+            "id": 2,
+            "name": "İş Hukuku ve Mevzuat"
+        },
+        {
+            "id": 3,
+            "name": "Fiziksel Risk Etmenleri"
+        },
+        {
+            "id": 4,
+            "name": "Kimyasal Risk Etmenleri"
+        },
+        {
+            "id": 5,
+            "name": "Biyolojik Risk Etmenleri"
+        },
+        {
+            "id": 6,
+            "name": "Yapı ve Maden İşlerinde İSG"
+        },
+        {
+            "id": 7,
+            "name": "Mesleki Hastalıklar"
+        },
+        {
+            "id": 8,
+            "name": "Ergonomi"
+        },
+        {
+            "id": 9,
+            "name": "Acil Durum Planlaması"
+        },
+        {
+            "id": 10,
+            "name": "İş Kazaları"
+        },
+        {
+            "id": 11,
+            "name": "Çalışma Ortamı Gözetimi"
+        }
+    ],
+    "extras": [
+        {
+            "id": "audio",
+            "name": "🎧 Ses Dosyaları",
+            "description": "Ders anlatımları ve notlar",
+            "icon": "🎧"
+        }
+    ]
+}

@@ -1,0 +1,126 @@
+{
+  "unitId": 4,
+  "unitName": "Kimyasal Risk Etmenleri",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Aşağıdakilerden hangisi kimyasalların deriden emilmesi ile ilgili yanlıştır?",
+      "options": [
+        "Kimyasallarla el teması hâlinde deriden emilme yoluyla tehlikeli miktarlarda kimyasal alınabilir.",
+        "Toz formunda olan kimyasallar için deriden emilme mekanizması söz konusu değildir.",
+        "Farklı kimyasalların deriden emilme kapasiteleri de farklılıklar gösterir.",
+        "Deride emilme yıllar içinde meslek hastalığına yol açabilir.",
+        "Derinin koruyucu dış tabakasının çözücülerle yumuşatılması kimyasalın emilmesini kolaylaştırır."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 2,
+      "question": "Yanıcı maddelerin gaz, buhar, sis ve tozlarının atmosferik şartlar altında hava ile oluşturduğu ve herhangi bir tutuşturucu kaynakla temasında tümüyle yanabilen karışıma ne ad verilir?",
+      "options": [
+        "Tehlikeli ortam",
+        "Patlayıcı ortam",
+        "Gaz karışımı",
+        "Toksit madde",
+        "Kimyasal madde"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 3,
+      "question": "Aşağıdakilerden hangisi çalışan işçilerin maruziyetlerinin önlenmesi şartı ile Bakanlıktan izin alınarak \"yasaklanmış kimyasal maddelerle\" çalışma yapılabilmesi kapsamı dışındadır?",
+      "options": [
+        "Yan ürünlerde veya atık maddelerde bulunan bu maddelerin ayrılması işleri",
+        "Teknoloji gereği ana madde olarak kullanılması zorunlu olan üretimler",
+        "Sanayide çok sayıda işçi ile kimyasal madde üretme",
+        "Bilimsel araştırma ve deneyler",
+        "Araştırma merkezlerindeki çalışmalar"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 4,
+      "question": "Çok hızlı bir gaz genişlemesiyle ve genellikle ısı açığa çıkmasıyla meydana gelen kimyasal reaksiyon aşağıdakilerden hangisidir?",
+      "options": [
+        "Ekzotermik reaksiyon",
+        "Hızlı yanma",
+        "Yanma",
+        "Patlama",
+        "Alevleme"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 5,
+      "question": "Solunduğunda, ağız yoluyla alındığında, deriye nüfus ettiğinde kalıtımsal genetik hasarlara yol açabilen veya bu etkinin oluşumunu hızlandıran maddeye ne ad verilir?",
+      "options": [
+        "Toksit madde",
+        "Kanserojen madde",
+        "Zararlı madde",
+        "Mutajen madde",
+        "Aşındırıcı madde"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 6,
+      "question": "Kimyasal Maddelerle Çalışmalarda Sağlık ve Güvenlik Önlemleri Hakkında Yönetmelik'e göre mesleki maruziyet sınır değeri aşağıdakilerden hangisidir?",
+      "options": [
+        "7 saatlik sürede konsantrasyonun zaman ağırlıklı ortalamasının üst sınırı",
+        "8 saatlik sürede konsantrasyonun zaman ağırlıklı ortalamasının üst sınırı",
+        "8 saatlik sürede konsantrasyonun zaman ağırlıklı ortalamasının alt sınırı",
+        "9 saatlik sürede konsantrasyonun zaman ağırlıklı ortalamasının alt sınırı",
+        "10 saatlik sürede konsantrasyonun zaman ağırlıklı ortalamasının üst sınırı"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 7,
+      "question": "Aşağıdakilerden hangisi tehlikeli kimyasal maddelerle çalışmalarda risklerin ortadan kaldırılması için alınması gereken önlemlerden biri değildir?",
+      "options": [
+        "Tehlikeli kimyasal madde çalışmaları en az sayıda işçi ile yapılacaktır.",
+        "İşçilerin maruz kalacakları madde miktarı en az düzeyde olacaktır.",
+        "Tehlikeli kimyasal maddelerle çalışmalar gece döneminde yapılamayacaktır.",
+        "Üretim alanında yapılan iş için gerekli olan miktardan fazla tehlikeli kimyasal madde bulundurulmayacaktır.",
+        "İkame yöntemi uygulanarak daha az tehlikeli kimyasal madde kullanılmalıdır."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 8,
+      "question": "Malzeme güvenlik bilgi formları ile ilgili mevzuat hangi bakanlık tarafından hazırlanmaktadır?",
+      "options": [
+        "Sanayi ve Ticaret Bakanlığı",
+        "Çalışma ve Sosyal Güvenlik Bakanlığı",
+        "Sağlık Bakanlığı",
+        "Çevre ve Orman Bakanlığı",
+        "Millî Eğitim Bakanlığı"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 9,
+      "question": "Kimyasal madde depoları hangi havalandırma sistemi kullanılarak yapılır?",
+      "options": [
+        "Hem alttan hem de üstten karşılıklı olarak havalandırmalı",
+        "Sadece üstten havalandırılmalı",
+        "Sadece alttan havalandırılmalı",
+        "Kapı ve pencereden havalandırılmalı",
+        "Sadece pencereden havalandırmalı"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 10,
+      "question": "Tehlikeli maddeler ve müstahzarlara ilişkin güvenlik bilgi formlarında aşağıdakilerden hangisinin bulunması gerekmez?",
+      "options": [
+        "Kimyasalın tanımı",
+        "Kimyasalın fiziksel ve kimyasal özellikleri",
+        "İlk yardım bilgileri",
+        "Kimyasalın taşınması ile ilgili bilgiler",
+        "Yangınla mücadele tedbirleri"
+      ],
+      "correct": 3
+    }
+  ]
+}

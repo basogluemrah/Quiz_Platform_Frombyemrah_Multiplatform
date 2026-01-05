@@ -1,0 +1,126 @@
+{
+    "unitId": 10,
+    "unitName": "İş Kazaları",
+    "questions": [
+        {
+            "id": 1,
+            "question": "Kasıt söz konusu olmaksızın meydana gelen, beklenmedik ve sonucu istenmeyen olaya ne ad verilir?",
+            "options": [
+                "Risk",
+                "Patlama",
+                "Kaza",
+                "Olay",
+                "Ramak kala"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 2,
+            "question": "5510 sayılı Kanun'a göre aşağıdakilerden hangisi iş kazası tanımına girmez?",
+            "options": [
+                "Sigortalının iş yerinde bulunduğu sırada",
+                "İşveren tarafından yürütülmekte olan iş nedeniyle",
+                "Görevli olarak iş yeri dışında başka bir yere gönderilmesi nedeniyle",
+                "İşe kendi aracıyla gidip gelirken",
+                "İşverence sağlanan bir taşıtla işin yapıldığı yere gidiş gelişi sırasında"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 3,
+            "question": "Aşağıdakilerden hangisi iş kazalarının nedenlerinden biri değildir?",
+            "options": [
+                "Çalışanın fizyolojik ve psikolojik yapısı",
+                "Ürünün maliyeti",
+                "Çalışanın uygun KKD kullanmaması",
+                "Üretimde kullanılan teknoloji",
+                "Güvenliksiz davranış ve güvenliksiz durum"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 4,
+            "question": "Aşağıdakilerden hangisi güvenliksiz davranış olarak tanımlanır?",
+            "options": [
+                "Çalışma ortamının aydınlatmasının yetersiz olması",
+                "Uygun makine koruyucusunun bulunmaması",
+                "Elektrikli makinelerde topraklama yapılmamış olması",
+                "Çalışanın görevi olmayan işi yapması",
+                "İşe uygun çalışma talimatlarının bulunmaması"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 5,
+            "question": "Aşağıdakilerden hangisi güvenliksiz durum olarak tanımlanır?",
+            "options": [
+                "Yetkisi olmadan iş yapmak",
+                "Açık bırakılan tehlikeli alanlar, çukurlar vb.",
+                "Koruyucuları çıkarılmış makinede şakalaşarak çalışmak",
+                "Dalgınlık ve dikkatsizlik",
+                "Tehlikeli hızla çalışmak"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 6,
+            "question": "İş kazalarıyla ilgili aşağıdakilerden hangisi yanlıştır?",
+            "options": [
+                "Hayati tehlike varsa çalışan çalışmaktan kaçınma hakkına sahiptir.",
+                "Ciddi tehlike ile karşı karşıya kalan çalışanlar kurula başvurabilir.",
+                "Kurul acilen toplanır ve durumu tutanakla tespit eder.",
+                "Kurul karar verirse çalışan çalışmaktan kaçınabilir.",
+                "Karar, çalışana yazılı olarak bildirilmeyebilir."
+            ],
+            "correct": 4
+        },
+        {
+            "id": 7,
+            "question": "İş kazası istatistiklerinde kullanılan karşılaştırmalı ölçüm değerleri aşağıdakilerden hangisidir?",
+            "options": [
+                "Kaza sıklık oranı, kaza ağırlık oranı, kaza olabilirlik oranı",
+                "İş kazası yıllık planları, kaza sıkışıklık oranı",
+                "Kaza sıkışıklık oranı",
+                "Ağır kaza oranı",
+                "Kıdemli çalışanların kaza oranı"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 8,
+            "question": "İş kazası olması durumunda işveren aşağıdakilerden hangisini yapmakla yükümlü değildir?",
+            "options": [
+                "Bütün iş kazalarının kaydını tutmak",
+                "Meydana gelen iş kazası sonrası çalışana iki maaş tutarında ödeme yapmak",
+                "İş yeri veya ekipmanın zarara uğradığı olayları incelemek",
+                "Kazayı yetkili kolluk kuvvetlerine derhâl haber vermek",
+                "Kazadan sonraki üç iş günü içinde kazayı SGK'ya bildirmek"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 9,
+            "question": "İş kazası olduğunda aşağıdakilerden hangisi yapılmaz?",
+            "options": [
+                "Yaralıya ilk yardım yapılır ve olay yeri güvenliği sağlanır.",
+                "Kaza yeri sınırlandırılır, araştırma sona erene kadar kontrol altında tutulur.",
+                "Çalışmaya devam edilir.",
+                "Kaza yerinin fotoğrafı çekilir, kroki hazırlanır.",
+                "Kazalı ve şahitlerin görüşleri yazılı olarak alınır."
+            ],
+            "correct": 2
+        },
+        {
+            "id": 10,
+            "question": "İş kazası veya meslek hastalığı sonrası ilave eğitim kime verilmelidir?",
+            "options": [
+                "On beş günden fazla iş göremezlik raporu alan çalışana",
+                "Kırk beş günden fazla iş göremezlik raporu alan çalışana",
+                "İş kazası geçiren veya meslek hastalığına yakalanan çalışana işe başlamadan önce",
+                "Meslek hastalığına yakalanan çalışana işe başladıktan altı ay sonra",
+                "Elli yaşını geçen tüm çalışanlara"
+            ],
+            "correct": 2
+        }
+    ]
+}

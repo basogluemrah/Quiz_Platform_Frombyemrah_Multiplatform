@@ -1,0 +1,126 @@
+{
+    "unitId": 8,
+    "unitName": "Ergonomi",
+    "questions": [
+        {
+            "id": 1,
+            "question": "Aşağıdakilerden hangisi ergonominin görevlerinden biri değildir?",
+            "options": [
+                "Sıcak ortamlarda fiziksel iş yükünü azaltmak",
+                "Doğal ve alışılmış reflekslerin daha iyi kullanılmasını sağlamak",
+                "Gereksiz bilgileri anımsama çabasını önlemek",
+                "İş görenin işe yerleşmesini sağlamak",
+                "Çalışma pozisyonlarını geliştirmek"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 2,
+            "question": "Aşağıdakilerden hangisi ergonominin amaçları arasında yer almaz?",
+            "options": [
+                "Müşteri tatmini ile kârların artışını sağlamak",
+                "İşçi sağlığı ve iş güvenliğinin sağlanması",
+                "İş gücü kayıplarının önlenmesi",
+                "Yorulmanın ve iş stresinin azaltılması",
+                "İşçileri sendikalarda temsil edilmesini sağlamak"
+            ],
+            "correct": 4
+        },
+        {
+            "id": 3,
+            "question": "Hangisi ergonominin uğraş alanlarından biri değildir?",
+            "options": [
+                "İş görenin ücretinin artırılması",
+                "İş yeri tasarımı ve iş alanı yerleşimi",
+                "Fiziksel çevre",
+                "Psikolojik çevre",
+                "Görev tasarımı seçme, eğitme"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 4,
+            "question": "Aşağıdakilerden hangisi ergonominin çalıştığı disiplin alanlarından biri değildir?",
+            "options": [
+                "Fizyoloji",
+                "Anatomi",
+                "Mühendislik",
+                "Psikoloji",
+                "Uluslararası ilişkiler"
+            ],
+            "correct": 4
+        },
+        {
+            "id": 5,
+            "question": "Çalışma araçları ve çalışma ortamının insanın vücut ölçüleriyle uyuşumunun sağlanmasına ne ad verilir?",
+            "options": [
+                "İş güvenliği",
+                "Antropometri",
+                "Enformasyon",
+                "Organizasyon",
+                "Fizyoloji"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 6,
+            "question": "Gürültü ses şiddeti ölçüm birimi aşağıdakilerden hangisidir?",
+            "options": [
+                "Byte",
+                "°C",
+                "dB(A)",
+                "Kg",
+                "Inch"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 7,
+            "question": "Aşağıdakilerden hangisi gürültünün olumsuz etkilerinden biri değildir?",
+            "options": [
+                "Psikolojik",
+                "Sosyal",
+                "Vejetatif",
+                "Organizasyon",
+                "Fizyolojik"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 8,
+            "question": "İş ve iş yerini organize ederken gürültüyü azaltmada aşağıdakilerden hangisi dikkate alınmaz?",
+            "options": [
+                "Yalıtım yoluyla titreşimin yayılmasını engellemek",
+                "Gürültülü işin sessiz işten ayrılması",
+                "Gürültü kaynağından yeterince uzakta durulması",
+                "Ses yutucu tavan kullanılması",
+                "Akustik paravanların kullanılması"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 9,
+            "question": "Aşağıdakilerden hangisi veya hangileri gözün gerçekleştirdiği fonksiyonlardandır? (Uyum, Düzenleme, Tespit)",
+            "options": [
+                "Yalnız Uyum",
+                "Yalnız Tespit",
+                "Uyum ve Düzenleme",
+                "Düzenleme ve Tespit",
+                "Uyum, Düzenleme ve Tespit"
+            ],
+            "correct": 4
+        },
+        {
+            "id": 10,
+            "question": "Aşağıdakilerden hangisi iklimi etkileyen faktörler arasında yer almaz?",
+            "options": [
+                "Hava ısısı",
+                "Hava bağıl nemi",
+                "Buhar",
+                "Radyant ısı",
+                "Hava hareketi"
+            ],
+            "correct": 2
+        }
+    ]
+}

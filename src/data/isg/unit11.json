@@ -1,0 +1,126 @@
+{
+    "unitId": 11,
+    "unitName": "Çalışma Ortamı Gözetimi",
+    "questions": [
+        {
+            "id": 1,
+            "question": "Aşağıdakilerden hangisi çalışma ortamı denetiminin amaçlarından biri değildir?",
+            "options": [
+                "İşçi ve iş yeri güvenliğini sağlamak",
+                "İşçi ve iş yerini tehdit eden faktörleri tespit etmek",
+                "Meslek hastalıklarına sebebiyet veren koşulları ortadan kaldırmak",
+                "İş yerini ergonomi ve hijyen açısından iyileştirmek",
+                "İş yerindeki verimi artırarak kârlılığı ve işçi maaşlarının iyileştirilmesini sağlamak"
+            ],
+            "correct": 4
+        },
+        {
+            "id": 2,
+            "question": "Aşağıdakilerden hangisi çalışma ortam faktörlerinden biri değildir?",
+            "options": [
+                "Gürültü düzeyi",
+                "İş yeri aydınlatma şartları",
+                "Biyolojik faktörler",
+                "Rasathane verileri",
+                "Titreşim düzeyi"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 3,
+            "question": "Çalışma ortamı gözetimi aşağıdakilerden hangisini içermez?",
+            "options": [
+                "Çalışanların psikolojik faktörlere maruziyetinin değerlendirilmesi",
+                "İş kazaları riskinin değerlendirilmesi",
+                "Toplu ve kişisel koruyucu donanımın değerlendirilmesi",
+                "İş yerine daha gelişmiş ekipmanların satın alınarak kârlılığın artırılması",
+                "Genel hijyen ve sağlık olanaklarının değerlendirilmesi"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 4,
+            "question": "Aşağıdakilerden hangisi iş yeri gözetimindeki aktörlerden biri değildir?",
+            "options": [
+                "İş güvenliği uzmanı",
+                "İş yeri hekimi",
+                "İş yeri sağlık ve güvenlik birimleri",
+                "İş yeri ekipmanları",
+                "Yakındaki diğer iş yerlerinin güvenlik önlemleri"
+            ],
+            "correct": 4
+        },
+        {
+            "id": 5,
+            "question": "Aşağıdakilerden hangisi fiziksel ortam ölçümlerinden biri değildir?",
+            "options": [
+                "Gaz ölçümü",
+                "Titreşim ölçümü",
+                "Hava sıcaklığı ölçümü",
+                "Aydınlatma ölçümleri",
+                "Nem ölçümü"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 6,
+            "question": "Bir iş yerinde iş yeri ortam gözetimi yapılması aşağıdakilerden hangisinin azalmasına sebebiyet verir?",
+            "options": [
+                "Kârlılık",
+                "Ham maddenin verimsiz kullanılmasından kaynaklanan üretim kaybı",
+                "Ulaşım maliyetleri",
+                "İş kazaları",
+                "Temizlik giderleri"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 7,
+            "question": "Aşağıdakilerden hangisi iş yerindeki gürültünün verdiği zararlardan biri değildir?",
+            "options": [
+                "Stres, davranış bozuklukları",
+                "İş veriminin düşmesi",
+                "İşitme kaybı",
+                "Kan basıncının artması",
+                "Eklem ağrıları"
+            ],
+            "correct": 4
+        },
+        {
+            "id": 8,
+            "question": "Çalışma ortamı gözetimine ait kayıt ve istatistiklerin alınmasının temel amacı aşağıdakilerden hangisidir?",
+            "options": [
+                "Tekrarlanan kazalar ve hastalıklar varsa nedeni incelenerek önleyici önlemlerin alınması",
+                "İş kazalarından sonra iş yerinin mahkemede savunma yapmasına yardımcı olmak",
+                "Yeni gelen uzmanların ölçümleri yenilemesine gerek kalmaması",
+                "Kolluk kuvvetleri sorduğunda yapmış olduğunu ispatlamak",
+                "Maliye Bakanlığına beyan ederek vergi indiriminden faydalanmak"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 9,
+            "question": "Aşağıdakilerden hangisi çalışma ortamı gözetimi kapsamında yapılması gereken ortam ölçümlerinden biri değildir?",
+            "options": [
+                "Baca gazı emisyon ölçümü",
+                "Psikolojik ortam ölçümleri",
+                "Sağlık ortam ölçümleri",
+                "Toz ortam ölçümleri",
+                "Fiziksel ortam ölçümleri"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 10,
+            "question": "Aşağıdakilerden hangisi psikolojik ortam ölçümlerinden biri değildir?",
+            "options": [
+                "Çalışanların bilgi ve becerilerinin yaptığı işe yetersiz olması",
+                "Çalışanların uygunsuz yerde çalıştırılmaları",
+                "Çalışanların görev ve yetki tanımı yapılmadan çalıştırılmaları",
+                "Çalışanların iş deneyimlerinin yaptığı işe uygun olmaması",
+                "Çalışanlara anket yapılması"
+            ],
+            "correct": 4
+        }
+    ]
+}

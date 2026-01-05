@@ -1,0 +1,126 @@
+{
+  "unitId": 1,
+  "unitName": "İş Sağlığı ve Güvenliğine Giriş",
+  "questions": [
+    {
+      "id": 1,
+      "question": "İş sağlığı ve güvenliğinin kurucusu sayılan ve \"De Morbis Artificum Diatriba\" isimli kitabın yazarı olan bilim adamı aşağıdakilerden hangisidir?",
+      "options": [
+        "Hipokrat",
+        "Agricola",
+        "Heredot",
+        "Percival Pott",
+        "Bernardino Ramazzini"
+      ],
+      "correct": 4
+    },
+    {
+      "id": 2,
+      "question": "Aşağıdakilerden hangisi iş sağlığı ve güvenliğinin amaçlarından biri değildir?",
+      "options": [
+        "İş ve işçi arasında en iyi uyumu sağlamak",
+        "İş yerindeki riskleri ortadan kaldırmak",
+        "Çalışanın maddi açıdan iyi hissetmesini sağlamak",
+        "Çalışanlara güvenli ve sağlıklı bir çalışma ortamı yaratmak",
+        "Meslek hastalıklarını en aza indirmek"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 3,
+      "question": "Aşağıdakilerden hangisi ILO'nun açılımıdır?",
+      "options": [
+        "Dünya Sağlık Örgütü",
+        "Uluslararası Çalışma Örgütü",
+        "Avrupa İş Güvenliği Merkezi",
+        "Avrupa İş Sağlığı ve Güvenliği İdaresi",
+        "Avrupa İş Sağlığı ve Güvenliği Topluluğu"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 4,
+      "question": "\"De Morbis Metallicis\" isimli ilk iş hekimliği kitabını hazırlayan bilim adamı aşağıdakilerden hangisidir?",
+      "options": [
+        "Paracelsus",
+        "Bernardino Ramazzini",
+        "Herdedot",
+        "Juvenal",
+        "Agricola"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 5,
+      "question": "Günlük çalışma süresinin 10 saat olmasını, işçiler için dinlenme ve yatacak yerlerinin bulunmasını, çalışma süresi dışında dinlenme sürelerinin olmasını sağlayan ve 1865 yılında yürürlüğe giren düzenleme aşağıdakilerden hangisidir?",
+      "options": [
+        "Umumi Hıfzısıhha Kanunu",
+        "Borçlar Kanunu",
+        "Dilaver Paşa Nizamnamesi",
+        "Maadin Nizamnamesi",
+        "Mecelle Kanunu"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 6,
+      "question": "Çalışanların verimli olabilmesi için yüksek enerjili besinlerle beslenmesi gerektiğini söyleyen tarihçi aşağıdakilerden hangisidir?",
+      "options": [
+        "Urlich Ellenbrong",
+        "Heredot",
+        "Thomas Morison Legge",
+        "Michel Sadler",
+        "Charles Morrison Thackrah"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 7,
+      "question": "Aşağıdaki bilim adamlarından hangisi iş verimini arttırmak için iş analizleri yapmıştır?",
+      "options": [
+        "Taylor",
+        "Tissot",
+        "Vaucanson",
+        "Patisie",
+        "Michel Sadler"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 8,
+      "question": "MÖ 2000'lerde Babil İmparatorluğu'nun Kurucusu tarafından hazırlanan kanunda iş sağlığı ve güvenliği ile ilgili hükümler bulunmaktadır. Bu kurucu kimdir?",
+      "options": [
+        "Paracelsus",
+        "Heredot",
+        "Juvenal",
+        "Hammurabi",
+        "Plini"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 9,
+      "question": "30 Haziran 2012 tarihinde yürürlüğe giren İş Sağlığı ve Güvenliği Yasası aşağıdakilerden hangisidir?",
+      "options": [
+        "931 sayılı Yasa",
+        "3008 sayılı Yasa",
+        "1475 sayılı Yasa",
+        "4857 sayılı Yasa",
+        "6331 sayılı Yasa"
+      ],
+      "correct": 4
+    },
+    {
+      "id": 10,
+      "question": "Türkiye'de iş sağlığı ve güvenliği alanında ilk düzenlemeler aşağıdaki sektörlerden hangisinde yapılmıştır?",
+      "options": [
+        "Tarım",
+        "Kimya",
+        "Maden",
+        "Tekstil",
+        "İlaç"
+      ],
+      "correct": 2
+    }
+  ]
+}

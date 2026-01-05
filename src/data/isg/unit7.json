@@ -1,0 +1,126 @@
+{
+    "unitId": 7,
+    "unitName": "Mesleki Hastalıklar",
+    "questions": [
+        {
+            "id": 1,
+            "question": "Aşağıdakilerden hangisi mesleki enfeksiyon hastalıklarında genel korunma metotlarından biri değildir?",
+            "options": [
+                "Personel eğitimi",
+                "Enfeksiyon riskleri için epidemiyolojik verilerin kayıt sistemi",
+                "Uygun temizlik yönergelerinin hazırlanması",
+                "Çalışırken uyulacak davranış tarzları",
+                "Salgın çıkınca yapılan periyodik kişi taranması"
+            ],
+            "correct": 4
+        },
+        {
+            "id": 2,
+            "question": "Aşağıdakilerden hangisi mesleki enfeksiyon hastalıklarından Hepatit C'nin en sık görüldüğü iş kollarından biridir?",
+            "options": [
+                "Tarım çalışanları",
+                "Hemşireler",
+                "Banka çalışanları",
+                "Öğretmenler",
+                "Belediye çöp hizmetleri çalışanları"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 3,
+            "question": "Uzay endüstrisi, otomotiv sanayi, nükleer enerji, medikal ve elektronik endüstrisinde kullanılan, akciğerlerde granülomatöz inflamasyon gelişimine sebep olan element hangisidir?",
+            "options": [
+                "Berilyum",
+                "Kadmiyum",
+                "Krom",
+                "Manganez",
+                "Arsenik"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 4,
+            "question": "Mesleki enfeksiyon hastalıklarından korunmada yaralanmalarda hangi aşı yaptırılmalıdır?",
+            "options": [
+                "Tetanoz",
+                "Verem",
+                "Çiçek",
+                "Kuduz",
+                "Kızamık"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 5,
+            "question": "Bir enfeksiyon hastalığı \"mesleki bulaşıcı hastalık\" olabilmesi için hangi özelliğe sahip olmalıdır?",
+            "options": [
+                "Yiyecek ile bulaşmış olmalıdır.",
+                "Aşısı olmamalıdır.",
+                "Mutlaka iş yerinde çalışan birisinden bulaşmalıdır.",
+                "Enfeksiyonun laboratuvar bulguları ile iş gereği olduğu kanıtlanmalıdır.",
+                "İş yeri hekimi yoksa ayrım yapılmaz."
+            ],
+            "correct": 3
+        },
+        {
+            "id": 6,
+            "question": "Madenlerde, dökümhanelerde, tünel ve yol yapımı işlerinde, seramik gibi iş kollarında çalışan işçilerde görülen akciğer hastalığı aşağıdakilerden hangisidir?",
+            "options": [
+                "Silikozis",
+                "Berilyozis",
+                "Bisinozis",
+                "Pnömokonyoz",
+                "Astım Bronşiale"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 7,
+            "question": "Aşağıdakilerden hangisi bakteri kaynaklı mesleki bulaşıcı hastalıklar arasında yer almaz?",
+            "options": [
+                "Hepatit A",
+                "Tüberküloz (Tbc)",
+                "Tifo",
+                "Şarbon (Antraks)",
+                "Tetanoz"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 8,
+            "question": "Aşağıdakilerden hangisi Türkiye'de dokumacılar, kasaplar, veterinerler, tarım çalışanlarının ortak mesleki hastalığıdır?",
+            "options": [
+                "Tuleremi",
+                "Brusella",
+                "Hidatiidoz",
+                "Salmonella",
+                "Şarbon (Antraks)"
+            ],
+            "correct": 4
+        },
+        {
+            "id": 9,
+            "question": "Aşağıdakilerden hangisi kan ürünleri ile bulaşan bir virüstür?",
+            "options": [
+                "HBV",
+                "Brusella",
+                "ELISA",
+                "Tüberküloz",
+                "Grip"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 10,
+            "question": "Meslek hastalıkları ile ilgili 'maruziyet süresi' nedir?",
+            "options": [
+                "Zararlı mesleksel etkinin sona ermesi ile hastalığın ortaya çıkması arasında geçebilecek süre",
+                "Zararlı etkenin başlamasıyla hastalık belirtilerinin ortaya çıkması için gereken en az süre",
+                "Zararlı etkene maruz kalınan süre",
+                "Zararlı etkene günlük olarak maruz kalınan süre",
+                "Zararlı etkene aylık olarak maruz kalınan süre"
+            ],
+            "correct": 1
+        }
+    ]
+}

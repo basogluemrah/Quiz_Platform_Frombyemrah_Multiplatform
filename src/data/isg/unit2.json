@@ -1,0 +1,126 @@
+{
+    "unitId": 2,
+    "unitName": "İş Hukuku ve Mevzuat",
+    "questions": [
+        {
+            "id": 1,
+            "question": "Aşağıdakilerden hangisi işçi borçlarından biri değildir?",
+            "options": [
+                "Şahsen ifa borcu",
+                "Ücret ödeme borcu",
+                "Sadakat borcu",
+                "Sır saklama borcu",
+                "Çalışma koşullarına uyma borcu"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 2,
+            "question": "Aşağıdakilerden hangisi iş hukukunun temel kavramlarından biri değildir?",
+            "options": [
+                "İşçi",
+                "İşveren",
+                "Alt işveren",
+                "İş yeri",
+                "Memur"
+            ],
+            "correct": 4
+        },
+        {
+            "id": 3,
+            "question": "Bir işçinin iş güvencesi kapsamında olabilmesi için en az kaç ay kıdeminin bulunması gerekmektedir?",
+            "options": [
+                "4",
+                "5",
+                "6",
+                "7",
+                "8"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 4,
+            "question": "Günlük çalışma süresi en fazla kaç saattir?",
+            "options": [
+                "9",
+                "10",
+                "11",
+                "12",
+                "13"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 5,
+            "question": "Günde 2 saat çalışılan bir iş yerinde en az verilmesi gereken ara dinlenme süresi aşağıdakilerden hangisidir?",
+            "options": [
+                "15 Dakika",
+                "30 Dakika",
+                "60 Dakika",
+                "75 Dakika",
+                "100 Dakika"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 6,
+            "question": "Mesleki Eğitim Kanunu'na göre, bir meslek alanında mesleğin gerektirdiği bilgi, beceri ve iş alışkanlıklarını iş içerisinde geliştiren kişi aşağıdakilerden hangisidir?",
+            "options": [
+                "İşçi",
+                "İşveren",
+                "Çırak",
+                "Stajyer",
+                "Alt İşveren"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 7,
+            "question": "İş sözleşmelerine konulan deneme süresi toplu iş sözleşmeleri ile en fazla kaç ay olarak düzenlenebilir?",
+            "options": [
+                "2",
+                "4",
+                "6",
+                "8",
+                "10"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 8,
+            "question": "4 yıl kıdemi olan bir işçiye verilmesi gereken yıllık ücretli izin süresi aşağıdakilerden hangisidir?",
+            "options": [
+                "14 gün",
+                "20 gün",
+                "26 gün",
+                "30 gün",
+                "60 gün"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 9,
+            "question": "İşçi ve işveren tarafının iş sözleşmesini anlaşarak sona erdirmesi durumu aşağıdakilerden hangisi ile ifade edilir?",
+            "options": [
+                "Butlan",
+                "İkale",
+                "Fesih",
+                "Belirli sürenin sona ermesi",
+                "Ölüm"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 10,
+            "question": "İşçinin yıllık ücretli izine hak kazanabilmesi için o işveren yanında en az kaç yıl çalışması gerekmektedir?",
+            "options": [
+                "1 yıl",
+                "1.5 yıl",
+                "2 yıl",
+                "2.5 yıl",
+                "3 yıl"
+            ],
+            "correct": 0
+        }
+    ]
+}

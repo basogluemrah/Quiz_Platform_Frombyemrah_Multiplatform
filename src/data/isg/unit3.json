@@ -1,0 +1,126 @@
+{
+    "unitId": 3,
+    "unitName": "Fiziksel Risk Etmenleri",
+    "questions": [
+        {
+            "id": 1,
+            "question": "Aşağıdakilerden hangisi fiziksel risk etmeni değildir?",
+            "options": [
+                "Epoksi kullanımı",
+                "Gürültü",
+                "Basınç",
+                "Aydınlatma",
+                "Termal konfor"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 2,
+            "question": "Aşağıdakilerden hangisi işitme eşik değeridir?",
+            "options": [
+                "0 dB",
+                "10 dB",
+                "20 dB",
+                "30 dB",
+                "40 dB"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 3,
+            "question": "Aşağıdakilerden hangisi el-kol titreşimi için sekiz saatlik çalışma süresi için günlük maruziyet sınır değeridir?",
+            "options": [
+                "2,5 m/s²",
+                "1,5 m/s²",
+                "5 m/s²",
+                "0,5 m/s²",
+                "3 m/s²"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 4,
+            "question": "Aşağıdakilerden hangisi aydınlatma şiddetinin ölçü birimidir?",
+            "options": [
+                "Bar",
+                "Litre",
+                "Fahrenayt",
+                "Lüks",
+                "Amper"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 5,
+            "question": "Aşağıdakilerden hangisi termal konfor şartlarından biri değildir?",
+            "options": [
+                "Radyant ısı",
+                "Hava akım hızı",
+                "Hava sıcaklığı",
+                "Havanın nem yoğunluğu",
+                "Havadaki ses oranı"
+            ],
+            "correct": 4
+        },
+        {
+            "id": 6,
+            "question": "Aşağıdakilerden hangisi \"hızlı temel parçacıklardan oluşan kozmik ışınlardan sonra en kısa dalga boyundaki radyasyon\"dur?",
+            "options": [
+                "X-ışınları",
+                "Gamma Işınları",
+                "Beta ışınları",
+                "Nötronlar",
+                "Protonlar"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 7,
+            "question": "Aşağıdakilerden hangisi basınç birimidir?",
+            "options": [
+                "Bar",
+                "Litre",
+                "Fahrenayt",
+                "Lüks",
+                "Amper"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 8,
+            "question": "Aşağıdakilerden hangisi \"çalışanların gürültü ile ilgili risklerden korunması hakkındaki yönetmeliğe\" göre gürültü ile ilgili en düşük maruziyet eylem değeridir?",
+            "options": [
+                "75 dB",
+                "80 dB",
+                "85 dB",
+                "87 dB",
+                "90 dB"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 9,
+            "question": "Hasta olmayan normal bir insan vücudunun sıcaklığı kaç ºC'dir?",
+            "options": [
+                "35 ºC",
+                "36 ºC",
+                "37 ºC",
+                "38 ºC",
+                "39 ºC"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 10,
+            "question": "Aşağıdaki hangi fiziksel risk etmeninden dolayı azot narkozu görülebilir?",
+            "options": [
+                "Basınç",
+                "Gürültü",
+                "Termal Konfor",
+                "Aydınlatma",
+                "Radyasyon"
+            ],
+            "correct": 0
+        }
+    ]
+}

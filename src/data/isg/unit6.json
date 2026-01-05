@@ -1,0 +1,126 @@
+{
+  "unitId": 6,
+  "unitName": "Yapı ve Maden İşlerinde İSG",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Aşağıdakilerden hangisi Türkiye'deki inşaat iş kazalarına neden olan güvensiz durum ve davranışlardan biri değildir?",
+      "options": [
+        "İşlerin, yetkili ve sorumlu teknik elemanların denetiminde yürütülmemesi",
+        "Gözetim ve denetim görevinin gerektiği gibi yapılmaması",
+        "İşlerin uygun olan ekiplere veya kişilere yaptırılması",
+        "Çalışma sırasında hatalı davranışlar sergilenmesi",
+        "Yetkililerden izin alınmadan tehlikeli iş sahasına girilmesi"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 2,
+      "question": "Aşağıdakilerden hangisi yapı işlerinin genel özelliklerinden biri değildir?",
+      "options": [
+        "Yapılan çalışmalar sürekli değişim gösterir.",
+        "Geçici işler olup çalışma süreleri belirli değildir.",
+        "Eğitimsiz ve vasıfsız çalışanların olduğu işlerdir.",
+        "Termal konfor şartları çok iyidir.",
+        "İş kazalarının en çok olduğu işlerdir."
+      ],
+      "correct": 3
+    },
+    {
+      "id": 3,
+      "question": "Aşağıdakilerden hangisi yapı iş defteri ile ilgili yanlıştır?",
+      "options": [
+        "Bölge çalışma müdürlüğüne her sayfası mühürletilmek suretiyle onaylattırılır.",
+        "Fenni yeterliği bulunan sorumlu kişi tarafından tutulur.",
+        "İşveren yapı iş defterini, iş yerini teftiş ve kontrole yetkili memurlara göstermeyebilir.",
+        "Her sayfası bir asıl bir kopya olarak düzenlenir.",
+        "Kırtasiyeden alınan bir defterdir."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 4,
+      "question": "Aşağıdakilerden hangisi işveren tarafından görevlendirilen ve projenin hazırlanmasından, uygulanmasından ve kontrolünden sorumlu kişi olarak tanımlanır?",
+      "options": [
+        "Proje sorumlusu",
+        "Uygulama koordinatörü",
+        "Hazırlık koordinatörü",
+        "Teknik emniyet şefi",
+        "Acil eylem koordinatörü"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 5,
+      "question": "Aşağıdakilerden hangisi Yapı İşlerinde Sağlık ve Güvenlik Yönetmeliği'ne göre koordinatör atanmasıyla ilgili yanlıştır?",
+      "options": [
+        "Aynı yapı alanında bir veya daha fazla işveren iş yaptığı durumda koordinatör atanır.",
+        "Boğulma riski bulunan işlerde koordinatör atanmasını gerekir.",
+        "Ağır prefabrike elemanların montaj ve söküm işlerinde koordinatör atanmasını gerekmez.",
+        "Basınçlı keson içinde yapılan işlerde koordinatör atanması gerekir.",
+        "Kimyasal maddelerin kullanıldığı işlerde koordinatör atanması gerekir."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 6,
+      "question": "Aşağıdakilerden hangisi işverenlerin yapı işlerindeki genel yükümlülüklerinden biri değildir?",
+      "options": [
+        "Yapı iş yerinde gerekli KKD'leri çalışanlara satın aldırmak",
+        "Yapı alanının düzenli tutulması ve yeterli temizlikte olmasını sağlamak",
+        "Malzemelerin kullanım ve taşıma şartlarını düzenlemek",
+        "Atık ve artıkların depolanması, atılması veya uzaklaştırılmasını sağlamak",
+        "Risk değerlendirmesi yapmak veya yaptırmak"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 7,
+      "question": "Yerüstü madenciliğinde kazı yüzeyleri ve şevlerin eğimi hangi faktörlere uygun olmalıdır?",
+      "options": [
+        "Yalnız zeminin yapısına",
+        "Zeminin sağlamlığına ve uygulanan çalışma yöntemlerine",
+        "Yalnız uygulanan çalışma yöntemlerine",
+        "Zeminin yapısına ve sağlamlığına",
+        "Zeminin yapısına, sağlamlığına ve uygulanan çalışma yöntemlerine"
+      ],
+      "correct": 4
+    },
+    {
+      "id": 8,
+      "question": "Hangisi \"kazı işlerinde deliklere doldurulmuş olan patlayıcı maddelerin patlatılmasını\" ifade eder?",
+      "options": [
+        "Baraj",
+        "Ayak",
+        "Nefeslik",
+        "Ateşleme",
+        "Bür"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 9,
+      "question": "Kademe alınlarının kazı ya da lağımlarla oyularak askıya alınmasına ne ad verilir?",
+      "options": [
+        "Bür",
+        "Tahkimat",
+        "Şev",
+        "Ters ıskarpa",
+        "Freno"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 10,
+      "question": "Taş içerisinde sürülen galeriye ne ad verilir?",
+      "options": [
+        "Baca",
+        "Karakol",
+        "Lağım",
+        "Kademe",
+        "Karo"
+      ],
+      "correct": 2
+    }
+  ]
+}

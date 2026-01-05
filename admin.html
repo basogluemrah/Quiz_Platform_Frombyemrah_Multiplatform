@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Panel | Quiz Platformu</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/src/admin.css">
+</head>
+<body>
+  <div id="admin-app">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <h1>🎛️ Admin</h1>
+      </div>
+      <nav class="sidebar-nav">
+        <button class="nav-item active" data-section="dashboard">
+          📊 Dashboard
+        </button>
+        <button class="nav-item" data-section="courses">
+          📚 Dersler
+        </button>
+        <button class="nav-item" data-section="units">
+          📖 Üniteler
+        </button>
+        <button class="nav-item" data-section="questions">
+          ❓ Sorular
+        </button>
+        <button class="nav-item" data-section="media">
+          🎧 Medya
+        </button>
+      </nav>
+      <div class="sidebar-footer">
+        <a href="/" class="back-link">← Siteye Dön</a>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <!-- Dashboard Section -->
+      <section id="dashboard" class="section active">
+        <h2>📊 Dashboard</h2>
+        <p class="section-desc">Quiz Platformu Admin Paneline Hoş Geldiniz!</p>
+        
+        <div class="info-cards">
+          <div class="info-card">
+            <span class="info-icon">📚</span>
+            <h3>Yeni Ders Ekle</h3>
+            <p>Yeni bir ders oluştur ve units.json, courses.json dosyalarını indir.</p>
+          </div>
+          <div class="info-card">
+            <span class="info-icon">❓</span>
+            <h3>Soru Ekle</h3>
+            <p>Ünitelere yeni sorular ekle ve JSON olarak indir.</p>
+          </div>
+          <div class="info-card">
+            <span class="info-icon">🎧</span>
+            <h3>Medya Ekle</h3>
+            <p>Ses ve video dosyaları için audio.json oluştur.</p>
+          </div>
+        </div>
+
+        <div class="guide-box">
+          <h3>📌 Nasıl Kullanılır?</h3>
+          <ol>
+            <li>Sol menüden yapmak istediğin işlemi seç</li>
+            <li>Formu doldur</li>
+            <li>"İndir" butonuna tıkla</li>
+            <li>İndirilen JSON dosyasını <code>src/data/</code> klasörüne koy</li>
+            <li>Siteyi yenile!</li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- Courses Section -->
+      <section id="courses" class="section">
+        <h2>📚 Yeni Ders Oluştur</h2>
+        <p class="section-desc">Yeni bir ders oluştur. Bu işlem courses.json ve units.json dosyalarını oluşturur.</p>
+        
+        <form id="courseForm" class="admin-form">
+          <div class="form-group">
+            <label for="courseId">Ders ID (küçük harf, boşluksuz)</label>
+            <input type="text" id="courseId" placeholder="ornek: fizik" required pattern="[a-z0-9]+" />
+          </div>
+          <div class="form-group">
+            <label for="courseName">Ders Adı</label>
+            <input type="text" id="courseName" placeholder="Örnek: Fizik" required />
+          </div>
+          <div class="form-group">
+            <label for="courseIcon">Emoji İkon</label>
+            <input type="text" id="courseIcon" placeholder="⚛️" required />
+          </div>
+          <div class="form-group">
+            <label for="courseColor">Renk (HEX)</label>
+            <input type="color" id="courseColor" value="#6366f1" />
+          </div>
+          <div class="form-group">
+            <label for="courseDesc">Açıklama</label>
+            <input type="text" id="courseDesc" placeholder="Fizik dersi test soruları" required />
+          </div>
+          
+          <div class="form-actions">
+            <button type="submit" class="btn btn-primary">📥 Dosyaları İndir</button>
+          </div>
+        </form>
+        
+        <div id="courseOutput" class="output-box hidden">
+          <h3>📁 Oluşturulan Dosyalar</h3>
+          <div class="file-list"></div>
+        </div>
+      </section>
+
+      <!-- Units Section -->
+      <section id="units" class="section">
+        <h2>📖 Ünite Ekle</h2>
+        <p class="section-desc">Mevcut bir derse yeni ünite ekle.</p>
+        
+        <form id="unitForm" class="admin-form">
+          <div class="form-group">
+            <label for="unitCourseId">Ders ID</label>
+            <input type="text" id="unitCourseId" placeholder="isg" required />
+          </div>
+          <div class="form-group">
+            <label for="unitId">Ünite Numarası</label>
+            <input type="number" id="unitId" placeholder="12" required min="1" />
+          </div>
+          <div class="form-group">
+            <label for="unitName">Ünite Adı</label>
+            <input type="text" id="unitName" placeholder="Yeni Ünite Adı" required />
+          </div>
+          
+          <div class="form-actions">
+            <button type="submit" class="btn btn-primary">📥 units.json Güncelle</button>
+          </div>
+        </form>
+      </section>
+
+      <!-- Questions Section -->
+      <section id="questions" class="section">
+        <h2>❓ Soru Ekle</h2>
+        <p class="section-desc">Bir üniteye yeni sorular ekle veya yeni ünite dosyası oluştur.</p>
+        
+        <form id="questionForm" class="admin-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="qCourseId">Ders ID</label>
+              <input type="text" id="qCourseId" placeholder="isg" required />
+            </div>
+            <div class="form-group">
+              <label for="qUnitId">Ünite No</label>
+              <input type="number" id="qUnitId" placeholder="1" required min="1" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="qUnitName">Ünite Adı</label>
+            <input type="text" id="qUnitName" placeholder="İş Sağlığı ve Güvenliğine Giriş" required />
+          </div>
+          
+          <div id="questionsContainer">
+            <div class="question-item" data-index="0">
+              <div class="question-header">
+                <span>Soru 1</span>
+                <button type="button" class="btn-icon remove-question" title="Sil">🗑️</button>
+              </div>
+              <div class="form-group">
+                <label>Soru Metni</label>
+                <textarea class="q-text" rows="3" required></textarea>
+              </div>
+              <div class="options-grid">
+                <div class="form-group">
+                  <label>A)</label>
+                  <input type="text" class="q-option" data-opt="0" required />
+                </div>
+                <div class="form-group">
+                  <label>B)</label>
+                  <input type="text" class="q-option" data-opt="1" required />
+                </div>
+                <div class="form-group">
+                  <label>C)</label>
+                  <input type="text" class="q-option" data-opt="2" required />
+                </div>
+                <div class="form-group">
+                  <label>D)</label>
+                  <input type="text" class="q-option" data-opt="3" required />
+                </div>
+                <div class="form-group">
+                  <label>E)</label>
+                  <input type="text" class="q-option" data-opt="4" required />
+                </div>
+              </div>
+              <div class="form-group">
+                <label>Doğru Cevap</label>
+                <select class="q-correct" required>
+                  <option value="0">A</option>
+                  <option value="1">B</option>
+                  <option value="2">C</option>
+                  <option value="3">D</option>
+                  <option value="4">E</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          
+          <button type="button" id="addQuestion" class="btn btn-secondary">➕ Soru Ekle</button>
+          
+          <div class="form-actions">
+            <button type="submit" class="btn btn-primary">📥 unit.json İndir</button>
+          </div>
+        </form>
+      </section>
+
+      <!-- Media Section -->
+      <section id="media" class="section">
+        <h2>🎧 Medya Dosyası Ekle</h2>
+        <p class="section-desc">Ses ve video dosyaları için audio.json oluştur.</p>
+        
+        <form id="mediaForm" class="admin-form">
+          <div class="form-group">
+            <label for="mediaCourseId">Ders ID</label>
+            <input type="text" id="mediaCourseId" placeholder="isg" required />
+          </div>
+          
+          <div id="mediaContainer">
+            <div class="media-item" data-index="0">
+              <div class="question-header">
+                <span>Dosya 1</span>
+                <button type="button" class="btn-icon remove-media" title="Sil">🗑️</button>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label>Başlık</label>
+                  <input type="text" class="m-title" placeholder="Ders Anlatımı" required />
+                </div>
+                <div class="form-group">
+                  <label>Tür</label>
+                  <select class="m-type" required>
+                    <option value="audio">🎧 Ses</option>
+                    <option value="video">🎬 Video</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label>Dosya Adı (public/audio/ içindeki)</label>
+                <input type="text" class="m-filename" placeholder="ders_anlatimi.mp3" required />
+              </div>
+              <div class="form-group">
+                <label>Açıklama</label>
+                <input type="text" class="m-desc" placeholder="Ders hakkında kısa açıklama" />
+              </div>
+            </div>
+          </div>
+          
+          <button type="button" id="addMedia" class="btn btn-secondary">➕ Dosya Ekle</button>
+          
+          <div class="form-actions">
+            <button type="submit" class="btn btn-primary">📥 audio.json İndir</button>
+          </div>
+        </form>
+      </section>
+    </main>
+  </div>
+  
+  <script src="/src/admin.js" type="module"></script>
+</body>
+</html>

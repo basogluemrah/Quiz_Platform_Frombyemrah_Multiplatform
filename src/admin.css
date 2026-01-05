@@ -1,0 +1,442 @@
+/* ===================================
+   Admin Panel - Styles
+   =================================== */
+
+:root {
+  --bg-primary: #0a0a0f;
+  --bg-secondary: #12121a;
+  --bg-card: rgba(255, 255, 255, 0.03);
+  --bg-card-hover: rgba(255, 255, 255, 0.08);
+  --accent-primary: #6366f1;
+  --accent-secondary: #8b5cf6;
+  --accent-gradient: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #a855f7 100%);
+  --success: #22c55e;
+  --error: #ef4444;
+  --warning: #f59e0b;
+  --text-primary: #ffffff;
+  --text-secondary: rgba(255, 255, 255, 0.7);
+  --text-muted: rgba(255, 255, 255, 0.4);
+  --border-color: rgba(255, 255, 255, 0.1);
+  --border-color-hover: rgba(255, 255, 255, 0.2);
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 20px rgba(0, 0, 0, 0.4);
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  min-height: 100vh;
+  line-height: 1.6;
+}
+
+#admin-app {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* ===================================
+   Sidebar
+   =================================== */
+
+.sidebar {
+  width: 260px;
+  background: var(--bg-secondary);
+  border-right: 1px solid var(--border-color);
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  height: 100vh;
+}
+
+.sidebar-header {
+  padding: 1.5rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.sidebar-header h1 {
+  font-size: 1.5rem;
+  background: var(--accent-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.sidebar-nav {
+  flex: 1;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.875rem 1rem;
+  background: transparent;
+  border: none;
+  border-radius: var(--radius-md);
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-align: left;
+  width: 100%;
+}
+
+.nav-item:hover {
+  background: var(--bg-card-hover);
+  color: var(--text-primary);
+}
+
+.nav-item.active {
+  background: rgba(99, 102, 241, 0.15);
+  color: var(--accent-primary);
+}
+
+.sidebar-footer {
+  padding: 1rem;
+  border-top: 1px solid var(--border-color);
+}
+
+.back-link {
+  color: var(--text-muted);
+  text-decoration: none;
+  font-size: 0.875rem;
+  transition: color 0.2s ease;
+}
+
+.back-link:hover {
+  color: var(--text-primary);
+}
+
+/* ===================================
+   Main Content
+   =================================== */
+
+.main-content {
+  flex: 1;
+  margin-left: 260px;
+  padding: 2rem;
+  max-width: 900px;
+}
+
+.section {
+  display: none;
+}
+
+.section.active {
+  display: block;
+  animation: fadeIn 0.3s ease;
+}
+
+.section h2 {
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.section-desc {
+  color: var(--text-secondary);
+  margin-bottom: 2rem;
+}
+
+/* ===================================
+   Info Cards (Dashboard)
+   =================================== */
+
+.info-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.info-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.info-icon {
+  font-size: 2.5rem;
+  display: block;
+  margin-bottom: 0.75rem;
+}
+
+.info-card h3 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.info-card p {
+  color: var(--text-muted);
+  font-size: 0.875rem;
+}
+
+.guide-box {
+  background: rgba(99, 102, 241, 0.1);
+  border: 1px solid rgba(99, 102, 241, 0.3);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
+}
+
+.guide-box h3 {
+  margin-bottom: 1rem;
+}
+
+.guide-box ol {
+  margin-left: 1.5rem;
+  color: var(--text-secondary);
+}
+
+.guide-box li {
+  margin-bottom: 0.5rem;
+}
+
+.guide-box code {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.875rem;
+}
+
+/* ===================================
+   Forms
+   =================================== */
+
+.admin-form {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
+}
+
+.form-group {
+  margin-bottom: 1.25rem;
+}
+
+.form-group label {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  margin-bottom: 0.5rem;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  color: var(--text-primary);
+  font-size: 1rem;
+  font-family: inherit;
+  transition: border-color 0.2s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--accent-primary);
+}
+
+.form-group input[type="color"] {
+  height: 44px;
+  padding: 0.25rem;
+  cursor: pointer;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.form-actions {
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border-color);
+}
+
+/* ===================================
+   Buttons
+   =================================== */
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  border-radius: var(--radius-md);
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.btn-primary {
+  background: var(--accent-gradient);
+  color: white;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.btn-secondary {
+  background: var(--bg-card);
+  color: var(--text-secondary);
+  border: 1px solid var(--border-color);
+}
+
+.btn-secondary:hover {
+  background: var(--bg-card-hover);
+  color: var(--text-primary);
+}
+
+.btn-icon {
+  background: transparent;
+  border: none;
+  font-size: 1.25rem;
+  cursor: pointer;
+  padding: 0.25rem;
+  opacity: 0.5;
+  transition: opacity 0.2s ease;
+}
+
+.btn-icon:hover {
+  opacity: 1;
+}
+
+/* ===================================
+   Question Items
+   =================================== */
+
+.question-item,
+.media-item {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.question-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  color: var(--accent-primary);
+}
+
+.options-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.options-grid .form-group {
+  margin-bottom: 0;
+}
+
+/* ===================================
+   Output Box
+   =================================== */
+
+.output-box {
+  margin-top: 1.5rem;
+  background: var(--bg-card);
+  border: 1px solid var(--success);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
+}
+
+.output-box.hidden {
+  display: none;
+}
+
+.output-box h3 {
+  color: var(--success);
+  margin-bottom: 1rem;
+}
+
+.file-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.file-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem;
+  background: var(--bg-secondary);
+  border-radius: var(--radius-sm);
+}
+
+/* ===================================
+   Animations
+   =================================== */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ===================================
+   Responsive
+   =================================== */
+
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  
+  .main-content {
+    margin-left: 0;
+    padding: 1rem;
+  }
+  
+  #admin-app {
+    flex-direction: column;
+  }
+  
+  .sidebar-nav {
+    flex-direction: row;
+    overflow-x: auto;
+    padding: 0.5rem;
+  }
+  
+  .nav-item {
+    white-space: nowrap;
+  }
+}

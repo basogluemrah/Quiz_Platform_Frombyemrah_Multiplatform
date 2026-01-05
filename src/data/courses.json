@@ -1,0 +1,11 @@
+{
+  "courses": [
+    {
+      "id": "isg",
+      "name": "İş Sağlığı ve Güvenliği",
+      "icon": "🛡️",
+      "color": "#6366f1",
+      "description": "İSG temel konuları ve sınav hazırlığı"
+    }
+  ]
+}

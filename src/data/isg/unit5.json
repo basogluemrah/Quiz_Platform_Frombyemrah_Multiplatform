@@ -1,0 +1,126 @@
+{
+  "unitId": 5,
+  "unitName": "Biyolojik Risk Etmenleri",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Aşağıdakilerden hangisi biyolojik risk etmenidir?",
+      "options": [
+        "Gürültü",
+        "Tetanoz",
+        "Alkol",
+        "Enjektör",
+        "Kloroform"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 2,
+      "question": "Aşağıdakilerden hangisi biyolojik risk etmenlerinde Grup 1 Risk Düzeyi'nin tanımıdır?",
+      "options": [
+        "İnsanda hastalığa neden olabilen, ancak topluma yayılma olasılığı olmayan etkenler",
+        "İnsanda ağır hastalıklara neden olmayan ancak çevresel kirliliğe neden olabileceği için topluma yayılma riski olan biyolojik etkenler",
+        "İnsanda hastalığa yol açma ihtimali bulunmayan biyolojik etkenler",
+        "İnsanda ağır hastalıklara neden olan ve tedavi yöntemi bulunmayan biyolojik etkenler",
+        "İnsanda ağır hastalıklara neden olan ancak tedavi edilebilen biyolojik etkenler"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 3,
+      "question": "Biyolojik risk etmenlerinin belirlenmesi ve değerlendirilmesi ile ilgili aşağıdakilerden hangisi yanlıştır?",
+      "options": [
+        "Çalışma ortamındaki tüm biyolojik etkenlerin sınıflandırılması gereklidir.",
+        "Biyolojik etkenlere çalışanın maruziyetinin türü, düzeyi ve süresi belirlenmelidir.",
+        "Çalışanlar, işlerinin sonucu olarak ortaya çıkabilecek travmatik hastalıklar hakkında bilgi sahibi olmalıdır.",
+        "Risk değerlendirmesi düzenli aralıklarla yenilenmelidir.",
+        "Çalışanlar, işlerinin sonucu olarak ortaya çıkabilecek enfektif hastalıklarla ilgili bilgi sahibi olmalıdır."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 4,
+      "question": "Enfeksiyon riskinin en fazla olduğu çalışma alanı aşağıdakilerden hangisidir?",
+      "options": [
+        "Tarım",
+        "Gıda",
+        "Madencilik",
+        "Sağlık",
+        "İnşaat"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 5,
+      "question": "Aşağıdakilerden hangisi enfeksiyon zincirinde yer almaz?",
+      "options": [
+        "Enfeksiyon etkeni",
+        "Enfeksiyon kaynağı",
+        "Enfeksiyon taşıyıcısı",
+        "Enfeksiyon tedavisi",
+        "Enfeksiyon konakçısı"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 6,
+      "question": "Aşağıdakilerden hangisi biyolojik riske karşı işverenin yapması gereken yükümlülüklerdendir?",
+      "options": [
+        "Biyolojik risk etmenini tehlikeli olmayan veya daha az tehlikeli olanlarla değiştirir.",
+        "İşveren grup 2, 3 ve 4 biyolojik etkenlerle ilk kez çalışmasından 10 gün önce durumu Bakanlık'a bildirir.",
+        "İşverenler tüm risk gruplarındaki biyolojik etkenlere maruz kalanların listesini tüm detayları ile kayıt altına alır.",
+        "Biyolojik riske maruz kalan işçilerle ilgili tüm kayıtları maruziyet sona erdikten sonra en az 40 yıl saklar.",
+        "İşveren risk değerlendirmesi sonuçlarını gizli tutar."
+      ],
+      "correct": 0
+    },
+    {
+      "id": 7,
+      "question": "Aşağıdakilerden hangisi biyolojik riske karşı çalışanın yapması gereken yükümlülüklerden biri kesinlikle değildir?",
+      "options": [
+        "Biyolojik risk tehlikesi olan işlemler \"Biyolojik Güvenlik Kabini\"nde yapılmalıdır.",
+        "Laboratuvardan çıkarken eller mutlaka yıkanmalıdır.",
+        "İşlem sırasında kullanılan ve kontamine olmuş koruyucu materyali evine götürerek yıkamalıdır.",
+        "İğne ve enjektörleri kullanım sonrasında dar ağızlı sağlam özel kaplara atmalıdır.",
+        "Laboratuvarlarda yiyecek, içecek, sigara vb. tüketmemelidir."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 8,
+      "question": "Aşağıdakilerden hangisi Grup 4 biyolojik risk etmenlerinin özelliklerinden biri değildir?",
+      "options": [
+        "Topluma yayılma olasılığı yüksek olma",
+        "Tedavi şansı yüksek olma",
+        "Çalışanlara zarar verme ihtimali yüksek olma",
+        "İnsanlara bulaşma ihtimali yüksek olma",
+        "Korunma şansı düşük olma"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 9,
+      "question": "Grup 4 biyolojik risk etmenleri içinde en çok aşağıdakilerden hangisi bulunur?",
+      "options": [
+        "Bakteriler",
+        "Mantarlar",
+        "Parazitler",
+        "Biyoteknolojik ürünler",
+        "Virüsler"
+      ],
+      "correct": 4
+    },
+    {
+      "id": 10,
+      "question": "Aşağıdakilerden hangisi iş yeri hekiminin biyolojik risk faktörlerine karşı yapması gerekenlerden biri değildir?",
+      "options": [
+        "İş yeri hekimi çalışanların sağlık durumlarını takip eder.",
+        "Çalışanların kişisel sağlık durumlarını değerlendirir.",
+        "Çalışanlarda biyolojik etkenlerin oluşturduğu etkileri saptayıp takip eder.",
+        "Risk faktörleri hakkında daha ileri testler yapılmasını sağlar.",
+        "Biyolojik risk etmenlerini daha az tehlikeli olanlarla değiştirir."
+      ],
+      "correct": 4
+    }
+  ]
+}

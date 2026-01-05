@@ -1,0 +1,126 @@
+{
+  "unitId": 9,
+  "unitName": "Acil Durum Planlaması",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Aşağıdakilerden hangisi acil durum planlamasının aşamalarından biri değildir?",
+      "options": [
+        "Planlama ekibinin oluşturulması",
+        "Mevcut durumun tespiti",
+        "Risk değerlendirmesinin yapılması",
+        "Planının uygulanması",
+        "Müşteri memnuniyetinin aranması"
+      ],
+      "correct": 4
+    },
+    {
+      "id": 2,
+      "question": "Acil durum planını hazırlamak üzere ekip görevlendirilmesinin nedenlerinden biri aşağıdakilerden hangisi değildir?",
+      "options": [
+        "Çoklu katılımın teşvik edilerek daha fazla çalışanın desteğinin alınması",
+        "Katılımcıların katkısının artırmasının sağlanması",
+        "Planlama sürecinin görünür hâle getirilmesi",
+        "Ekip başkanının görüşlerinin önemsenmesi",
+        "Konu üzerinde bakış açısının genişletmesi"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 3,
+      "question": "Aşağıdakilerden hangisi acil durum planlama ekibinin oluşturulması aşamalarından biri değildir?",
+      "options": [
+        "Ekibin yapısı",
+        "Risk değerlendirmesinin yapılması",
+        "Yönetimin desteği ve yetkilendirme",
+        "Acil durum yönetim politikasının belirlenmesi",
+        "Termin planı ve bütçeleme yapılması"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 4,
+      "question": "Aşağıdakilerden hangisi mevcut durumun tespiti aşamasında gözden geçirilecek dokümanlardan değildir?",
+      "options": [
+        "İş sağlığı ve güvenliği prosedürleri",
+        "Risk değerlendirmesi prosedürü",
+        "Kalite yönetim sistemi el kitabı",
+        "Tahliye planı",
+        "İş tanımları"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 5,
+      "question": "Aşağıdakilerden hangisi acil durum ekiplerinden biri değildir?",
+      "options": [
+        "Kurtarma ekibi",
+        "Koruma ekibi",
+        "İlk yardım ekibi",
+        "Söndürme ekibi",
+        "Üretim ekibi"
+      ],
+      "correct": 4
+    },
+    {
+      "id": 6,
+      "question": "Aşağıdakilerden hangisi risk değerlendirmesi aşamalarından biri değildir?",
+      "options": [
+        "Risk değerlendirme ekibinin oluşturulması",
+        "Olası acil durumların sıralanması",
+        "Üretim planının çıkarılması",
+        "Tehlikelerin belirlenmesi",
+        "Risklerin belirlenmesi"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 7,
+      "question": "Risk değerlendirmesi ekip üyelerinden biri aşağıdakilerden hangisi değildir?",
+      "options": [
+        "İşveren ya da işveren vekili",
+        "İş yeri hekimi",
+        "Kalite yönetim sistemi temsilcisi",
+        "İş güvenliği uzmanı",
+        "Çalışan temsilcisi"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 8,
+      "question": "Aşağıdakilerden hangisi personel kaynaklı hatalardan biri değildir?",
+      "options": [
+        "Dikkatsizlik",
+        "Tehlikeli çalışma",
+        "Eğitim ve tecrübe eksikliği",
+        "Çalışma alanının düzensizliği",
+        "Kişisel kusurlar (sigara, alkol vb.)"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 9,
+      "question": "Aşağıdakilerden hangisi çalışanlara verilecek acil durum eğitimlerinden biri değildir?",
+      "options": [
+        "Bireysel görev ve sorumluluklar",
+        "Tehlikeler, riskler ve önlemleri",
+        "Üretim planlama eğitimi",
+        "Tahliye prosedürleri",
+        "Uyarı, alarm ve haberleşme prosedürleri"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 10,
+      "question": "Aşağıdakilerden hangisi acil durum sonrası yapılacak işlerden biri değildir?",
+      "options": [
+        "Olay nedenlerinin araştırılması",
+        "Ödüllendirme ve cezalandırmalar",
+        "Alınması gereken önlemler",
+        "Müşterileri işletmeye alma",
+        "Acil durum ekiplerinin gözden geçirilmesi"
+      ],
+      "correct": 3
+    }
+  ]
+}

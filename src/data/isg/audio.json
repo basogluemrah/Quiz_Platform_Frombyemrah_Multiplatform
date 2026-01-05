@@ -1,0 +1,20 @@
+{
+  "files": [
+    {
+      "id": 1,
+      "title": "İş Sağlığı ve Güvenliği",
+      "type": "video",
+      "icon": "🎬",
+      "filename": "İş_Sağlığı_ve_Güvenliği.mp4",
+      "description": "İSG genel tanıtım videosu"
+    },
+    {
+      "id": 2,
+      "title": "Güvenlik: Suç Değil Tasarım Meselesi",
+      "type": "audio",
+      "icon": "🎧",
+      "filename": "Güvenlik_Suç_Değil_Tasarım_Meselesi.m4a",
+      "description": "Güvenlik tasarımı hakkında ses kaydı"
+    }
+  ]
+}
