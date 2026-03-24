@@ -6,6 +6,20 @@
       "icon": "🛡️",
       "color": "#6366f1",
       "description": "İSG temel konuları ve sınav hazırlığı"
+    },
+    {
+      "id": "iot",
+      "name": "Robotik Kodlama / IoT",
+      "icon": "🤖",
+      "color": "#22c55e",
+      "description": "IoT Protokolleri ve RF İletişim - TCP/IP, UDP, MQTT, RF Modüller"
+    },
+    {
+      "id": "motor",
+      "name": "Motor Sürücü Sistemleri",
+      "icon": "⚙️",
+      "color": "#f59e0b",
+      "description": "DC, Step, Servo, BLDC Motor Sürücüleri ve Arduino Programlama"
     }
   ]
 }

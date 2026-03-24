@@ -1,0 +1,48 @@
+{
+    "courseId": "motor",
+    "courseName": "Motor Sürücü Sistemleri ve Arduino Programlama",
+    "specialModes": [
+        {
+            "id": "mixed",
+            "name": "🎲 Karışık Quiz",
+            "description": "Tüm bölümlerden rastgele sorular",
+            "icon": "🎲"
+        }
+    ],
+    "units": [
+        {
+            "id": 1,
+            "name": "DC Motor"
+        },
+        {
+            "id": 2,
+            "name": "Step Motor"
+        },
+        {
+            "id": 3,
+            "name": "Servo Motor"
+        },
+        {
+            "id": 4,
+            "name": "BLDC Motor"
+        },
+        {
+            "id": 5,
+            "name": "Genel Sürücü Sistemleri"
+        }
+    ],
+    "extras": [
+        {
+            "id": "notes",
+            "name": "📖 Ders Notları",
+            "description": "Kapsamlı ders notu ve açıklamalar",
+            "icon": "📖"
+        },
+        {
+            "id": "audio",
+            "name": "🎧 Ses Dosyaları",
+            "description": "Ders anlatımları ve notlar",
+            "icon": "🎧"
+        }
+    ]
+}

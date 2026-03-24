@@ -1,0 +1,44 @@
+{
+    "courseId": "iot",
+    "courseName": "Robotik Kodlama / Nesnelerin İnterneti (IoT)",
+    "specialModes": [
+        {
+            "id": "mixed",
+            "name": "🎲 Karışık Quiz",
+            "description": "Tüm bölümlerden rastgele sorular",
+            "icon": "🎲"
+        }
+    ],
+    "units": [
+        {
+            "id": 1,
+            "name": "TCP/IP Protokolleri"
+        },
+        {
+            "id": 2,
+            "name": "UDP Protokolleri"
+        },
+        {
+            "id": 3,
+            "name": "MQTT Protokolleri"
+        },
+        {
+            "id": 4,
+            "name": "RF Modüller, Frekans & Bant Genişliği"
+        }
+    ],
+    "extras": [
+        {
+            "id": "notes",
+            "name": "📖 Ders Notları",
+            "description": "Kapsamlı ders notu ve açıklamalar",
+            "icon": "📖"
+        },
+        {
+            "id": "audio",
+            "name": "🎧 Ses Dosyaları",
+            "description": "Ders anlatımları ve notlar",
+            "icon": "🎧"
+        }
+    ]
+}

@@ -947,6 +947,86 @@ audio::-webkit-media-controls-mute-button {
 }
 
 /* ===================================
+   Notes Section (Ders Notları)
+   =================================== */
+
+.notes-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+  margin-top: var(--spacing-lg);
+}
+
+.notes-section {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  transition: all var(--transition-normal);
+}
+
+.notes-section:hover {
+  border-color: var(--border-color-hover);
+}
+
+.notes-section-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+  padding: var(--spacing-lg);
+  background: none;
+  border: none;
+  color: var(--text-primary);
+  cursor: pointer;
+  font-size: 1.05rem;
+  font-weight: 600;
+  text-align: left;
+  transition: background var(--transition-fast);
+}
+
+.notes-section-header:hover {
+  background: var(--bg-card-hover);
+}
+
+.notes-section-icon {
+  font-size: 1.5rem;
+}
+
+.notes-section-title {
+  flex: 1;
+}
+
+.notes-toggle {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  transition: transform var(--transition-fast);
+}
+
+.notes-section-content {
+  padding: 0 var(--spacing-lg) var(--spacing-lg);
+  color: var(--text-secondary);
+  font-size: 0.92rem;
+  line-height: 1.8;
+  border-top: 1px solid var(--border-color);
+  animation: fadeInUp 0.3s ease;
+}
+
+.notes-section-content strong {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.notes-section-content code {
+  background: rgba(99, 102, 241, 0.15);
+  color: var(--accent-primary);
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.85em;
+  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+}
+
+/* ===================================
    Admin Link
    =================================== */
 

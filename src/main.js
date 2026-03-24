@@ -62,6 +62,12 @@ function handleRoute() {
         showExtras();
       }
       break;
+    case 'notes':
+      if (parts[1]) {
+        state.selectedCourse = parts[1];
+        showNotes();
+      }
+      break;
     case 'results':
       showResults();
       break;
@@ -206,7 +212,11 @@ async function showUnits() {
     document.querySelectorAll('.extra-card').forEach(card => {
       card.addEventListener('click', () => {
         const extraId = card.dataset.extra;
-        window.location.hash = `extras/${state.selectedCourse}`;
+        if (extraId === 'notes') {
+          window.location.hash = `notes/${state.selectedCourse}`;
+        } else {
+          window.location.hash = `extras/${state.selectedCourse}`;
+        }
       });
     });
 
@@ -314,6 +324,92 @@ async function showExtras() {
       </div>
     `;
 
+    document.getElementById('backToCourse').addEventListener('click', () => {
+      window.location.hash = `course/${state.selectedCourse}`;
+    });
+  }
+}
+
+// Notes View - Study Notes
+async function showNotes() {
+  state.currentView = 'notes';
+  const course = coursesData.courses.find(c => c.id === state.selectedCourse);
+
+  app.innerHTML = `
+    <div class="loading">
+      <div class="loading-spinner"></div>
+      <p>Ders notları yükleniyor...</p>
+    </div>
+  `;
+
+  try {
+    const notesData = await import(`./data/${state.selectedCourse}/notes.json`);
+    const sections = notesData.sections || [];
+
+    app.innerHTML = `
+      <div class="extras-container">
+        <button class="back-button" id="backToCourse">
+          ← Geri Dön
+        </button>
+        
+        <div class="header">
+          <h1>📖 Ders Notları</h1>
+          <p>${course.name} - Kapsamlı Ders Notu</p>
+        </div>
+        
+        <div class="notes-list">
+          ${sections.map((section, idx) => `
+            <div class="notes-section">
+              <button class="notes-section-header" data-section="${idx}">
+                <span class="notes-section-icon">${section.icon || '📄'}</span>
+                <span class="notes-section-title">${section.title}</span>
+                <span class="notes-toggle">▼</span>
+              </button>
+              <div class="notes-section-content" id="notes-content-${idx}" style="display: none;">
+                ${section.content.replace(/\n/g, '<br>')}
+              </div>
+            </div>
+          `).join('')}
+        </div>
+      </div>
+    `;
+
+    document.getElementById('backToCourse').addEventListener('click', () => {
+      window.location.hash = `course/${state.selectedCourse}`;
+    });
+
+    // Accordion toggle
+    document.querySelectorAll('.notes-section-header').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const idx = btn.dataset.section;
+        const content = document.getElementById(`notes-content-${idx}`);
+        const toggle = btn.querySelector('.notes-toggle');
+        if (content.style.display === 'none') {
+          content.style.display = 'block';
+          toggle.textContent = '▲';
+        } else {
+          content.style.display = 'none';
+          toggle.textContent = '▼';
+        }
+      });
+    });
+
+  } catch (error) {
+    console.error('Error loading notes:', error);
+    app.innerHTML = `
+      <div class="extras-container">
+        <button class="back-button" id="backToCourse">← Geri Dön</button>
+        <div class="header">
+          <h1>📖 Ders Notları</h1>
+          <p>${course.name}</p>
+        </div>
+        <div class="audio-empty">
+          <span class="empty-icon">📁</span>
+          <p>Henüz ders notu eklenmemiş.</p>
+          <p class="empty-hint">Ders notları yakında eklenecek!</p>
+        </div>
+      </div>
+    `;
     document.getElementById('backToCourse').addEventListener('click', () => {
       window.location.hash = `course/${state.selectedCourse}`;
     });
