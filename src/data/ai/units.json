@@ -1,0 +1,54 @@
+{
+    "courseId": "ai",
+    "courseName": "Yapay Zeka Uygulamaları",
+    "specialModes": [
+        {
+            "id": "mixed",
+            "name": "🎲 Karışık Quiz",
+            "description": "Tüm bölümlerden rastgele sorular",
+            "icon": "🎲"
+        }
+    ],
+    "units": [
+        {
+            "id": 1,
+            "name": "Makine Öğrenmesi Temelleri"
+        },
+        {
+            "id": 2,
+            "name": "Algoritmalar & Teknikler"
+        },
+        {
+            "id": 3,
+            "name": "Derin Öğrenme & Doğal Dil İşleme (NLP)"
+        },
+        {
+            "id": 4,
+            "name": "MLOps & Model Dağıtımı"
+        },
+        {
+            "id": 5,
+            "name": "Gerçek Dünya Projeleri ve Uygulamaları"
+        }
+    ],
+    "extras": [
+        {
+            "id": "practice",
+            "name": "✍️ Pratik Soruları",
+            "description": "Boşluk doldurma ve gerçek hayat problemleri",
+            "icon": "✍️"
+        },
+        {
+            "id": "notes",
+            "name": "📖 Ders Notları",
+            "description": "Kapsamlı ders notu ve açıklamalar",
+            "icon": "📖"
+        },
+        {
+            "id": "audio",
+            "name": "🎧 Ses Dosyaları",
+            "description": "Ders anlatımları ve notlar",
+            "icon": "🎧"
+        }
+    ]
+}

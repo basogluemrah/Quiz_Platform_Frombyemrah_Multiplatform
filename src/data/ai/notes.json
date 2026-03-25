@@ -1,0 +1,44 @@
+{
+  "sections": [
+    {
+      "icon": "🧠",
+      "title": "Bölüm 1: Makine Öğrenmesi Temelleri",
+      "content": "<strong>Yapay Zeka (AI):</strong> Makinelerin insan benzeri akıl yürütme, öğrenme ve karar verme becerisi sergilemesini sağlayan bilim dalıdır.<br><strong>Makine Öğrenmesi (ML):</strong> Açık kural yazmak yerine, sistemi veriden öğrenmeye bırakır. Model, örüntüleri kendisi keşfeder.<br><strong>Derin Öğrenme (DL):</strong> Çok katmanlı yapay sinir ağları kullanan ML alt dalıdır. Görüntü, ses ve metin gibi ham verilerden otomatik özellik çıkarır.<br>➤ <strong>Hiyerarşi:</strong> Yapay Zeka ⊃ Makine Öğrenmesi ⊃ Derin Öğrenme<br><br><strong>Öğrenme Türleri</strong><br>• <strong>Denetimli Öğrenme:</strong> Etiketli veri ile eğitim. Model girdi→çıktı ilişkisini öğrenir. Sınıflandırma, Regresyon.<br>• <strong>Denetimsiz Öğrenme:</strong> Etiketsiz veriden gizli yapı bulur. Kümeleme, Boyut azaltma.<br>• <strong>Pekiştirmeli Öğrenme:</strong> Ajan, çevreyle etkileşerek ödül/ceza ile öğrenir. Örn: AlphaGo.<br><br><strong>ML Yaşam Döngüsü:</strong> 1) Problemi tanımla 2) Veri topla 3) EDA 4) Ön işleme 5) Model seç & Eğit 6) Değerlendir 7) Dağıt 8) İzle.<br><br><strong>Temel Kavramlar</strong><br>• Özellik (Feature): Girdi değişkenleri.<br>• Etiket (Label): Tahmin edilecek değişken.<br>• Overfitting (Aşırı Öğrenme): Test performansı düşük, eğitim hatası düşük.<br>• Underfitting (Yetersiz Öğrenme): Eğitim ve test hatası yüksek.<br>• Data Leakage (Veri Sızıntısı): Test seti bilgisinin eğitime karışması.<br><br><strong>Ön İşleme ve Metrikler</strong><br>• Z-Score (Standart Normal): μ=0, σ=1<br>• Precision = TP/(TP+FP), Recall = TP/(TP+FN)<br>• F1-Score: Precision ve Recall'u dengeler."
+    },
+    {
+      "icon": "⚙️",
+      "title": "Bölüm 2: Algoritmalar & Teknikler",
+      "content": "<strong>Sınıflandırma Algoritmaları</strong><br>• Logistic Regression: Sigmoid ile 0-1 arası olasılık.<br>• Random Forest: Çok sayıda karar ağacı, yüksek varyansı düşürür.<br>• SVM: En büyük margin ile ayıran hiperdüzlem.<br>• KNN: En yakın K komşuya göre sınıflandırır.<br>• Naive Bayes: Koşullu bağımsızlık varsayımı.<br><br><strong>Regresyon Algoritmaları</strong><br>• Ridge (L2): Karesel ceza, büyük ağırlıkları küçültür.<br>• Lasso (L1): Mutlak ceza, ağırlıkları tam sıfır yapar (özellik seçimi).<br>• Elastic Net: L1 + L2 kombinasyonu.<br><br><strong>Ensemble Yöntemler</strong><br>• Bagging: Modellerin ortalamasını alır.<br>• Boosting: Modeller hataları düzelterek sırayla eğitilir (XGBoost).<br>• Stacking: Çıktıları meta-modele verir.<br><br><strong>Denetimsiz Öğrenme ve Öneri Sistemleri</strong><br>• K-Means: K küme merkezine atar.<br>• DBSCAN: Gürültüyü ve küresel olmayan şekilleri tanır.<br>• İşbirlikçi Filtreleme: Benzer kullanıcı tercihleri.<br>• İçerik Tabanlı: Ürün özelliklerine dayanır."
+    },
+    {
+      "icon": "🤖",
+      "title": "Bölüm 3: Derin Öğrenme & NLP",
+      "content": "<strong>Yapay Sinir Ağları</strong><br>• Aktivasyonlar: ReLU (gizli), Sigmoid (ikili çıkış), Softmax (çoklu çıkış).<br>• Backpropagation: Zincir kuralı ile gradyan hesaplar, ağırlık günceller.<br>• Regularizasyon: Dropout (rastgele nöron kapama), Early Stopping.<br><br><strong>Gelişmiş Mimariler</strong><br>• CNN: Görüntü (Konvolüsyon ve Pooling katmanları).<br>• LSTM/GRU: Zaman serisi ve dizi (Vanishing gradient sorununu çözer).<br>• Transformer: Self-Attention mekanizması, RNN'e göre paralel iterasyon sağlar.<br><br><strong>BERT ve LLM'ler</strong><br>• BERT: Bidirectional bağlamı kullanır, Autoencoder.<br>• XLNet: Autoregressive.<br>• RAG: Hallüsinasyonu azaltır, harici belgeyle doğrular.<br>• FAISS: Büyük ölçekli benzerlik araması.<br><br><strong>NLP Kavramları</strong><br>• Tokenizasyon: Metni kelime parçalarına bölme.<br>• Lemmatization: Dilbilgisel doğru kök bulma.<br>• TF-IDF: Belge sıklığı ağırlığı.<br>• GAN: Generator ve Discriminator birbiriyle yarışır."
+    },
+    {
+      "icon": "🌐",
+      "title": "Bölüm 4: MLOps & Model Dağıtımı",
+      "content": "<strong>MLOps Nedir?</strong><br>Model geliştirme, dağıtım ve izleme sürecinin otomatikleştirilmesi. 'Bende çalışıyor' sorununu kaldırır.<br><br><strong>Konteyner ve Dağıtım</strong><br>• Docker: Uygulamayı bağımlılıklarıyla paketler.<br>• Kubernetes: Konteynerleri otomatik dağıtır, inceler ve ölçeklendirir.<br>• CI/CD: Kod test ve dağıtımını otomatikleştirir.<br><br><strong>İzleme ve Yönetim</strong><br>• Model Drift: Üretimdeki veri dağılımı değişimi sonucu modelin gücünü yitirmesi.<br>• MLflow: Deney takibi ve model kaydı.<br>• Feature Store: Önceden hesaplanmış özellikleri merkezileştirir.<br>• A/B Testi: İki versiyonu üretimde canlı deneme.<br><br><strong>Açıklanabilirlik ve Güvenlik</strong><br>• SHAP: Oyun teorisine dayanır, özellik katkısını ölçer.<br>• LIME: Yerel düzeyde açıklanabilirlik.<br>• Federated Learning: Veriler merkeze gitmez, eğitim cihazlarda yapılır.<br>• Differential Privacy: Veri sızdırmazlık istatistiksel sınırı."
+    },
+    {
+      "icon": "📊",
+      "title": "Bölüm 5: Proje Uygulamaları",
+      "content": "<strong>Gerçek Dünya Senaryoları</strong><br>• Müşteri Churn: Abonelik iptal tahmini (İkili Sınıflandırma).<br>• Talep Tahmini: Bölge bazlı trafik veya araç ihtiyacı tahmini (Zaman Serisi).<br>• Satış Tahmini: Ürün ve mağaza satış hacmi modellemesi (Zaman Serisi).<br>• AI Video Özetleme: Whisper ile ses→metin, LLM ile özet (NLP).<br>• Tıbbi Segmentasyon: Ultrason üzerinden doku tespiti (Görüntü İşleme).<br>• Sentiment Analysis: Sosyal medya yorumlarının duygu sınıflarına ayrılması (NLP).<br>• GenAI Çözümleri: Text-2-SQL, Mental Health Chatbot, AI Quiz Generator."
+    },
+    {
+      "icon": "✏️",
+      "title": "Boşluk Doldurma Cevap Anahtarı (İlk 50)",
+      "content": "1. EDA<br>2. Özellik (Feature)<br>3. Etiket (Label / Target)<br>4. Aşırı öğrenme (Overfitting)<br>5. Yetersiz öğrenme (Underfitting)<br>6. Veri Sızıntısı (Data Leakage)<br>7. Min-Max<br>8. Z-Score (Standart Sapma)<br>9. One-Hot Encoding<br>10. KNN Imputation<br>11. Confusion Matrix<br>12. Precision<br>13. Recall<br>14. F1-Score<br>15. MAE<br>16. R²<br>17. Stratified Sampling<br>18. K-Fold Cross Validation<br>19. Feature Engineering<br>20. Walk-Forward Validation<br>21. Baseline Model<br>22. Hiperparametreler<br>23. Veri (Data)<br>24. Makine Öğrenmesi (Machine Learning)<br>25. Pekiştirmeli<br>26. Özellik Seçimi<br>27. Ridge<br>28. Elastic Net<br>29. n_estimators<br>30. Gürültü (Noise)<br>31. Gini<br>32. Kümeleme<br>33. PCA<br>34. Market Basket<br>35. Gecikmiş (Lagged)<br>36. Prophet<br>37. Kullanıcı<br>38. İçerik / Ürün<br>39. Cold Start<br>40. Grid Search<br>41. Hatalarını düzeltmeye<br>42. Stacking<br>43. Isolation Forest<br>44. Sigmoid<br>45. Bağımsızlık<br>46. Boyut Laneti<br>47. SMOTE<br>48. Exponential Smoothing<br>49. Autoregressive Integrated Moving Average<br>50. Adam"
+    },
+    {
+      "icon": "📝",
+      "title": "Boşluk Doldurma Cevap Anahtarı II (51-100)",
+      "content": "51. Mevsimsellik<br>52. Trend<br>53. AutoCorrelation Function<br>54. OLS<br>55. ReLU<br>56. Softmax<br>57. Backpropagation<br>58. Dropout<br>59. Batch Normalization<br>60. Early Stopping<br>61. Konvolüsyon<br>62. Pooling<br>63. LSTM<br>64. GRU<br>65. Self-Attention<br>66. Bidirectional Encoder Representations from Transformers<br>67. Google<br>68. LLM<br>69. RAG<br>70. Hallucination<br>71. Grounding<br>72. Guardrails<br>73. FAISS<br>74. Generator<br>75. Discriminator<br>76. Tokenization<br>77. Word Embedding<br>78. TF-IDF<br>79. Bag of Words (BoW)<br>80. Docker<br>81. Kubernetes (K8s)<br>82. CI/CD<br>83. MLflow<br>84. Data Drift<br>85. A/B<br>86. SHAP<br>87. LIME<br>88. Flask ve FastAPI<br>89. Federated (Birleşik)<br>90. Amazon EKS<br>91. Kubeflow<br>92. Feature Store<br>93. Model Registry<br>94. Shadow Deployment<br>95. Differential Privacy<br>96. Continuous Training<br>97. Denetimsiz<br>98. İkili Sınıflandırma / Tahminsel Bakım<br>99. Autoencoder"
+    },
+    {
+      "icon": "🔍",
+      "title": "Gerçek Dünya Problemleri Analizi (Seçme Problemler)",
+      "content": "• <strong>Müşteri Churn Önleme:</strong> İkili Sınıflandırma Problemi<br>• <strong>Bölgesel Taksi Talep Tahmini:</strong> Regresyon / Zaman Serisi<br>• <strong>Film Önerileri Platformu:</strong> Öneri Sistemi (Recommendation)<br>• <strong>Boru Hattı Sensör Arızası Tespit:</strong> Anomali Tespiti<br>• <strong>Sosyal Medya Yorum Duygu Tespiti:</strong> Metin Sınıflandırma (Sentiment Analysis)<br>• <strong>Market Sepeti Analizi:</strong> Birliktelik Kuralı Madenciliği<br>• <strong>Bitki Türü Tespiti (Görüntüden):</strong> Görüntü Sınıflandırma Problemi<br>• <strong>Hisse Senedi Kapanış Fiyatı:</strong> Regresyon Problemi<br>• <strong>Dil Tespiti:</strong> NLP Sınıflandırma Problemi<br>• <strong>Makalenin Gizli Tema Keşfi:</strong> Konu Modellemesi (Topic Modeling - LDA)<br>• <strong>Sahte Finansal İşlemler Tespiti:</strong> Anomali Tespiti / İkili Sınıflandırma"
+    }
+  ]
+}

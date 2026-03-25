@@ -68,6 +68,12 @@ function handleRoute() {
         showNotes();
       }
       break;
+    case 'practice':
+      if (parts[1]) {
+        state.selectedCourse = parts[1];
+        showPractice();
+      }
+      break;
     case 'results':
       showResults();
       break;
@@ -214,6 +220,8 @@ async function showUnits() {
         const extraId = card.dataset.extra;
         if (extraId === 'notes') {
           window.location.hash = `notes/${state.selectedCourse}`;
+        } else if (extraId === 'practice') {
+          window.location.hash = `practice/${state.selectedCourse}`;
         } else {
           window.location.hash = `extras/${state.selectedCourse}`;
         }
@@ -407,6 +415,91 @@ async function showNotes() {
           <span class="empty-icon">📁</span>
           <p>Henüz ders notu eklenmemiş.</p>
           <p class="empty-hint">Ders notları yakında eklenecek!</p>
+        </div>
+      </div>
+    `;
+    document.getElementById('backToCourse').addEventListener('click', () => {
+      window.location.hash = `course/${state.selectedCourse}`;
+    });
+  }
+}
+
+// Practice View - Fill in the blank & Real World
+async function showPractice() {
+  state.currentView = 'practice';
+  const course = coursesData.courses.find(c => c.id === state.selectedCourse);
+
+  app.innerHTML = `
+    <div class="loading">
+      <div class="loading-spinner"></div>
+      <p>Pratik soruları yükleniyor...</p>
+    </div>
+  `;
+
+  try {
+    const practiceData = await import(`./data/${state.selectedCourse}/practice.json`);
+    const sections = practiceData.sections || [];
+
+    app.innerHTML = `
+      <div class="extras-container">
+        <button class="back-button" id="backToCourse">
+          ← Geri Dön
+        </button>
+        
+        <div class="header">
+          <h1>✍️ Pratik Soruları</h1>
+          <p>${course.name} - Boşluk Doldurma ve Vaka Analizleri</p>
+        </div>
+        
+        <div class="notes-list">
+          ${sections.map((section, idx) => `
+            <div class="notes-section">
+              <button class="notes-section-header" data-section="${idx}">
+                <span class="notes-section-icon">${section.icon || '📝'}</span>
+                <span class="notes-section-title">${section.title}</span>
+                <span class="notes-toggle">▼</span>
+              </button>
+              <div class="notes-section-content" id="practice-content-${idx}" style="display: none;">
+                ${section.content}
+              </div>
+            </div>
+          `).join('')}
+        </div>
+      </div>
+    `;
+
+    document.getElementById('backToCourse').addEventListener('click', () => {
+      window.location.hash = `course/${state.selectedCourse}`;
+    });
+
+    // Accordion toggle
+    document.querySelectorAll('.notes-section-header').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const idx = btn.dataset.section;
+        const content = document.getElementById(`practice-content-${idx}`);
+        const toggle = btn.querySelector('.notes-toggle');
+        if (content.style.display === 'none') {
+          content.style.display = 'block';
+          toggle.textContent = '▲';
+        } else {
+          content.style.display = 'none';
+          toggle.textContent = '▼';
+        }
+      });
+    });
+
+  } catch (error) {
+    console.error('Error loading practice:', error);
+    app.innerHTML = `
+      <div class="extras-container">
+        <button class="back-button" id="backToCourse">← Geri Dön</button>
+        <div class="header">
+          <h1>✍️ Pratik Soruları</h1>
+          <p>${course.name}</p>
+        </div>
+        <div class="audio-empty">
+          <span class="empty-icon">📁</span>
+          <p>Bu ders için henüz pratik sorusu eklenmemiş.</p>
         </div>
       </div>
     `;
