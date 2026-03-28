@@ -581,7 +581,7 @@ function showQuestion() {
     <div class="quiz-container">
       <div class="quiz-header">
         <button class="back-button" id="backToUnits">
-          ← ${isMixed ? 'Çıkış' : 'Ünitelere Dön'}
+          ← ${window.location.hash === '#results' ? 'Sonuçlara Dön' : (isMixed ? 'Çıkış' : 'Ünitelere Dön')}
         </button>
         <div class="quiz-progress">
           <div class="progress-bar">
@@ -624,7 +624,7 @@ function showQuestion() {
           ← Önceki
         </button>
         <button class="btn btn-primary" id="nextBtn" ${!isAnswered ? 'disabled' : ''}>
-          ${state.currentQuestionIndex === state.questions.length - 1 ? 'Sonuçları Gör' : 'Sonraki →'}
+          ${state.currentQuestionIndex === state.questions.length - 1 ? (window.location.hash === '#results' ? 'Sonuçlara Dön' : 'Sonuçları Gör') : 'Sonraki →'}
         </button>
       </div>
     </div>
@@ -632,8 +632,12 @@ function showQuestion() {
 
   // Add event listeners
   document.getElementById('backToUnits').addEventListener('click', () => {
-    if (confirm('Testten çıkmak istediğinize emin misiniz? İlerlemeniz kaybolacak.')) {
-      window.location.hash = `course/${state.selectedCourse}`;
+    if (window.location.hash === '#results') {
+      showResults();
+    } else {
+      if (confirm('Testten çıkmak istediğinize emin misiniz? İlerlemeniz kaybolacak.')) {
+        window.location.hash = `course/${state.selectedCourse}`;
+      }
     }
   });
 
@@ -655,8 +659,12 @@ function showQuestion() {
       state.currentQuestionIndex++;
       showQuestion();
     } else {
-      calculateScore();
-      window.location.hash = 'results';
+      if (window.location.hash === '#results') {
+        showResults();
+      } else {
+        calculateScore();
+        window.location.hash = 'results';
+      }
     }
   });
 }

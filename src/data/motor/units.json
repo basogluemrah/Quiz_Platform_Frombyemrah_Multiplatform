@@ -1,6 +1,6 @@
 {
     "courseId": "motor",
-    "courseName": "Motor Sürücü Sistemleri ve Arduino Programlama",
+    "courseName": "Robotik Kodlama",
     "specialModes": [
         {
             "id": "mixed",

@@ -9,17 +9,17 @@
     },
     {
       "id": "iot",
-      "name": "Robotik Kodlama / IoT",
+      "name": "Nesnelerin İnterneti (IoT)",
       "icon": "🤖",
       "color": "#22c55e",
       "description": "IoT Protokolleri ve RF İletişim - TCP/IP, UDP, MQTT, RF Modüller"
     },
     {
       "id": "motor",
-      "name": "Motor Sürücü Sistemleri",
+      "name": "Robotik Kodlama",
       "icon": "⚙️",
       "color": "#f59e0b",
-      "description": "DC, Step, Servo, BLDC Motor Sürücüleri ve Arduino Programlama"
+      "description": "Robotik Kodlama Temelleri ve Arduino Programlama"
     },
     {
       "id": "ai",
