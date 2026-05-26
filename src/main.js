@@ -52,7 +52,7 @@ function handleRoute() {
     case 'quiz':
       if (parts[1] && parts[2]) {
         state.selectedCourse = parts[1];
-        state.selectedUnit = parts[2] === 'mixed' ? 'mixed' : parseInt(parts[2]);
+        state.selectedUnit = isNaN(parts[2]) ? parts[2] : parseInt(parts[2]);
         startQuiz();
       }
       break;
@@ -525,8 +525,8 @@ async function startQuiz() {
   `;
 
   try {
-    // Check if mixed mode
-    if (state.selectedUnit === 'mixed') {
+    // Check if mixed or all mode
+    if (state.selectedUnit === 'mixed' || state.selectedUnit === 'all') {
       // Load all units and combine questions
       const unitsData = await import(`./data/${state.selectedCourse}/units.json`);
       let allQuestions = [];
@@ -546,8 +546,13 @@ async function startQuiz() {
         }
       }
 
-      // Shuffle and take 20 random questions (or all if less)
-      state.questions = shuffleArray(allQuestions).slice(0, 20);
+      if (state.selectedUnit === 'mixed') {
+        // Shuffle and take 20 random questions (or all if less)
+        state.questions = shuffleArray(allQuestions).slice(0, 20);
+      } else {
+        // Shuffle and take all questions
+        state.questions = shuffleArray(allQuestions);
+      }
     } else {
       // Load specific unit
       const questionsData = await import(`./data/${state.selectedCourse}/unit${state.selectedUnit}.json`);
@@ -575,7 +580,7 @@ function showQuestion() {
   const isAnswered = selectedAnswer !== undefined;
 
   const letters = ['A', 'B', 'C', 'D', 'E'];
-  const isMixed = state.selectedUnit === 'mixed';
+  const isMixed = state.selectedUnit === 'mixed' || state.selectedUnit === 'all';
 
   app.innerHTML = `
     <div class="quiz-container">

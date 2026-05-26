@@ -4,9 +4,15 @@
   "specialModes": [
     {
       "id": "mixed",
-      "name": "🎲 Karışık Quiz",
-      "description": "Tüm bölümlerden rastgele sorular",
+      "name": "🎲 Karışık Quiz (20 Soru)",
+      "description": "Tüm bölümlerden rastgele 20 soru",
       "icon": "🎲"
+    },
+    {
+      "id": "all",
+      "name": "📝 Tüm Sınav (75 Soru)",
+      "description": "Tüm ünitelerin bütün sorularını içeren tek bir büyük test",
+      "icon": "📝"
     }
   ],
   "units": [
