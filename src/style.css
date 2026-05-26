@@ -698,6 +698,9 @@ p {
 
 .special-modes {
   margin-bottom: var(--spacing-xl);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
 }
 
 .special-mode-card {
