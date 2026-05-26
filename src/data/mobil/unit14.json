@@ -1,0 +1,39 @@
+{
+  "unitId": 14,
+  "unitName": "Platform Integration (Platform Entegrasyonu)",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Flutter ile yerel (Native - Java/Swift) kodlar arasında iletişim kurmak için hangisi kullanılır?",
+      "options": [
+        "HTTP Request",
+        "MethodChannel",
+        "Pubspec.yaml",
+        "Hot Reload"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 2,
+      "question": "Android tarafında bir özellik için izin alırken hangi dosya düzenlenmelidir?",
+      "options": [
+        "Info.plist",
+        "AndroidManifest.xml",
+        "build.gradle",
+        "pubspec.lock"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 3,
+      "question": "iOS tarafında kamera izni tanımı hangi dosyada yapılır?",
+      "options": [
+        "Info.plist",
+        "Podfile",
+        "AppDelegate.swift",
+        "Main.storyboard"
+      ],
+      "correct": 0
+    }
+  ]
+}

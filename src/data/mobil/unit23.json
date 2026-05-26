@@ -1,0 +1,39 @@
+{
+  "unitId": 23,
+  "unitName": "From Another Platform? (Başka Bir Platformdan mı?)",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Bir web geliştiricisi (React/HTML) için Flutter'daki \"Container\" widget'ı en çok neye benzer?",
+      "options": [
+        "<a> etiketi",
+        "<h1> etiketi",
+        "<div> etiketi",
+        "<span> etiketi"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 2,
+      "question": "Android Native (Java/Kotlin) geliştiricileri için \"Intent\" kavramının yerini Flutter'da ne alır?",
+      "options": [
+        "Navigator / Router",
+        "Scaffold",
+        "Widget",
+        "Pubspec"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 3,
+      "question": "iOS (Swift/UIKit) geliştiricileri için \"UIViewController\" kavramının karşılığı Flutter'da nedir?",
+      "options": [
+        "Sadece build() metodu",
+        "StatefulWidget veya StatelessWidget",
+        "MaterialApp",
+        "AppDelegate"
+      ],
+      "correct": 1
+    }
+  ]
+}

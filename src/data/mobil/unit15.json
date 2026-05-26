@@ -1,0 +1,39 @@
+{
+  "unitId": 15,
+  "unitName": "Packages & Plugins (Paketler ve Eklentiler)",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Flutter paketlerinin ve eklentilerinin paylaşıldığı resmi web sitesi hangisidir?",
+      "options": [
+        "github.com",
+        "pub.dev",
+        "flutter.io",
+        "stackoverflow.com"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 2,
+      "question": "Bir paketin versiyonunu ^2.1.0 şeklinde belirtmek ne anlama gelir?",
+      "options": [
+        "Sadece 2.1.0 versiyonunu kullan",
+        "2.1.0 ile 3.0.0 arasındaki uyumlu güncellemeleri al",
+        "En az 2.1.0 kullan ama üst sınır yok",
+        "Versiyon önemli değil"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 3,
+      "question": "Projeye yeni eklenen paketleri indirmek için hangi komut çalıştırılır?",
+      "options": [
+        "flutter clean",
+        "flutter upgrade",
+        "flutter pub get",
+        "flutter build"
+      ],
+      "correct": 2
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "unitId": 21,
+  "unitName": "Flutter Concepts (Flutter Kavramları)",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Flutter'da \"Composition\" (Bileşim) kavramı neyi ifade eder?",
+      "options": [
+        "Kodun sadece sınıflardan oluşmasını",
+        "Küçük widget'ların birleşerek daha karmaşık widget'lar oluşturmasını",
+        "Uygulamanın sadece bir dosyadan oluşmasını",
+        "Veritabanı tablolarının birleşmesini"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 2,
+      "question": "Flutter'da \"Reactive UI\" (Tepkisel Arayüz) mantığı nasıl çalışır?",
+      "options": [
+        "Sadece kullanıcı tıkladığında ekran yenilenir.",
+        "Uygulama durumu (state) değiştiğinde arayüz otomatik olarak yeniden çizilir.",
+        "Arayüz her saniye 60 kez zorunlu olarak yenilenir.",
+        "Sadece internet olduğunda UI güncellenir."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 3,
+      "question": "Dart dilindeki \"Future\" yapısı neyi temsil eder?",
+      "options": [
+        "Hemen gerçekleşen işlemi",
+        "Gelecekte tamamlanacak olan asenkron bir değeri veya hatayı",
+        "Uygulamanın bir sonraki versiyonunu",
+        "Değişmeyen sabit bir veriyi"
+      ],
+      "correct": 1
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "unitId": 16,
+  "unitName": "Testing & Debugging (Test ve Hata Ayıklama)",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Tek bir fonksiyonun veya sınıfın mantığını test etmek için hangisi kullanılır?",
+      "options": [
+        "Unit Test",
+        "Widget Test",
+        "Integration Test",
+        "Goldens Test"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 2,
+      "question": "Flutter uygulamalarında performansı izlemek ve widget ağacını görselleştirmek için kullanılan araç hangisidir?",
+      "options": [
+        "Android Studio",
+        "Dart DevTools",
+        "Xcode",
+        "Postman"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 3,
+      "question": "Görsel arayüzün (UI) piksellerine kadar doğru olduğunu doğrulamak için yapılan test türü hangisidir?",
+      "options": [
+        "Unit Test",
+        "Smoke Test",
+        "Golden Test (Snapshot Test)",
+        "Logic Test"
+      ],
+      "correct": 2
+    }
+  ]
+}

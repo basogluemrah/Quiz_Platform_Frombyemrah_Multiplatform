@@ -1,0 +1,39 @@
+{
+  "unitId": 2,
+  "unitName": "Widget Catalog (Widget Kataloğu)",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Uygulamanın temel görsel yapısını (AppBar, Drawer, BottomNavigationBar vb.) sağlayan \"iskelet\" widget hangisidir?",
+      "options": [
+        "Container",
+        "Scaffold",
+        "Center",
+        "MaterialApp"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 2,
+      "question": "Google'ın tasarım dilini temsil eden widget kütüphanesi hangisidir?",
+      "options": [
+        "Material",
+        "Cupertino",
+        "Bootstrap",
+        "Fluent"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 3,
+      "question": "Apple/iOS stilindeki arayüz bileşenlerini kullanmak için hangi kütüphane tercih edilir?",
+      "options": [
+        "Material",
+        "Cupertino",
+        "UIKit",
+        "SwiftUI"
+      ],
+      "correct": 1
+    }
+  ]
+}

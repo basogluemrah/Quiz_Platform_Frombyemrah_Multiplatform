@@ -1,0 +1,39 @@
+{
+  "unitId": 12,
+  "unitName": "Data & Backend (Veri ve Arka Uç)",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Flutter'da JSON verilerini Dart nesnelerine otomatik dönüştürmek için en yaygın kullanılan yöntem hangisidir?",
+      "options": [
+        "Manual Serialization",
+        "json_serializable paketi",
+        "toString() metodu",
+        "Shared Preferences"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 2,
+      "question": "Uygulama kapansa bile verilerin kalıcı olarak saklanması gereken büyük ölçekli yerel veritabanı işlemleri için hangisi tercih edilir?",
+      "options": [
+        "sqflite",
+        "Provider",
+        "HTTP Client",
+        "JSON"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 3,
+      "question": "Firebase ile Flutter entegrasyonunda gerçek zamanlı (real-time) veri takibi için hangi Dart yapısı kullanılır?",
+      "options": [
+        "Future",
+        "Stream",
+        "List",
+        "Map"
+      ],
+      "correct": 1
+    }
+  ]
+}

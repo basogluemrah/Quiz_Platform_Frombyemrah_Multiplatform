@@ -1,0 +1,39 @@
+{
+  "unitId": 8,
+  "unitName": "Navigation & Routing (Navigasyon ve Yönlendirme)",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Yeni bir sayfaya geçiş yapmak için hangi Navigator komutu kullanılır?",
+      "options": [
+        "Navigator.pop",
+        "Navigator.push",
+        "Navigator.move",
+        "Navigator.go"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 2,
+      "question": "Bir önceki sayfaya geri dönmek için kullanılan komut hangisidir?",
+      "options": [
+        "Navigator.back",
+        "Navigator.pop",
+        "Navigator.remove",
+        "Navigator.pushReplacement"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 3,
+      "question": "Büyük ölçekli uygulamalarda sayfa isimlerini (URL gibi) merkezi bir yerden yönetmek için ne kullanılır?",
+      "options": [
+        "Local Routes",
+        "Named Routes",
+        "String Routes",
+        "Dynamic Routes"
+      ],
+      "correct": 1
+    }
+  ]
+}

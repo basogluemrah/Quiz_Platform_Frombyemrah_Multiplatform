@@ -1,0 +1,39 @@
+{
+  "unitId": 22,
+  "unitName": "App Solutions (Uygulama Çözümleri)",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Uygulama genelinde paylaşılan verileri (sepet içeriği, kullanıcı profil bilgisi vb.) yönetmek için kullanılan genel terim nedir?",
+      "options": [
+        "File Management",
+        "State Management",
+        "Network Management",
+        "Asset Management"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 2,
+      "question": "Lokalde basit anahtar-değer (key-value) ikilileri saklamak için hangi çözüm tercih edilir?",
+      "options": [
+        "SQLite",
+        "Shared Preferences",
+        "Firebase",
+        "Provider"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 3,
+      "question": "Kullanıcıya geçici mesajlar veya uyarılar göstermek için ekranın altında çıkan kutucuğun adı nedir?",
+      "options": [
+        "Dialog",
+        "SnackBar",
+        "Drawer",
+        "Banner"
+      ],
+      "correct": 1
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "unitId": 24,
+  "unitName": "Stay Up to Date (Güncel Kalın)",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Flutter'ın en stabil ve yayına hazır sürümlerinin bulunduğu \"kanal\" hangisidir?",
+      "options": [
+        "Beta",
+        "Master",
+        "Stable",
+        "Dev"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 2,
+      "question": "Flutter'daki yenilikleri, yeni widget'ları ve teknik makaleleri takip etmek için en iyi resmi kaynak hangisidir?",
+      "options": [
+        "Facebook",
+        "Medium (Flutter Blog) ve docs.flutter.dev",
+        "Wikipedia",
+        "GitHub Issues"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 3,
+      "question": "Yılda bir kez düzenlenen ve Flutter ekibinin en büyük yenilikleri duyurduğu etkinlik hangisidir?",
+      "options": [
+        "Flutter Meetup",
+        "Flutter Forward / Google I/O",
+        "Apple WWDC",
+        "Web Summit"
+      ],
+      "correct": 1
+    }
+  ]
+}

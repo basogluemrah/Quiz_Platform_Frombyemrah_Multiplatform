@@ -1,0 +1,122 @@
+{
+  "courseId": "mobil",
+  "courseName": "Mobil Programlama Finalleri",
+  "specialModes": [
+    {
+      "id": "mixed",
+      "name": "🎲 Karışık Quiz",
+      "description": "Tüm bölümlerden rastgele sorular",
+      "icon": "🎲"
+    }
+  ],
+  "units": [
+    {
+      "id": 1,
+      "name": "Introduction (Giriş)"
+    },
+    {
+      "id": 2,
+      "name": "Widget Catalog (Widget Kataloğu)"
+    },
+    {
+      "id": 3,
+      "name": "Layout (Düzenleme)"
+    },
+    {
+      "id": 4,
+      "name": "Adaptive & Responsive Design (Uyarlanabilir ve Duyarlı Tasarım)"
+    },
+    {
+      "id": 5,
+      "name": "Design & Theming (Tasarım ve Temalandırma)"
+    },
+    {
+      "id": 6,
+      "name": "Interactivity (Etkileşim)"
+    },
+    {
+      "id": 7,
+      "name": "Assets & Media (Varlıklar ve Medya)"
+    },
+    {
+      "id": 8,
+      "name": "Navigation & Routing (Navigasyon ve Yönlendirme)"
+    },
+    {
+      "id": 9,
+      "name": "Animations & Transitions (Animasyonlar ve Geçişler)"
+    },
+    {
+      "id": 10,
+      "name": "Accessibility (Erişilebilirlik)"
+    },
+    {
+      "id": 11,
+      "name": "Internationalization (Uluslararasılaştırma)"
+    },
+    {
+      "id": 12,
+      "name": "Data & Backend (Veri ve Arka Uç)"
+    },
+    {
+      "id": 13,
+      "name": "App Architecture (Uygulama Mimarisi)"
+    },
+    {
+      "id": 14,
+      "name": "Platform Integration (Platform Entegrasyonu)"
+    },
+    {
+      "id": 15,
+      "name": "Packages & Plugins (Paketler ve Eklentiler)"
+    },
+    {
+      "id": 16,
+      "name": "Testing & Debugging (Test ve Hata Ayıklama)"
+    },
+    {
+      "id": 17,
+      "name": "Performance & Optimization (Performans ve Optimizasyon)"
+    },
+    {
+      "id": 18,
+      "name": "Deployment (Yayına Alma)"
+    },
+    {
+      "id": 19,
+      "name": "Add to an Existing App (Mevcut Uygulamaya Ekleme)"
+    },
+    {
+      "id": 20,
+      "name": "Tools & Editors (Araçlar ve Düzenleyiciler)"
+    },
+    {
+      "id": 21,
+      "name": "Flutter Concepts (Flutter Kavramları)"
+    },
+    {
+      "id": 22,
+      "name": "App Solutions (Uygulama Çözümleri)"
+    },
+    {
+      "id": 23,
+      "name": "From Another Platform? (Başka Bir Platformdan mı?)"
+    },
+    {
+      "id": 24,
+      "name": "Stay Up to Date (Güncel Kalın)"
+    },
+    {
+      "id": 25,
+      "name": "Manage Install (Kurulum Yönetimi)"
+    }
+  ],
+  "extras": [
+    {
+      "id": "practice",
+      "name": "✍️ Klasik Sorular",
+      "description": "Tüm ünitelerin klasik sınav soruları ve çözümleri",
+      "icon": "✍️"
+    }
+  ]
+}

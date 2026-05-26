@@ -1,0 +1,39 @@
+{
+  "unitId": 17,
+  "unitName": "Performance & Optimization (Performans ve Optimizasyon)",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Gereksiz widget çizimlerini engellemek için kullanılan anahtar kelime hangisidir?",
+      "options": [
+        "final",
+        "static",
+        "const",
+        "late"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 2,
+      "question": "Ekranda değişmeyen bir bölümü (örneğin arka plan resmi) ayrı bir katman gibi izole edip performansı artıran widget hangisidir?",
+      "options": [
+        "Container",
+        "RepaintBoundary",
+        "SizedBox",
+        "ListView"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 3,
+      "question": "Flutter uygulamalarında hedef saniye başına kare hızı (FPS) genellikle kaçtır?",
+      "options": [
+        "30 FPS",
+        "60 FPS",
+        "10 FPS",
+        "100 FPS"
+      ],
+      "correct": 1
+    }
+  ]
+}

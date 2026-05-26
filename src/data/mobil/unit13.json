@@ -1,0 +1,39 @@
+{
+  "unitId": 13,
+  "unitName": "App Architecture (Uygulama Mimarisi)",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Aşağıdakilerden hangisi bir \"State Management\" (Durum Yönetimi) çözümü değildir?",
+      "options": [
+        "BLoC",
+        "Riverpod",
+        "Firebase Auth",
+        "Provider"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 2,
+      "question": "\"Single Source of Truth\" (Tek Doğruluk Kaynağı) kavramı neyi ifade eder?",
+      "options": [
+        "Her sayfanın kendi verisini tutmasını",
+        "Verinin tek bir merkezden yönetilip dağıtılmasını",
+        "Veritabanının sadece tek tablo olması",
+        "Uygulamanın internetsiz çalışmaması"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 3,
+      "question": "MVVM mimarisindeki \"ViewModel\"in temel görevi nedir?",
+      "options": [
+        "Arayüzü çizmek",
+        "Veritabanı tablolarını oluşturmak",
+        "UI ile Model arasındaki mantığı yönetmek ve veriyi UI'a hazırlamak",
+        "Uygulamayı markete yüklemek"
+      ],
+      "correct": 2
+    }
+  ]
+}

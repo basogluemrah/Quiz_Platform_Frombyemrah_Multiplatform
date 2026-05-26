@@ -1,0 +1,39 @@
+{
+  "unitId": 3,
+  "unitName": "Layout (Düzenleme)",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Widget'ları dikey düzlemde üstten alta doğru sıralamak için hangisi kullanılır?",
+      "options": [
+        "Row",
+        "Column",
+        "Stack",
+        "Wrap"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 2,
+      "question": "Bir widget'ın içindeki boş alanı doldurarak genişleyebileceği kadar genişlemesini sağlayan widget hangisidir?",
+      "options": [
+        "Container",
+        "Padding",
+        "Expanded",
+        "ConstrainedBox"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 3,
+      "question": "Widget'ları üst üste (z ekseninde) bindirmek için kullanılan yapı hangisidir?",
+      "options": [
+        "Row",
+        "Column",
+        "Stack",
+        "ListView"
+      ],
+      "correct": 2
+    }
+  ]
+}

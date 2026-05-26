@@ -1,0 +1,39 @@
+{
+  "unitId": 9,
+  "unitName": "Animations & Transitions (Animasyonlar ve Geçişler)",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Flutter'da \"Implicit Animations\" (Örtük Animasyonlar) grubuna giren en basit animasyonlu widget hangisidir?",
+      "options": [
+        "AnimatedContainer",
+        "Hero",
+        "RotationTransition",
+        "FadeTransition"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 2,
+      "question": "İki farklı sayfadaki aynı görseli birbirine bağlayarak akıcı bir geçiş sağlayan widget hangisidir?",
+      "options": [
+        "SlideTransition",
+        "Hero",
+        "Tween",
+        "Opacity"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 3,
+      "question": "Animasyonun süresini, ne zaman başlayıp biteceğini kontrol eden ana sınıf hangisidir?",
+      "options": [
+        "Duration",
+        "Curve",
+        "AnimationController",
+        "TickerProvider"
+      ],
+      "correct": 2
+    }
+  ]
+}

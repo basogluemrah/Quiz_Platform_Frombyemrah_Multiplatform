@@ -27,6 +27,13 @@
       "icon": "🧠",
       "color": "#ec4899",
       "description": "Makine Öğrenmesi, Derin Öğrenme, NLP, MLOps ve Projeler"
+    },
+    {
+      "id": "mobil",
+      "name": "Mobil Programlama Finalleri",
+      "icon": "📱",
+      "color": "#3b82f6",
+      "description": "Flutter ve Mobil Uygulama Geliştirme Final Sınavı Hazırlığı"
     }
   ]
 }

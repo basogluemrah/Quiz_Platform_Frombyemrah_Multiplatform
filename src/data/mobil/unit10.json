@@ -1,0 +1,39 @@
+{
+  "unitId": 10,
+  "unitName": "Accessibility (Erişilebilirlik)",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Ekran okuyucular için bir widget'ın ne olduğunu ve ne işe yaradığını tanımlayan widget hangisidir?",
+      "options": [
+        "Tooltip",
+        "Semantics",
+        "Description",
+        "AccessibilityWrapper"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 2,
+      "question": "Kullanıcı bir butona uzun süre bastığında çıkan açıklama metni nedir?",
+      "options": [
+        "Hint",
+        "Label",
+        "Tooltip",
+        "Snackbar"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 3,
+      "question": "Görme engelli kullanıcılar için cihazın ekranı sesli okuma özelliğine Android'de ne ad verilir?",
+      "options": [
+        "VoiceOver",
+        "TalkBack",
+        "ScreenReader",
+        "Narrator"
+      ],
+      "correct": 1
+    }
+  ]
+}

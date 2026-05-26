@@ -1,0 +1,39 @@
+{
+  "unitId": 6,
+  "unitName": "Interactivity (Etkileşim)",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Herhangi bir widget'ı (örneğin bir Container) tıklanabilir hale getirmek için kullanılan en temel widget hangisidir?",
+      "options": [
+        "Button",
+        "GestureDetector",
+        "Tappable",
+        "ClickListener"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 2,
+      "question": "Tıklandığında Material tasarımına uygun \"mürekkep sıçraması\" (ripple effect) efekti veren widget hangisidir?",
+      "options": [
+        "GestureDetector",
+        "InkWell",
+        "FlatButton",
+        "Pressable"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 3,
+      "question": "Kullanıcıdan metin girişi almak için kullanılan temel bileşen hangisidir?",
+      "options": [
+        "TextInput",
+        "StringField",
+        "TextField",
+        "Label"
+      ],
+      "correct": 2
+    }
+  ]
+}

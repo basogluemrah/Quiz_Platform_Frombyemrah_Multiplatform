@@ -1,0 +1,39 @@
+{
+  "unitId": 20,
+  "unitName": "Tools & Editors (Araçlar ve Düzenleyiciler)",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Flutter geliştirme için en popüler iki IDE (Entegre Geliştirme Ortamı) hangileridir?",
+      "options": [
+        "Notepad++ & Sublime Text",
+        "VS Code & Android Studio",
+        "Xcode & Vim",
+        "Eclipse & PyCharm"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 2,
+      "question": "Bir Flutter projesinde kod yazarken hataları, performansı ve bellek kullanımını tarayıcı üzerinden incelemeyi sağlayan araç seti nedir?",
+      "options": [
+        "Chrome Console",
+        "Dart DevTools",
+        "Flutter Inspector (Sadece)",
+        "Debug Console"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 3,
+      "question": "Komut satırından Flutter sürümünü ve yüklü araçların durumunu kontrol etmek için hangi komut kullanılır?",
+      "options": [
+        "flutter check",
+        "flutter status",
+        "flutter doctor",
+        "flutter inspect"
+      ],
+      "correct": 2
+    }
+  ]
+}

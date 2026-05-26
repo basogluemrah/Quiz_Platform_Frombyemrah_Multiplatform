@@ -1,0 +1,39 @@
+{
+  "unitId": 25,
+  "unitName": "Manage Install (Kurulum Yönetimi)",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Flutter SDK'sının bilgisayardaki komut satırından her yerden erişilebilir olması için hangi ayar yapılmalıdır?",
+      "options": [
+        "Antivirüs izni",
+        "PATH (Ortam Değişkeni) ekleme",
+        "Bilgisayarı yeniden başlatma",
+        "Chrome güncelleme"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 2,
+      "question": "Bilgisayarda yüklü birden fazla Flutter sürümü arasında geçiş yapmayı sağlayan popüler bir topluluk aracı hangisidir?",
+      "options": [
+        "Flutter Upgrader",
+        "FVM (Flutter Version Management)",
+        "SDK Manager",
+        "Git Switch"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 3,
+      "question": "Flutter kurulumu sırasında Android lisanslarını onaylamak için hangi komut çalıştırılmalıdır?",
+      "options": [
+        "flutter doctor --check",
+        "flutter doctor --android-licenses",
+        "flutter update licenses",
+        "android sdk accept"
+      ],
+      "correct": 1
+    }
+  ]
+}

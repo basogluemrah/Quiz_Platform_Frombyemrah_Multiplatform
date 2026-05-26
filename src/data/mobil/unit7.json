@@ -1,0 +1,39 @@
+{
+  "unitId": 7,
+  "unitName": "Assets & Media (Varlıklar ve Medya)",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Uygulamaya eklenen resim veya fontların tanımlandığı dosya hangisidir?",
+      "options": [
+        "main.dart",
+        "pubspec.yaml",
+        "assets.json",
+        "config.xml"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 2,
+      "question": "İnternet üzerindeki bir resmi görüntülemek için hangi metod kullanılır?",
+      "options": [
+        "Image.asset",
+        "Image.network",
+        "Image.file",
+        "Image.memory"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 3,
+      "question": "Flutter'da SVG formatındaki resimleri görüntülemek için ne yapılmalıdır?",
+      "options": [
+        "Doğrudan Image.asset kullanılır",
+        "SVG desteklenmez",
+        "flutter_svg gibi harici bir paket eklenmelidir",
+        "PNG'ye dönüştürülmelidir"
+      ],
+      "correct": 2
+    }
+  ]
+}

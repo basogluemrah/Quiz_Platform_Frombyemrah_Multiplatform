@@ -1,0 +1,39 @@
+{
+  "unitId": 18,
+  "unitName": "Deployment (Yayına Alma)",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Android için yayınlanacak uygulamanın boyutunu küçülten ve optimize eden dosya formatı hangisidir?",
+      "options": [
+        ".apk",
+        ".aab (Android App Bundle)",
+        ".exe",
+        ".ipa"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 2,
+      "question": "Kodun başkaları tarafından kolayca okunmasını engellemek için karıştırılması işlemine ne denir?",
+      "options": [
+        "Debugging",
+        "Obfuscation",
+        "Compilation",
+        "Refactoring"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 3,
+      "question": "iOS uygulamalarını App Store'a yüklemek için kullanılan zorunlu araç hangisidir?",
+      "options": [
+        "VS Code",
+        "Xcode",
+        "Android Studio",
+        "Chrome"
+      ],
+      "correct": 1
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "unitId": 5,
+  "unitName": "Design & Theming (Tasarım ve Temalandırma)",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Tüm uygulamada geçerli olacak renk ve yazı stillerini merkezi olarak tanımlamak için ne kullanılır?",
+      "options": [
+        "ColorScheme",
+        "ThemeData",
+        "StyleManager",
+        "AppTheme"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 2,
+      "question": "Material 3 tasarım dilini etkinleştirmek için ThemeData içinde hangi parametre true yapılmalıdır?",
+      "options": [
+        "enableMaterial3",
+        "useMaterial3",
+        "isMaterial3",
+        "materialNext"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 3,
+      "question": "Kullanıcının cihaz ayarlarındaki moduna (Aydınlık/Karanlık) göre otomatik tema geçişi sağlayan MaterialApp parametresi nedir?",
+      "options": [
+        "theme",
+        "darkTheme",
+        "themeMode",
+        "autoTheme"
+      ],
+      "correct": 2
+    }
+  ]
+}

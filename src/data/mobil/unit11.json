@@ -1,0 +1,39 @@
+{
+  "unitId": 11,
+  "unitName": "Internationalization (Uluslararasılaştırma)",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Flutter'da çoklu dil desteği için kullanılan yaygın kısaltma (terim) hangisidir?",
+      "options": [
+        "i10n",
+        "l10n",
+        "multi-lang",
+        "g11n"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 2,
+      "question": "Çeviri metinlerinin tutulduğu ve JSON benzeri bir yapıda olan dosya formatı hangisidir?",
+      "options": [
+        ".json",
+        ".xml",
+        ".arb",
+        ".lang"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 3,
+      "question": "Uygulamanın o an hangi dilde çalıştığını belirten nesne hangisidir?",
+      "options": [
+        "Region",
+        "Locale",
+        "LanguageInfo",
+        "CountryCode"
+      ],
+      "correct": 1
+    }
+  ]
+}

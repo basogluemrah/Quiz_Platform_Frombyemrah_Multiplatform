@@ -1,0 +1,39 @@
+{
+  "unitId": 19,
+  "unitName": "Add to an Existing App (Mevcut Uygulamaya Ekleme)",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Flutter'ı mevcut bir yerel (Native) uygulamaya eklemek için oluşturulan yapıya ne denir?",
+      "options": [
+        "Flutter Package",
+        "Flutter Plugin",
+        "Flutter Module",
+        "Flutter Desktop"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 2,
+      "question": "Mevcut bir uygulamada Flutter ekranını başlatan yapı hangisidir?",
+      "options": [
+        "FlutterWidget",
+        "FlutterActivity / FlutterViewController",
+        "MaterialApp",
+        "Scaffold"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 3,
+      "question": "Flutter modülü ile ana native uygulama arasındaki veri paylaşımı en verimli nasıl yapılır?",
+      "options": [
+        "Dosyaya yazarak",
+        "İnternet üzerinden",
+        "MethodChannel ve EventChannel ile",
+        "Bluetooth ile"
+      ],
+      "correct": 2
+    }
+  ]
+}

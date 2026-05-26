@@ -1,0 +1,39 @@
+{
+  "unitId": 4,
+  "unitName": "Adaptive & Responsive Design (Uyarlanabilir ve Duyarlı Tasarım)",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Ekranın genişlik, yükseklik ve yön (orientation) bilgilerini almak için kullanılan sınıf hangisidir?",
+      "options": [
+        "MediaQuery",
+        "ScreenInfo",
+        "DeviceData",
+        "LayoutBuilder"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 2,
+      "question": "İçerisinde bulunduğu parent (üst) widget'ın boyut kısıtlamalarına göre karar vermeyi sağlayan widget hangisidir?",
+      "options": [
+        "OrientationBuilder",
+        "LayoutBuilder",
+        "AspectRatio",
+        "FractionallySizedBox"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 3,
+      "question": "Ekran yatay veya dikey konuma getirildiğinde buna göre UI değiştirmek için hangisi en uygundur?",
+      "options": [
+        "MediaQuery",
+        "Scaffold",
+        "OrientationBuilder",
+        "Flexible"
+      ],
+      "correct": 2
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "unitId": 1,
+  "unitName": "Introduction (Giriş)",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Flutter'da kullanıcı arayüzü oluştururken temel yapı taşı aşağıdakilerden hangisidir?",
+      "options": [
+        "Function",
+        "Widget",
+        "Module",
+        "Component"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 2,
+      "question": "Kullanıcı etkileşimiyle durumu (state) değişmeyen widget türü hangisidir?",
+      "options": [
+        "Stateful",
+        "Dynamic",
+        "Stateless",
+        "Inherited"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 3,
+      "question": "Uygulamayı tamamen yeniden başlatmadan sadece yapılan UI değişikliklerini saniyeler içinde görmeyi sağlayan özellik nedir?",
+      "options": [
+        "Hot Restart",
+        "Hot Reload",
+        "Debug Mode",
+        "JIT Compilation"
+      ],
+      "correct": 1
+    }
+  ]
+}
