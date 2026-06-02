@@ -746,9 +746,14 @@ function showResults() {
         </button>
       </div>
       
-      <button class="back-button" id="homeBtn" style="margin-top: 2rem;">
-        ← Ana Sayfaya Dön
-      </button>
+      <div style="display: flex; flex-direction: column; align-items: center; gap: 0.5rem; margin-top: 2rem;">
+        <button class="back-button" id="backToUnitsBtn">
+          ← Ünitelere Geri Dön
+        </button>
+        <button class="back-button" id="homeBtn">
+          ← Ana Sayfaya Dön
+        </button>
+      </div>
     </div>
   `;
 
@@ -759,6 +764,14 @@ function showResults() {
 
   document.getElementById('retryBtn').addEventListener('click', () => {
     window.location.hash = `quiz/${state.selectedCourse}/${state.selectedUnit}`;
+  });
+
+  document.getElementById('backToUnitsBtn').addEventListener('click', () => {
+    if (state.selectedCourse) {
+      window.location.hash = `course/${state.selectedCourse}`;
+    } else {
+      window.location.hash = 'home';
+    }
   });
 
   document.getElementById('homeBtn').addEventListener('click', () => {
