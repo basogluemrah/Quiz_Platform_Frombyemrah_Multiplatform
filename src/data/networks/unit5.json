@@ -15,7 +15,7 @@
     },
     {
       "id": 102,
-      "question": "Hat koptuğunda yönlendiricilerin haberleşip yeni rotayı kendi bulduğu",
+      "question": "Hat koptuğunda yönlendiricilerin haberleşip yeni rotayı kendi bulduğu sisteme ne ad verilir?",
       "options": [
         "Statik",
         "Dinamik",
@@ -26,7 +26,7 @@
     },
     {
       "id": 103,
-      "question": "Eski tip bir protokol olan ve sadece \"sekme sayısına (hop count)\" bakan",
+      "question": "Eski tip bir protokol olan ve sadece sekme sayısına bakan dinamik protokol hangisidir?",
       "options": [
         "OSPF",
         "EIGRP",
@@ -37,10 +37,10 @@
     },
     {
       "id": 104,
-      "question": "OSPF (Açık En Kısa Yol İlk) protokolü en iyi yolu seçerken neyi ölçüt",
+      "question": "OSPF protokolü en iyi yolu seçerken neyi ölçüt alır?",
       "options": [
         "Sekme sayısı",
-        "Maliyet (Bant Genişliği)",
+        "Maliyet",
         "Gecikme süresi",
         "Güvenilirlik"
       ],
@@ -48,7 +48,7 @@
     },
     {
       "id": 105,
-      "question": "Dijkstra algoritmasını kullanan \"Link-State\" tabanlı dinamik protokol",
+      "question": "Dijkstra algoritmasını kullanan \"Link-State\" tabanlı dinamik protokol hangisidir?",
       "options": [
         "RIP",
         "BGP",
@@ -59,7 +59,7 @@
     },
     {
       "id": 106,
-      "question": "İnternetin omurgasında, kıtalar ve büyük otonom sistemler (ISS'ler) arası",
+      "question": "İnternetin omurgasında, kıtalar ve büyük otonom sistemler arası çalışan protokol hangisidir?",
       "options": [
         "OSPF",
         "RIP",
@@ -70,7 +70,7 @@
     },
     {
       "id": 107,
-      "question": "RIP protokolünde bir paketin geçebileceği maksimum yönlendirici",
+      "question": "RIP protokolünde bir paketin geçebileceği maksimum yönlendirici sınırı nedir?",
       "options": [
         "5",
         "15",
@@ -81,18 +81,18 @@
     },
     {
       "id": 108,
-      "question": "Bir router'da aynı hedefe hem Statik rota hem OSPF rotası varsa, hangisi",
+      "question": "Bir router'da aynı hedefe hem Statik rota hem OSPF rotası varsa, hangisi seçilir?",
       "options": [
         "OSPF seçilir",
         "İkisi aynı anda kullanılır",
-        "Statik rota seçilir çünkü AD'si (1) daha güvenilirdir",
+        "Statik rota seçilir çünkü AD'si daha güvenilirdir",
         "Hiçbiri çalışmaz"
       ],
       "correct": 2
     },
     {
       "id": 109,
-      "question": "İç ağdaki özel (Private) IP'leri, internete çıkarken ortak (Public) IP'ye",
+      "question": "İç ağdaki özel IP'leri, internete çıkarken ortak IP'ye çeviren sistem nedir?",
       "options": [
         "ARP",
         "DHCP",
@@ -103,7 +103,7 @@
     },
     {
       "id": 110,
-      "question": "Hangisi özel (Private) IP bloklarından biridir?",
+      "question": "Hangisi özel IP bloklarından biridir?",
       "options": [
         "8.8.8.8",
         "192.168.1.1",
@@ -114,7 +114,7 @@
     },
     {
       "id": 111,
-      "question": "Bir dış Public IP'nin, iç ağdaki tek bir Private IP ile eşleştiği birebir NAT türü",
+      "question": "Bir dış ortak IP'nin, iç ağdaki tek bir özel IP ile eşleştiği birebir NAT türü hangisidir?",
       "options": [
         "Dinamik NAT",
         "PAT",
@@ -125,9 +125,9 @@
     },
     {
       "id": 112,
-      "question": "Binlerce iç ağ kullanıcısının sadece 1 adet Public IP üzerinden internete",
+      "question": "Binlerce iç ağ kullanıcısının sadece 1 adet ortak IP üzerinden internete çıkmasını sağlayan NAT türü nedir?",
       "options": [
-        "PAT (Port Adres Çevirisi)",
+        "PAT",
         "Statik NAT",
         "ARP",
         "Çift NAT"
@@ -147,10 +147,10 @@
     },
     {
       "id": 114,
-      "question": "Dinamik yönlendirme protokollerinin kendi aralarında anlaştığı mesajlara",
+      "question": "Dinamik yönlendirme protokollerinin kendi aralarında anlaştığı mesajlara ne denir?",
       "options": [
         "Ping",
-        "Update (Güncelleme)",
+        "Güncelleme",
         "ACK",
         "SYN"
       ],
@@ -161,7 +161,7 @@
       "question": "OSPF protokolü hiyerarşik yapı kurmak için ağı neylere böler?",
       "options": [
         "Portlara",
-        "Alanlara (Area)",
+        "Alanlara",
         "Sınıflara",
         "Bloklara"
       ],
@@ -169,7 +169,7 @@
     },
     {
       "id": 116,
-      "question": "RIP kaç saniyede bir tüm tablosunu yayınlar (Broadcast)?",
+      "question": "RIP kaç saniyede bir tüm tablosunu yayınlar?",
       "options": [
         "5 saniye",
         "30 saniye",
@@ -180,7 +180,7 @@
     },
     {
       "id": 117,
-      "question": "OSPF'in yönlendiriciler arası komşuluk kurmak için yolladığı paketin adı",
+      "question": "OSPF'in yönlendiriciler arası komşuluk kurmak için yolladığı paketin adı nedir?",
       "options": [
         "Hello",
         "Goodbye",
@@ -191,10 +191,10 @@
     },
     {
       "id": 118,
-      "question": "OSPF tabloları çok büyüdüğünde ağ yükünü azaltmak için oluşturulan",
+      "question": "OSPF tabloları çok büyüdüğünde ağ yükünü azaltmak için oluşturulan merkezi alan nedir?",
       "options": [
         "Area 51",
-        "Area 0 (Backbone Area)",
+        "Area 0",
         "Area 100",
         "Edge Area"
       ],
@@ -202,11 +202,11 @@
     },
     {
       "id": 119,
-      "question": "Statik yönlendirmenin dinamik yönlendirmeye göre en büyük avantajı",
+      "question": "Statik yönlendirmenin dinamik yönlendirmeye göre en büyük avantajı nedir?",
       "options": [
         "Kurulumu çok zordur",
         "Hat koptuğunda anında bulur",
-        "Cihazı (İşlemci/RAM) hiç yormaz",
+        "Cihazı hiç yormaz",
         "Sınırsız ağa hitap eder"
       ],
       "correct": 2
@@ -224,7 +224,7 @@
     },
     {
       "id": 121,
-      "question": "İç ağ (LAN) cihazlarına internet üzerinden doğrudan ulaşılamamasının",
+      "question": "İç ağ cihazlarına internet üzerinden doğrudan ulaşılamamasının temel sebebi nedir?",
       "options": [
         "Kabloların yetmemesi",
         "MAC adreslerinin gizli olması",
@@ -257,10 +257,10 @@
     },
     {
       "id": 124,
-      "question": "Dinamik NAT havuzunda yeterli Public IP kalmazsa ne olur?",
+      "question": "Dinamik NAT havuzunda yeterli ortak IP kalmazsa ne olur?",
       "options": [
         "Sistem çöker",
-        "Yeni gelen cihaz internete çıkamaz (Bekler)",
+        "Yeni gelen cihaz internete çıkamaz",
         "Otomatik PAT'a geçer",
         "İnterneti hızlandırır"
       ],

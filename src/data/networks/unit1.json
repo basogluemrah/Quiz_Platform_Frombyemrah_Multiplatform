@@ -15,7 +15,7 @@
     },
     {
       "id": 2,
-      "question": "1984 yılında ağ iletişimini standartlaştırmak için oluşturulan referans modeli",
+      "question": "1984 yılında ağ iletişimini standartlaştırmak için oluşturulan referans modeli nedir?",
       "options": [
         "TCP/IP",
         "IEEE 802",
@@ -81,7 +81,7 @@
     },
     {
       "id": 8,
-      "question": "Hangi OSI katmanı yönlendirme (IP) yapar?",
+      "question": "Hangi OSI katmanı yönlendirme yapar?",
       "options": [
         "Fiziksel",
         "Sunum",
@@ -117,7 +117,7 @@
       "question": "Kablonun içindeki tellerin kopuk olup olmadığını anlamak için ne testi yapılır?",
       "options": [
         "Çarpışma",
-        "Süreklilik (Continuity)",
+        "Süreklilik",
         "Hız",
         "Gecikme"
       ],
@@ -147,18 +147,18 @@
     },
     {
       "id": 14,
-      "question": "Çapraz (Crossover) kablo genellikle hangi durumda kullanılır?",
+      "question": "Çapraz kablo genellikle hangi durumda kullanılır?",
       "options": [
         "PC'den Switch'e",
-        "Aynı tür iki cihazı (PC-P",
-        "bağlarken C) Router'dan Modem'e",
+        "Aynı tür iki cihazı bağlarken",
+        "Router'dan Modem'e",
         "Switch'ten Hub'a"
       ],
       "correct": 1
     },
     {
       "id": 15,
-      "question": "Bant Genişliği (Bandwidth) neyi ifade eder?",
+      "question": "Bant Genişliği neyi ifade eder?",
       "options": [
         "Gerçekleşen anlık hızı",
         "Teorik maksimum kapasiteyi",
@@ -169,7 +169,7 @@
     },
     {
       "id": 16,
-      "question": "OSI modelinde çerçeveleme (Framing) hangi katmanda yapılır?",
+      "question": "OSI modelinde çerçeveleme hangi katmanda yapılır?",
       "options": [
         "Veri Bağı",
         "Taşıma",
@@ -180,7 +180,7 @@
     },
     {
       "id": 17,
-      "question": "Ağ kartı (NIC) hangi donanım bileşeninin üzerindedir?",
+      "question": "Ağ kartı hangi donanım bileşeninin üzerindedir?",
       "options": [
         "Monitör",
         "Anakart",
@@ -238,7 +238,7 @@
       "question": "Kablolardaki elektrik sinyallerinin mesafeyle zayıflamasına ne denir?",
       "options": [
         "Jitter",
-        "Attenuation (Zayıflama)",
+        "Zayıflama",
         "Crosstalk",
         "Latency"
       ],
@@ -268,12 +268,12 @@
     },
     {
       "id": 25,
-      "question": "Hangi topolojide merkezde bir cihaz (Hub/Switch) bulunur?",
+      "question": "Hangi topolojide merkezde bir cihaz bulunur?",
       "options": [
         "Halka",
-        "Ortak Yol (Bus)",
+        "Ortak Yol",
         "Yıldız",
-        "Ağsı (Mesh)"
+        "Ağsı"
       ],
       "correct": 2
     }

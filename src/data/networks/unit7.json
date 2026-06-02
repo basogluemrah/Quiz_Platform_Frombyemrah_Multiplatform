@@ -4,7 +4,7 @@
   "questions": [
     {
       "id": 151,
-      "question": "OSI modelinin 4. katmanı (Taşıma) neyden sorumludur?",
+      "question": "OSI modelinin 4. katmanı neyden sorumludur?",
       "options": [
         "Web sayfası oluşturmaktan",
         "Voltajdan",
@@ -26,7 +26,7 @@
     },
     {
       "id": 153,
-      "question": "Hangi taşıma protokolü bağlantı tabanlıdır ve verinin \"kesinlikle\" ulaştığını",
+      "question": "Hangi taşıma protokolü bağlantı tabanlıdır ve verinin \"kesinlikle\" ulaştığını garanti eder?",
       "options": [
         "UDP",
         "IP",
@@ -37,7 +37,7 @@
     },
     {
       "id": 154,
-      "question": "Hangi taşıma protokolü onay (ACK) mekanizması kullanmaz, veriyi",
+      "question": "Hangi taşıma protokolü onay mekanizması kullanmaz, veriyi \"gönderir ve unutur\"?",
       "options": [
         "TCP",
         "OSPF",
@@ -48,7 +48,7 @@
     },
     {
       "id": 155,
-      "question": "Bilgisayarda aynı anda çalışan farklı uygulamaları (Örn: Chrome, Spotify,",
+      "question": "Bilgisayarda aynı anda çalışan farklı uygulamaları (Örn: Chrome, Spotify, Oyun) ağda birbirinden ayıran adres nedir?",
       "options": [
         "IP Adresi",
         "MAC Adresi",
@@ -62,7 +62,7 @@
       "question": "TCP bağlantısı kurulurken iki tarafın selamlaştığı sürece ne ad verilir?",
       "options": [
         "Çarpışma",
-        "3-Yönlü El Sıkışma (3-Way Handshake)",
+        "3-Yönlü El Sıkışma",
         "Yönlendirme",
         "Çerçeveleme"
       ],
@@ -81,18 +81,18 @@
     },
     {
       "id": 158,
-      "question": "TCP, gönderdiği verinin karşıya ulaştığını hangi bayrak (flag) ile anlar?",
+      "question": "TCP, gönderdiği verinin karşıya ulaştığını hangi bayrak ile anlar?",
       "options": [
         "PSH",
         "URG",
-        "ACK (Acknowledgment)",
+        "ACK",
         "RST"
       ],
       "correct": 2
     },
     {
       "id": 159,
-      "question": "Canlı yayınlar, VoIP (sesli aramalar) ve online oyunlarda genellikle hangi",
+      "question": "Canlı yayınlar, sesli aramalar ve online oyunlarda genellikle hangi protokol tercih edilir?",
       "options": [
         "TCP",
         "UDP",
@@ -106,7 +106,7 @@
       "question": "UDP'nin canlı yayınlarda TCP'ye tercih edilme sebebi nedir?",
       "options": [
         "Daha güvenli olması",
-        "TCP'nin hata kontrolü yaparken gecikmelere (lag) sebep olması",
+        "TCP'nin hata kontrolü yaparken gecikmelere sebep olması",
         "Şifreli olması",
         "Dosya aktarımında iyi olması"
       ],
@@ -114,9 +114,9 @@
     },
     {
       "id": 161,
-      "question": "TCP'de alıcının kapasitesinin dolmasını engellemek için veri gönderme",
+      "question": "TCP'de alıcının kapasitesinin dolmasını engellemek için veri gönderme hızını ayarlayan mekanizma nedir?",
       "options": [
-        "Kayan Pencere (Sliding Window)",
+        "Kayan Pencere",
         "ARP",
         "CSMA/CD",
         "Spanning Tree"
@@ -125,7 +125,7 @@
     },
     {
       "id": 162,
-      "question": "Port numaraları toplam kaç tanedir (maksimum değer)?",
+      "question": "Port numaraları toplam kaç tanedir?",
       "options": [
         "1024",
         "4096",
@@ -136,7 +136,7 @@
     },
     {
       "id": 163,
-      "question": "HTTP (Web) trafiği varsayılan olarak hangi portu kullanır?",
+      "question": "HTTP trafiği varsayılan olarak hangi portu kullanır?",
       "options": [
         "21",
         "22",
@@ -161,7 +161,7 @@
       "question": "IP adresi ve Port numarasının birleştirilmiş haline ne ad verilir?",
       "options": [
         "Subnet",
-        "Socket (Soket)",
+        "Soket",
         "Frame",
         "Gateway"
       ],
@@ -169,7 +169,7 @@
     },
     {
       "id": 166,
-      "question": "Bir TCP bağlantısını \"kibarca\" kapatmak için gönderilen bayrak (flag)",
+      "question": "Bir TCP bağlantısını \"kibarca\" kapatmak için gönderilen bayrak nedir?",
       "options": [
         "FIN",
         "RST",
@@ -180,18 +180,18 @@
     },
     {
       "id": 167,
-      "question": "Bilinen (Well-Known) port numaraları hangi aralıktadır?",
+      "question": "Bilinen port numaraları hangi aralıktadır?",
       "options": [
-        "0 - 1023",
-        "1024 - 49151",
-        "49152 - 65535",
+        "0-1023",
+        "1024-49151",
+        "49152-65535",
         "Sadece 80"
       ],
       "correct": 0
     },
     {
       "id": 168,
-      "question": "İstemci (Client) bir web sitesine bağlanırken kaynak portunu nereden",
+      "question": "İstemci bir web sitesine bağlanırken kaynak portunu nereden bulur?",
       "options": [
         "Manuel gireriz",
         "0-1023 arasından alır",
@@ -202,7 +202,7 @@
     },
     {
       "id": 169,
-      "question": "Kötü niyetli kişilerin sunucuya sürekli SYN paketi atıp, bağlantıyı yarım",
+      "question": "Kötü niyetli kişilerin sunucuya sürekli SYN paketi atıp, bağlantıyı yarım bırakarak sunucuyu çökerttiği saldırı nedir?",
       "options": [
         "Phishing",
         "SYN Flood (DDoS)",
@@ -213,7 +213,7 @@
     },
     {
       "id": 170,
-      "question": "DNS sorguları hıza ihtiyaç duyduğu için varsayılan olarak hangi protokolü",
+      "question": "DNS sorguları hıza ihtiyaç duyduğu için varsayılan olarak hangi protokolü kullanır?",
       "options": [
         "TCP",
         "UDP",
@@ -224,7 +224,7 @@
     },
     {
       "id": 171,
-      "question": "Büyük boyutlu bir dosya transferi (FTP) yapılacaksa, verinin kayıpsız",
+      "question": "Büyük boyutlu bir dosya transferi yapılacaksa, verinin kayıpsız ulaşması için hangisi seçilir?",
       "options": [
         "UDP",
         "TCP",
@@ -235,9 +235,9 @@
     },
     {
       "id": 172,
-      "question": "Ağ trafiği yoğunlaştığında paketlerin atılmasına veya gecikmesine ne ad",
+      "question": "Ağ trafiği yoğunlaştığında paketlerin atılmasına veya gecikmesine ne ad verilir?",
       "options": [
-        "Sıkışıklık (Congestion)",
+        "Sıkışıklık",
         "Pencereleme",
         "El Sıkışma",
         "Çerçeveleme"
@@ -246,7 +246,7 @@
     },
     {
       "id": 173,
-      "question": "TCP başlığı (Header) minimum kaç bayttır?",
+      "question": "TCP başlığı minimum kaç bayttır?",
       "options": [
         "8",
         "10",
@@ -268,11 +268,11 @@
     },
     {
       "id": 175,
-      "question": "Hangisi TCP başlığında (Header) bulunup, UDP başlığında BULUNMAYAN",
+      "question": "Hangisi TCP başlığında bulunup, UDP başlığında BULUNMAYAN bir alandır?",
       "options": [
         "Kaynak Portu",
         "Hedef Portu",
-        "Sıra Numarası (Sequence Number)",
+        "Sıra Numarası",
         "Checksum"
       ],
       "correct": 2

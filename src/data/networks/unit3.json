@@ -8,7 +8,7 @@
       "options": [
         "Segment",
         "Datagram",
-        "Çerçeve (Frame)",
+        "Çerçeve",
         "Bit"
       ],
       "correct": 2
@@ -26,7 +26,7 @@
     },
     {
       "id": 53,
-      "question": "Cihazların aynı anda veri gönderip çarpışmasını engellemek için Ethernet'te",
+      "question": "Cihazların aynı anda veri gönderip çarpışmasını engellemek için Ethernet'te kullanılan protokol nedir?",
       "options": [
         "OSPF",
         "ARP",
@@ -37,7 +37,7 @@
     },
     {
       "id": 54,
-      "question": "Veri iletimindeki hataları tespit etmek için çerçevenin sonuna eklenen",
+      "question": "Veri iletimindeki hataları tespit etmek için çerçevenin sonuna eklenen matematiksel kontrol değeri nedir?",
       "options": [
         "TTL",
         "CRC",
@@ -51,7 +51,7 @@
       "question": "Hub ile Switch arasındaki en temel fark nedir?",
       "options": [
         "Hub daha hızlıdır",
-        "Switch çarpışmaları önler (portları izole eder)",
+        "Switch çarpışmaları önler",
         "Hub IP kullanır",
         "Switch sadece kablosuz çalışır"
       ],
@@ -92,7 +92,7 @@
     },
     {
       "id": 59,
-      "question": "Bir cihaz hedef cihazın IP'sini biliyor ama MAC adresini bilmiyorsa hangi",
+      "question": "Bir cihaz hedef cihazın IP'sini biliyor ama MAC adresini bilmiyorsa hangi protokolü çalıştırır?",
       "options": [
         "DNS",
         "DHCP",
@@ -103,7 +103,7 @@
     },
     {
       "id": 60,
-      "question": "CSMA/CD'deki \"CD\" (Collision Detection) ne demektir?",
+      "question": "CSMA/CD'deki \"CD\" ne demektir?",
       "options": [
         "Ortam erişimi",
         "Çarpışma algılama",
@@ -114,7 +114,7 @@
     },
     {
       "id": 61,
-      "question": "Veri Bağı Katmanı (L2) OSI modelinde donanım ve yazılımı birbirine bağlayan",
+      "question": "Veri Bağı Katmanı OSI modelinde donanım ve yazılımı birbirine bağlayan hangi iki alt katmandan oluşur?",
       "options": [
         "TCP ve UDP",
         "IP ve ICMP",
@@ -136,7 +136,7 @@
     },
     {
       "id": 63,
-      "question": "İlk üretilen Ethernet standardı (10Base5) hangi kabloyu kullanıyordu?",
+      "question": "İlk üretilen Ethernet standardı hangi kabloyu kullanıyordu?",
       "options": [
         "UTP",
         "Fiber",
@@ -147,7 +147,7 @@
     },
     {
       "id": 64,
-      "question": "Ağ arayüz kartına (NIC) MAC adresini kim atar?",
+      "question": "Ağ arayüz kartına MAC adresini kim atar?",
       "options": [
         "Ağ yöneticisi",
         "DHCP sunucusu",
@@ -161,7 +161,7 @@
       "question": "Switch henüz hedef MAC adresini CAM tablosunda bulamazsa ne yapar?",
       "options": [
         "Paketi düşürür",
-        "Gelen port hariç tüm portlara gönderir (Flooding)",
+        "Gelen port hariç tüm portlara gönderir",
         "Yönlendiriciye yollar",
         "Paketi saklar"
       ],
@@ -169,7 +169,7 @@
     },
     {
       "id": 66,
-      "question": "Çerçeve (Frame) boyutunun Ethernet'te standart maksimum (MTU) değeri nedir?",
+      "question": "Çerçeve boyutunun Ethernet'te standart maksimum (MTU) değeri nedir?",
       "options": [
         "1500 Bayt",
         "64 Bayt",
@@ -180,10 +180,10 @@
     },
     {
       "id": 67,
-      "question": "Ağ çökmesini engellemek için döngüleri (Loop) tespit edip bazı portları kapatan",
+      "question": "Ağ çökmesini engellemek için döngüleri tespit edip bazı portları kapatan protokol nedir?",
       "options": [
         "ARP",
-        "STP (Spanning Tree Protocol)",
+        "STP",
         "DHCP",
         "OSPF"
       ],
@@ -202,7 +202,7 @@
     },
     {
       "id": 69,
-      "question": "\"Store-and-Forward\" (Depola ve İlet) anahtarlama yönteminin özelliği nedir?",
+      "question": "\"Store-and-Forward\" anahtarlama yönteminin özelliği nedir?",
       "options": [
         "En hızlısıdır",
         "Çerçevenin tamamını alır, CRC kontrolü yapar, hatasızsa iletir",
@@ -213,7 +213,7 @@
     },
     {
       "id": 70,
-      "question": "Otomatik anlaşma (Auto-negotiation) ne işe yarar?",
+      "question": "Otomatik anlaşma ne işe yarar?",
       "options": [
         "IP adresini otomatik bulur",
         "İki cihazın ortak hız ve duplex modunu otomatik seçmesini sağlar",
@@ -224,10 +224,10 @@
     },
     {
       "id": 71,
-      "question": "CSMA/CD kullanan bir cihaz çarpışma hissederse diğer cihazları uyarmak için",
+      "question": "CSMA/CD kullanan bir cihaz çarpışma hissederse diğer cihazları uyarmak için hatta ne gönderir?",
       "options": [
         "ACK Sinyali",
-        "Jam (Sıkışma) Sinyali",
+        "Jam Sinyali",
         "Hello Sinyali",
         "Reset Sinyali"
       ],
@@ -235,7 +235,7 @@
     },
     {
       "id": 72,
-      "question": "ARP önbelleği (Cache) bilgisayarda ne işe yarar?",
+      "question": "ARP önbelleği bilgisayarda ne işe yarar?",
       "options": [
         "Silinen dosyaları tutar",
         "En son ziyaret edilen siteleri tutar",
@@ -246,20 +246,20 @@
     },
     {
       "id": 73,
-      "question": "Preamble (Başlangıç) alanının Ethernet çerçevesindeki görevi nedir?",
+      "question": "Preamble alanının Ethernet çerçevesindeki görevi nedir?",
       "options": [
         "Hedef adresi belirlemek",
         "Hataları kontrol etmek",
-        "Alıcının saatini (clock) senkronize etmesini sağlamak",
+        "Alıcının saatini senkronize etmesini sağlamak",
         "IP versiyonunu belirtmek"
       ],
       "correct": 2
     },
     {
       "id": 74,
-      "question": "Bir MAC adresinin ilk 24 biti (3 baytı) neyi ifade eder?",
+      "question": "Bir MAC adresinin ilk 24 biti neyi ifade eder?",
       "options": [
-        "Üretici firma kodunu (OUI)",
+        "Üretici firma kodunu",
         "Cihazın seri numarasını",
         "Ağa bağlı olduğu portu",
         "IP adresini"
@@ -268,11 +268,11 @@
     },
     {
       "id": 75,
-      "question": "CSMA/CA (Çarpışmadan Kaçınma) genellikle hangi ağlarda kullanılır?",
+      "question": "CSMA/CA genellikle hangi ağlarda kullanılır?",
       "options": [
         "Kablolu LAN",
         "Fiber Optik",
-        "Wi-Fi (Kablosuz ağlar)",
+        "Wi-Fi",
         "WAN"
       ],
       "correct": 2

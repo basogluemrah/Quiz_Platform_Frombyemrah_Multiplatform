@@ -4,7 +4,7 @@
   "questions": [
     {
       "id": 76,
-      "question": "OSI modelinde paketlerin ağlar arası yönlendirilmesinden hangi katman",
+      "question": "OSI modelinde paketlerin ağlar arası yönlendirilmesinden hangi katman sorumludur?",
       "options": [
         "Taşıma",
         "Ağ",
@@ -37,10 +37,10 @@
     },
     {
       "id": 79,
-      "question": "Bir yönlendirici (Router) paketleri hedefe iletmek için cihazın içindeki hangi",
+      "question": "Bir yönlendirici paketleri hedefe iletmek için cihazın içindeki hangi tabloya bakar?",
       "options": [
         "MAC Tablosu",
-        "Yönlendirme (Routing) Tablosu",
+        "Yönlendirme Tablosu",
         "ARP Tablosu",
         "DNS Tablosu"
       ],
@@ -59,9 +59,9 @@
     },
     {
       "id": 81,
-      "question": "Yönlendiriciler, IP adreslerinin içinden hangi bilginin ağa mı yoksa cihaza mı ait",
+      "question": "Yönlendiriciler, IP adreslerinin içinden hangi bilginin ağa mı yoksa cihaza mı ait olduğunu neyle anlar?",
       "options": [
-        "Alt Ağ Maskesi (Subnet Mask)",
+        "Alt Ağ Maskesi",
         "MAC Adresi",
         "Port Numarası",
         "TTL"
@@ -70,18 +70,18 @@
     },
     {
       "id": 82,
-      "question": "Bir paketin sonsuza kadar ağda dönmesini engellemek için her yönlendiricide",
+      "question": "Bir paketin sonsuza kadar ağda dönmesini engellemek için her yönlendiricide değeri 1 düşen alan nedir?",
       "options": [
         "Checksum",
         "Protokol",
-        "TTL (Time To Live)",
+        "TTL",
         "Version"
       ],
       "correct": 2
     },
     {
       "id": 83,
-      "question": "Sınıflı IP adreslemede (Classful) A Sınıfı adreslerin varsayılan ağ maskesi nedir?",
+      "question": "Sınıflı IP adreslemede A Sınıfı adreslerin varsayılan ağ maskesi nedir?",
       "options": [
         "255.255.0.0",
         "255.255.255.0",
@@ -92,10 +92,10 @@
     },
     {
       "id": 84,
-      "question": "Adres israfını önlemek için tasarlanan ve ağ maskelerinin \"/24\", \"/26\" gibi",
+      "question": "Adres israfını önlemek için tasarlanan ve ağ maskelerinin \"/24\", \"/26\" gibi değişken gösterildiği yapı nedir?",
       "options": [
         "NAT",
-        "CIDR (Sınıfsız Yönlendirme)",
+        "CIDR",
         "DHCP",
         "VLAN"
       ],
@@ -103,7 +103,7 @@
     },
     {
       "id": 85,
-      "question": "Bir alt ağ (Subnet) yaratırken, host bitlerinden \"ödünç alınarak\" ne oluşturulur?",
+      "question": "Bir alt ağ yaratırken, host bitlerinden \"ödünç alınarak\" ne oluşturulur?",
       "options": [
         "Yeni ağ bitleri",
         "MAC adresleri",
@@ -114,9 +114,9 @@
     },
     {
       "id": 86,
-      "question": "Bir bilgisayar kendi ağında olmayan bir yere veri gönderecekse, paketi ağdaki",
+      "question": "Bir bilgisayar kendi ağında olmayan bir yere veri gönderecekse, paketi ağdaki hangi cihaza yollar?",
       "options": [
-        "Varsayılan Ağ Geçidine (Default Gateway)",
+        "Varsayılan Ağ Geçidine",
         "DNS Sunucusuna",
         "Hub'a",
         "DHCP Sunucusuna"
@@ -125,10 +125,10 @@
     },
     {
       "id": 87,
-      "question": "Yönlendirme tablosunda hedef IP birden fazla kayıtla eşleşiyorsa, Router'ın",
+      "question": "Yönlendirme tablosunda hedef IP birden fazla kayıtla eşleşiyorsa, yönlendiricinin uyguladığı kural nedir?",
       "options": [
         "En kısa rota kuralı",
-        "En uzun önek eşleşmesi (Longest Prefix Match)",
+        "En uzun önek eşleşmesi",
         "En düşük MAC kuralı",
         "Rastgele kuralı"
       ],
@@ -136,7 +136,7 @@
     },
     {
       "id": 88,
-      "question": "Yönlendiricilerde arama işlemini saniyede milyonlarca kez hızlandıran",
+      "question": "Yönlendiricilerde arama işlemini saniyede milyonlarca kez hızlandıran donanımsal bellek çipi hangisidir?",
       "options": [
         "RAM",
         "ROM",
@@ -160,8 +160,8 @@
       "id": 90,
       "question": "IPv4'te her ağın \"ilk\" IP adresi ne olarak ayrılmıştır?",
       "options": [
-        "Broadcast (Yayın)",
-        "Ağ (Network) Adresi",
+        "Broadcast",
+        "Ağ Adresi",
         "Gateway Adresi",
         "Döngü adresi"
       ],
@@ -173,7 +173,7 @@
       "options": [
         "Yönlendirici",
         "Ağ Adresi",
-        "Broadcast (Yayın) Adresi",
+        "Broadcast Adresi",
         "Sunucu adresi"
       ],
       "correct": 2
@@ -183,7 +183,7 @@
       "question": "127.0.0.1 IP adresi ne amaçla kullanılır?",
       "options": [
         "İnternete çıkmak",
-        "Kendi ağ kartını test etmek (Loopback)",
+        "Kendi ağ kartını test etmek",
         "Multicast",
         "Özel ağ kurmak"
       ],
@@ -202,7 +202,7 @@
     },
     {
       "id": 94,
-      "question": "Bir router'ın iki bacağı (interface) aynı alt ağda (subnet) olabilir mi?",
+      "question": "Bir router'ın iki arayüzü aynı alt ağda olabilir mi?",
       "options": [
         "Evet, her zaman",
         "Hayır, router farklı ağları bağlar",
@@ -224,7 +224,7 @@
     },
     {
       "id": 96,
-      "question": "Alt ağ oluştururken (Subnetting), kullanılabilecek geçerli host sayısını bulmak",
+      "question": "Alt ağ oluştururken, kullanılebilecek geçerli host sayısını bulmak için hangi formül kullanılır?",
       "options": [
         "2^n",
         "2^n - 1",
@@ -235,7 +235,7 @@
     },
     {
       "id": 97,
-      "question": "Sınıflı yapıda 192.168.1.0 hangi sınıfa (Class) aittir?",
+      "question": "Sınıflı yapıda 192.168.1.0 hangi sınıfa aittir?",
       "options": [
         "A Sınıfı",
         "B Sınıfı",
@@ -246,7 +246,7 @@
     },
     {
       "id": 98,
-      "question": "IP ağlarında ping atıldığında arka planda çalışan ve hata bildirimlerini taşıyan",
+      "question": "IP ağlarında ping atıldığında arka planda çalışan ve hata bildirimlerini taşıyan protokol hangisidir?",
       "options": [
         "TCP",
         "UDP",
@@ -272,7 +272,7 @@
       "options": [
         "Hatalı rota",
         "Sadece iç ağ",
-        "Varsayılan (Default) Rota",
+        "Varsayılan Rota",
         "Loopback"
       ],
       "correct": 2
