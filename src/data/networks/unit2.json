@@ -1,0 +1,281 @@
+{
+  "unitId": 2,
+  "unitName": "Fiziksel Katman ve Sinyaller",
+  "questions": [
+    {
+      "id": 26,
+      "question": "Sürekli ve dalgalı bir forma sahip olan sinyal türü hangisidir?",
+      "options": [
+        "Dijital",
+        "Analog",
+        "Manchester",
+        "Bant"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 27,
+      "question": "Saniyedeki dalga döngüsü sayısına ne ad verilir?",
+      "options": [
+        "Frekans",
+        "Genlik",
+        "Dalga boyu",
+        "Voltaj"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 28,
+      "question": "Dijital sinyalin en belirgin özelliği nedir?",
+      "options": [
+        "Sonsuz değer alması",
+        "0 ve 1 gibi kesikli seviyeleri olması",
+        "Gürültüye çok hassas olması",
+        "Sinüs dalgası şeklinde olması"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 29,
+      "question": "Kabloların birbirini elektromanyetik olarak etkilemesi (parazit) durumuna ne",
+      "options": [
+        "CRC",
+        "NEXT (Crosstalk)",
+        "Ping",
+        "Boot"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 30,
+      "question": "Manchester kodlamasının ana amacı nedir?",
+      "options": [
+        "Dosyaları sıkıştırmak",
+        "Saat (Clock) senkronizasyonunu sağlamak",
+        "IP adresi dağıtmak",
+        "Şifreleme yapmak"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 31,
+      "question": "Sinyalin bir tam döngüsünün fiziksel uzunluğuna ne denir?",
+      "options": [
+        "Frekans",
+        "Periyot",
+        "Dalga boyu",
+        "Faz"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 32,
+      "question": "Modem ne işe yarar?",
+      "options": [
+        "Sadece IP dağıtır",
+        "MAC adreslerini kaydeder",
+        "Analog-Dijital dönüşümü (Modülasyon) yapar",
+        "Virüsleri engeller"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 33,
+      "question": "Bilgisayarların kendi içinde işlem yaparken kullandığı sinyal türü hangisidir?",
+      "options": [
+        "Analog",
+        "Radyo frekansı",
+        "Dijital",
+        "Mikrodalga"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 34,
+      "question": "Taşıyıcı sinyalin genliğinin (yüksekliğinin) veriye göre değiştirilmesi yöntemine ne",
+      "options": [
+        "ASK",
+        "FSK",
+        "PSK",
+        "QAM"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 35,
+      "question": "Birim zamanda (saniyede) iletilen bit sayısına ne denir?",
+      "options": [
+        "Frekans",
+        "Bit Rate",
+        "Baud Rate",
+        "Jitter"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 36,
+      "question": "Hangisi \"Unguided\" (Kablosuz) iletim ortamlarından biridir?",
+      "options": [
+        "Koaksiyel",
+        "Radyo Dalgaları",
+        "Fiber",
+        "UTP"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 37,
+      "question": "Dijital verinin gürültüye dayanıklılığı analog sinyale göre nasıldır?",
+      "options": [
+        "Daha düşüktür",
+        "Aynıdır",
+        "Daha yüksektir",
+        "Kabloya göre değişir"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 38,
+      "question": "Eski tip telefon hatları üzerinden internet sağlayan teknoloji hangisidir?",
+      "options": [
+        "Fiber",
+        "ADSL",
+        "Metro Ethernet",
+        "Wi-Fi"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 39,
+      "question": "Sinyalin güç seviyesine (ne kadar şiddetli olduğuna) ne ad verilir?",
+      "options": [
+        "Genlik (Amplitüd)",
+        "Faz",
+        "Saniye",
+        "Döngü"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 40,
+      "question": "İki farklı voltaj seviyesinin kullanıldığı (Örn: +5V ve 0V) iletim hangisidir?",
+      "options": [
+        "Analog dalga",
+        "Kare dalga (Dijital)",
+        "Sinüs dalgası",
+        "Radyo dalgası"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 41,
+      "question": "Fiber optik kablonun dışındaki koruyucu cam tabakaya ne ad verilir?",
+      "options": [
+        "Core",
+        "Cladding",
+        "Jacket",
+        "Kevlar"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 42,
+      "question": "Sinyalin başlangıç noktasının derecesine ne ad verilir?",
+      "options": [
+        "Faz",
+        "Frekans",
+        "Genlik",
+        "Kodlama"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 43,
+      "question": "Gürültünün veri iletimine olan etkisini açıklayan teorem kimindir?",
+      "options": [
+        "Nyquist",
+        "Shannon",
+        "Newton",
+        "Dijkstra"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 44,
+      "question": "Seri iletim ile paralel iletim arasındaki temel fark nedir?",
+      "options": [
+        "Paralelde veriler tek telden sırayla gider",
+        "Seride veriler aynı anda birden fazla telden gider",
+        "Paralel iletimde veriler birden fazla telden aynı anda gider",
+        "İkisi arasında hız farkı yoktur"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 45,
+      "question": "Hangisi dijital sinyal kodlama yöntemi değildir?",
+      "options": [
+        "NRZ",
+        "Manchester",
+        "QAM",
+        "AMI"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 46,
+      "question": "Analog veriyi dijitale çevirirken saniyede alınan örnek sayısına ne denir?",
+      "options": [
+        "Örnekleme frekansı",
+        "Baud hızı",
+        "Bit oranı",
+        "Kodlama sınırı"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 47,
+      "question": "Baseband (Temel bant) iletimin özelliği nedir?",
+      "options": [
+        "Tüm kablo kapasitesini tek bir sinyal kullanır",
+        "Aynı anda yüzlerce kanal açılır",
+        "Sadece fiberde çalışır",
+        "Analog bir yöntemdir"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 48,
+      "question": "Çoklayıcı (Multiplexer) cihazının görevi nedir?",
+      "options": [
+        "MAC adresini bulmak",
+        "Birden fazla sinyali tek hatta birleştirmek",
+        "Paketi yönlendirmek",
+        "Virüs taraması yapmak"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 49,
+      "question": "Işığın kırılma indeksinden faydalanarak veri ileten ortam hangisidir?",
+      "options": [
+        "UTP",
+        "STP",
+        "Koaksiyel",
+        "Fiber Optik"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 50,
+      "question": "Ses frekanslarının dijital telefon sistemlerindeki (PCM) standart bit hızı nedir?",
+      "options": [
+        "8 Kbps",
+        "64 Kbps",
+        "128 Kbps",
+        "1 Mbps"
+      ],
+      "correct": 1
+    }
+  ]
+}

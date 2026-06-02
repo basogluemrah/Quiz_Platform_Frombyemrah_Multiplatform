@@ -1,0 +1,281 @@
+{
+  "unitId": 3,
+  "unitName": "Veri Bağı Katmanı ve Ethernet",
+  "questions": [
+    {
+      "id": 51,
+      "question": "Veri Bağı Katmanında iletilen veri paketine ne ad verilir?",
+      "options": [
+        "Segment",
+        "Datagram",
+        "Çerçeve (Frame)",
+        "Bit"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 52,
+      "question": "MAC adresi kaç bittir?",
+      "options": [
+        "16",
+        "32",
+        "48",
+        "128"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 53,
+      "question": "Cihazların aynı anda veri gönderip çarpışmasını engellemek için Ethernet'te",
+      "options": [
+        "OSPF",
+        "ARP",
+        "CSMA/CD",
+        "TCP"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 54,
+      "question": "Veri iletimindeki hataları tespit etmek için çerçevenin sonuna eklenen",
+      "options": [
+        "TTL",
+        "CRC",
+        "FCS",
+        "IP"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 55,
+      "question": "Hub ile Switch arasındaki en temel fark nedir?",
+      "options": [
+        "Hub daha hızlıdır",
+        "Switch çarpışmaları önler (portları izole eder)",
+        "Hub IP kullanır",
+        "Switch sadece kablosuz çalışır"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 56,
+      "question": "Hedef MAC adresi FF:FF:FF:FF:FF:FF olan bir paket hangi tür bir pakettir?",
+      "options": [
+        "Unicast",
+        "Multicast",
+        "Broadcast",
+        "Anycast"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 57,
+      "question": "Switch'ler cihazların yerini öğrenmek için çerçevenin neresine bakar?",
+      "options": [
+        "Kaynak IP",
+        "Hedef IP",
+        "Hedef MAC",
+        "Kaynak MAC"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 58,
+      "question": "Öğrenilen MAC adresleri Switch'in hangi tablosuna yazılır?",
+      "options": [
+        "ARP Tablosu",
+        "Yönlendirme Tablosu",
+        "CAM Tablosu",
+        "NAT Tablosu"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 59,
+      "question": "Bir cihaz hedef cihazın IP'sini biliyor ama MAC adresini bilmiyorsa hangi",
+      "options": [
+        "DNS",
+        "DHCP",
+        "ARP",
+        "ICMP"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 60,
+      "question": "CSMA/CD'deki \"CD\" (Collision Detection) ne demektir?",
+      "options": [
+        "Ortam erişimi",
+        "Çarpışma algılama",
+        "Veri sıkıştırma",
+        "Hata düzeltme"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 61,
+      "question": "Veri Bağı Katmanı (L2) OSI modelinde donanım ve yazılımı birbirine bağlayan",
+      "options": [
+        "TCP ve UDP",
+        "IP ve ICMP",
+        "LLC ve MAC",
+        "LAN ve WAN"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 62,
+      "question": "Ethernet standardını belirleyen IEEE komitesi hangisidir?",
+      "options": [
+        "802.11",
+        "802.3",
+        "802.1Q",
+        "802.5"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 63,
+      "question": "İlk üretilen Ethernet standardı (10Base5) hangi kabloyu kullanıyordu?",
+      "options": [
+        "UTP",
+        "Fiber",
+        "Kalın Koaksiyel",
+        "STP"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 64,
+      "question": "Ağ arayüz kartına (NIC) MAC adresini kim atar?",
+      "options": [
+        "Ağ yöneticisi",
+        "DHCP sunucusu",
+        "Üretici firma",
+        "Switch"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 65,
+      "question": "Switch henüz hedef MAC adresini CAM tablosunda bulamazsa ne yapar?",
+      "options": [
+        "Paketi düşürür",
+        "Gelen port hariç tüm portlara gönderir (Flooding)",
+        "Yönlendiriciye yollar",
+        "Paketi saklar"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 66,
+      "question": "Çerçeve (Frame) boyutunun Ethernet'te standart maksimum (MTU) değeri nedir?",
+      "options": [
+        "1500 Bayt",
+        "64 Bayt",
+        "9000 Bayt",
+        "512 Bayt"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 67,
+      "question": "Ağ çökmesini engellemek için döngüleri (Loop) tespit edip bazı portları kapatan",
+      "options": [
+        "ARP",
+        "STP (Spanning Tree Protocol)",
+        "DHCP",
+        "OSPF"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 68,
+      "question": "Hangi modda her iki taraf aynı anda veri gönderip alabilir?",
+      "options": [
+        "Simplex",
+        "Half-Duplex",
+        "Full-Duplex",
+        "Çeyrek-Duplex"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 69,
+      "question": "\"Store-and-Forward\" (Depola ve İlet) anahtarlama yönteminin özelliği nedir?",
+      "options": [
+        "En hızlısıdır",
+        "Çerçevenin tamamını alır, CRC kontrolü yapar, hatasızsa iletir",
+        "Sadece ilk 64 baytı okur",
+        "Çarpışmaları umursamaz"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 70,
+      "question": "Otomatik anlaşma (Auto-negotiation) ne işe yarar?",
+      "options": [
+        "IP adresini otomatik bulur",
+        "İki cihazın ortak hız ve duplex modunu otomatik seçmesini sağlar",
+        "Şifreleri otomatik girer",
+        "MAC adresini değiştirir"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 71,
+      "question": "CSMA/CD kullanan bir cihaz çarpışma hissederse diğer cihazları uyarmak için",
+      "options": [
+        "ACK Sinyali",
+        "Jam (Sıkışma) Sinyali",
+        "Hello Sinyali",
+        "Reset Sinyali"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 72,
+      "question": "ARP önbelleği (Cache) bilgisayarda ne işe yarar?",
+      "options": [
+        "Silinen dosyaları tutar",
+        "En son ziyaret edilen siteleri tutar",
+        "Yakın zamanda öğrenilen IP-MAC eşleşmelerini tutar",
+        "Virüsleri karantinaya alır"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 73,
+      "question": "Preamble (Başlangıç) alanının Ethernet çerçevesindeki görevi nedir?",
+      "options": [
+        "Hedef adresi belirlemek",
+        "Hataları kontrol etmek",
+        "Alıcının saatini (clock) senkronize etmesini sağlamak",
+        "IP versiyonunu belirtmek"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 74,
+      "question": "Bir MAC adresinin ilk 24 biti (3 baytı) neyi ifade eder?",
+      "options": [
+        "Üretici firma kodunu (OUI)",
+        "Cihazın seri numarasını",
+        "Ağa bağlı olduğu portu",
+        "IP adresini"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 75,
+      "question": "CSMA/CA (Çarpışmadan Kaçınma) genellikle hangi ağlarda kullanılır?",
+      "options": [
+        "Kablolu LAN",
+        "Fiber Optik",
+        "Wi-Fi (Kablosuz ağlar)",
+        "WAN"
+      ],
+      "correct": 2
+    }
+  ]
+}

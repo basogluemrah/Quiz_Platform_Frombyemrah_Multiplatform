@@ -1,0 +1,281 @@
+{
+  "unitId": 4,
+  "unitName": "Ağ Katmanı ve Yönlendirme",
+  "questions": [
+    {
+      "id": 76,
+      "question": "OSI modelinde paketlerin ağlar arası yönlendirilmesinden hangi katman",
+      "options": [
+        "Taşıma",
+        "Ağ",
+        "Veri Bağı",
+        "Fiziksel"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 77,
+      "question": "Ağ katmanında işlenen veriye ne ad verilir?",
+      "options": [
+        "Bit",
+        "Çerçeve",
+        "Paket",
+        "Segment"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 78,
+      "question": "IPv4 adresleri toplam kaç bittir?",
+      "options": [
+        "16",
+        "32",
+        "64",
+        "128"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 79,
+      "question": "Bir yönlendirici (Router) paketleri hedefe iletmek için cihazın içindeki hangi",
+      "options": [
+        "MAC Tablosu",
+        "Yönlendirme (Routing) Tablosu",
+        "ARP Tablosu",
+        "DNS Tablosu"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 80,
+      "question": "IPv4 adreslerindeki noktalarla ayrılmış 4 grubun her birine ne ad verilir?",
+      "options": [
+        "Byte",
+        "Oktet",
+        "Frame",
+        "Nibble"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 81,
+      "question": "Yönlendiriciler, IP adreslerinin içinden hangi bilginin ağa mı yoksa cihaza mı ait",
+      "options": [
+        "Alt Ağ Maskesi (Subnet Mask)",
+        "MAC Adresi",
+        "Port Numarası",
+        "TTL"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 82,
+      "question": "Bir paketin sonsuza kadar ağda dönmesini engellemek için her yönlendiricide",
+      "options": [
+        "Checksum",
+        "Protokol",
+        "TTL (Time To Live)",
+        "Version"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 83,
+      "question": "Sınıflı IP adreslemede (Classful) A Sınıfı adreslerin varsayılan ağ maskesi nedir?",
+      "options": [
+        "255.255.0.0",
+        "255.255.255.0",
+        "255.0.0.0",
+        "255.255.255.255"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 84,
+      "question": "Adres israfını önlemek için tasarlanan ve ağ maskelerinin \"/24\", \"/26\" gibi",
+      "options": [
+        "NAT",
+        "CIDR (Sınıfsız Yönlendirme)",
+        "DHCP",
+        "VLAN"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 85,
+      "question": "Bir alt ağ (Subnet) yaratırken, host bitlerinden \"ödünç alınarak\" ne oluşturulur?",
+      "options": [
+        "Yeni ağ bitleri",
+        "MAC adresleri",
+        "Yeni portlar",
+        "Güvenlik duvarı"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 86,
+      "question": "Bir bilgisayar kendi ağında olmayan bir yere veri gönderecekse, paketi ağdaki",
+      "options": [
+        "Varsayılan Ağ Geçidine (Default Gateway)",
+        "DNS Sunucusuna",
+        "Hub'a",
+        "DHCP Sunucusuna"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 87,
+      "question": "Yönlendirme tablosunda hedef IP birden fazla kayıtla eşleşiyorsa, Router'ın",
+      "options": [
+        "En kısa rota kuralı",
+        "En uzun önek eşleşmesi (Longest Prefix Match)",
+        "En düşük MAC kuralı",
+        "Rastgele kuralı"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 88,
+      "question": "Yönlendiricilerde arama işlemini saniyede milyonlarca kez hızlandıran",
+      "options": [
+        "RAM",
+        "ROM",
+        "Flash",
+        "TCAM"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 89,
+      "question": "IP paketinin kaynak adresi kimindir?",
+      "options": [
+        "Gönderen cihazın",
+        "Yönlendiricinin",
+        "Switch'in",
+        "Alıcı cihazın"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 90,
+      "question": "IPv4'te her ağın \"ilk\" IP adresi ne olarak ayrılmıştır?",
+      "options": [
+        "Broadcast (Yayın)",
+        "Ağ (Network) Adresi",
+        "Gateway Adresi",
+        "Döngü adresi"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 91,
+      "question": "IPv4'te her ağın \"en son\" IP adresi ne için kullanılır?",
+      "options": [
+        "Yönlendirici",
+        "Ağ Adresi",
+        "Broadcast (Yayın) Adresi",
+        "Sunucu adresi"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 92,
+      "question": "127.0.0.1 IP adresi ne amaçla kullanılır?",
+      "options": [
+        "İnternete çıkmak",
+        "Kendi ağ kartını test etmek (Loopback)",
+        "Multicast",
+        "Özel ağ kurmak"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 93,
+      "question": "IPv6 adresleri toplam kaç bittir?",
+      "options": [
+        "32",
+        "64",
+        "128",
+        "256"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 94,
+      "question": "Bir router'ın iki bacağı (interface) aynı alt ağda (subnet) olabilir mi?",
+      "options": [
+        "Evet, her zaman",
+        "Hayır, router farklı ağları bağlar",
+        "Sadece fiberde olur",
+        "Switch izin verirse olur"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 95,
+      "question": "Hangi protokol IP adresi karşılığında MAC adresini buluyordu?",
+      "options": [
+        "ICMP",
+        "ARP",
+        "DNS",
+        "TCP"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 96,
+      "question": "Alt ağ oluştururken (Subnetting), kullanılabilecek geçerli host sayısını bulmak",
+      "options": [
+        "2^n",
+        "2^n - 1",
+        "2^n - 2",
+        "2^n + 2"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 97,
+      "question": "Sınıflı yapıda 192.168.1.0 hangi sınıfa (Class) aittir?",
+      "options": [
+        "A Sınıfı",
+        "B Sınıfı",
+        "C Sınıfı",
+        "D Sınıfı"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 98,
+      "question": "IP ağlarında ping atıldığında arka planda çalışan ve hata bildirimlerini taşıyan",
+      "options": [
+        "TCP",
+        "UDP",
+        "ICMP",
+        "IGMP"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 99,
+      "question": "Yönlendirme karar mekanizmasında \"Yönetimsel Mesafe\" (AD) neyi ifade eder?",
+      "options": [
+        "Kablo uzunluğunu",
+        "Protokolün güvenilirlik derecesini",
+        "IP adresini",
+        "Bant genişliğini"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 100,
+      "question": "0.0.0.0/0 yönlendirme tablosunda ne anlama gelir?",
+      "options": [
+        "Hatalı rota",
+        "Sadece iç ağ",
+        "Varsayılan (Default) Rota",
+        "Loopback"
+      ],
+      "correct": 2
+    }
+  ]
+}

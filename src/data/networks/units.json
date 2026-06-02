@@ -1,0 +1,49 @@
+{
+  "courseId": "networks",
+  "courseName": "Bilgisayar Ağları Finalleri",
+  "specialModes": [
+    {
+      "id": "mixed",
+      "name": "🎲 Karışık Quiz (20 Soru)",
+      "description": "Tüm bölümlerden rastgele 20 soru",
+      "icon": "🎲"
+    },
+    {
+      "id": "all",
+      "name": "📝 Tüm Sınav (175 Soru)",
+      "description": "Tüm ünitelerin bütün sorularını içeren tek bir büyük test",
+      "icon": "📝"
+    }
+  ],
+  "units": [
+    {
+      "id": 1,
+      "name": "Ağlara Giriş ve Kablolama Temelleri"
+    },
+    {
+      "id": 2,
+      "name": "Fiziksel Katman ve Sinyaller"
+    },
+    {
+      "id": 3,
+      "name": "Veri Bağı Katmanı ve Ethernet"
+    },
+    {
+      "id": 4,
+      "name": "Ağ Katmanı ve Yönlendirme"
+    },
+    {
+      "id": 5,
+      "name": "Dinamik Yönlendirme ve NAT"
+    },
+    {
+      "id": 6,
+      "name": "VLAN ve İleri Kurumsal Ağlar"
+    },
+    {
+      "id": 7,
+      "name": "Taşıma Katmanı (TCP/UDP)"
+    }
+  ],
+  "extras": []
+}

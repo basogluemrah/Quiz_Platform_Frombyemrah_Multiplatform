@@ -1,0 +1,281 @@
+{
+  "unitId": 1,
+  "unitName": "Ağlara Giriş ve Kablolama Temelleri",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Sadece bir ofis veya ev içindeki cihazları bağlayan ağ türü hangisidir?",
+      "options": [
+        "MAN",
+        "LAN",
+        "WAN",
+        "SAN"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 2,
+      "question": "1984 yılında ağ iletişimini standartlaştırmak için oluşturulan referans modeli",
+      "options": [
+        "TCP/IP",
+        "IEEE 802",
+        "OSI",
+        "Ethernet"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 3,
+      "question": "Fiber optik kablolarda veri hangi formda iletilir?",
+      "options": [
+        "Elektrik",
+        "Radyo",
+        "Işık",
+        "Manyetik"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 4,
+      "question": "OSI modelinin en alt katmanı hangisidir?",
+      "options": [
+        "Fiziksel",
+        "Veri Bağı",
+        "Ağ",
+        "Taşıma"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 5,
+      "question": "Bir şehrin farklı uçlarındaki kampüsleri birleştiren ağ türü nedir?",
+      "options": [
+        "MAN",
+        "PAN",
+        "LAN",
+        "WLAN"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 6,
+      "question": "CAT6 kablosu 10 Gbps hızı maksimum kaç metreye kadar kayıpsız taşır?",
+      "options": [
+        "100m",
+        "55m",
+        "10m",
+        "500m"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 7,
+      "question": "Elektromanyetik parazitlenmeye (EMI) karşı en dayanıklı kablo türü hangisidir?",
+      "options": [
+        "UTP",
+        "STP",
+        "Koaksiyel",
+        "Fiber Optik"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 8,
+      "question": "Hangi OSI katmanı yönlendirme (IP) yapar?",
+      "options": [
+        "Fiziksel",
+        "Sunum",
+        "Ağ",
+        "Veri Bağı"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 9,
+      "question": "İnternet, hangi ağ türüne verilebilecek en büyük örnektir?",
+      "options": [
+        "LAN",
+        "MAN",
+        "PAN",
+        "WAN"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 10,
+      "question": "UTP kablolarda günümüzde en yaygın kullanılan RJ-45 dizilimi hangisidir?",
+      "options": [
+        "T568A",
+        "T568B",
+        "RS-232",
+        "Rollover"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 11,
+      "question": "Kablonun içindeki tellerin kopuk olup olmadığını anlamak için ne testi yapılır?",
+      "options": [
+        "Çarpışma",
+        "Süreklilik (Continuity)",
+        "Hız",
+        "Gecikme"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 12,
+      "question": "7 katmanlı OSI modelinin en üst katmanı hangisidir?",
+      "options": [
+        "Uygulama",
+        "Oturum",
+        "İletim",
+        "Sunum"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 13,
+      "question": "UTP kabloların içinde kaç adet ince bakır tel bulunur?",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "10"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 14,
+      "question": "Çapraz (Crossover) kablo genellikle hangi durumda kullanılır?",
+      "options": [
+        "PC'den Switch'e",
+        "Aynı tür iki cihazı (PC-P",
+        "bağlarken C) Router'dan Modem'e",
+        "Switch'ten Hub'a"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 15,
+      "question": "Bant Genişliği (Bandwidth) neyi ifade eder?",
+      "options": [
+        "Gerçekleşen anlık hızı",
+        "Teorik maksimum kapasiteyi",
+        "Gecikme süresini",
+        "Sinyal zayıflamasını"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 16,
+      "question": "OSI modelinde çerçeveleme (Framing) hangi katmanda yapılır?",
+      "options": [
+        "Veri Bağı",
+        "Taşıma",
+        "Oturum",
+        "Ağ"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 17,
+      "question": "Ağ kartı (NIC) hangi donanım bileşeninin üzerindedir?",
+      "options": [
+        "Monitör",
+        "Anakart",
+        "Güç Kaynağı",
+        "İşlemci Fanı"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 18,
+      "question": "UTP kabloda T568B standardında 1. pin hangi renktir?",
+      "options": [
+        "Yeşil",
+        "Beyaz/Turuncu",
+        "Mavi",
+        "Kahverengi"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 19,
+      "question": "Hangisi bir ağ cihazı değildir?",
+      "options": [
+        "Switch",
+        "Hub",
+        "Router",
+        "RAM"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 20,
+      "question": "Fiber optik kabloların \"Single-mode\" türü ne için tasarlanmıştır?",
+      "options": [
+        "Ev içi kullanım",
+        "Uzun mesafeli iletim",
+        "Sadece ses iletimi",
+        "Analog sinyal"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 21,
+      "question": "Uçtan uca güvenilir veri taşıma hangi katmanın görevidir?",
+      "options": [
+        "Veri Bağı",
+        "Oturum",
+        "Taşıma",
+        "Sunum"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 22,
+      "question": "Kablolardaki elektrik sinyallerinin mesafeyle zayıflamasına ne denir?",
+      "options": [
+        "Jitter",
+        "Attenuation (Zayıflama)",
+        "Crosstalk",
+        "Latency"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 23,
+      "question": "TCP/IP modeli kaç katmandan oluşur?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 24,
+      "question": "Yerel ağlarda en çok kullanılan teknoloji standardı hangisidir?",
+      "options": [
+        "Frame Relay",
+        "Token Ring",
+        "Ethernet",
+        "ATM"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 25,
+      "question": "Hangi topolojide merkezde bir cihaz (Hub/Switch) bulunur?",
+      "options": [
+        "Halka",
+        "Ortak Yol (Bus)",
+        "Yıldız",
+        "Ağsı (Mesh)"
+      ],
+      "correct": 2
+    }
+  ]
+}

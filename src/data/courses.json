@@ -34,6 +34,13 @@
       "icon": "📱",
       "color": "#3b82f6",
       "description": "Flutter ve Mobil Uygulama Geliştirme Final Sınavı Hazırlığı"
+    },
+    {
+      "id": "networks",
+      "name": "Bilgisayar Ağları Finalleri",
+      "icon": "🌐",
+      "color": "#a855f7",
+      "description": "Bilgisayar Ağları (OSI, TCP/IP, Fiziksel Katman, IP/MAC, VLAN, Dinamik Rota) Final Sınavı Hazırlığı"
     }
   ]
 }

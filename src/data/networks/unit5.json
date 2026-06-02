@@ -1,0 +1,281 @@
+{
+  "unitId": 5,
+  "unitName": "Dinamik Yönlendirme ve NAT",
+  "questions": [
+    {
+      "id": 101,
+      "question": "Yönlendirme tablolarının insan eliyle girildiği sisteme ne denir?",
+      "options": [
+        "Dinamik",
+        "Statik",
+        "Varsayılan",
+        "Hibrit"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 102,
+      "question": "Hat koptuğunda yönlendiricilerin haberleşip yeni rotayı kendi bulduğu",
+      "options": [
+        "Statik",
+        "Dinamik",
+        "Otonom",
+        "Manuel"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 103,
+      "question": "Eski tip bir protokol olan ve sadece \"sekme sayısına (hop count)\" bakan",
+      "options": [
+        "OSPF",
+        "EIGRP",
+        "RIP",
+        "BGP"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 104,
+      "question": "OSPF (Açık En Kısa Yol İlk) protokolü en iyi yolu seçerken neyi ölçüt",
+      "options": [
+        "Sekme sayısı",
+        "Maliyet (Bant Genişliği)",
+        "Gecikme süresi",
+        "Güvenilirlik"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 105,
+      "question": "Dijkstra algoritmasını kullanan \"Link-State\" tabanlı dinamik protokol",
+      "options": [
+        "RIP",
+        "BGP",
+        "IGRP",
+        "OSPF"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 106,
+      "question": "İnternetin omurgasında, kıtalar ve büyük otonom sistemler (ISS'ler) arası",
+      "options": [
+        "OSPF",
+        "RIP",
+        "BGP",
+        "EIGRP"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 107,
+      "question": "RIP protokolünde bir paketin geçebileceği maksimum yönlendirici",
+      "options": [
+        "5",
+        "15",
+        "100",
+        "Sınırsız"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 108,
+      "question": "Bir router'da aynı hedefe hem Statik rota hem OSPF rotası varsa, hangisi",
+      "options": [
+        "OSPF seçilir",
+        "İkisi aynı anda kullanılır",
+        "Statik rota seçilir çünkü AD'si (1) daha güvenilirdir",
+        "Hiçbiri çalışmaz"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 109,
+      "question": "İç ağdaki özel (Private) IP'leri, internete çıkarken ortak (Public) IP'ye",
+      "options": [
+        "ARP",
+        "DHCP",
+        "NAT",
+        "DNS"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 110,
+      "question": "Hangisi özel (Private) IP bloklarından biridir?",
+      "options": [
+        "8.8.8.8",
+        "192.168.1.1",
+        "17.5.5.5",
+        "203.0.113.1"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 111,
+      "question": "Bir dış Public IP'nin, iç ağdaki tek bir Private IP ile eşleştiği birebir NAT türü",
+      "options": [
+        "Dinamik NAT",
+        "PAT",
+        "NAT Overload",
+        "Statik NAT"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 112,
+      "question": "Binlerce iç ağ kullanıcısının sadece 1 adet Public IP üzerinden internete",
+      "options": [
+        "PAT (Port Adres Çevirisi)",
+        "Statik NAT",
+        "ARP",
+        "Çift NAT"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 113,
+      "question": "PAT, farklı bilgisayarların paketlerini dışarıda nasıl ayırt eder?",
+      "options": [
+        "MAC adreslerini değiştirerek",
+        "Port numaralarını değiştirerek",
+        "Şifreleyerek",
+        "İsimlerini ekleyerek"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 114,
+      "question": "Dinamik yönlendirme protokollerinin kendi aralarında anlaştığı mesajlara",
+      "options": [
+        "Ping",
+        "Update (Güncelleme)",
+        "ACK",
+        "SYN"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 115,
+      "question": "OSPF protokolü hiyerarşik yapı kurmak için ağı neylere böler?",
+      "options": [
+        "Portlara",
+        "Alanlara (Area)",
+        "Sınıflara",
+        "Bloklara"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 116,
+      "question": "RIP kaç saniyede bir tüm tablosunu yayınlar (Broadcast)?",
+      "options": [
+        "5 saniye",
+        "30 saniye",
+        "5 dakika",
+        "Asla yayınlamaz"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 117,
+      "question": "OSPF'in yönlendiriciler arası komşuluk kurmak için yolladığı paketin adı",
+      "options": [
+        "Hello",
+        "Goodbye",
+        "Request",
+        "Reply"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 118,
+      "question": "OSPF tabloları çok büyüdüğünde ağ yükünü azaltmak için oluşturulan",
+      "options": [
+        "Area 51",
+        "Area 0 (Backbone Area)",
+        "Area 100",
+        "Edge Area"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 119,
+      "question": "Statik yönlendirmenin dinamik yönlendirmeye göre en büyük avantajı",
+      "options": [
+        "Kurulumu çok zordur",
+        "Hat koptuğunda anında bulur",
+        "Cihazı (İşlemci/RAM) hiç yormaz",
+        "Sınırsız ağa hitap eder"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 120,
+      "question": "Statik NAT genelde hangi cihazlar için kullanılır?",
+      "options": [
+        "Çalışanların PC'leri",
+        "Cep telefonları",
+        "Dışarıdan erişilmesi gereken Sunucular",
+        "Akıllı saatler"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 121,
+      "question": "İç ağ (LAN) cihazlarına internet üzerinden doğrudan ulaşılamamasının",
+      "options": [
+        "Kabloların yetmemesi",
+        "MAC adreslerinin gizli olması",
+        "Özel IP'lerin internet yönlendiricilerinde yasaklı/tanımsız olması",
+        "Tarayıcıların engellemesi"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 122,
+      "question": "NAT işlemini genellikle ağın neresindeki cihaz yapar?",
+      "options": [
+        "Kenar Router / Firewall",
+        "İçerideki Access Point",
+        "Omurga Switch",
+        "Bilgisayarın kendisi"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 123,
+      "question": "Hangisi Link-State yönlendirme protokollerinin bir özelliğidir?",
+      "options": [
+        "Ağın tam bir haritasını çıkarırlar",
+        "Sadece komşusunun bildiğini bilir",
+        "Sadece sekme sayar",
+        "Bant genişliğini umursamaz"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 124,
+      "question": "Dinamik NAT havuzunda yeterli Public IP kalmazsa ne olur?",
+      "options": [
+        "Sistem çöker",
+        "Yeni gelen cihaz internete çıkamaz (Bekler)",
+        "Otomatik PAT'a geçer",
+        "İnterneti hızlandırır"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 125,
+      "question": "IPv6 geçiş mekanizmalarında NAT'ın rolü azalacak mıdır?",
+      "options": [
+        "Evet, IPv6'da IP çok bol olduğu için NAT'a ihtiyaç kalmayacaktır",
+        "Hayır, daha da artacaktır",
+        "Değişmeyecektir",
+        "IPv6 NAT'ı desteklemez"
+      ],
+      "correct": 0
+    }
+  ]
+}

@@ -1,0 +1,281 @@
+{
+  "unitId": 6,
+  "unitName": "VLAN ve İleri Kurumsal Ağlar",
+  "questions": [
+    {
+      "id": 126,
+      "question": "Anahtarlamalı (Switch) ağlarda fiziksel kablodan bağımsız mantıksal",
+      "options": [
+        "NAT",
+        "VPN",
+        "VLAN",
+        "DHCP"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 127,
+      "question": "VLAN kullanmanın en büyük avantajı nedir?",
+      "options": [
+        "Kabloyu uzatır",
+        "İnternet hızını artırır",
+        "Broadcast (Yayın) alanını küçülterek güvenlik ve performans sağlar",
+        "IP atar"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 128,
+      "question": "İki switch arasında birden fazla VLAN bilgisini taşıyan ana bağlantı hattına",
+      "options": [
+        "Access Port",
+        "Trunk Port",
+        "Console Port",
+        "Router Port"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 129,
+      "question": "Trunk portlarından geçerken çerçevelere \"Bu paket VLAN 10'a aittir\" diye",
+      "options": [
+        "802.11",
+        "802.3",
+        "802.1Q",
+        "802.5"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 130,
+      "question": "Bilgisayarların bağlı olduğu ve genellikle tek bir VLAN bilgisini taşıyan",
+      "options": [
+        "Trunk",
+        "Access",
+        "Gigabit",
+        "Uplink"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 131,
+      "question": "İki farklı VLAN (Örn: VLAN 10 ve VLAN 20) kendi aralarında haberleşmek",
+      "options": [
+        "Sadece L2 Switch",
+        "Hub",
+        "Yönlendirici (Router) veya L3 Switch",
+        "Modem"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 132,
+      "question": "Tek bir fiziksel kablo ile router'a bağlanıp, router içinde sanal arayüzler",
+      "options": [
+        "Router-on-a-Stick (ROAS)",
+        "Geleneksel Inter-VLAN",
+        "Statik Routing",
+        "Trunking"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 133,
+      "question": "Donanımsal yönlendirme zekasını ve Layer 2 switch hızını birleştiren",
+      "options": [
+        "Hub",
+        "Çok Katmanlı (Layer 3) Switch",
+        "Access Point",
+        "Modem"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 134,
+      "question": "Layer 3 Switch'ler içerisinde her VLAN için oluşturulan sanal ağ geçide",
+      "options": [
+        "SVI (Switch Virtual Interface)",
+        "Loopback",
+        "Null",
+        "Serial"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 135,
+      "question": "Ağlarda yedekli kablolama yapıldığında oluşan \"Döngüleri (Loop)\"",
+      "options": [
+        "OSPF",
+        "STP (Spanning Tree Protocol)",
+        "VTP",
+        "ARP"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 136,
+      "question": "STP (Spanning Tree Protocol), döngüyü nasıl kırar?",
+      "options": [
+        "Kabloyu yakarak",
+        "Switch'i yeniden başlatarak",
+        "Mantıksal olarak yedek portlardan birini engelleyerek (Blocking)",
+        "IP adresini değiştirerek"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 137,
+      "question": "Varsayılan olarak her switch'teki tüm portlar başlangıçta hangi VLAN'a",
+      "options": [
+        "VLAN 1",
+        "VLAN 10",
+        "VLAN 99",
+        "VLAN 100"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 138,
+      "question": "Bir ağ cihazını uzaktan güvenli bir şekilde yönetmek için hangi protokol",
+      "options": [
+        "Telnet",
+        "SSH",
+        "FTP",
+        "HTTP"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 139,
+      "question": "Native VLAN'in trunk hattındaki en belirgin özelliği nedir?",
+      "options": [
+        "Şifreli olması",
+        "Hiçbir etiket (tag) takılmadan iletilmesi",
+        "Sadece ses taşıması",
+        "IP alamaması"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 140,
+      "question": "Switch'ler üzerinde VLAN oluşturulurken güvenlik amacıyla hangi VLAN",
+      "options": [
+        "Yönetim VLAN'ı",
+        "VLAN 1",
+        "Sunucu VLAN'ı",
+        "Veri VLAN'ı"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 141,
+      "question": "Kurumsal ağlarda IP telefonlar (VoIP) için genellikle ne oluşturulur?",
+      "options": [
+        "Ayrı bir Ses VLAN'ı (Voice VLAN)",
+        "Yeni bir Router",
+        "Yeni bir Hub",
+        "Ortak havuz"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 142,
+      "question": "Ağ yöneticisi tek tek switchlerde VLAN açmak yerine, merkezden VLAN",
+      "options": [
+        "VTP (VLAN Trunking Protocol)",
+        "STP",
+        "OSPF",
+        "ARP"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 143,
+      "question": "Farklı VLAN'lara farklı IP blokları (Alt Ağ) atanması zorunlu mudur?",
+      "options": [
+        "Hayır",
+        "Evet, farklı VLAN'lar farklı alt ağlardır",
+        "Sadece L3 switch varsa",
+        "Sadece kablosuzda"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 144,
+      "question": "Bir PC'nin ağa bağlanması sırasında switch portunun anında açılmasını",
+      "options": [
+        "PortFast",
+        "BPDU Guard",
+        "Trunking",
+        "EtherChannel"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 145,
+      "question": "Birden fazla fiziksel kabloyu birleştirerek bant genişliğini artıran teknoloji",
+      "options": [
+        "VLAN",
+        "STP",
+        "EtherChannel (Link Aggregation)",
+        "OSPF"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 146,
+      "question": "Güvenlik için, switch portuna sadece belirli bir MAC adresinin girmesine",
+      "options": [
+        "Port Güvenliği (Port Security)",
+        "DHCP",
+        "ARP Inspection",
+        "NAT"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 147,
+      "question": "Bir departman taşındığında IP adreslerini değiştirmeden yeni konumdan",
+      "options": [
+        "Statik IP",
+        "VLAN",
+        "Hub",
+        "STP"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 148,
+      "question": "Yönlendirme (Routing) olmadan VLAN'lar arası ping atılabilir mi?",
+      "options": [
+        "Evet",
+        "Sadece aynı switch üzerindeyse",
+        "Hayır",
+        "Kabloya bağlı"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 149,
+      "question": "Bir switch portu hem VLAN 10 (Bilgisayar) hem de Ses VLAN'ı (IP Telefon)",
+      "options": [
+        "Hayır",
+        "Evet, modern switchler bir access portunda ses ve veri VLAN'ını birleştirebilir",
+        "Sadece L3 Switch'te",
+        "Sadece Router'da"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 150,
+      "question": "ROAS mimarisinde Router arayüzüne IP atarken ne komutu zorunludur?",
+      "options": [
+        "shutdown",
+        "encapsulation dot1Q",
+        "ip routing",
+        "vlan 10"
+      ],
+      "correct": 1
+    }
+  ]
+}

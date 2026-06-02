@@ -1,0 +1,281 @@
+{
+  "unitId": 7,
+  "unitName": "Taşıma Katmanı (TCP/UDP)",
+  "questions": [
+    {
+      "id": 151,
+      "question": "OSI modelinin 4. katmanı (Taşıma) neyden sorumludur?",
+      "options": [
+        "Web sayfası oluşturmaktan",
+        "Voltajdan",
+        "Uçtan uca iletişim, segmentasyon ve güvenilirlikten",
+        "Çerçevelemeden"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 152,
+      "question": "Taşıma katmanında veriye ne ad verilir?",
+      "options": [
+        "Bit",
+        "Çerçeve",
+        "Paket",
+        "Segment"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 153,
+      "question": "Hangi taşıma protokolü bağlantı tabanlıdır ve verinin \"kesinlikle\" ulaştığını",
+      "options": [
+        "UDP",
+        "IP",
+        "TCP",
+        "ICMP"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 154,
+      "question": "Hangi taşıma protokolü onay (ACK) mekanizması kullanmaz, veriyi",
+      "options": [
+        "TCP",
+        "OSPF",
+        "BGP",
+        "UDP"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 155,
+      "question": "Bilgisayarda aynı anda çalışan farklı uygulamaları (Örn: Chrome, Spotify,",
+      "options": [
+        "IP Adresi",
+        "MAC Adresi",
+        "Port Numarası",
+        "URL"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 156,
+      "question": "TCP bağlantısı kurulurken iki tarafın selamlaştığı sürece ne ad verilir?",
+      "options": [
+        "Çarpışma",
+        "3-Yönlü El Sıkışma (3-Way Handshake)",
+        "Yönlendirme",
+        "Çerçeveleme"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 157,
+      "question": "3-Yönlü El Sıkışma sırasıyla hangi paketlerden oluşur?",
+      "options": [
+        "SYN, SYN-ACK, ACK",
+        "ACK, SYN, ACK",
+        "FIN, ACK, SYN",
+        "SYN, ACK, FIN"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 158,
+      "question": "TCP, gönderdiği verinin karşıya ulaştığını hangi bayrak (flag) ile anlar?",
+      "options": [
+        "PSH",
+        "URG",
+        "ACK (Acknowledgment)",
+        "RST"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 159,
+      "question": "Canlı yayınlar, VoIP (sesli aramalar) ve online oyunlarda genellikle hangi",
+      "options": [
+        "TCP",
+        "UDP",
+        "HTTP",
+        "FTP"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 160,
+      "question": "UDP'nin canlı yayınlarda TCP'ye tercih edilme sebebi nedir?",
+      "options": [
+        "Daha güvenli olması",
+        "TCP'nin hata kontrolü yaparken gecikmelere (lag) sebep olması",
+        "Şifreli olması",
+        "Dosya aktarımında iyi olması"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 161,
+      "question": "TCP'de alıcının kapasitesinin dolmasını engellemek için veri gönderme",
+      "options": [
+        "Kayan Pencere (Sliding Window)",
+        "ARP",
+        "CSMA/CD",
+        "Spanning Tree"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 162,
+      "question": "Port numaraları toplam kaç tanedir (maksimum değer)?",
+      "options": [
+        "1024",
+        "4096",
+        "65535",
+        "128"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 163,
+      "question": "HTTP (Web) trafiği varsayılan olarak hangi portu kullanır?",
+      "options": [
+        "21",
+        "22",
+        "80",
+        "443"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 164,
+      "question": "Güvenli web trafiği (HTTPS) varsayılan olarak hangi portu kullanır?",
+      "options": [
+        "21",
+        "80",
+        "443",
+        "25"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 165,
+      "question": "IP adresi ve Port numarasının birleştirilmiş haline ne ad verilir?",
+      "options": [
+        "Subnet",
+        "Socket (Soket)",
+        "Frame",
+        "Gateway"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 166,
+      "question": "Bir TCP bağlantısını \"kibarca\" kapatmak için gönderilen bayrak (flag)",
+      "options": [
+        "FIN",
+        "RST",
+        "SYN",
+        "PSH"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 167,
+      "question": "Bilinen (Well-Known) port numaraları hangi aralıktadır?",
+      "options": [
+        "0 - 1023",
+        "1024 - 49151",
+        "49152 - 65535",
+        "Sadece 80"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 168,
+      "question": "İstemci (Client) bir web sitesine bağlanırken kaynak portunu nereden",
+      "options": [
+        "Manuel gireriz",
+        "0-1023 arasından alır",
+        "İşletim sistemi dinamik portlardan (Örn: 50000) rastgele atar",
+        "Hep 80 portunu kullanır"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 169,
+      "question": "Kötü niyetli kişilerin sunucuya sürekli SYN paketi atıp, bağlantıyı yarım",
+      "options": [
+        "Phishing",
+        "SYN Flood (DDoS)",
+        "SQL Injection",
+        "Truva Atı"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 170,
+      "question": "DNS sorguları hıza ihtiyaç duyduğu için varsayılan olarak hangi protokolü",
+      "options": [
+        "TCP",
+        "UDP",
+        "FTP",
+        "SSH"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 171,
+      "question": "Büyük boyutlu bir dosya transferi (FTP) yapılacaksa, verinin kayıpsız",
+      "options": [
+        "UDP",
+        "TCP",
+        "ICMP",
+        "IGMP"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 172,
+      "question": "Ağ trafiği yoğunlaştığında paketlerin atılmasına veya gecikmesine ne ad",
+      "options": [
+        "Sıkışıklık (Congestion)",
+        "Pencereleme",
+        "El Sıkışma",
+        "Çerçeveleme"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 173,
+      "question": "TCP başlığı (Header) minimum kaç bayttır?",
+      "options": [
+        "8",
+        "10",
+        "20",
+        "64"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 174,
+      "question": "UDP başlığı oldukça basittir, minimum kaç bayttır?",
+      "options": [
+        "4",
+        "8",
+        "20",
+        "40"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 175,
+      "question": "Hangisi TCP başlığında (Header) bulunup, UDP başlığında BULUNMAYAN",
+      "options": [
+        "Kaynak Portu",
+        "Hedef Portu",
+        "Sıra Numarası (Sequence Number)",
+        "Checksum"
+      ],
+      "correct": 2
+    }
+  ]
+}
