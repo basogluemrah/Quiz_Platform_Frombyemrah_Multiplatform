@@ -1,0 +1,226 @@
+{
+  "unitId": 5,
+  "unitName": "Proje Uygulamaları",
+  "questions": [
+    {
+      "id": 181,
+      "question": "Walmart satış tahmin projesinde kaç mağaza mevcuttur?",
+      "options": [
+        "20",
+        "30",
+        "45",
+        "100"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 182,
+      "question": "Müşteri churn tahmininde 'dormant account' hangi riski işaret eder?",
+      "options": [
+        "Artan hesap aktivitesi",
+        "Müşterinin hesabını kapatmaya hazırlandığı",
+        "Düşük kredi notu",
+        "Yüksek gelir"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 183,
+      "question": "Rüzgar türbini bakım projesinde eğitim setinde kaç gözlem bulunur?",
+      "options": [
+        "10.000",
+        "20.000",
+        "40.000",
+        "80.000"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 184,
+      "question": "İlaç keşfi projesinde SARS virüsünde hangi enzim hedeflenir?",
+      "options": [
+        "HIV proteaz",
+        "SARS koronavirüsü 3C-benzeri proteinaz",
+        "İnsan kaspaz-3",
+        "E.coli beta-laktamaz"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 185,
+      "question": "RACE veri seti NLP projesinde ne için kullanılır?",
+      "options": [
+        "Görüntü sınıflandırma",
+        "LDA Topic Modeling",
+        "Nesne tespiti",
+        "Ses tanıma"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 186,
+      "question": "Zillow Zestimate özelliklerin satış fiyatından ne kadar sapması içinde çalışır?",
+      "options": [
+        "%5",
+        "%10",
+        "%15",
+        "%20"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 187,
+      "question": "Ultrason sinir segmentasyonu projesinin tıbbi amacı nedir?",
+      "options": [
+        "Tümör tespiti",
+        "Ağrı kaynağını belirleyerek kateter yerleşimini optimize etmek",
+        "Kalp ritmi analizi",
+        "İlaç yan etkisi tahmini"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 188,
+      "question": "AI Video Özetleme projesinde ses metne çevirmek için hangi araç kullanılır?",
+      "options": [
+        "GPT-4",
+        "BERT",
+        "Whisper",
+        "LDA"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 189,
+      "question": "Text-2-SQL sisteminde SQL kalitesini artırmak için kullanılan döngü nedir?",
+      "options": [
+        "Eğitim döngüsü",
+        "Hata düzeltme (self-correction) geri bildirim döngüsü",
+        "Veri artırma döngüsü",
+        "Kümeleme döngüsü"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 190,
+      "question": "Llama2 Metadata Üretim projesinde hangi vektör DB kullanılır?",
+      "options": [
+        "Pinecone",
+        "Weaviate",
+        "FAISS",
+        "ChromaDB"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 191,
+      "question": "Movielens veri seti yaklaşık kaç film derecelendirmesi içerir?",
+      "options": [
+        "500.000",
+        "750.000",
+        "1.000.209",
+        "2.000.000"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 192,
+      "question": "Market Basket Analysis'ta 'confidence' ne anlama gelir?",
+      "options": [
+        "Bir kuralın veri setinde görülme sıklığı",
+        "A satın alındığında B'nin de satın alınma koşullu olasılığı",
+        "Modelin doğruluk oranı",
+        "Küme mesafesi"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 193,
+      "question": "Bosch üretim hattı projesinin zorluğu nedir?",
+      "options": [
+        "Veri çok küçük",
+        "Üretim hatları karmaşık ve veri analiste uygun formda değil",
+        "GPU yetersizliği",
+        "Etiket eksikliği"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 194,
+      "question": "MNIST veri seti kaç farklı sınıftan oluşmaktadır?",
+      "options": [
+        "5",
+        "10",
+        "26",
+        "100"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 195,
+      "question": "Boston Housing veri setinde kaç gözlem bulunur?",
+      "options": [
+        "150",
+        "506",
+        "1.000",
+        "5.000"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 196,
+      "question": "Deprem tahmin projesinde kaç deprem olayı analiz edilmektedir?",
+      "options": [
+        "10.000",
+        "20.000",
+        "37.000+",
+        "50.000"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 197,
+      "question": "Hava kalitesi indeksi (AQI) tahmini hangi tür ML problemidir?",
+      "options": [
+        "Yalnızca sınıflandırma",
+        "Regresyon ve çok sınıflı sınıflandırma (AQI bucket)",
+        "Kümeleme",
+        "Anomali tespiti"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 198,
+      "question": "Yazılım hata tahmini projesinde kullanılan veri seti hangi üniversiteden alınmıştır?",
+      "options": [
+        "MIT",
+        "Stanford",
+        "Cenevre Üniversitesi",
+        "Oxford"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 199,
+      "question": "Müzik bestesi projesinde kullanılan üretken model türü nedir?",
+      "options": [
+        "CNN",
+        "BERT",
+        "GAN + LSTM",
+        "SVM"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 200,
+      "question": "Personalized Mental Health Assistant uygulaması hangi LLM üzerine ince ayar yapılarak geliştirilmiştir?",
+      "options": [
+        "GPT-4",
+        "Gemini",
+        "Llama2",
+        "Claude"
+      ],
+      "correct": 2
+    }
+  ]
+}

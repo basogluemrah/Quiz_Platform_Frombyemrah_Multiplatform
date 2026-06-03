@@ -1,0 +1,40 @@
+{
+  "courseId": "ai2",
+  "courseName": "Yapay Zeka Uygulamaları 2",
+  "specialModes": [
+    {
+      "id": "mixed",
+      "name": "🎲 Karışık Quiz",
+      "description": "Tüm bölümlerden rastgele sorular",
+      "icon": "🎲"
+    }
+  ],
+  "units": [
+    {
+      "id": 1,
+      "name": "Makine Öğrenmesi Temelleri"
+    },
+    {
+      "id": 3,
+      "name": "Derin Öğrenme & NLP"
+    },
+    {
+      "id": 5,
+      "name": "Proje Uygulamaları"
+    }
+  ],
+  "extras": [
+    {
+      "id": "practice",
+      "name": "✍️ Pratik Soruları",
+      "description": "Boşluk doldurma ve gerçek dünya problemleri",
+      "icon": "✍️"
+    },
+    {
+      "id": "notes",
+      "name": "📖 Ders Notları",
+      "description": "Kapsamlı ders notu ve açıklamalar",
+      "icon": "📖"
+    }
+  ]
+}

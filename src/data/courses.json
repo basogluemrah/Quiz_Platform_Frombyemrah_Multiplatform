@@ -29,6 +29,13 @@
       "description": "Makine Öğrenmesi, Derin Öğrenme, NLP, MLOps ve Projeler"
     },
     {
+      "id": "ai2",
+      "name": "Yapay Zeka Uygulamaları 2",
+      "icon": "🧠",
+      "color": "#f43f5e",
+      "description": "Temel Kavramlardan İleri Düzeye Öğretici Final Ders Notu ve Örnek Sorular"
+    },
+    {
       "id": "mobil",
       "name": "Mobil Programlama Finalleri",
       "icon": "📱",

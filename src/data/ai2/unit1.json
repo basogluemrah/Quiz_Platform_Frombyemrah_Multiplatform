@@ -1,0 +1,556 @@
+{
+  "unitId": 1,
+  "unitName": "Makine Öğrenmesi Temelleri",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Makine öğrenmesinde müşteri kaybını (churn) tahmin etmek hangi öğrenme türüdür?",
+      "options": [
+        "Denetimsiz",
+        "Pekiştirmeli",
+        "Denetimli",
+        "Yarı denetimli"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 2,
+      "question": "Yeni müşteri kazanımının maliyeti, mevcut müşteriyi elde tutmaya kıyasla kaç kat daha pahalıdır?",
+      "options": [
+        "2",
+        "3",
+        "5",
+        "10"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 3,
+      "question": "'Garbage in, garbage out' ilkesi makine öğrenmesinde neyi vurgular?",
+      "options": [
+        "GPU performansını",
+        "Veri kalitesinin model kalitesini doğrudan belirlediğini",
+        "Algoritma seçiminin önemini",
+        "Hiperparametre optimizasyonunu"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 4,
+      "question": "Hangi öğrenme türünde etiketli veri gerekli değildir?",
+      "options": [
+        "Denetimli",
+        "Pekiştirmeli",
+        "Denetimsiz",
+        "Transfer"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 5,
+      "question": "AlphaGo hangi öğrenme türünü kullanmaktadır?",
+      "options": [
+        "Denetimli",
+        "Denetimsiz",
+        "Pekiştirmeli",
+        "Yarı denetimli"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 6,
+      "question": "Makine öğrenmesi yaşam döngüsünün doğru sırası hangisidir?",
+      "options": [
+        "Eğitim → EDA → Veri Toplama → Dağıtım",
+        "Veri Toplama → EDA → Özellik Müh. → Eğitim → Değerlendirme → Dağıtım",
+        "EDA → Veri Toplama → Dağıtım → Eğitim",
+        "Dağıtım → Eğitim → EDA → Değerlendirme"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 7,
+      "question": "Overfitting (aşırı öğrenme) nasıl anlaşılır?",
+      "options": [
+        "Hem eğitim hem test hatası yüksek",
+        "Eğitim hatası düşük, test hatası yüksek",
+        "Her ikisi de düşük",
+        "Test hatası düşük, eğitim hatası yüksek"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 8,
+      "question": "Underfitting (yetersiz öğrenme) nasıl anlaşılır?",
+      "options": [
+        "Eğitim hatası düşük, test hatası yüksek",
+        "Her ikisi de düşük",
+        "Hem eğitim hem test hatası yüksek",
+        "Yalnızca eğitim hatası yüksek"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 9,
+      "question": "Min-Max normalizasyon değerleri hangi aralığa taşır?",
+      "options": [
+        "-1 ile 1",
+        "0 ile 1",
+        "0 ile 100",
+        "-∞ ile +∞"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 10,
+      "question": "Z-Score normalizasyon sonucu hangi dağılımı hedefler?",
+      "options": [
+        "Poisson",
+        "Üstel",
+        "Standart Normal (μ=0, σ=1)",
+        "Düzgün"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 11,
+      "question": "One-Hot Encoding hangi değişken türüne uygulanır?",
+      "options": [
+        "Sayısal",
+        "Kategorik",
+        "Tarih",
+        "Metin"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 12,
+      "question": "Veri sızıntısı (Data Leakage) nedir?",
+      "options": [
+        "Verinin buluttan kaybedilmesi",
+        "Test seti bilgisinin eğitime karışması",
+        "GPU belleğinin dolması",
+        "Modelin eğitim süresinin uzaması"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 13,
+      "question": "Makine öğrenmesinde 'özellik' (feature) ne anlama gelir?",
+      "options": [
+        "Modelin çıktısı",
+        "Modele verilen girdi değişkenleri",
+        "Eğitim süresi",
+        "Kayıp fonksiyonu değeri"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 14,
+      "question": "K-Fold Cross Validation ne işe yarar?",
+      "options": [
+        "Veri setini büyütür",
+        "Modelin farklı veri bölümlerindeki performansını güvenilir biçimde ölçer",
+        "GPU kullanımını artırır",
+        "Hiperparametreleri otomatik ayarlar"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 15,
+      "question": "Sınıf dengesizliğinde hangi metrik yanıltıcı olabilir?",
+      "options": [
+        "F1-Score",
+        "AUC-ROC",
+        "Accuracy",
+        "Precision"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 16,
+      "question": "Precision formülü hangisidir?",
+      "options": [
+        "TP/(TP+FN)",
+        "TP/(TP+FP)",
+        "TN/(TN+FP)",
+        "TP/Toplam"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 17,
+      "question": "Recall formülü hangisidir?",
+      "options": [
+        "TP/(TP+FP)",
+        "TN/(TN+FN)",
+        "TP/(TP+FN)",
+        "TP/Toplam"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 18,
+      "question": "F1-Score neyi dengeler?",
+      "options": [
+        "Hız ve doğruluk",
+        "Precision ve Recall",
+        "Eğitim ve test seti boyutları",
+        "Öğrenme hızı ve epoch sayısı"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 19,
+      "question": "Regresyon problemlerinde kullanılan MAE kısaltması neyi ifade eder?",
+      "options": [
+        "Maximum Absolute Error",
+        "Mean Absolute Error",
+        "Minimum Average Evaluation",
+        "Model Accuracy Estimate"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 20,
+      "question": "R² skoru 1'e yakınsa bu ne anlama gelir?",
+      "options": [
+        "Model tamamen hatalı",
+        "Model varyansı neredeyse mükemmel açıklıyor",
+        "Overfitting var",
+        "Veri normalleştirme gerekiyor"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 21,
+      "question": "Makine öğrenmesinde 'bias' terimi ne anlama gelir?",
+      "options": [
+        "Modelin GPU hızı",
+        "Modelin veri örüntülerini öğrenememesinden kaynaklanan sistematik hata",
+        "Veri setinin boyutu",
+        "Hiperparametre sayısı"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 22,
+      "question": "Makine öğrenmesinde 'variance' terimi ne anlama gelir?",
+      "options": [
+        "Modelin eğitim verisi değiştiğinde tahminlerinin ne kadar dalgalandığı",
+        "Veri setindeki sütun sayısı",
+        "Kayıp fonksiyonunun değeri",
+        "Test setindeki örnek sayısı"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 23,
+      "question": "Stratified sampling neden kullanılır?",
+      "options": [
+        "Veri setini hızlandırır",
+        "Her sınıfın eğitim ve test setlerinde orantılı temsil edilmesini sağlar",
+        "Özellik sayısını azaltır",
+        "Modeli paralelleştirir"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 24,
+      "question": "Confusion Matrix neyi gösterir?",
+      "options": [
+        "Özellik korelasyonlarını",
+        "Sınıflandırma modelinin TP, TN, FP, FN değerlerini",
+        "Eğitim süresini",
+        "Veri dağılımını"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 25,
+      "question": "Makine öğrenmesinde 'hyperparameter' nedir?",
+      "options": [
+        "Veriden öğrenilen parametre",
+        "Varsayılan model ayarları",
+        "Kayıp fonksiyonu çıktısı",
+        "Aktivasyon değeri"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 26,
+      "question": "Keşifsel Veri Analizi (EDA) hangi aşamada yapılır?",
+      "options": [
+        "Dağıtımdan sonra",
+        "Model eğitiminden önce, veriyi anlamak için",
+        "Hiperparametre optimizasyonundan sonra",
+        "Yalnızca test seti için"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 27,
+      "question": "Korelasyon katsayısı -1'e yakınsa bu ne anlatır?",
+      "options": [
+        "Güçlü pozitif ilişki",
+        "İlişki yok",
+        "Güçlü negatif ilişki",
+        "Veri kalitesi düşük"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 28,
+      "question": "Makine öğrenmesinde 'baseline model' neden önemlidir?",
+      "options": [
+        "En son modeldir",
+        "Karmaşık modelin karşılaştırılacağı başlangıç referans noktasıdır",
+        "Üretimdeki son modeldir",
+        "Veri temizleme aracıdır"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 29,
+      "question": "Veri seti tipik olarak hangi oranla bölünür?",
+      "options": [
+        "50-50",
+        "70-80 eğitim / 20-30 test",
+        "99 eğitim / 1 test",
+        "60 eğitim / 40 test"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 30,
+      "question": "Makine öğrenmesi ve klasik programlama arasındaki temel fark nedir?",
+      "options": [
+        "Makine öğrenmesi daha yavaştır",
+        "Klasik programlamada kural elle yazılır; ML'de model kuralları veriden öğrenir",
+        "Makine öğrenmesi yalnızca görüntü verisi kullanır",
+        "Klasik programlama GPU gerektirir"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 31,
+      "question": "Derin Öğrenme, Makine Öğrenmesinden nasıl ayrılır?",
+      "options": [
+        "Daha az veri kullanır",
+        "Çok katmanlı sinir ağlarıyla ham veriden otomatik özellik çıkarır",
+        "Etiketli veri gerektirmez",
+        "Yalnızca metin verisi işler"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 32,
+      "question": "Aşağıdakilerden hangisi bir sınıflandırma problemidir?",
+      "options": [
+        "Ev fiyatı tahmini",
+        "Gelecek ay satış miktarı",
+        "E-posta spam/değil tespiti",
+        "Hava sıcaklığı tahmini"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 33,
+      "question": "Aşağıdakilerden hangisi bir regresyon problemidir?",
+      "options": [
+        "Hastalık tanısı",
+        "Dil tespiti",
+        "Hisse senedi kapanış fiyatı tahmini",
+        "Sahte haber tespiti"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 34,
+      "question": "Eksik verileri komşu örneklere göre dolduran yöntem hangisidir?",
+      "options": [
+        "One-Hot Encoding",
+        "KNN Imputation",
+        "PCA",
+        "Dropout"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 35,
+      "question": "Makine öğrenmesinde 'inference' ne demektir?",
+      "options": [
+        "Model eğitimi",
+        "Eğitimli modeli yeni veri üzerinde tahmin için kullanmak",
+        "Hiperparametre arama",
+        "Veri toplama"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 36,
+      "question": "MSE (Mean Squared Error) ile MAE arasındaki fark nedir?",
+      "options": [
+        "Aynı şeydir",
+        "MSE büyük hatalara karesel ceza verir, MAE doğrusal",
+        "MAE büyük hatalara daha fazla ceza verir",
+        "MSE regresyon, MAE sınıflandırma için kullanılır"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 37,
+      "question": "Aykırı değer (outlier) tespitinde yaygın kullanılan istatistiksel yöntem hangisidir?",
+      "options": [
+        "One-Hot Encoding",
+        "PCA",
+        "IQR (Interquartile Range) ve Z-Skoru",
+        "Dropout"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 38,
+      "question": "Makine öğrenmesinde 'validasyon seti' ne için kullanılır?",
+      "options": [
+        "Final model performansı",
+        "Hiperparametre ayarı ve model seçimi",
+        "Model eğitimi",
+        "Veri temizleme"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 39,
+      "question": "Hangi öğrenme türü 'ödül-ceza' mekanizmasına dayanır?",
+      "options": [
+        "Denetimli",
+        "Denetimsiz",
+        "Pekiştirmeli",
+        "Transfer"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 40,
+      "question": "Makine öğrenmesinde 'pipeline' kavramı ne anlama gelir?",
+      "options": [
+        "GPU bağlantısı",
+        "Ön işleme, dönüşüm ve model adımlarını zincirleme organize eden iş akışı",
+        "Veri toplama süreci",
+        "Model dağıtım sunucusu"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 41,
+      "question": "Müşteri segmentasyonu hangi öğrenme türüne girer?",
+      "options": [
+        "Denetimli",
+        "Denetimsiz (kümeleme)",
+        "Pekiştirmeli",
+        "Transfer"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 42,
+      "question": "Yapay zekanın alt dalları için doğru hiyerarşi hangisidir?",
+      "options": [
+        "DL ⊃ ML ⊃ AI",
+        "ML ⊃ AI ⊃ DL",
+        "AI ⊃ ML ⊃ DL",
+        "AI ⊃ DL ⊃ ML"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 43,
+      "question": "Makine öğrenmesi modelinde 'parametre' nedir?",
+      "options": [
+        "İnsan tarafından ayarlanan değer",
+        "Model eğitim sırasında veriden öğrenen iç değer (ağırlık, bias)",
+        "Veri seti boyutu",
+        "Eğitim süresi"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 44,
+      "question": "'Walk-forward validation' zaman serisi problemlerinde neden kullanılır?",
+      "options": [
+        "Veriyi karıştırmak",
+        "Zamansal sırayı koruyarak geçmişten geleceğe doğru doğrulama yapmak",
+        "GPU belleğini optimize etmek",
+        "Veri setini büyütmek"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 45,
+      "question": "Makine öğrenmesinde 'feature engineering' nedir?",
+      "options": [
+        "Modeli dağıtmak",
+        "Ham veriden model için anlamlı yeni değişkenler türetmek",
+        "Hiperparametre aramak",
+        "Veri indirmek"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 46,
+      "question": "AUC-ROC'ta AUC neyin kısaltmasıdır?",
+      "options": [
+        "Accuracy Under Curve",
+        "Area Under the Curve",
+        "Automated Unified Classifier",
+        "Average Uncertainty Coefficient"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 47,
+      "question": "Makine öğrenmesinde 'epoch' nedir?",
+      "options": [
+        "Bir örnekle güncelleme",
+        "Tüm eğitim verisinin modelden bir kez geçirilmesi",
+        "Hiperparametre ayar adımı",
+        "Test değerlendirme turu"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 48,
+      "question": "Veri ön işlemede standart ölçekleme için kullanılan formül nedir?",
+      "options": [
+        "(x - min)/(max - min)",
+        "x/max",
+        "(x - μ)/σ",
+        "log(x)"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 49,
+      "question": "Makine öğrenmesinde 'ensemble' yöntemi neden etkilidir?",
+      "options": [
+        "Tek modelden daha az veri kullanır",
+        "Farklı modellerin hatalarını birleştirerek varyansı ve hatayı azaltır",
+        "Hiperparametre gerektirmez",
+        "Her zaman hızlıdır"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 50,
+      "question": "Hangisi bir denetimsiz öğrenme örneğidir?",
+      "options": [
+        "Haber sınıflandırma",
+        "Ev fiyatı tahmini",
+        "Müşteri segmentasyonu",
+        "Hastalık tespiti"
+      ],
+      "correct": 2
+    }
+  ]
+}

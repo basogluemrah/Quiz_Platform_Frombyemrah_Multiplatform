@@ -1,0 +1,556 @@
+{
+  "unitId": 3,
+  "unitName": "Derin Öğrenme & NLP",
+  "questions": [
+    {
+      "id": 101,
+      "question": "Derin öğrenmede gizli katmanlar için en yaygın kullanılan aktivasyon fonksiyonu hangisidir?",
+      "options": [
+        "Sigmoid",
+        "Tanh",
+        "ReLU",
+        "Softmax"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 102,
+      "question": "Softmax aktivasyon fonksiyonu ne zaman kullanılır?",
+      "options": [
+        "İkili sınıflandırma çıkışında",
+        "Regresyon çıkışında",
+        "Çok sınıflı sınıflandırma çıkışında",
+        "Özellik normalizasyonunda"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 103,
+      "question": "Backpropagation'ın temel prensibi nedir?",
+      "options": [
+        "Rastgele ağırlık güncellemesi",
+        "Zincir kuralı ile kayıp fonksiyonunun gradyanlarını hesaplayarak ağırlıkları güncellemek",
+        "Tüm nöronları sıfırlamak",
+        "Öğrenme hızını sabitleme"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 104,
+      "question": "CNN (Convolutional Neural Network) hangi veri türü için tasarlanmıştır?",
+      "options": [
+        "Zaman serisi",
+        "Tablo verisi",
+        "Görüntü verisi",
+        "Graf verisi"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 105,
+      "question": "LSTM'de 'Forget Gate' (Unutma Kapısı) ne yapar?",
+      "options": [
+        "Yeni bilgiyi hücre durumuna ekler",
+        "Hangi geçmiş bilginin unutulacağına karar verir",
+        "Çıkış üretir",
+        "Girdileri normalleştirir"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 106,
+      "question": "Transformer mimarisinin RNN'e ana üstünlüğü nedir?",
+      "options": [
+        "Daha az parametre kullanır",
+        "Paralel hesaplama ile çok daha hızlı eğitim",
+        "Görüntü verisi işler",
+        "Daha az bellek kullanır"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 107,
+      "question": "BERT'i geliştiren şirket hangisidir?",
+      "options": [
+        "Microsoft",
+        "Facebook",
+        "Google",
+        "Amazon"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 108,
+      "question": "BERT'in açılımı nedir?",
+      "options": [
+        "Bidirectional Encoder Representations from Transformers",
+        "Binary Encoding Recursive Training",
+        "Bayesian Estimation Recursive Technique",
+        "Batch Encoding Recognition Toolkit"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 109,
+      "question": "BERT kaç kelime ile eğitilmiştir?",
+      "options": [
+        "500 milyon",
+        "1 milyar",
+        "2.5 milyar",
+        "10 milyar"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 110,
+      "question": "RAG kısaltması neyi ifade eder?",
+      "options": [
+        "Recursive Algorithm Generation",
+        "Retrieval-Augmented Generation",
+        "Random Attention Graph",
+        "Regression and Gradient"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 111,
+      "question": "FAISS vektör kütüphanesi ne için kullanılır?",
+      "options": [
+        "Görüntü renk düzeltmesi",
+        "Büyük ölçekli vektörler üzerinde hızlı benzerlik araması",
+        "SQL sorgusu çalıştırma",
+        "Model eğitim süresini ölçme"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 112,
+      "question": "LLM bağlamında 'hallucination' ne anlama gelir?",
+      "options": [
+        "Modelin çok yavaş yanıt vermesi",
+        "Modelin gerçek olmayan, uydurma bilgi üretmesi",
+        "Modelin kullanıcı gizliliğini ihlal etmesi",
+        "Modelin soruyu anlamaması"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 113,
+      "question": "'Grounding' LLM bağlamında ne demektir?",
+      "options": [
+        "Modeli GPU'ya bağlamak",
+        "Yanıtları doğrulanmış ve güvenilir kaynaklara dayandırmak",
+        "Modeli küçültmek",
+        "Epoch sayısını sınırlamak"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 114,
+      "question": "Prompt Engineering nedir?",
+      "options": [
+        "LLM modelini yeniden eğitmek",
+        "LLM'den en iyi çıktıyı elde etmek için giriş metnini tasarlama",
+        "Prompt veritabanı oluşturma",
+        "Model ağırlıklarını optimize etme"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 115,
+      "question": "GAN'da Generator'ın amacı nedir?",
+      "options": [
+        "Gerçek ve sahte veriyi ayırt etmek",
+        "Discriminator'ı kandıracak gerçekçi sahte veri üretmek",
+        "Veri normalleştirme",
+        "Özellik seçimi"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 116,
+      "question": "GAN'da Discriminator'ın amacı nedir?",
+      "options": [
+        "Yeni veri üretmek",
+        "Gerçek ve Generator'ın ürettiği sahte veriyi ayırt etmek",
+        "Veri etiketlemek",
+        "Kümeleme yapmak"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 117,
+      "question": "Dropout derin öğrenmede neden kullanılır?",
+      "options": [
+        "Hesaplama hızını artırmak",
+        "Eğitim sırasında rastgele nöronları kapatarak aşırı öğrenmeyi önlemek",
+        "Veri setini büyütmek",
+        "Aktivasyon fonksiyonunu değiştirmek"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 118,
+      "question": "Batch Normalization ne işe yarar?",
+      "options": [
+        "Eğitimi yavaşlatır",
+        "Ara katman aktivasyonlarını normalleştirerek eğitimi kararlı hale getirir",
+        "Sınıf sayısını artırır",
+        "Kayıp fonksiyonunu değiştirir"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 119,
+      "question": "Word2Vec ne yapar?",
+      "options": [
+        "Kelimeleri görüntülere dönüştürür",
+        "Kelimeleri semantik vektör uzayına gömer",
+        "Kelimeleri frekanslarına göre sıralar",
+        "Kelimeleri segmentlere ayırır"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 120,
+      "question": "TF-IDF nedir?",
+      "options": [
+        "Bir kelimenin yalnızca frekansı",
+        "Belgedeki kelime sıklığı ile tüm belgeler arasındaki özgünlüğün çarpımı",
+        "Küme mesafesi",
+        "Sınıflandırma eşiği"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 121,
+      "question": "Named Entity Recognition (NER) ne tespit eder?",
+      "options": [
+        "Metnin yazarını",
+        "Kişi adı, organizasyon, yer gibi varlıkları",
+        "Metnin duygusunu",
+        "Metnin dilini"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 122,
+      "question": "POS Tagging ne yapar?",
+      "options": [
+        "Cümleleri özetler",
+        "Kelimelere dilbilgisel kategori (isim, fiil vb.) etiketler",
+        "Metnin duygusunu analiz eder",
+        "Metni başka dile çevirir"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 123,
+      "question": "Self-Attention mekanizması Transformer'da ne işe yarar?",
+      "options": [
+        "Görüntü pikselleri arasındaki mesafeyi hesaplamak",
+        "Her token'in diğer token'lerle ilişkisini ağırlıklandırmak",
+        "Veriyi karıştırmak",
+        "Embedding boyutunu artırmak"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 124,
+      "question": "RoBERTa ile BERT arasındaki fark nedir?",
+      "options": [
+        "RoBERTa çok daha küçüktür",
+        "RoBERTa daha uzun eğitim ve daha büyük batch ile BERT'ten daha güçlüdür",
+        "RoBERTa yalnızca görüntüler üzerinde çalışır",
+        "Fark yoktur"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 125,
+      "question": "XLNet'i BERT'ten ayıran özellik nedir?",
+      "options": [
+        "XLNet çok daha küçüktür",
+        "XLNet otomatik regresif bir model; tüm permütasyonlarla eğitilir",
+        "XLNet görüntü işler",
+        "XLNet Türkçe için optimize edilmiştir"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 126,
+      "question": "Bag of Words (BoW) modelinin zayıflığı nedir?",
+      "options": [
+        "Çok fazla bellek kullanır",
+        "Kelime sırasını ve anlamsal ilişkileri göz ardı eder",
+        "Yalnızca İngilizce için çalışır",
+        "Etiketli veri gerektirir"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 127,
+      "question": "Fine-tuning (ince ayar) ne demektir?",
+      "options": [
+        "Hiperparametreleri küçük aralıkta aramak",
+        "Önceden eğitilmiş modeli yeni veri ile yeniden eğiterek uyarlamak",
+        "Modeli sıkıştırmak",
+        "Veri setini küçültmek"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 128,
+      "question": "Sahte haber sınıflandırması hangi ML görevidir?",
+      "options": [
+        "Kümeleme",
+        "Regresyon",
+        "NLP metin sınıflandırma",
+        "Görüntü segmentasyonu"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 129,
+      "question": "Konuşma duygu tanıma (SER) için akustik özelliklere örnek nedir?",
+      "options": [
+        "Kelime frekansı",
+        "Pitch, jitter ve ton",
+        "Göz rengi",
+        "Biyometrik veriler"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 130,
+      "question": "LDA Topic Modeling hangi öğrenme türüdür?",
+      "options": [
+        "Denetimli",
+        "Pekiştirmeli",
+        "Denetimsiz",
+        "Transfer öğrenme"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 131,
+      "question": "LDA'nın açılımı nedir?",
+      "options": [
+        "Linear Discriminant Analysis",
+        "Latent Dirichlet Allocation",
+        "Large Data Algorithm",
+        "Language Detection Approach"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 132,
+      "question": "LSTM hangi problemi çözmek için geliştirilmiştir?",
+      "options": [
+        "Görüntü sınıflandırma",
+        "Vanishing gradient — RNN'nin uzun vadeli bağımlılıkları öğrenememesi",
+        "Kümeleme",
+        "Boyut azaltma"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 133,
+      "question": "GRU ile LSTM arasındaki fark nedir?",
+      "options": [
+        "GRU çok daha büyüktür",
+        "GRU daha az parametreyle LSTM'ye benzer performans sunar",
+        "GRU yalnızca görüntü verisi işler",
+        "Fark yoktur"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 134,
+      "question": "Derin öğrenmede 'vanishing gradient' problemi ne zaman ortaya çıkar?",
+      "options": [
+        "Çok az veri olduğunda",
+        "Çok katmanlı ağlarda gradyanların geriye doğru yayılırken küçülüp yok olması",
+        "GPU belleği dolduğunda",
+        "Batch size çok büyük olduğunda"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 135,
+      "question": "Adam optimizer'ın SGD'ye üstünlüğü nedir?",
+      "options": [
+        "Her zaman daha hızlıdır",
+        "Uyarlanabilir öğrenme hızı ve momentum kullanır",
+        "Daha az bellek kullanır",
+        "Daha az hiperparametre gerektirir"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 136,
+      "question": "CNN'de Pooling katmanı ne yapar?",
+      "options": [
+        "Yeni özellikler öğrenir",
+        "Özellik haritasını küçülterek önemli bilgileri korur ve hesaplama yükünü azaltır",
+        "Görüntüyü büyütür",
+        "Gürültü ekler"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 137,
+      "question": "Tokenizasyon NLP'de ne anlama gelir?",
+      "options": [
+        "Metni şifreleme",
+        "Metni kelime veya alt-kelime parçalarına bölme",
+        "Metni görüntüye dönüştürme",
+        "Metnin dilini tespit etme"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 138,
+      "question": "Lemmatization ile Stemming arasındaki temel fark nedir?",
+      "options": [
+        "Lemmatization daha hızlıdır",
+        "Lemmatization dilbilgisel olarak doğru kök döndürür",
+        "Stemming daha doğrudur",
+        "Aralarında fark yoktur"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 139,
+      "question": "Word embedding'lerin one-hot vektöre göre avantajı nedir?",
+      "options": [
+        "Daha az bellek kullanır",
+        "Kelimeler arası anlamsal benzerliği vektör uzayında yansıtır",
+        "Daha hızlı hesaplanır",
+        "Dilden bağımsızdır"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 140,
+      "question": "GloVe ile Word2Vec arasındaki fark nedir?",
+      "options": [
+        "GloVe görüntüler üzerinde çalışır",
+        "GloVe küresel eş oluşum istatistiklerini kullanır; Word2Vec yerel bağlam pencereleriyle",
+        "Word2Vec daha büyüktür",
+        "Fark yoktur"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 141,
+      "question": "LLM bağlamında 'context window' nedir?",
+      "options": [
+        "Ekran alanı",
+        "Modelin bir seferde işleyebileceği maksimum token sayısı",
+        "Eğitim süresi",
+        "RAM kullanımı"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 142,
+      "question": "Whisper hangi görev için kullanılır?",
+      "options": [
+        "Görüntü sınıflandırma",
+        "Konuşmadan metne (speech-to-text)",
+        "SQL optimizasyonu",
+        "Anomali tespiti"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 143,
+      "question": "Sentiment analysis için en yaygın kullanılan veri kaynağı hangisidir?",
+      "options": [
+        "Tıbbi kayıtlar",
+        "Sosyal medya ve ürün yorumları",
+        "Finansal tablolar",
+        "Hava durumu verileri"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 144,
+      "question": "NLP'de Stop Words nedir?",
+      "options": [
+        "Çok seyrek geçen kelimeler",
+        "'ve', 'bir' gibi anlamsız, genellikle çıkarılan kelimeler",
+        "Teknik terimler",
+        "Yabancı kelimeler"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 145,
+      "question": "Derin öğrenmede 'Early Stopping' neden kullanılır?",
+      "options": [
+        "GPU'yu korumak için",
+        "Validasyon hatasının artmaya başladığı noktada eğitimi durdurarak aşırı öğrenmeyi önlemek",
+        "Eğitimi hızlandırmak",
+        "Daha fazla veri eklemek"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 146,
+      "question": "Text-to-SQL sistemi ne yapar?",
+      "options": [
+        "SQL sorgularını Python'a çevirir",
+        "Doğal dil sorularını SQL sorgularına dönüştürür",
+        "SQL veritabanlarını JSON'a aktarır",
+        "SQL tablolarını görüntüler"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 147,
+      "question": "LLM'lerde RAG sisteminin temel avantajı nedir?",
+      "options": [
+        "Daha küçük model",
+        "Harici belgelerle yanıtları doğrulandırır; hallüsinasyonu azaltır",
+        "Daha hızlı eğitim",
+        "Daha az parametre"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 148,
+      "question": "Guardrails LLM bağlamında ne anlama gelir?",
+      "options": [
+        "Modeli GPU'ya bağlayan donanım",
+        "Modelin zararlı ya da yanlış içerik üretmesini engelleyen mekanizmalar",
+        "Eğitim verisi",
+        "Hiperparametre ayarları"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 149,
+      "question": "Llama2 hangi firmaya aittir?",
+      "options": [
+        "Google",
+        "OpenAI",
+        "Meta (Facebook)",
+        "Microsoft"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 150,
+      "question": "Derin öğrenmede 'batch size' neyi belirler?",
+      "options": [
+        "Toplam epoch sayısını",
+        "Her gradient güncellemesinde kullanılan örnek sayısını",
+        "Özellik sayısını",
+        "Katman sayısını"
+      ],
+      "correct": 1
+    }
+  ]
+}
