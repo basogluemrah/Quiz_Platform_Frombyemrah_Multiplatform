@@ -1,0 +1,54 @@
+{
+  "unitId": 12,
+  "unitName": "Regresyon algoritmaları",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Lasso hangi düzenlileştirmeyi kullanır?",
+      "options": [
+        "L1",
+        "L2",
+        "Dropout",
+        "K-kat"
+      ],
+      "correct": 0,
+      "source": "Özgün soru · Yapay_Zeka_Uygulamari.ipynb"
+    },
+    {
+      "id": 2,
+      "question": "Ridge hangi cezayı kullanır?",
+      "options": [
+        "L1",
+        "ROC",
+        "F1",
+        "L2"
+      ],
+      "correct": 3,
+      "source": "Özgün soru · Yapay_Zeka_Uygulamari.ipynb"
+    },
+    {
+      "id": 3,
+      "question": "Elastic Net hangi iki cezayı birleştirir?",
+      "options": [
+        "Accuracy ve F1",
+        "PCA ve RFE",
+        "L1 ve L2",
+        "MAE ve ROC"
+      ],
+      "correct": 2,
+      "source": "Özgün soru · Yapay_Zeka_Uygulamari.ipynb"
+    },
+    {
+      "id": 4,
+      "question": "Sürekli hedef değişken için hangi model ailesi uygundur?",
+      "options": [
+        "Binarizer",
+        "Regresyon",
+        "Sınıflandırma",
+        "Kümeleme"
+      ],
+      "correct": 1,
+      "source": "Özgün soru · Yapay_Zeka_Uygulamari.ipynb"
+    }
+  ]
+}

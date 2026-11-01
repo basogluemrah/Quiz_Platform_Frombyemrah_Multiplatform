@@ -1,0 +1,69 @@
+{
+  "sections": [
+    {
+      "icon": "📖",
+      "title": "1. Python ile makine öğrenmesine giriş",
+      "content": "Defter, Python ile makine öğrenmesini adım adım uygulayan bir çalışma kitabıdır. Temel akış: problemi belirle, veriyi incele, uygun modeli kur, ayrı veride değerlendir. Python'da değişkenler, koşullar, döngüler, listeler, demetler, sözlükler ve fonksiyonlar sonraki örneklerin temelidir."
+    },
+    {
+      "icon": "📖",
+      "title": "2. Ekosistem",
+      "content": "Python genel amaçlı dildir; NumPy sayısal diziler, SciPy bilimsel hesaplama, Pandas tablo verisi, Matplotlib çizim, scikit-learn ise ön işleme, modelleme ve değerlendirme araçları sağlar. Paket sürümleri ve çalışma ortamı tekrarlanabilirliği etkiler."
+    },
+    {
+      "icon": "📖",
+      "title": "3. Sayısal ve tablo verisi",
+      "content": "NumPy dizileri aynı tipte verileri verimli işler; dilimleme ve vektörel işlemler döngü ihtiyacını azaltır. Pandas Series tek boyutlu, DataFrame satır-sütun yapılıdır. Matplotlib çizgi, saçılım, sütun, histogram, kutu ve alan grafikleriyle örüntüleri gösterir."
+    },
+    {
+      "icon": "📖",
+      "title": "4. CSV dosyaları",
+      "content": "CSV yüklerken başlık satırı, yorum satırı, ayraç, tırnaklama, eksik değer ve veri tipi kontrol edilir. Standart csv modülü, NumPy ve Pandas farklı ihtiyaçlara hizmet eder. Yanlış ayraç veya başlık yorumu sütunları bozabilir."
+    },
+    {
+      "icon": "📖",
+      "title": "5. Tanımlayıcı istatistik",
+      "content": "İlk incelemede veri boyutu, türleri, ilk satırlar, merkez ve yayılım ölçüleri, sınıf dağılımı ve özellikler arası ilişkiler görülür. Dengesiz sınıflar yalnızca doğruluk oranına güvenmemeyi gerektirir. Korelasyon nedensellik göstermez."
+    },
+    {
+      "icon": "📖",
+      "title": "6. Görselleştirme",
+      "content": "Histogram ve yoğunluk grafiği dağılımı, kutu grafiği aykırı değerleri, korelasyon matrisi doğrusal ilişkileri, saçılım matrisi iki değişkenli örüntüleri gösterir. Grafik seçimi soruya ve değişken tipine bağlıdır."
+    },
+    {
+      "icon": "📖",
+      "title": "7. Veri dönüşümleri",
+      "content": "MinMaxScaler değerleri seçilen aralığa taşır; StandardScaler ortalamayı sıfıra, standart sapmayı bire yaklaştırır. Normalizer örnek vektörünün normunu ölçekler; Binarizer eşik üstünü 1 yapar. Dönüşüm yalnızca eğitim verisinde öğrenilip test verisine uygulanmalıdır."
+    },
+    {
+      "icon": "📖",
+      "title": "8. Özellik seçimi",
+      "content": "Tek değişkenli seçim her özelliği hedefle ayrı değerlendirir. RFE modeli yineleyerek daha az yararlı özellikleri çıkarır. PCA yeni doğrusal bileşenler üretir; bu yüzden klasik anlamda özellik seçimi değil, boyut indirgemedir. Ağaç tabanlı önem değerleri modele bağlıdır."
+    },
+    {
+      "icon": "📖",
+      "title": "9. Doğrulama",
+      "content": "Eğitim-test ayırımı son değerlendirme için ayrı veri bırakır. K-kat çapraz doğrulama performansın bölmelere göre değişimini gösterir; leave-one-out her gözlemi bir kez test eder. Rastgele tekrar bölme belirsizliği görmeye yarar. Veri sızıntısı ve dengesiz sınıf dağılımı gözetilir."
+    },
+    {
+      "icon": "📖",
+      "title": "10. Performans ölçüleri",
+      "content": "Sınıflandırmada doğruluk, log loss, ROC-AUC, karmaşıklık matrisi ve precision/recall/F1 farklı soruları yanıtlar. Regresyonda MAE mutlak, MSE karesel hatayı ölçer; R² açıklanan varyansla ilişkilidir. Metrik iş hedefiyle seçilir."
+    },
+    {
+      "icon": "📖",
+      "title": "11. Sınıflandırma",
+      "content": "Defter lojistik regresyon, LDA, k-en yakın komşu, Naive Bayes, karar ağacı ve destek vektör makinesini nokta kontrolüyle karşılaştırır. LR doğrusal karar sınırı kurar; k-NN yakınlıklara, ağaçlar bölme kurallarına, SVM marjine dayanır."
+    },
+    {
+      "icon": "📖",
+      "title": "12. Regresyon",
+      "content": "Doğrusal regresyon sürekli hedef tahmin eder. Ridge L2, Lasso L1 cezası uygular; Elastic Net ikisini birleştirir. K-NN regresyon komşu değerleri, karar ağacı bölge ortalamaları, SVR marjin yaklaşımı kullanır."
+    },
+    {
+      "icon": "📖",
+      "title": "13. Adil model karşılaştırması",
+      "content": "Modelleri aynı veri bölmeleri ve aynı değerlendirme metriğiyle karşılaştırmak gerekir. Çapraz doğrulama ortalaması ve dağılımı birlikte incelenir; tek koşudaki küçük fark kesin üstünlük kanıtı değildir. Defterin örneğinde LR ve LDA güçlü sonuç verir, ancak sonuç veri kümesine özgüdür."
+    }
+  ]
+}

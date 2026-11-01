@@ -1,0 +1,54 @@
+{
+  "unitId": 3,
+  "unitName": "NumPy, Pandas ve Matplotlib",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Pandas'ta satır-sütun biçimli tablo nedir?",
+      "options": [
+        "DataFrame",
+        "Series",
+        "ndarray scalar",
+        "tuple"
+      ],
+      "correct": 0,
+      "source": "Özgün soru · Yapay_Zeka_Uygulamari.ipynb"
+    },
+    {
+      "id": 2,
+      "question": "Tek boyutlu etiketli Pandas yapısı hangisidir?",
+      "options": [
+        "DataFrame",
+        "Figure",
+        "Estimator",
+        "Series"
+      ],
+      "correct": 3,
+      "source": "Özgün soru · Yapay_Zeka_Uygulamari.ipynb"
+    },
+    {
+      "id": 3,
+      "question": "İki sayısal değişkenin ilişkisi hangi grafikle görülür?",
+      "options": [
+        "Akış şeması",
+        "Alan grafiği",
+        "Saçılım grafiği",
+        "Pasta grafiği"
+      ],
+      "correct": 2,
+      "source": "Özgün soru · Yapay_Zeka_Uygulamari.ipynb"
+    },
+    {
+      "id": 4,
+      "question": "NumPy'de dizinin belirli bölümünü seçme işlemine ne denir?",
+      "options": [
+        "Model eğitimi",
+        "Dilimleme",
+        "Serileştirme",
+        "İndeksleme kaybı"
+      ],
+      "correct": 1,
+      "source": "Özgün soru · Yapay_Zeka_Uygulamari.ipynb"
+    }
+  ]
+}

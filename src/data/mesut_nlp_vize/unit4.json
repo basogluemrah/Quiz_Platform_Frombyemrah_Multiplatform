@@ -1,0 +1,66 @@
+{
+  "unitId": 4,
+  "unitName": "4. Model ve tokenizer paylaşımı",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Başkasının modeli güvenle yeniden kullanması için hangi dosya açıklayıcıdır?",
+      "options": [
+        "Model kartı",
+        "Rastgele log",
+        "Ekran resmi",
+        "Ham erişim anahtarı"
+      ],
+      "correct": 0,
+      "source": "Özgün senaryo sorusu · Hugging Face LLM Course"
+    },
+    {
+      "id": 2,
+      "question": "Hub'a model gönderirken ne kesinlikle yüklenmemelidir?",
+      "options": [
+        "Model kartı",
+        "Uygun lisans bilgisi",
+        "Değerlendirme özeti",
+        "Erişim tokenı"
+      ],
+      "correct": 3,
+      "source": "Özgün senaryo sorusu · Hugging Face LLM Course"
+    },
+    {
+      "id": 3,
+      "question": "Model ve tokenizer birlikte paylaşılmazsa ne olabilir?",
+      "options": [
+        "Model otomatik küçülür",
+        "Lisans değişir",
+        "Yeniden kullanımda uyumsuzluk",
+        "Metrik garantili artar"
+      ],
+      "correct": 2,
+      "source": "Özgün senaryo sorusu · Hugging Face LLM Course"
+    },
+    {
+      "id": 4,
+      "question": "Model kartında hangi bilgi yer almalıdır?",
+      "options": [
+        "Gizli anahtar",
+        "Amaç, veri, sınırlar ve değerlendirme",
+        "Yalnız emoji",
+        "Yalnız dosya tarihi"
+      ],
+      "correct": 1,
+      "source": "Özgün senaryo sorusu · Hugging Face LLM Course"
+    },
+    {
+      "id": 5,
+      "question": "Paylaşmadan önce veri için hangi kontrol gerekir?",
+      "options": [
+        "Lisans ve kişisel bilgi kontrolü",
+        "Yalnız zip boyutu",
+        "Yalnız görsel tema",
+        "Yalnız batch boyutu"
+      ],
+      "correct": 0,
+      "source": "Özgün senaryo sorusu · Hugging Face LLM Course"
+    }
+  ]
+}

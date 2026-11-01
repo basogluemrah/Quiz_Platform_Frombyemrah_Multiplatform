@@ -1,0 +1,126 @@
+{
+  "unitId": 1,
+  "unitName": "İnsan kaynakları yönetimine giriş · PDF s. 4–28",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Uyarlanabilir ve yenilikçi örgütte hangi iletişim tek başına baskın olmamalıdır?",
+      "options": [
+        "Yalnız dikey iletişim",
+        "Yatay iletişim",
+        "Açık geri bildirim",
+        "Birimler arası iletişim"
+      ],
+      "correct": 0,
+      "source": "PDF ünite sonu sorularının özgün uyarlaması · s. 25–26"
+    },
+    {
+      "id": 2,
+      "question": "Hangisi tipik bir İK işlevi değildir?",
+      "options": [
+        "Eğitim",
+        "Performans değerlendirmesi",
+        "Ücret yönetimi",
+        "Ürün fiyatlandırması"
+      ],
+      "correct": 3,
+      "source": "PDF ünite sonu sorularının özgün uyarlaması · s. 25–26"
+    },
+    {
+      "id": 3,
+      "question": "Modern İKY'yi personel yönetiminden ayıran odak nedir?",
+      "options": [
+        "Çalışanı sadece maliyet görmek",
+        "Sadece evrak takibi",
+        "Stratejik ve uzun vadeli yaklaşım",
+        "Yalnız bordro"
+      ],
+      "correct": 2,
+      "source": "PDF ünite sonu sorularının özgün uyarlaması · s. 25–26"
+    },
+    {
+      "id": 4,
+      "question": "Geleneksel personel yönetiminin odağı hangisidir?",
+      "options": [
+        "Proaktif değişim",
+        "İdari işlem ve iş odaklılık",
+        "Stratejik ortaklık",
+        "Çalışan sermayesi"
+      ],
+      "correct": 1,
+      "source": "PDF ünite sonu sorularının özgün uyarlaması · s. 25–26"
+    },
+    {
+      "id": 5,
+      "question": "İKY'nin hedefiyle hangisi çelişir?",
+      "options": [
+        "Yasal kuralları bilinçli ihlal etmek",
+        "Verimliliği artırmak",
+        "Etik davranmak",
+        "Çalışma yaşamını iyileştirmek"
+      ],
+      "correct": 0,
+      "source": "PDF ünite sonu sorularının özgün uyarlaması · s. 25–26"
+    },
+    {
+      "id": 6,
+      "question": "Boş pozisyona uygun aday bulma ve seçme hangi faaliyettir?",
+      "options": [
+        "Ücretleme",
+        "Performans değerlendirme",
+        "İş güvenliği",
+        "Kadrolama"
+      ],
+      "correct": 3,
+      "source": "PDF ünite sonu sorularının özgün uyarlaması · s. 25–26"
+    },
+    {
+      "id": 7,
+      "question": "Etkili İKY'nin beklenen çıktısı hangisidir?",
+      "options": [
+        "Sürekli devamsızlık artışı",
+        "Uyum kaybı",
+        "Çalışan tatmini ve kalite",
+        "Sürekli maliyet artışı"
+      ],
+      "correct": 2,
+      "source": "PDF ünite sonu sorularının özgün uyarlaması · s. 25–26"
+    },
+    {
+      "id": 8,
+      "question": "İK uzmanı için hangisi uygun yetkinlik değildir?",
+      "options": [
+        "Güvenilir olmak",
+        "Hesapsız risk almak",
+        "Değişimi yönetmek",
+        "Stratejiyi anlamak"
+      ],
+      "correct": 1,
+      "source": "PDF ünite sonu sorularının özgün uyarlaması · s. 25–26"
+    },
+    {
+      "id": 9,
+      "question": "İK uzmanının hat yöneticileriyle sorumluluğu paylaşması hangi roldür?",
+      "options": [
+        "İş ortağı",
+        "Yalnız kayıt memuru",
+        "Bağımsız denetçi",
+        "Sendika temsilcisi"
+      ],
+      "correct": 0,
+      "source": "PDF ünite sonu sorularının özgün uyarlaması · s. 25–26"
+    },
+    {
+      "id": 10,
+      "question": "İK biriminin temel kurumsal rolleri arasında hangisi yer almaz?",
+      "options": [
+        "Stratejik rol",
+        "Operasyonel rol",
+        "Çalışan savunuculuğu",
+        "Sendikal temsil rolü"
+      ],
+      "correct": 3,
+      "source": "PDF ünite sonu sorularının özgün uyarlaması · s. 25–26"
+    }
+  ]
+}

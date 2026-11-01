@@ -1,0 +1,40 @@
+{
+  "courseId": "ik_vize",
+  "courseName": "insan kaynakları vize",
+  "specialModes": [
+    {
+      "id": "mixed",
+      "name": "🎲 Karışık Quiz",
+      "description": "Tüm ünitelerden rastgele 20 soru",
+      "icon": "🎲"
+    },
+    {
+      "id": "all",
+      "name": "📚 Tüm Sorular",
+      "description": "Bütün soruları çöz",
+      "icon": "📚"
+    }
+  ],
+  "units": [
+    {
+      "id": 1,
+      "name": "İnsan kaynakları yönetimine giriş · PDF s. 4–28"
+    },
+    {
+      "id": 2,
+      "name": "İnsan kaynakları yönetimi ve çevre · PDF s. 29–57"
+    },
+    {
+      "id": 3,
+      "name": "İş analizi ve iş tasarımı · PDF s. 58–73"
+    }
+  ],
+  "extras": [
+    {
+      "id": "notes",
+      "name": "📖 Ders Notları",
+      "description": "Kaynağa dayalı kısa özetler",
+      "icon": "📖"
+    }
+  ]
+}

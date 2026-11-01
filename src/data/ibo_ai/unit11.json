@@ -1,0 +1,54 @@
+{
+  "unitId": 11,
+  "unitName": "Sınıflandırma algoritmaları",
+  "questions": [
+    {
+      "id": 1,
+      "question": "k-NN yeni örneği nasıl sınıflandırır?",
+      "options": [
+        "Yakın komşularının etiketleriyle",
+        "Rastgele etiketle",
+        "Sadece ortalamayla",
+        "PCA bileşeniyle"
+      ],
+      "correct": 0,
+      "source": "Özgün soru · Yapay_Zeka_Uygulamari.ipynb"
+    },
+    {
+      "id": 2,
+      "question": "Naive Bayes'in ayırt edici varsayımı nedir?",
+      "options": [
+        "Tüm özellikler eşit olmalı",
+        "Yalnız doğrusal ilişki",
+        "Eksik veri bulunmalı",
+        "Koşullu özellik bağımsızlığı"
+      ],
+      "correct": 3,
+      "source": "Özgün soru · Yapay_Zeka_Uygulamari.ipynb"
+    },
+    {
+      "id": 3,
+      "question": "SVM hangi karar sınırını arar?",
+      "options": [
+        "En çok yapraklı olan",
+        "En çok sınıfı bulan",
+        "Marjini en büyük yapan",
+        "En kısa eğitimi yapan"
+      ],
+      "correct": 2,
+      "source": "Özgün soru · Yapay_Zeka_Uygulamari.ipynb"
+    },
+    {
+      "id": 4,
+      "question": "Lojistik regresyon hangi çıktı için kullanılır?",
+      "options": [
+        "Eksik sütun",
+        "Sınıf olasılığı",
+        "Kesin gelecek değer",
+        "Küme merkezi"
+      ],
+      "correct": 1,
+      "source": "Özgün soru · Yapay_Zeka_Uygulamari.ipynb"
+    }
+  ]
+}

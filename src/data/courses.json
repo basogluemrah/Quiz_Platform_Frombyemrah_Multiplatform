@@ -48,6 +48,27 @@
       "icon": "🌐",
       "color": "#a855f7",
       "description": "Bilgisayar Ağları (OSI, TCP/IP, Fiziksel Katman, IP/MAC, VLAN, Dinamik Rota) Final Sınavı Hazırlığı"
+    },
+    {
+      "id": "ibo_ai",
+      "name": "ibo yapay zeka",
+      "icon": "🧠",
+      "color": "#7c3aed",
+      "description": "Yapay Zeka Uygulamaları defteri: 13 bölüm özeti ve 52 özgün soru"
+    },
+    {
+      "id": "ik_vize",
+      "name": "insan kaynakları vize",
+      "icon": "👥",
+      "color": "#0d9488",
+      "description": "İnsan Kaynakları Yönetimi PDF s. 1–73: özet ve 30 soru"
+    },
+    {
+      "id": "mesut_nlp_vize",
+      "name": "mesut hoca nlp dersi vize",
+      "icon": "🗣️",
+      "color": "#2563eb",
+      "description": "NLP 0–4 kısa özet, 25 özgün test ve 15 kısa cevap"
     }
   ]
 }

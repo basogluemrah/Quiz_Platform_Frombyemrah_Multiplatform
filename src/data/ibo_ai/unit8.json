@@ -1,0 +1,54 @@
+{
+  "unitId": 8,
+  "unitName": "Özellik seçimi",
+  "questions": [
+    {
+      "id": 1,
+      "question": "RFE'nin temel işlemi nedir?",
+      "options": [
+        "Özellikleri yinelemeli elemek",
+        "Yeni örnek üretmek",
+        "Sınıfları dengelemek",
+        "Grafik çizmek"
+      ],
+      "correct": 0,
+      "source": "Özgün soru · Yapay_Zeka_Uygulamari.ipynb"
+    },
+    {
+      "id": 2,
+      "question": "PCA'nın ürettiği çıktı nedir?",
+      "options": [
+        "Orijinal sütunlardan seçilmiş alt küme",
+        "Sınıf etiketi",
+        "Eksik değer listesi",
+        "Yeni temel bileşenler"
+      ],
+      "correct": 3,
+      "source": "Özgün soru · Yapay_Zeka_Uygulamari.ipynb"
+    },
+    {
+      "id": 3,
+      "question": "Tek değişkenli özellik seçimi özellikleri nasıl inceler?",
+      "options": [
+        "Yalnız zamana göre",
+        "Sadece görsel olarak",
+        "Hedefle ayrı ayrı",
+        "Yalnız ikili gruplar hâlinde"
+      ],
+      "correct": 2,
+      "source": "Özgün soru · Yapay_Zeka_Uygulamari.ipynb"
+    },
+    {
+      "id": 4,
+      "question": "Özellik öneminin modele bağlı olması neyi gerektirir?",
+      "options": [
+        "Her sütunu silmeyi",
+        "Farklı modellerde yeniden yorumlamayı",
+        "Her önemi nedensellik saymayı",
+        "Test verisinde eğitim yapmayı"
+      ],
+      "correct": 1,
+      "source": "Özgün soru · Yapay_Zeka_Uygulamari.ipynb"
+    }
+  ]
+}
