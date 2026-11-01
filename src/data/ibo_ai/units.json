@@ -1,0 +1,80 @@
+{
+  "courseId": "ibo_ai",
+  "courseName": "ibo yapay zeka",
+  "specialModes": [
+    {
+      "id": "mixed",
+      "name": "🎲 Karışık Quiz",
+      "description": "Tüm ünitelerden rastgele 20 soru",
+      "icon": "🎲"
+    },
+    {
+      "id": "all",
+      "name": "📚 Tüm Sorular",
+      "description": "Bütün soruları çöz",
+      "icon": "📚"
+    }
+  ],
+  "units": [
+    {
+      "id": 1,
+      "name": "Python temelleri ve veri yapıları"
+    },
+    {
+      "id": 2,
+      "name": "Python bilimsel ekosistemi"
+    },
+    {
+      "id": 3,
+      "name": "NumPy, Pandas ve Matplotlib"
+    },
+    {
+      "id": 4,
+      "name": "CSV ve veri yükleme"
+    },
+    {
+      "id": 5,
+      "name": "Tanımlayıcı istatistikler"
+    },
+    {
+      "id": 6,
+      "name": "Veri görselleştirme"
+    },
+    {
+      "id": 7,
+      "name": "Veri ön işleme"
+    },
+    {
+      "id": 8,
+      "name": "Özellik seçimi"
+    },
+    {
+      "id": 9,
+      "name": "Yeniden örnekleme ve doğrulama"
+    },
+    {
+      "id": 10,
+      "name": "Model değerlendirme metrikleri"
+    },
+    {
+      "id": 11,
+      "name": "Sınıflandırma algoritmaları"
+    },
+    {
+      "id": 12,
+      "name": "Regresyon algoritmaları"
+    },
+    {
+      "id": 13,
+      "name": "Algoritmaları karşılaştırma"
+    }
+  ],
+  "extras": [
+    {
+      "id": "notes",
+      "name": "📖 Ders Notları",
+      "description": "Kaynağa dayalı kısa özetler",
+      "icon": "📖"
+    }
+  ]
+}

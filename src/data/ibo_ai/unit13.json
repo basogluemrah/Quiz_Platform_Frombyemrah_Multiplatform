@@ -1,0 +1,54 @@
+{
+  "unitId": 13,
+  "unitName": "Algoritmaları karşılaştırma",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Adil model karşılaştırmasında modeller için ne aynı tutulur?",
+      "options": [
+        "Veri bölmeleri ve metrik",
+        "Yalnız model adı",
+        "Yalnız grafik rengi",
+        "Yalnız eğitim süresi"
+      ],
+      "correct": 0,
+      "source": "Özgün soru · Yapay_Zeka_Uygulamari.ipynb"
+    },
+    {
+      "id": 2,
+      "question": "Çapraz doğrulama standart sapması neye işaret eder?",
+      "options": [
+        "Özellik sayısına",
+        "Sınıf adlarına",
+        "CSV boyutuna",
+        "Katlar arası performans değişkenliğine"
+      ],
+      "correct": 3,
+      "source": "Özgün soru · Yapay_Zeka_Uygulamari.ipynb"
+    },
+    {
+      "id": 3,
+      "question": "Tek veri kümesinde en iyi çıkan model için hangi yorum doğrudur?",
+      "options": [
+        "Artık test gerekmez",
+        "Özellik seçimi gereksizdir",
+        "Sonuç o veri ve kurulumla sınırlıdır",
+        "Her veri kümesinde en iyidir"
+      ],
+      "correct": 2,
+      "source": "Özgün soru · Yapay_Zeka_Uygulamari.ipynb"
+    },
+    {
+      "id": 4,
+      "question": "Kutu grafiğiyle model skorları karşılaştırılırken ne görülebilir?",
+      "options": [
+        "Yalnız dosya boyutu",
+        "Dağılım ve medyan",
+        "Nedensellik",
+        "Sadece eğitim süresi"
+      ],
+      "correct": 1,
+      "source": "Özgün soru · Yapay_Zeka_Uygulamari.ipynb"
+    }
+  ]
+}

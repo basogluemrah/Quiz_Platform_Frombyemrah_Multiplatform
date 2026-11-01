@@ -1,0 +1,29 @@
+{
+  "sections": [
+    {
+      "icon": "✍️",
+      "title": "0. Kurulum · kısa cevap",
+      "content": "1. Aynı notebook bir arkadaşında hata veriyor. İlk üç kontrolün ne olur?<br><strong>Cevap:</strong> Python sürümü, paket sürümleri ve sanal ortam/kurulum adımları.<br><br>2. Rastgele bölme her çalışmada değişiyorsa ne kaydedersin?<br><strong>Cevap:</strong> Rastgele tohumu ve veri bölme ayarını.<br><br>3. CPU'da yavaş eğitimi nasıl hızlandırırsın?<br><strong>Cevap:</strong> Uygun GPU kullanır, küçük örnekle kodu doğrularım."
+    },
+    {
+      "icon": "✍️",
+      "title": "1. Transformer · kısa cevap",
+      "content": "1. Bir yorumun duygusunu bulmak için hangi görev seçilir?<br><strong>Cevap:</strong> Metin sınıflandırma.<br><br>2. Attention'ın temel yararı nedir?<br><strong>Cevap:</strong> Tokenlar arası bağları, uzak konumlar dahil, ağırlıklandırır.<br><br>3. Akıcı bir model cevabı neden yine de kontrol edilir?<br><strong>Cevap:</strong> Akıcılık doğruluk garantisi değildir; model yanılabilir."
+    },
+    {
+      "icon": "✍️",
+      "title": "2. Transformers · kısa cevap",
+      "content": "1. Tokenizer ile model neden aynı checkpoint'ten olmalı?<br><strong>Cevap:</strong> Token kimlikleri ve model sözlüğü eşleşmelidir.<br><br>2. Padding ile attention mask farkı nedir?<br><strong>Cevap:</strong> Padding uzunluğu eşitler; mask gerçek tokenları işaretler.<br><br>3. Çok uzun metin girişinde hangi kayıp yaşanır?<br><strong>Cevap:</strong> Truncation kullanılırsa kesilen bölümün bilgisi kaybolur."
+    },
+    {
+      "icon": "✍️",
+      "title": "3. İnce ayar · kısa cevap",
+      "content": "1. Eğitim, doğrulama ve testin ayrı rolleri nedir?<br><strong>Cevap:</strong> Ağırlık öğrenme, model seçimi ve son tarafsız ölçüm.<br><br>2. Dengesiz veri için tek başına accuracy neden yetmez?<br><strong>Cevap:</strong> Çoğunluk sınıfını tahmin etmek yüksek doğruluk verebilir; sınıf bazlı precision/recall/F1 gerekir.<br><br>3. Test setiyle ayar yaparsan ne olur?<br><strong>Cevap:</strong> Sonuç iyimserleşir; test tarafsızlığını yitirir."
+    },
+    {
+      "icon": "✍️",
+      "title": "4. Paylaşım · kısa cevap",
+      "content": "1. Model kartına hangi sınırlamayı yazarsın?<br><strong>Cevap:</strong> Bilinen başarısızlık, önyargı ve uygun olmayan kullanım alanlarını.<br><br>2. Hub'a yüklemeden önce hangi gizli bilgi kontrol edilir?<br><strong>Cevap:</strong> Erişim tokenları, anahtarlar ve kişisel veriler.<br><br>3. Tokenizer eksikse kullanıcı ne yaşar?<br><strong>Cevap:</strong> Aynı metin farklı tokenlanabilir; tahminler bozulabilir."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "unitId": 4,
+  "unitName": "CSV ve veri yükleme",
+  "questions": [
+    {
+      "id": 1,
+      "question": "CSV'de virgül yerine noktalı virgül kullanılmışsa ilk kontrol nedir?",
+      "options": [
+        "Ayraç parametresi",
+        "Model türü",
+        "Öğrenme oranı",
+        "Grafik rengi"
+      ],
+      "correct": 0,
+      "source": "Özgün soru · Yapay_Zeka_Uygulamari.ipynb"
+    },
+    {
+      "id": 2,
+      "question": "İlk satır sütun adlarıysa yükleme sırasında ne belirtilir?",
+      "options": [
+        "Test oranı",
+        "Küme sayısı",
+        "Kayıp fonksiyonu",
+        "Başlık satırı"
+      ],
+      "correct": 3,
+      "source": "Özgün soru · Yapay_Zeka_Uygulamari.ipynb"
+    },
+    {
+      "id": 3,
+      "question": "Tırnak içindeki ayraçların doğru okunmasını ne sağlar?",
+      "options": [
+        "PCA",
+        "Binarizer",
+        "CSV tırnaklama kuralı",
+        "Korelasyon matrisi"
+      ],
+      "correct": 2,
+      "source": "Özgün soru · Yapay_Zeka_Uygulamari.ipynb"
+    },
+    {
+      "id": 4,
+      "question": "CSV'de sayılar metin olarak gelmişse hangi konu incelenir?",
+      "options": [
+        "Çapraz doğrulama katı",
+        "Veri tipi dönüşümü",
+        "Sınıflandırıcı marjini",
+        "Grafik başlığı"
+      ],
+      "correct": 1,
+      "source": "Özgün soru · Yapay_Zeka_Uygulamari.ipynb"
+    }
+  ]
+}

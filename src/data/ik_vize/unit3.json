@@ -1,0 +1,126 @@
+{
+  "unitId": 3,
+  "unitName": "İş analizi ve iş tasarımı · PDF s. 58–73",
+  "questions": [
+    {
+      "id": 1,
+      "question": "İş analizi öncelikle neyi inceler?",
+      "options": [
+        "İşin görev, koşul ve gereklerini",
+        "Yalnız çalışanın maaşını",
+        "Yalnız piyasa fiyatını",
+        "Yalnız marka adını"
+      ],
+      "correct": 0,
+      "source": "Özgün soru · PDF s. 58–73"
+    },
+    {
+      "id": 2,
+      "question": "İş analizinden türeyen yazılı görev açıklaması nedir?",
+      "options": [
+        "Misyon",
+        "Kâr tablosu",
+        "Toplu sözleşme",
+        "İş tanımı"
+      ],
+      "correct": 3,
+      "source": "Özgün soru · PDF s. 58–73"
+    },
+    {
+      "id": 3,
+      "question": "İşi yapacak kişinin bilgi, beceri ve nitelikleri hangi çıktıdır?",
+      "options": [
+        "İş hacmi",
+        "İşletme logosu",
+        "İş gerekleri",
+        "İş kodu"
+      ],
+      "correct": 2,
+      "source": "Özgün soru · PDF s. 58–73"
+    },
+    {
+      "id": 4,
+      "question": "Çalışanı farklı görevlere belirli aralıklarla geçirme tekniği nedir?",
+      "options": [
+        "İşten çıkarma",
+        "İş rotasyonu",
+        "İş basitleştirme",
+        "İş zenginleştirme"
+      ],
+      "correct": 1,
+      "source": "Özgün soru · PDF s. 58–73"
+    },
+    {
+      "id": 5,
+      "question": "Aynı düzeyde yeni görevler eklemek hangi tekniktir?",
+      "options": [
+        "İş genişletme",
+        "İş zenginleştirme",
+        "İş analizi",
+        "Kişilik ölçümü"
+      ],
+      "correct": 0,
+      "source": "Özgün soru · PDF s. 58–73"
+    },
+    {
+      "id": 6,
+      "question": "Planlama ve denetim yetkisi ekleyerek işi dikey büyütmek nedir?",
+      "options": [
+        "İş genişletme",
+        "İş basitleştirme",
+        "İş rotasyonu",
+        "İş zenginleştirme"
+      ],
+      "correct": 3,
+      "source": "Özgün soru · PDF s. 58–73"
+    },
+    {
+      "id": 7,
+      "question": "Karmaşık işi küçük ve tekrarlı parçalara ayırma hangi tekniktir?",
+      "options": [
+        "İş zenginleştirme",
+        "Ekip temelli analiz",
+        "İş basitleştirme",
+        "İş rotasyonu"
+      ],
+      "correct": 2,
+      "source": "Özgün soru · PDF s. 58–73"
+    },
+    {
+      "id": 8,
+      "question": "İş rotasyonunun olası yararı nedir?",
+      "options": [
+        "Eğitimi gereksiz kılması",
+        "Monotonluğu azaltıp beceri genişletmesi",
+        "Her görevi otomatikleştirmesi",
+        "Yetkiyi daima artırması"
+      ],
+      "correct": 1,
+      "source": "Özgün soru · PDF s. 58–73"
+    },
+    {
+      "id": 9,
+      "question": "Bağlamsal performans örneği hangisidir?",
+      "options": [
+        "Çalışma arkadaşına destek olmak",
+        "Yalnız ürün adedini saymak",
+        "Makine hızını ölçmek",
+        "İş kodunu değiştirmek"
+      ],
+      "correct": 0,
+      "source": "Özgün soru · PDF s. 58–73"
+    },
+    {
+      "id": 10,
+      "question": "Ekip temelli iş analizinde hangi ilişki önemlidir?",
+      "options": [
+        "Yalnız bireysel unvan",
+        "Yalnız ofis rengi",
+        "Yalnız bordro tarihi",
+        "Görev ve hedef bağımlılığı"
+      ],
+      "correct": 3,
+      "source": "Özgün soru · PDF s. 58–73"
+    }
+  ]
+}

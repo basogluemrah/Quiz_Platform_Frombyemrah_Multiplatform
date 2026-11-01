@@ -108,9 +108,6 @@ function showHome() {
       `).join('')}
     </div>
     
-    <div class="admin-link-container">
-      <a href="/admin.html" class="admin-link">🎛️ Admin Panel</a>
-    </div>
   `;
 
   // Add click handlers
@@ -599,6 +596,7 @@ function showQuestion() {
       <div class="question-card">
         ${isMixed && question.unitName ? `<span class="question-unit">📚 ${question.unitName}</span>` : ''}
         <span class="question-number">Soru ${state.currentQuestionIndex + 1}</span>
+        ${question.source ? `<span class="question-unit">${question.source}</span>` : ''}
         <p class="question-text">${question.question}</p>
       </div>
       

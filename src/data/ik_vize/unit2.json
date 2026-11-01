@@ -1,0 +1,126 @@
+{
+  "unitId": 2,
+  "unitName": "İnsan kaynakları yönetimi ve çevre · PDF s. 29–57",
+  "questions": [
+    {
+      "id": 1,
+      "question": "İşletmenin çevreye sunduğu çıktı nedir?",
+      "options": [
+        "Mal ve hizmetler",
+        "Sermaye",
+        "Emek",
+        "Ham madde"
+      ],
+      "correct": 0,
+      "source": "PDF ünite sonu sorularının özgün uyarlaması · s. 54–55"
+    },
+    {
+      "id": 2,
+      "question": "Hangisi örgütün iç çevresinde değerlendirilir?",
+      "options": [
+        "Ulusal hukuk",
+        "İş gücü piyasası",
+        "Ulusal kültür",
+        "Çalışanlar"
+      ],
+      "correct": 3,
+      "source": "PDF ünite sonu sorularının özgün uyarlaması · s. 54–55"
+    },
+    {
+      "id": 3,
+      "question": "Bugünkü iş çevresi için hangisi tipik değildir?",
+      "options": [
+        "Değişen müşteri beklentileri",
+        "Yoğun rekabet",
+        "Rekabetin yok denecek kadar az olması",
+        "Hızlı teknoloji değişimi"
+      ],
+      "correct": 2,
+      "source": "PDF ünite sonu sorularının özgün uyarlaması · s. 54–55"
+    },
+    {
+      "id": 4,
+      "question": "Çevre değişimini önceden izleyip hazırlık yapan İK yaklaşımı nedir?",
+      "options": [
+        "Rastgele",
+        "Proaktif",
+        "Yalnız reaktif",
+        "Durağan"
+      ],
+      "correct": 1,
+      "source": "PDF ünite sonu sorularının özgün uyarlaması · s. 54–55"
+    },
+    {
+      "id": 5,
+      "question": "Güç mesafesi yüksek kültürde güç eşitsizliği nasıl algılanır?",
+      "options": [
+        "Daha yüksek ve olağan",
+        "Tamamen yok",
+        "Her yerde aynı",
+        "Ölçülemez"
+      ],
+      "correct": 0,
+      "source": "PDF ünite sonu sorularının özgün uyarlaması · s. 54–55"
+    },
+    {
+      "id": 6,
+      "question": "Bireysel özerkliğe daha çok vurgu yapan kültür eğilimi hangisidir?",
+      "options": [
+        "Toplumculuk",
+        "Yüksek güç mesafesi",
+        "Yüksek belirsizlikten kaçınma",
+        "Bireycilik"
+      ],
+      "correct": 3,
+      "source": "PDF ünite sonu sorularının özgün uyarlaması · s. 54–55"
+    },
+    {
+      "id": 7,
+      "question": "Bireyci-toplumcu farkı hangi İK alanında belirginleşebilir?",
+      "options": [
+        "CSV yüklemede",
+        "Ağ yönlendirmede",
+        "Performans yönetiminde",
+        "Dosya biçiminde"
+      ],
+      "correct": 2,
+      "source": "PDF ünite sonu sorularının özgün uyarlaması · s. 54–55"
+    },
+    {
+      "id": 8,
+      "question": "Klasik anlamda işsizlik hangi durumda artar?",
+      "options": [
+        "Teknoloji sabit kaldığında",
+        "Emek arzı talebi aştığında",
+        "Talep arzı aştığında",
+        "Arz ve talep eşitlendiğinde"
+      ],
+      "correct": 1,
+      "source": "PDF ünite sonu sorularının özgün uyarlaması · s. 54–55"
+    },
+    {
+      "id": 9,
+      "question": "Örgütün varlık nedenini açıklayan kavram nedir?",
+      "options": [
+        "Misyon",
+        "Haftalık plan",
+        "Bütçe kalemi",
+        "Pozisyon kodu"
+      ],
+      "correct": 0,
+      "source": "PDF ünite sonu sorularının özgün uyarlaması · s. 54–55"
+    },
+    {
+      "id": 10,
+      "question": "Görev ve yetkilerin birimler arasındaki düzeni nedir?",
+      "options": [
+        "Örgüt iklimi",
+        "Ücret paketi",
+        "İş gücü arzı",
+        "Örgüt yapısı"
+      ],
+      "correct": 3,
+      "source": "PDF ünite sonu sorularının özgün uyarlaması · s. 54–55"
+    }
+  ]
+}

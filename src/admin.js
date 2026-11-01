@@ -2,30 +2,7 @@
 // Admin Panel - JavaScript
 // ===================================
 
-// ===================================
-// Password Protection
-// ===================================
-const ADMIN_PASSWORD = 'quiz2024'; // Şifreyi buradan değiştirebilirsin
-
-function checkPassword() {
-    const savedAuth = sessionStorage.getItem('adminAuth');
-    if (savedAuth === 'true') return true;
-    
-    const password = prompt('🔐 Admin Şifresi:');
-    if (password === ADMIN_PASSWORD) {
-        sessionStorage.setItem('adminAuth', 'true');
-        return true;
-    } else {
-        alert('❌ Yanlış şifre!');
-        window.location.href = '/';
-        return false;
-    }
-}
-
-// Check password on page load
-if (!checkPassword()) {
-    throw new Error('Unauthorized');
-}
+// Local-only JSON download helper. Client-side passwords cannot protect a static site.
 
 // ===================================
 // Navigation
@@ -113,11 +90,8 @@ document.getElementById('courseForm').addEventListener('submit', (e) => {
     // Show success message
     const output = document.getElementById('courseOutput');
     output.classList.remove('hidden');
-    output.querySelector('.file-list').innerHTML = `
-    <div class="file-item">✅ courses.json - Ana klasöre koy (src/data/)</div>
-    <div class="file-item">✅ units.json - src/data/${courseId}/ klasörüne koy</div>
-    <div class="file-item">✅ audio.json - src/data/${courseId}/ klasörüne koy</div>
-  `;
+    output.querySelector('.file-list').textContent =
+        `✅ courses.json → src/data/\n✅ units.json → src/data/${courseId}/\n✅ audio.json → src/data/${courseId}/`;
 });
 
 // ===================================

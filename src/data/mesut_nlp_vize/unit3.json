@@ -1,0 +1,66 @@
+{
+  "unitId": 3,
+  "unitName": "3. Önceden eğitilmiş modeli ince ayar",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Hazır modeli duygu analizi veri kümesine uyarlama işlemi nedir?",
+      "options": [
+        "İnce ayar",
+        "Sadece çıkarım",
+        "Dosya arşivleme",
+        "Grafik çizme"
+      ],
+      "correct": 0,
+      "source": "Özgün senaryo sorusu · Hugging Face LLM Course"
+    },
+    {
+      "id": 2,
+      "question": "Hiperparametre seçimi hangi bölümde yapılmalıdır?",
+      "options": [
+        "Son test kümesinde",
+        "Yayımlanmış sonuçlarda",
+        "Model kartında",
+        "Doğrulama verisinde"
+      ],
+      "correct": 3,
+      "source": "Özgün senaryo sorusu · Hugging Face LLM Course"
+    },
+    {
+      "id": 3,
+      "question": "Etiketli veride sınıf oranları çok farklıysa hangi değerlendirme daha anlamlıdır?",
+      "options": [
+        "Yalnız dosya boyutu",
+        "Yalnız epoch sayısı",
+        "Precision, recall ve F1'i incelemek",
+        "Yalnız eğitim kaybı"
+      ],
+      "correct": 2,
+      "source": "Özgün senaryo sorusu · Hugging Face LLM Course"
+    },
+    {
+      "id": 4,
+      "question": "Trainer sınıfı temelde neyi kolaylaştırır?",
+      "options": [
+        "Elle HTML yazmayı",
+        "Eğitim ve değerlendirme döngüsünü",
+        "Veri lisansını değiştirmeyi",
+        "Parolayı şifrelemeyi"
+      ],
+      "correct": 1,
+      "source": "Özgün senaryo sorusu · Hugging Face LLM Course"
+    },
+    {
+      "id": 5,
+      "question": "Test verisiyle birçok kez model seçmek hangi riski artırır?",
+      "options": [
+        "Test setine uyum ve iyimser sonuç",
+        "Daha adil ölçüm",
+        "Otomatik veri anonimliği",
+        "Tokenizer eşleşmesi"
+      ],
+      "correct": 0,
+      "source": "Özgün senaryo sorusu · Hugging Face LLM Course"
+    }
+  ]
+}

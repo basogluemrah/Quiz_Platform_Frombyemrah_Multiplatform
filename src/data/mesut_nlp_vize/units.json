@@ -1,0 +1,54 @@
+{
+  "courseId": "mesut_nlp_vize",
+  "courseName": "mesut hoca nlp dersi vize",
+  "specialModes": [
+    {
+      "id": "mixed",
+      "name": "🎲 Karışık Quiz",
+      "description": "Tüm ünitelerden rastgele 20 soru",
+      "icon": "🎲"
+    },
+    {
+      "id": "all",
+      "name": "📚 Tüm Sorular",
+      "description": "Bütün soruları çöz",
+      "icon": "📚"
+    }
+  ],
+  "units": [
+    {
+      "id": 0,
+      "name": "0. Kurulum ve çalışma ortamı"
+    },
+    {
+      "id": 1,
+      "name": "1. Transformer modelleri"
+    },
+    {
+      "id": 2,
+      "name": "2. Transformers ile model kullanımı"
+    },
+    {
+      "id": 3,
+      "name": "3. Önceden eğitilmiş modeli ince ayar"
+    },
+    {
+      "id": 4,
+      "name": "4. Model ve tokenizer paylaşımı"
+    }
+  ],
+  "extras": [
+    {
+      "id": "notes",
+      "name": "📖 Ders Notları",
+      "description": "Kaynağa dayalı kısa özetler",
+      "icon": "📖"
+    },
+    {
+      "id": "practice",
+      "name": "✍️ Kısa Cevap",
+      "description": "Yaratıcı kısa cevaplı sorular",
+      "icon": "✍️"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "unitId": 5,
+  "unitName": "Tanımlayıcı istatistikler",
+  "questions": [
+    {
+      "id": 1,
+      "question": "İlk veri incelemesinde satır ve sütun sayısı neyi verir?",
+      "options": [
+        "Veri boyutunu",
+        "Model doğruluğunu",
+        "Hata dağılımını",
+        "Korelasyon yönünü"
+      ],
+      "correct": 0,
+      "source": "Özgün soru · Yapay_Zeka_Uygulamari.ipynb"
+    },
+    {
+      "id": 2,
+      "question": "Sınıf dağılımı neden kontrol edilir?",
+      "options": [
+        "CSV ayıracını bulmak için",
+        "Grafiği kaydetmek için",
+        "Kod hızını ölçmek için",
+        "Dengesiz sınıfları görmek için"
+      ],
+      "correct": 3,
+      "source": "Özgün soru · Yapay_Zeka_Uygulamari.ipynb"
+    },
+    {
+      "id": 3,
+      "question": "Korelasyon katsayısı tek başına neyi kanıtlamaz?",
+      "options": [
+        "Ölçeği",
+        "Değişken sayısını",
+        "Nedenselliği",
+        "Doğrusal ilişki yönünü"
+      ],
+      "correct": 2,
+      "source": "Özgün soru · Yapay_Zeka_Uygulamari.ipynb"
+    },
+    {
+      "id": 4,
+      "question": "Aykırı değerlerden görece az etkilenen merkez ölçüsü hangisidir?",
+      "options": [
+        "Standart sapma",
+        "Medyan",
+        "Ortalama",
+        "Varyans"
+      ],
+      "correct": 1,
+      "source": "Özgün soru · Yapay_Zeka_Uygulamari.ipynb"
+    }
+  ]
+}

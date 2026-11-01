@@ -1,0 +1,54 @@
+{
+  "unitId": 10,
+  "unitName": "Model değerlendirme metrikleri",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Yanlış pozitifleri azaltmak önemliyse hangi ölçü özellikle izlenir?",
+      "options": [
+        "Precision",
+        "Recall",
+        "MAE",
+        "R²"
+      ],
+      "correct": 0,
+      "source": "Özgün soru · Yapay_Zeka_Uygulamari.ipynb"
+    },
+    {
+      "id": 2,
+      "question": "Büyük regresyon hatalarını daha fazla cezalandıran ölçü hangisidir?",
+      "options": [
+        "MAE",
+        "Accuracy",
+        "F1",
+        "MSE"
+      ],
+      "correct": 3,
+      "source": "Özgün soru · Yapay_Zeka_Uygulamari.ipynb"
+    },
+    {
+      "id": 3,
+      "question": "TP, FP, TN, FN değerlerini hangi araç gösterir?",
+      "options": [
+        "Kutu grafiği",
+        "CSV okuyucu",
+        "Karmaşıklık matrisi",
+        "PCA"
+      ],
+      "correct": 2,
+      "source": "Özgün soru · Yapay_Zeka_Uygulamari.ipynb"
+    },
+    {
+      "id": 4,
+      "question": "Dengesiz sınıflarda tek başına hangi ölçü yanıltabilir?",
+      "options": [
+        "F1",
+        "Accuracy",
+        "Recall",
+        "Precision"
+      ],
+      "correct": 1,
+      "source": "Özgün soru · Yapay_Zeka_Uygulamari.ipynb"
+    }
+  ]
+}

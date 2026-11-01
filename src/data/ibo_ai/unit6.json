@@ -1,0 +1,54 @@
+{
+  "unitId": 6,
+  "unitName": "Veri görselleştirme",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Dağılımın şeklini görmek için hangi grafik uygundur?",
+      "options": [
+        "Histogram",
+        "Akış şeması",
+        "Çubuk kod",
+        "Pasta grafiği"
+      ],
+      "correct": 0,
+      "source": "Özgün soru · Yapay_Zeka_Uygulamari.ipynb"
+    },
+    {
+      "id": 2,
+      "question": "Aykırı değerleri ve çeyrekleri birlikte gösteren grafik hangisidir?",
+      "options": [
+        "Çizgi grafiği",
+        "Alan grafiği",
+        "Ağaç diyagramı",
+        "Kutu grafiği"
+      ],
+      "correct": 3,
+      "source": "Özgün soru · Yapay_Zeka_Uygulamari.ipynb"
+    },
+    {
+      "id": 3,
+      "question": "Çok sayıda özellik çiftini görsel incelemek için ne kullanılır?",
+      "options": [
+        "Doğruluk skoru",
+        "CSV başlığı",
+        "Saçılım matrisi",
+        "Tek histogram"
+      ],
+      "correct": 2,
+      "source": "Özgün soru · Yapay_Zeka_Uygulamari.ipynb"
+    },
+    {
+      "id": 4,
+      "question": "Özellikler arası doğrusal ilişkiyi renklerle özetleyen görsel nedir?",
+      "options": [
+        "Sütun grafiği",
+        "Korelasyon ısı haritası",
+        "Kutu grafiği",
+        "Alan grafiği"
+      ],
+      "correct": 1,
+      "source": "Özgün soru · Yapay_Zeka_Uygulamari.ipynb"
+    }
+  ]
+}

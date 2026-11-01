@@ -1,0 +1,66 @@
+{
+  "unitId": 2,
+  "unitName": "2. Transformers ile model kullanımı",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Model metni doğrudan sayısal girdi olarak alamıyorsa hangi bileşen gerekir?",
+      "options": [
+        "Tokenizer",
+        "Kutu grafiği",
+        "CSV yazıcı",
+        "Optik okuyucu"
+      ],
+      "correct": 0,
+      "source": "Özgün senaryo sorusu · Hugging Face LLM Course"
+    },
+    {
+      "id": 2,
+      "question": "Farklı uzunluktaki cümleleri aynı batch'e koyarken hangi işlem gerekir?",
+      "options": [
+        "Sınıf silme",
+        "PCA",
+        "Dosya bölme",
+        "Padding"
+      ],
+      "correct": 3,
+      "source": "Özgün senaryo sorusu · Hugging Face LLM Course"
+    },
+    {
+      "id": 3,
+      "question": "Padding tokenlarının gerçek içerik sanılmaması için ne kullanılır?",
+      "options": [
+        "MAE",
+        "Model kartı",
+        "Attention mask",
+        "ROC eğrisi"
+      ],
+      "correct": 2,
+      "source": "Özgün senaryo sorusu · Hugging Face LLM Course"
+    },
+    {
+      "id": 4,
+      "question": "Modelin kabul ettiği en uzun girdiyi aşan metinde hangi işlem uygulanabilir?",
+      "options": [
+        "Sıcaklığı sıfırlama",
+        "Truncation",
+        "Aynı metni iki kez ekleme",
+        "Etiket değiştirme"
+      ],
+      "correct": 1,
+      "source": "Özgün senaryo sorusu · Hugging Face LLM Course"
+    },
+    {
+      "id": 5,
+      "question": "Farklı checkpoint'ten tokenizer kullanmak niçin sakıncalıdır?",
+      "options": [
+        "Token kimlikleri model sözlüğüyle uyuşmayabilir",
+        "Dosya küçülür",
+        "GPU kapanır",
+        "Metrik otomatik artar"
+      ],
+      "correct": 0,
+      "source": "Özgün senaryo sorusu · Hugging Face LLM Course"
+    }
+  ]
+}

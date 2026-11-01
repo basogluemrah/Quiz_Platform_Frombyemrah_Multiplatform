@@ -17,7 +17,7 @@ Modern, şık ve kullanımı kolay çoklu ders quiz platformu.
 - 📚 **Çoklu Ders Desteği** - Farklı dersler ekleyebilme
 - 🎲 **Karışık Quiz Modu** - Tüm ünitelerden rastgele sorular
 - 🎧 **Medya Desteği** - Ses ve video dosyaları
-- 🎛️ **Admin Paneli** - Şifre korumalı içerik yönetimi
+- 🧩 **Yerel içerik oluşturucu** - Geliştirme ortamında JSON dosyaları indirir
 - 📱 **Responsive Tasarım** - Mobil uyumlu
 - 🌙 **Dark Theme** - Göz yormayan modern tasarım
 
@@ -65,16 +65,27 @@ Site `http://localhost:3000` adresinde açılacak.
 
 ---
 
-## 🎛️ Admin Paneli
+## 🧩 Yerel içerik oluşturucu
 
-**URL:** `/admin.html`  
-**Şifre:** `quiz2024`
+`npm run dev` çalışırken `/admin.html` adresinden açılır. Formlar JSON indirir;
+sunucuda veri değiştirme yetkisi vermez. Bu sayfa güvenlik sınırı olmadığı için
+üretim paketine dahil edilmez.
 
-Admin panelden:
+Yerel araçtan:
 - Yeni ders oluşturma
 - Ünite ekleme
 - Soru ekleme
 - Medya yönetimi
+
+## 📚 Yeni vize dersleri
+
+- **ibo yapay zeka:** Kullanıcının `Yapay_Zeka_Uygulamari.ipynb` defterindeki 13 bölümün kısa özeti ve 52 özgün test sorusu.
+- **insan kaynakları vize:** `insankaynaklariyonetimi_compress.pdf` dosyasının PDF sayfa 1–73 aralığı; ilk iki ünitenin sonundaki soruların 20 özgün uyarlaması ve üçüncü ünitenin kapsanan kısmına yönelik 10 özgün soru. Üçüncü ünitenin sonu 73. sayfadan sonradır.
+- **mesut hoca nlp dersi vize:** [NLP_2026](https://github.com/mesutpolatgil/NLP_2026) deposundaki 0–1 kapsamı ile [Hugging Face LLM Course](https://huggingface.co/learn/llm-course/chapter1/1) 2–4 bölümlerine dayanan kısa özetler, 25 özgün test ve 15 kısa cevap. 2–4 için depo içeriği olduğu iddia edilmez.
+
+Kaynak notebook ve PDF GitHub deposuna eklenmez. İçeriği yeniden üretmek için
+`python scripts/generate_vize_courses.py`, veri şemasını doğrulamak için
+`python scripts/validate_vize_courses.py` çalıştırılır.
 
 ---
 

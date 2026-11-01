@@ -1,0 +1,54 @@
+{
+  "unitId": 9,
+  "unitName": "Yeniden örnekleme ve doğrulama",
+  "questions": [
+    {
+      "id": 1,
+      "question": "K-kat çapraz doğrulamada her gözlem kaç kez doğrulama bölümünde yer alır?",
+      "options": [
+        "Bir kez",
+        "Hiç",
+        "K kez",
+        "Her epoch'ta"
+      ],
+      "correct": 0,
+      "source": "Özgün soru · Yapay_Zeka_Uygulamari.ipynb"
+    },
+    {
+      "id": 2,
+      "question": "Leave-one-out yönteminde her turdaki test kümesi kaç gözlemdir?",
+      "options": [
+        "İki",
+        "Yarısı",
+        "Tüm veri",
+        "Bir"
+      ],
+      "correct": 3,
+      "source": "Özgün soru · Yapay_Zeka_Uygulamari.ipynb"
+    },
+    {
+      "id": 3,
+      "question": "Ön işlem ölçekleyicisi hangi veri üzerinde öğrenilmelidir?",
+      "options": [
+        "Yalnız test verisi",
+        "Sonuçlardan sonra",
+        "Yalnız eğitim verisi",
+        "Eğitim ve test birlikte"
+      ],
+      "correct": 2,
+      "source": "Özgün soru · Yapay_Zeka_Uygulamari.ipynb"
+    },
+    {
+      "id": 4,
+      "question": "Aynı veride tekrar tekrar ayar yapılıyorsa son performans için ne ayrılır?",
+      "options": [
+        "CSV yorum satırı",
+        "Dokunulmamış test kümesi",
+        "Eğitim kaybı",
+        "Grafik başlığı"
+      ],
+      "correct": 1,
+      "source": "Özgün soru · Yapay_Zeka_Uygulamari.ipynb"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "unitId": 7,
+  "unitName": "Veri ön işleme",
+  "questions": [
+    {
+      "id": 1,
+      "question": "MinMaxScaler'in varsayılan hedef aralığı nedir?",
+      "options": [
+        "0–1",
+        "−∞–∞",
+        "1–10",
+        "Yalnız tam sayılar"
+      ],
+      "correct": 0,
+      "source": "Özgün soru · Yapay_Zeka_Uygulamari.ipynb"
+    },
+    {
+      "id": 2,
+      "question": "StandardScaler hangi iki istatistiği kullanır?",
+      "options": [
+        "Medyan ve mod",
+        "Minimum ve maksimum",
+        "Çeyrek ve yüzde",
+        "Ortalama ve standart sapma"
+      ],
+      "correct": 3,
+      "source": "Özgün soru · Yapay_Zeka_Uygulamari.ipynb"
+    },
+    {
+      "id": 3,
+      "question": "Normalizer genellikle neyi birim norma getirir?",
+      "options": [
+        "Hedef sınıfları",
+        "CSV ayıracını",
+        "Her örnek vektörünü",
+        "Sütun adlarını"
+      ],
+      "correct": 2,
+      "source": "Özgün soru · Yapay_Zeka_Uygulamari.ipynb"
+    },
+    {
+      "id": 4,
+      "question": "Binarizer bir değeri hangi kuralla 0 veya 1 yapar?",
+      "options": [
+        "Ridge cezası",
+        "Eşik karşılaştırması",
+        "K-kat bölme",
+        "PCA dönüşümü"
+      ],
+      "correct": 1,
+      "source": "Özgün soru · Yapay_Zeka_Uygulamari.ipynb"
+    }
+  ]
+}

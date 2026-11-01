@@ -1,0 +1,54 @@
+{
+  "unitId": 2,
+  "unitName": "Python bilimsel ekosistemi",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Tablo verisi için en uygun temel kütüphane hangisidir?",
+      "options": [
+        "Pandas",
+        "Matplotlib",
+        "SciPy",
+        "csv.reader"
+      ],
+      "correct": 0,
+      "source": "Özgün soru · Yapay_Zeka_Uygulamari.ipynb"
+    },
+    {
+      "id": 2,
+      "question": "scikit-learn esas olarak ne sağlar?",
+      "options": [
+        "İşletim sistemi",
+        "Tarayıcı arayüzü",
+        "Veritabanı sunucusu",
+        "Makine öğrenmesi modelleri ve değerlendirme araçları"
+      ],
+      "correct": 3,
+      "source": "Özgün soru · Yapay_Zeka_Uygulamari.ipynb"
+    },
+    {
+      "id": 3,
+      "question": "NumPy'nin temel veri yapısı hangisidir?",
+      "options": [
+        "dict",
+        "set",
+        "ndarray",
+        "DataFrame"
+      ],
+      "correct": 2,
+      "source": "Özgün soru · Yapay_Zeka_Uygulamari.ipynb"
+    },
+    {
+      "id": 4,
+      "question": "Grafik çizimi için defterde hangi kütüphane kullanılır?",
+      "options": [
+        "os",
+        "Matplotlib",
+        "scikit-learn",
+        "csv"
+      ],
+      "correct": 1,
+      "source": "Özgün soru · Yapay_Zeka_Uygulamari.ipynb"
+    }
+  ]
+}

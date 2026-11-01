@@ -1,0 +1,54 @@
+{
+  "unitId": 1,
+  "unitName": "Python temelleri ve veri yapıları",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Python'da anahtar-değer eşleştirmesi hangi yapıyla tutulur?",
+      "options": [
+        "Sözlük",
+        "Liste",
+        "Demet",
+        "Küme"
+      ],
+      "correct": 0,
+      "source": "Özgün soru · Yapay_Zeka_Uygulamari.ipynb"
+    },
+    {
+      "id": 2,
+      "question": "Değiştirilemeyen sıralı Python koleksiyonu hangisidir?",
+      "options": [
+        "Liste",
+        "Sözlük",
+        "DataFrame",
+        "Demet"
+      ],
+      "correct": 3,
+      "source": "Özgün soru · Yapay_Zeka_Uygulamari.ipynb"
+    },
+    {
+      "id": 3,
+      "question": "Bir koşula göre farklı kod çalıştıran yapı hangisidir?",
+      "options": [
+        "import",
+        "return",
+        "if/else",
+        "for"
+      ],
+      "correct": 2,
+      "source": "Özgün soru · Yapay_Zeka_Uygulamari.ipynb"
+    },
+    {
+      "id": 4,
+      "question": "Tekrarlanan işlemler için yeniden kullanılabilir kod bloğu nedir?",
+      "options": [
+        "Veri tipi",
+        "Fonksiyon",
+        "Değişken",
+        "Paket sürümü"
+      ],
+      "correct": 1,
+      "source": "Özgün soru · Yapay_Zeka_Uygulamari.ipynb"
+    }
+  ]
+}

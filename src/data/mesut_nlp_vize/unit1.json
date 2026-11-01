@@ -1,0 +1,66 @@
+{
+  "unitId": 1,
+  "unitName": "1. Transformer modelleri",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Bir cümlede uzak iki kelimenin ilişkisini modelleyen temel mekanizma nedir?",
+      "options": [
+        "Attention",
+        "CSV ayracı",
+        "Piksel örnekleme",
+        "Dosya sıkıştırma"
+      ],
+      "correct": 0,
+      "source": "Özgün senaryo sorusu · Hugging Face LLM Course"
+    },
+    {
+      "id": 2,
+      "question": "Bir yorumun olumlu veya olumsuz olduğunu bulma hangi NLP görevidir?",
+      "options": [
+        "Metin üretimi",
+        "Çeviri",
+        "Konuşma sentezi",
+        "Metin sınıflandırma"
+      ],
+      "correct": 3,
+      "source": "Özgün senaryo sorusu · Hugging Face LLM Course"
+    },
+    {
+      "id": 3,
+      "question": "Verilen istemi sürdürerek metin yazma için hangi mimari eğilimi uygundur?",
+      "options": [
+        "Karar ağacı",
+        "K-means",
+        "Decoder ağırlıklı",
+        "Yalnız encoder"
+      ],
+      "correct": 2,
+      "source": "Özgün senaryo sorusu · Hugging Face LLM Course"
+    },
+    {
+      "id": 4,
+      "question": "Bir dilden diğerine çeviri için hangi mimari doğal seçenektir?",
+      "options": [
+        "PCA",
+        "Encoder-decoder",
+        "Yalnız görüntü encoder'ı",
+        "KNN"
+      ],
+      "correct": 1,
+      "source": "Özgün senaryo sorusu · Hugging Face LLM Course"
+    },
+    {
+      "id": 5,
+      "question": "Hazır pipeline sonucunda gerçeğe aykırı ama akıcı cevap görülürse ne yapılmalı?",
+      "options": [
+        "Çıktıyı doğrulamak",
+        "Otomatik doğru saymak",
+        "Tokenizer'ı silmek",
+        "Veri testini kaldırmak"
+      ],
+      "correct": 0,
+      "source": "Özgün senaryo sorusu · Hugging Face LLM Course"
+    }
+  ]
+}
