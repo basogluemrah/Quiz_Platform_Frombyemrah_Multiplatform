@@ -1,0 +1,53 @@
+[
+  {
+    "unit": 0,
+    "source": "https://github.com/mesutpolatgil/NLP_2026/blob/main/bolum-00-kurulum/01-ortam-kurulumu/soru-cevap/2026-guz-alfa.md",
+    "sourceQuestions": 3,
+    "quizQuestions": 3,
+    "readingOnlyQuestions": []
+  },
+  {
+    "unit": 1,
+    "source": "https://github.com/mesutpolatgil/NLP_2026/blob/main/bolum-01-transformer-modellerine-giris/01-transformer-modelleri/soru-cevap/2026-guz-nlp01.md",
+    "sourceQuestions": 24,
+    "quizQuestions": 20,
+    "readingOnlyQuestions": [
+      "Soru 11:** Bir modelde gözlemlenen önyargının (bias) olası kaynakları neler olabilir?",
+      "Soru 1:** Transformer mimarisindeki Self-Attention mekanizmasında, girdi kelimelerinin birbirleriyle olan ilişkisini hesaplamak için üç farklı vektör kullanılır: Query ($Q$), Key ($K$) ve Value ($V$). Geleneksel Seq2Seq modellerine kıyasla, bu üçlü matris çarpım yapısının (Scaled Dot-Product Attention) modele sağladığı en büyük mimari avantaj nedir ve matris çarpımı sonucunda elde edilen \"Attention Score\" neyi ifade eder?",
+      "Soru 2:** BERT gibi Encoder tabanlı modeller \"Bi-directional\" (çift yönlü) Attention kullanırken, GPT gibi Decoder tabanlı modeller \"Masked\" (maskeli) Attention kullanır. Masked Attention mekanizmasında maskeleme işlemi matematiksel olarak nasıl gerçekleştirilir ve bu işlemin mimarideki temel amacı nedir?",
+      "Soru 3:** Modelin tek bir Attention mekanizması yerine Multi-Head Attention (Çoklu Dikkat Başlıkları) kullanması modelin öğrenme kapasitesini nasıl etkiler? Farklı \"Head\"lerin aynı anda çalışması ne tür bir bilginin yakalanmasını sağlar?"
+    ]
+  },
+  {
+    "unit": 2,
+    "source": "https://github.com/mesutpolatgil/NLP_2026/blob/main/bolum-02-transformers-kullanimi/02-transformlarin-kullanimi/soru-cevap/2026-guz-nlp02.md",
+    "sourceQuestions": 13,
+    "quizQuestions": 8,
+    "readingOnlyQuestions": [
+      "3. Aşağıdakilerden hangisi subword tokenization'a bir örnektir?",
+      "6. Farklı uzunluktaki dizileri birlikte batch'lerken hangi tekniklerin farkında olunmalıdır?",
+      "Soru 1",
+      "Soru 2",
+      "Soru 3"
+    ]
+  },
+  {
+    "unit": 3,
+    "source": "https://github.com/mesutpolatgil/NLP_2026/blob/main/bolum-03-onceden-egitilmis-bir-modelin-ince-ayarinin-yapilmasi/03-ince-ayar-finetuning/soru-cevap/2026-guz-nlp03.md",
+    "sourceQuestions": 36,
+    "quizQuestions": 36,
+    "readingOnlyQuestions": []
+  },
+  {
+    "unit": 4,
+    "source": "https://github.com/mesutpolatgil/NLP_2026/blob/main/bolum-04-modellerin-ve-tokenizerlarin-paylasilmasi/04-modellerin-ve-tokenizerlarin-paylasilmasi/soru-cevap/2026-guz-nlp04.md",
+    "sourceQuestions": 11,
+    "quizQuestions": 7,
+    "readingOnlyQuestions": [
+      "3. Hugging Face Hub web arayüzünü kullanarak aşağıdakilerden hangilerini yapabilirsiniz? *(Çoktan Seçmeli)",
+      "5. 🤗 Transformers kütüphanesindeki hangi nesneler push_to_hub() metoduyla doğrudan Hub'da paylaşılabilir? *(Çoktan Seçmeli)",
+      "6. push_to_hub() metodunu veya CLI araçlarını kullanırken yapılması gereken İLK adım nedir?",
+      "8. Repository sınıfı ile hangi Git işlemlerini doğrudan Python içerisinden yapabilirsiniz? *(Çoktan Seçmeli)"
+    ]
+  }
+]

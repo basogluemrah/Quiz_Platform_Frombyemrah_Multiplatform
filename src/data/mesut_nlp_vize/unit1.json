@@ -4,63 +4,233 @@
   "questions": [
     {
       "id": 1,
-      "question": "Bir cümlede uzak iki kelimenin ilişkisini modelleyen temel mekanizma nedir?",
+      "question": "Soru 1: Hub&#x27;ı keşfedin ve roberta-large-mnli kontrol noktasını (checkpoint) arayın. Bu model hangi görevi yerine getirmektedir?",
       "options": [
-        "Attention",
-        "CSV ayracı",
-        "Piksel örnekleme",
-        "Dosya sıkıştırma"
+        "Özetleme (Summarization)",
+        "Metin sınıflandırma (Text classification)",
+        "Metin üretimi (Text generation)"
       ],
-      "correct": 0,
-      "source": "Özgün senaryo sorusu · Hugging Face LLM Course"
+      "correct": 1,
+      "source": "NLP_2026 · Bölüm 1 · kaynak sorusu"
     },
     {
       "id": 2,
-      "question": "Bir yorumun olumlu veya olumsuz olduğunu bulma hangi NLP görevidir?",
+      "question": "Soru 2: Aşağıdaki kod ne döndürecektir? (pipeline(&quot;ner&quot;, grouped_entities=True))",
       "options": [
-        "Metin üretimi",
-        "Çeviri",
-        "Konuşma sentezi",
-        "Metin sınıflandırma"
+        "&quot;Pozitif&quot; veya &quot;negatif&quot; etiketleriyle bu cümle için sınıflandırma skorları döndürecektir.",
+        "Bu cümleyi tamamlayan üretilmiş bir metin döndürecektir.",
+        "Kişileri, kurumları veya yerleri temsil eden kelimeleri döndürecektir."
       ],
-      "correct": 3,
-      "source": "Özgün senaryo sorusu · Hugging Face LLM Course"
+      "correct": 2,
+      "source": "NLP_2026 · Bölüm 1 · kaynak sorusu"
     },
     {
       "id": 3,
-      "question": "Verilen istemi sürdürerek metin yazma için hangi mimari eğilimi uygundur?",
+      "question": "Soru 3: Bu kod örneğindeki ... (boşluk) yerine ne gelmelidir?<br>filler = pipeline(&quot;fill-mask&quot;, model=&quot;bert-base-cased&quot;)<br>result = filler(&quot;...&quot;)",
       "options": [
-        "Karar ağacı",
-        "K-means",
-        "Decoder ağırlıklı",
-        "Yalnız encoder"
+        "This &lt;mask&gt; has been waiting for you.",
+        "This [MASK] has been waiting for you.",
+        "This man has been waiting for you."
       ],
-      "correct": 2,
-      "source": "Özgün senaryo sorusu · Hugging Face LLM Course"
+      "correct": 1,
+      "source": "NLP_2026 · Bölüm 1 · kaynak sorusu"
     },
     {
       "id": 4,
-      "question": "Bir dilden diğerine çeviri için hangi mimari doğal seçenektir?",
+      "question": "Soru 4: Zero-shot-classification kodu neden hata verecektir?<br>classifier = pipeline(&quot;zero-shot-classification&quot;)<br>result = classifier(&quot;This is a course about the Transformers library&quot;)",
       "options": [
-        "PCA",
-        "Encoder-decoder",
-        "Yalnız görüntü encoder'ı",
-        "KNN"
+        "Bu pipeline, metni sınıflandırmak için etiketlerin (labels) verilmesini gerektirir.",
+        "Bu pipeline sadece bir değil, birkaç cümle gerektirir.",
+        "Hugging Face Transformers kütüphanesi her zamanki gibi bozuktur.",
+        "Bu pipeline daha uzun girdiler gerektirir; bu girdi çok kısadır."
       ],
-      "correct": 1,
-      "source": "Özgün senaryo sorusu · Hugging Face LLM Course"
+      "correct": 0,
+      "source": "NLP_2026 · Bölüm 1 · kaynak sorusu"
     },
     {
       "id": 5,
-      "question": "Hazır pipeline sonucunda gerçeğe aykırı ama akıcı cevap görülürse ne yapılmalı?",
+      "question": "Soru 5: &quot;Transfer learning&quot; (Transfer öğrenme) ne demektir?",
       "options": [
-        "Çıktıyı doğrulamak",
-        "Otomatik doğru saymak",
-        "Tokenizer'ı silmek",
-        "Veri testini kaldırmak"
+        "Önceden eğitilmiş bir modelin bilgisini, onu aynı veri seti üzerinde eğiterek yeni bir modele aktarmaktır.",
+        "Önceden eğitilmiş bir modelin bilgisini, ikinci modeli ilk modelin ağırlıklarıyla (weights) başlatarak yeni bir modele aktarmaktır.",
+        "İkinci modeli, ilk modelle aynı mimaride inşa ederek modelin bilgisini aktarmaktır."
+      ],
+      "correct": 1,
+      "source": "NLP_2026 · Bölüm 1 · kaynak sorusu"
+    },
+    {
+      "id": 6,
+      "question": "Soru 6: Doğru mu yanlış mı? Bir dil modelinin (language model) ön eğitimi (pretraining) için genellikle etiketlere ihtiyacı yoktur.",
+      "options": [
+        "Doğru (True)",
+        "Yanlış (False)"
       ],
       "correct": 0,
-      "source": "Özgün senaryo sorusu · Hugging Face LLM Course"
+      "source": "NLP_2026 · Bölüm 1 · kaynak sorusu"
+    },
+    {
+      "id": 7,
+      "question": "Soru 7: &quot;Model&quot;, &quot;mimari&quot; (architecture) ve &quot;ağırlıklar&quot; (weights) terimlerini en iyi açıklayan cümleyi seçin.",
+      "options": [
+        "Eğer model bir bina olsaydı, mimari onun projesi, ağırlıklar ise içinde yaşayan insanlar olurdu.",
+        "Mimari bir modeli oluşturmak için bir harita, ağırlıklar ise haritada temsil edilen şehirlerdir.",
+        "Bir mimari, modeli oluşturmak için art arda gelen matematiksel fonksiyonlardır ve ağırlıklar ise bu fonksiyonların parametreleridir."
+      ],
+      "correct": 2,
+      "source": "NLP_2026 · Bölüm 1 · kaynak sorusu"
+    },
+    {
+      "id": 8,
+      "question": "Soru 8: Prompt&#x27;ları (komutları) üretilmiş metinlerle (generated text) tamamlamak için bu model türlerinden hangisini kullanırsınız?",
+      "options": [
+        "Encoder (Kodlayıcı) modeli",
+        "Decoder (Çözücü) modeli",
+        "Sequence-to-sequence (Diziden-diziye) modeli"
+      ],
+      "correct": 1,
+      "source": "NLP_2026 · Bölüm 1 · kaynak sorusu"
+    },
+    {
+      "id": 9,
+      "question": "Soru 9: Metinleri özetlemek (summarization) için bu model türlerinden hangisini kullanırsınız?",
+      "options": [
+        "Encoder (Kodlayıcı) modeli",
+        "Decoder (Çözücü) modeli",
+        "Sequence-to-sequence (Diziden-diziye) modeli"
+      ],
+      "correct": 2,
+      "source": "NLP_2026 · Bölüm 1 · kaynak sorusu"
+    },
+    {
+      "id": 10,
+      "question": "Soru 10: Metin girdilerini belirli etiketlere göre sınıflandırmak (text classification) için bu model türlerinden hangisini kullanırsınız?",
+      "options": [
+        "Encoder (Kodlayıcı) modeli",
+        "Decoder (Çözücü) modeli",
+        "Sequence-to-sequence (Diziden-diziye) modeli"
+      ],
+      "correct": 0,
+      "source": "NLP_2026 · Bölüm 1 · kaynak sorusu"
+    },
+    {
+      "id": 11,
+      "question": "Soru 1: Çeviri veya özetleme gibi diziden-diziye (sequence-to-sequence) görevler için genellikle hangi tür Transformer mimarisi en uygundur?",
+      "options": [
+        "Sadece Kodlayıcı (Encoder-only, örn. BERT)",
+        "Sadece Çözücü (Decoder-only, örn. GPT)",
+        "Kodlayıcı-Çözücü (Encoder-decoder, örn. T5, BART)",
+        "Tekrarlayan Sinir Ağı (Recurrent Neural Network - RNN)"
+      ],
+      "correct": 2,
+      "source": "NLP_2026 · Bölüm 1 · kaynak sorusu"
+    },
+    {
+      "id": 12,
+      "question": "Soru 2: Hangi Hugging Face pipeline&#x27;ı, bu belirli etiketler üzerinde önceden ince ayar (fine-tuning) gerektirmeden, çıkarım (inference) anında sağlanan rastgele etiketleri kullanarak metin sınıflandırmaya olanak tanır?",
+      "options": [
+        "text-classification",
+        "sentiment-analysis",
+        "zero-shot-classification",
+        "token-classification"
+      ],
+      "correct": 2,
+      "source": "NLP_2026 · Bölüm 1 · kaynak sorusu"
+    },
+    {
+      "id": 13,
+      "question": "Soru 3: Transformer modelleri için yaygın olarak kullanılan üç ana mimari kategori hangileridir?",
+      "options": [
+        "Evrişimli Sinir Ağları (CNN), Tekrarlayan Sinir Ağları (RNN), Dikkat Ağları (Attention Networks)",
+        "Küçük ölçekli, Orta ölçekli, Büyük ölçekli",
+        "Sadece Kodlayıcı (Encoder-only), Sadece Çözücü (Decoder-only), Kodlayıcı-Çözücü (Encoder-decoder / Sequence-to-sequence)",
+        "Üretici Çekişmeli Ağlar (GAN), Varyasyonel Otoenkoderler (VAE), Difüzyon Modelleri (Diffusion Models)"
+      ],
+      "correct": 2,
+      "source": "NLP_2026 · Bölüm 1 · kaynak sorusu"
+    },
+    {
+      "id": 14,
+      "question": "Soru 4: Büyük Dil Modeli (LLM) çıkarımında (inference), &#x27;sıcaklık&#x27; (temperature) örnekleme parametresi temel olarak neyi kontrol eder?",
+      "options": [
+        "Üretilecek maksimum token sayısını.",
+        "Göz önünde bulundurulan alternatif dizi sayısını (beam width).",
+        "Çıktının rastgeleliğini/yaratıcılığını (düşük değerler daha odaklı/belirlenimci, yüksek değerler daha rastgeledir).",
+        "Çıktıda halihazırda görünmüş olan token&#x27;lara uygulanan cezayı."
+      ],
+      "correct": 2,
+      "source": "NLP_2026 · Bölüm 1 · kaynak sorusu"
+    },
+    {
+      "id": 15,
+      "question": "Soru 5: LLM çıkarımı sırasında kullanılan Key-Value (KV) Cache optimizasyonunun temel amacı nedir?",
+      "options": [
+        "Başlangıç komutunu işlemenin (prefill aşaması) hesaplama maliyetini azaltmak.",
+        "Ağırlıklarını sıkıştırarak modelin bellek ayak izini azaltmak.",
+        "Önceki adımlardaki ara dikkat (attention) hesaplamalarını depolayıp yeniden kullanarak token üretimini (decode aşaması) hızlandırmak.",
+        "Girdi bağlamının dikkat edilecek en alakalı kısımlarını otomatik olarak seçmek."
+      ],
+      "correct": 2,
+      "source": "NLP_2026 · Bölüm 1 · kaynak sorusu"
+    },
+    {
+      "id": 16,
+      "question": "Soru 6: Bir Hugging Face pipeline() fonksiyonu, girdi metnini çıkarım için işlerken tipik olarak hangi üç ana üst düzey adımı gerçekleştirir?",
+      "options": [
+        "Tokenizasyon, Model Eğitimi, Metin Üretimi",
+        "Ön işleme (Preprocessing), Model Çıkarımı (Model Inference), Son işleme (Postprocessing)",
+        "Veri Yükleme, Model İnce Ayarı, Kontrol Noktası Kaydetme",
+        "Girdi Gömme, Dikkat Hesaplama, Çıktı Çözme"
+      ],
+      "correct": 1,
+      "source": "NLP_2026 · Bölüm 1 · kaynak sorusu"
+    },
+    {
+      "id": 17,
+      "question": "Soru 7: Aşağıdakilerden hangisi Büyük Dil Modellerinin (LLM&#x27;ler) önemli bir sınırlaması olarak kabul edilir?",
+      "options": [
+        "Çeviri veya özetleme gibi görevleri yerine getirememesi.",
+        "Akıcı ve dilbilgisi açısından doğru metin üretmede zorluk çekmesi.",
+        "Kendinden emin bir şekilde yanlış veya anlamsız bilgiler üretme potansiyeli (halüsinasyonlar).",
+        "Sınırlı uygulanabilirlik, yalnızca temel anahtar kelime tespiti için yararlı olması."
+      ],
+      "correct": 2,
+      "source": "NLP_2026 · Bölüm 1 · kaynak sorusu"
+    },
+    {
+      "id": 18,
+      "question": "Soru 8: Daha geniş bir alan olan Doğal Dil İşleme (NLP) ile Büyük Dil Modelleri (LLM&#x27;ler) arasındaki temel fark nedir?",
+      "options": [
+        "NLP metin üretimine odaklanırken, LLM&#x27;ler metin sınıflandırmasına odaklanır.",
+        "NLP daha geniş bir alandır, LLM&#x27;ler ise boyutları ve genel yetenekleriyle bilinen güçlü bir alt kümesidir.",
+        "LLM&#x27;ler tüm uygulamalar için göreve özel eğitim gerektirirken, NLP modelleri gerektirmez.",
+        "NLP modelleri genellikle daha büyüktür ve LLM&#x27;lerden daha fazla veri gerektirir."
+      ],
+      "correct": 1,
+      "source": "NLP_2026 · Bölüm 1 · kaynak sorusu"
+    },
+    {
+      "id": 19,
+      "question": "Soru 9: Bir komut aldıktan sonra metin üretmek için Büyük Dil Modeli (LLM) çıkarım sürecinde (inference process) tipik olarak yer alan iki farklı aşama nelerdir?",
+      "options": [
+        "Model Derleme ve Nicemleme",
+        "Ön Doldurma / Prefill (komutu işleme) ve Çözme / Decode (sıralı olarak token üretme)",
+        "Tokenizasyon ve Gömme (Embedding) Araması",
+        "Dikkat (Attention) Hesaplama ve Softmax Uygulaması"
+      ],
+      "correct": 1,
+      "source": "NLP_2026 · Bölüm 1 · kaynak sorusu"
+    },
+    {
+      "id": 20,
+      "question": "Soru 10: Girdideki token&#x27;ları maskelemeyi ve modeli orijinal token&#x27;ları tahmin etmesi için eğitmeyi içeren, genellikle BERT gibi kodlayıcı (encoder) modelleriyle ilişkilendirilen ön eğitim hedefi hangisidir?",
+      "options": [
+        "Nedensel Dil Modelleme (Causal Language Modeling - CLM)",
+        "Diziden-Diziye Çeviri (Sequence-to-Sequence Translation)",
+        "Sonraki Cümle Tahmini (Next Sentence Prediction - NSP)",
+        "Maskeli Dil Modelleme (Masked Language Modeling - MLM)"
+      ],
+      "correct": 3,
+      "source": "NLP_2026 · Bölüm 1 · kaynak sorusu"
     }
   ]
 }

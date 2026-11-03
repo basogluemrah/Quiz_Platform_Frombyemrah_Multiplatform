@@ -4,63 +4,92 @@
   "questions": [
     {
       "id": 1,
-      "question": "Model metni doğrudan sayısal girdi olarak alamıyorsa hangi bileşen gerekir?",
+      "question": "1. Dil modelleme pipeline&#x27;ının sırası nedir?",
       "options": [
-        "Tokenizer",
-        "Kutu grafiği",
-        "CSV yazıcı",
-        "Optik okuyucu"
+        "Model, metni işler ve ham tahminler döndürür. Daha sonra tokenizer bu tahminleri anlamlandırır ve gerektiğinde tekrar metne dönüştürür.",
+        "Önce tokenizer metni işler ve ID&#x27;ler döndürür. Model bu ID&#x27;leri işler ve bir tahmin çıktısı üretir; bu çıktı bir metin olabilir.",
+        "Tokenizer metni işler ve ID&#x27;ler döndürür. Model bu ID&#x27;leri işler ve bir tahmin çıktısı üretir. Daha sonra tokenizer, bu tahminleri tekrar bir metne dönüştürmek için kullanılabilir."
       ],
-      "correct": 0,
-      "source": "Özgün senaryo sorusu · Hugging Face LLM Course"
+      "correct": 2,
+      "source": "NLP_2026 · Bölüm 2 · kaynak sorusu"
     },
     {
       "id": 2,
-      "question": "Farklı uzunluktaki cümleleri aynı batch'e koyarken hangi işlem gerekir?",
+      "question": "2. Temel Transformer modelinin ürettiği tensor kaç boyutludur ve bu boyutlar nelerdir?",
       "options": [
-        "Sınıf silme",
-        "PCA",
-        "Dosya bölme",
-        "Padding"
+        "2: Sequence length (dizi uzunluğu) ve batch size (batch boyutu)",
+        "2: Sequence length (dizi uzunluğu) ve hidden size (gizli katman boyutu)",
+        "3: Sequence length (dizi uzunluğu), batch size (batch boyutu) ve hidden size (gizli katman boyutu)"
       ],
-      "correct": 3,
-      "source": "Özgün senaryo sorusu · Hugging Face LLM Course"
+      "correct": 2,
+      "source": "NLP_2026 · Bölüm 2 · kaynak sorusu"
     },
     {
       "id": 3,
-      "question": "Padding tokenlarının gerçek içerik sanılmaması için ne kullanılır?",
+      "question": "4. Model head nedir?",
       "options": [
-        "MAE",
-        "Model kartı",
-        "Attention mask",
-        "ROC eğrisi"
+        "Temel Transformer ağının, tensorleri doğru katmanlara yönlendiren bir bileşenidir.",
+        "Self-attention mekanizması olarak da bilinir; bir tokenın temsilini dizideki diğer tokenlara göre uyarlar.",
+        "Transformer&#x27;ın tahminlerini göreve özel bir çıktıya dönüştürmek için kullanılan, genellikle bir veya birkaç katmandan oluşan ek bir bileşendir."
       ],
       "correct": 2,
-      "source": "Özgün senaryo sorusu · Hugging Face LLM Course"
+      "source": "NLP_2026 · Bölüm 2 · kaynak sorusu"
     },
     {
       "id": 4,
-      "question": "Modelin kabul ettiği en uzun girdiyi aşan metinde hangi işlem uygulanabilir?",
+      "question": "5. AutoModel nedir?",
       "options": [
-        "Sıcaklığı sıfırlama",
-        "Truncation",
-        "Aynı metni iki kez ekleme",
-        "Etiket değiştirme"
+        "Verileriniz üzerinde otomatik olarak eğitim yapan bir modeldir.",
+        "Checkpoint&#x27;e göre doğru mimariyi döndüren bir nesnedir.",
+        "Girdilerinde kullanılan dili otomatik olarak tespit ederek doğru ağırlıkları yükleyen bir modeldir."
       ],
       "correct": 1,
-      "source": "Özgün senaryo sorusu · Hugging Face LLM Course"
+      "source": "NLP_2026 · Bölüm 2 · kaynak sorusu"
     },
     {
       "id": 5,
-      "question": "Farklı checkpoint'ten tokenizer kullanmak niçin sakıncalıdır?",
+      "question": "7. Bir sequence classification modelinin çıktısı olan logits değerlerine SoftMax fonksiyonunu uygulamanın amacı nedir?",
       "options": [
-        "Token kimlikleri model sözlüğüyle uyuşmayabilir",
-        "Dosya küçülür",
-        "GPU kapanır",
-        "Metrik otomatik artar"
+        "Logits değerlerini daha güvenilir hale getirmek için yumuşatır.",
+        "Anlaşılabilir olmaları için bir alt ve üst sınır uygular.",
+        "Çıktı değerlerinin toplamı 1 olur ve böylece olasılıksal olarak yorumlanabilir."
+      ],
+      "correct": 2,
+      "source": "NLP_2026 · Bölüm 2 · kaynak sorusu"
+    },
+    {
+      "id": 6,
+      "question": "8. Tokenizer API&#x27;sinin büyük bölümü hangi method etrafında şekillenmiştir?",
+      "options": [
+        "encode, çünkü metni ID&#x27;lere ve ID&#x27;leri tahminlere dönüştürebilir.",
+        "Tokenizer nesnesini doğrudan çağırmak.",
+        "pad",
+        "tokenize"
+      ],
+      "correct": 1,
+      "source": "NLP_2026 · Bölüm 2 · kaynak sorusu"
+    },
+    {
+      "id": 7,
+      "question": "9. Bu kod örneğinde result değişkeni ne içerir?<br>from transformers import AutoTokenizer<br>tokenizer = AutoTokenizer.from_pretrained(&quot;bert-base-cased&quot;)<br>result = tokenizer.tokenize(&quot;Hello!&quot;)",
+      "options": [
+        "Her bir stringin bir token olduğu bir string listesi.",
+        "Bir ID listesi.",
+        "Tüm tokenları içeren bir string."
       ],
       "correct": 0,
-      "source": "Özgün senaryo sorusu · Hugging Face LLM Course"
+      "source": "NLP_2026 · Bölüm 2 · kaynak sorusu"
+    },
+    {
+      "id": 8,
+      "question": "10. Aşağıdaki kodda yanlış olan bir şey var nedir?<br>from transformers import AutoTokenizer, AutoModel<br>tokenizer = AutoTokenizer.from_pretrained(&quot;bert-base-cased&quot;)<br>model = AutoModel.from_pretrained(&quot;gpt2&quot;)<br>encoded = tokenizer(&quot;Hey!&quot;, return_tensors=&quot;pt&quot;)<br>result = model(**encoded)",
+      "options": [
+        "Hayır, kod doğru görünüyor.",
+        "Tokenizer ve model her zaman aynı checkpoint&#x27;ten olmalıdır.",
+        "Her girdi bir batch olduğu için tokenizer ile padding ve truncation yapmak iyi bir uygulamadır."
+      ],
+      "correct": 1,
+      "source": "NLP_2026 · Bölüm 2 · kaynak sorusu"
     }
   ]
 }

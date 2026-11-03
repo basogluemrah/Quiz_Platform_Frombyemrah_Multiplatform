@@ -21,6 +21,8 @@ npm-debug.log*
 # Local research files and credentials
 .pdf_tools/
 .research/
+__pycache__/
+*.pyc
 .env
 .env.*
 !.env.example

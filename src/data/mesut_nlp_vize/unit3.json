@@ -4,63 +4,435 @@
   "questions": [
     {
       "id": 1,
-      "question": "Hazır modeli duygu analizi veri kümesine uyarlama işlemi nedir?",
+      "question": "Soru 1<br>Dataset.map() fonksiyonunu batched=True argümanı ile kullanmanın temel avantajı nedir?",
       "options": [
-        "İnce ayar",
-        "Sadece çıkarım",
-        "Dosya arşivleme",
-        "Grafik çizme"
+        "Daha az bellek kullanır.",
+        "Aynı anda birden fazla örneği işleyerek tokenizasyon (parçalama) işlemini çok daha hızlı hale getirir.",
+        "Dolgu (padding) işlemini sizin yerinize otomatik olarak halleder.",
+        "Veriyi PyTorch tensörlerine dönüştürür."
       ],
-      "correct": 0,
-      "source": "Özgün senaryo sorusu · Hugging Face LLM Course"
+      "correct": 1,
+      "source": "NLP_2026 · Bölüm 3 · kaynak sorusu"
     },
     {
       "id": 2,
-      "question": "Hiperparametre seçimi hangi bölümde yapılmalıdır?",
+      "question": "Soru 2<br>Veri setindeki tüm dizileri (sequences) veri setinin maksimum uzunluğuna kadar doldurmak (padding) yerine neden &quot;dinamik dolgu&quot; (dynamic padding) kullanıyoruz?",
       "options": [
-        "Son test kümesinde",
-        "Yayımlanmış sonuçlarda",
-        "Model kartında",
-        "Doğrulama verisinde"
+        "Dinamik dolgu, model mimarisi tarafından zorunlu kılınmıştır.",
+        "Yalnızca o anki yığındaki (batch) maksimum uzunluğa kadar dolgu yaparak hesaplama yükünü (computational overhead) azaltır.",
+        "Modelin doğruluğunu (accuracy) artırır.",
+        "DataCollatorWithPadding kullanıldığında gereklidir."
       ],
-      "correct": 3,
-      "source": "Özgün senaryo sorusu · Hugging Face LLM Course"
+      "correct": 1,
+      "source": "NLP_2026 · Bölüm 3 · kaynak sorusu"
     },
     {
       "id": 3,
-      "question": "Etiketli veride sınıf oranları çok farklıysa hangi değerlendirme daha anlamlıdır?",
+      "question": "Soru 3<br>BERT tokenizasyonunda token_type_ids alanı neyi temsil eder?",
       "options": [
-        "Yalnız dosya boyutu",
-        "Yalnız epoch sayısı",
-        "Precision, recall ve F1'i incelemek",
-        "Yalnız eğitim kaybı"
+        "Dizideki her bir token&#x27;ın konumunu (position).",
+        "Cümle çiftleri işlenirken her bir token&#x27;ın hangi cümleye ait olduğunu.",
+        "Her bir token için dikkat maskesini (attention mask).",
+        "Her bir token&#x27;ın kelime dağarcığındaki (vocabulary) ID&#x27;sini."
       ],
-      "correct": 2,
-      "source": "Özgün senaryo sorusu · Hugging Face LLM Course"
+      "correct": 1,
+      "source": "NLP_2026 · Bölüm 3 · kaynak sorusu"
     },
     {
       "id": 4,
-      "question": "Trainer sınıfı temelde neyi kolaylaştırır?",
+      "question": "Soru 4<br>load_dataset(&#x27;glue&#x27;, &#x27;mrpc&#x27;) komutuyla bir veri seti yüklenirken, ikinci argüman (&#x27;mrpc&#x27;) neyi belirtir?",
       "options": [
-        "Elle HTML yazmayı",
-        "Eğitim ve değerlendirme döngüsünü",
-        "Veri lisansını değiştirmeyi",
-        "Parolayı şifrelemeyi"
+        "Yüklenecek veri setinin sürümü.",
+        "GLUE kıyaslama testi (benchmark) içindeki belirli görev veya alt küme.",
+        "Veri setinin bölümlendirilmesi (eğitim/doğrulama/test).",
+        "Verilerin döndürüleceği format."
       ],
       "correct": 1,
-      "source": "Özgün senaryo sorusu · Hugging Face LLM Course"
+      "source": "NLP_2026 · Bölüm 3 · kaynak sorusu"
     },
     {
       "id": 5,
-      "question": "Test verisiyle birçok kez model seçmek hangi riski artırır?",
+      "question": "Soru 5<br>Eğitim öncesinde sentence1 ve sentence2 gibi sütunları kaldırmanın amacı nedir?",
       "options": [
-        "Test setine uyum ve iyimser sonuç",
-        "Daha adil ölçüm",
-        "Otomatik veri anonimliği",
-        "Tokenizer eşleşmesi"
+        "Eğitim sırasında bellek tasarrufu sağlamak.",
+        "Model bu ham metin (raw text) sütunlarını beklemez ve hata verir.",
+        "Bu sütunlara değerlendirme (evaluation) için ihtiyaç duyulmaz.",
+        "Eğitim hızını önemli ölçüde artırır."
+      ],
+      "correct": 1,
+      "source": "NLP_2026 · Bölüm 3 · kaynak sorusu"
+    },
+    {
+      "id": 6,
+      "question": "Soru 6<br>Trainer&#x27;daki processing_class parametresinin amacı nedir?",
+      "options": [
+        "Hangi model mimarisinin kullanılacağını belirtir.",
+        "Veriyi işlerken Trainer&#x27;a hangi tokenizer&#x27;ı kullanması gerektiğini söyler.",
+        "Eğitim için yığın boyutunu (batch size) belirler.",
+        "Değerlendirme (evaluation) sıklığını kontrol eder."
+      ],
+      "correct": 1,
+      "source": "NLP_2026 · Bölüm 3 · kaynak sorusu"
+    },
+    {
+      "id": 7,
+      "question": "Soru 7<br>Hangi TrainingArguments parametresi eğitim sırasında değerlendirmenin (evaluation) ne sıklıkla yapılacağını kontrol eder?",
+      "options": [
+        "eval_frequency",
+        "eval_strategy",
+        "evaluation_steps",
+        "do_eval"
+      ],
+      "correct": 1,
+      "source": "NLP_2026 · Bölüm 3 · kaynak sorusu"
+    },
+    {
+      "id": 8,
+      "question": "Soru 8<br>TrainingArguments içindeki fp16=True ne işe yarar?",
+      "options": [
+        "Daha hızlı eğitim için 16-bit tam sayı (integer) hassasiyeti.",
+        "Daha hızlı eğitim ve az bellek kullanımı için 16-bit kayan noktalı (floating-point) sayılarla karma hassasiyetli (mixed precision) eğitim.",
+        "Tam olarak 16 epoch boyunca eğitim.",
+        "Dağıtılmış eğitim (distributed training) için 16 GPU kullanmak."
+      ],
+      "correct": 1,
+      "source": "NLP_2026 · Bölüm 3 · kaynak sorusu"
+    },
+    {
+      "id": 9,
+      "question": "Soru 9<br>Trainer içindeki compute_metrics fonksiyonunun rolü nedir?",
+      "options": [
+        "Eğitim sırasında loss (kayıp) değerini hesaplar.",
+        "Logit&#x27;leri (ham model çıktılarını) tahminlere dönüştürür ve Accuracy (Doğruluk) ile F1 gibi değerlendirme metriklerini hesaplar.",
+        "Hangi optimizer&#x27;ın kullanılacağını belirler.",
+        "Eğitim verisine ön işleme yapar."
+      ],
+      "correct": 1,
+      "source": "NLP_2026 · Bölüm 3 · kaynak sorusu"
+    },
+    {
+      "id": 10,
+      "question": "Soru 10<br>Trainer&#x27;a bir eval_dataset (değerlendirme veri seti) sağlamazsanız ne olur?",
+      "options": [
+        "Eğitim hata vererek çöker.",
+        "Trainer, eğitim verisini değerlendirme için otomatik olarak böler.",
+        "Eğitim sırasında değerlendirme metriklerini göremezsiniz, ancak eğitim çalışmaya devam eder.",
+        "Model, değerlendirme için eğitim verisini kullanır."
+      ],
+      "correct": 2,
+      "source": "NLP_2026 · Bölüm 3 · kaynak sorusu"
+    },
+    {
+      "id": 11,
+      "question": "Soru 11<br>Gradyan biriktirme (gradient accumulation) nedir ve nasıl etkinleştirilir?",
+      "options": [
+        "Gradyanları diske kaydeder, save_gradients=True ile açılır.",
+        "Modeli güncellemeden önce birkaç batch (yığın) boyunca gradyanları biriktirir, gradient_accumulation_steps ile açılır.",
+        "Gradyan hesaplamasını hızlandırır, fp16 ile otomatik açılır.",
+        "Gradyan patlamasını engeller, gradient_clipping=True ile açılır."
+      ],
+      "correct": 1,
+      "source": "NLP_2026 · Bölüm 3 · kaynak sorusu"
+    },
+    {
+      "id": 12,
+      "question": "Soru 12<br>Adam ve AdamW optimizer&#x27;ları (eniyileyicileri) arasındaki temel fark nedir?",
+      "options": [
+        "AdamW farklı bir öğrenme oranı (learning rate) planlayıcısı kullanır.",
+        "AdamW, ayrıştırılmış ağırlık azaltma (decoupled weight decay) düzenlemesini (regularization) içerir.",
+        "AdamW yalnızca transformer modelleriyle çalışır.",
+        "AdamW, Adam&#x27;dan daha az bellek gerektirir."
+      ],
+      "correct": 1,
+      "source": "NLP_2026 · Bölüm 3 · kaynak sorusu"
+    },
+    {
+      "id": 13,
+      "question": "Soru 13<br>Bir eğitim döngüsünde (training loop) işlemlerin doğru sırası nedir?",
+      "options": [
+        "İleri yayılım (Forward pass) → Geri yayılım (Backward pass) → Optimizer adımı → Gradyanları sıfırlama (Zero gradients)",
+        "İleri yayılım → Geri yayılım → Optimizer adımı → Scheduler adımı → Gradyanları sıfırlama",
+        "Gradyanları sıfırlama → İleri yayılım → Optimizer adımı → Geri yayılım",
+        "İleri yayılım → Gradyanları sıfırlama → Geri yayılım → Optimizer adımı"
+      ],
+      "correct": 1,
+      "source": "NLP_2026 · Bölüm 3 · kaynak sorusu"
+    },
+    {
+      "id": 14,
+      "question": "Soru 14<br>Accelerate kütüphanesi temel olarak neye yardımcı olur?",
+      "options": [
+        "İleri yayılımı (forward pass) optimize ederek modellerinizin daha hızlı eğitilmesini sağlar.",
+        "En iyi hiperparametreleri otomatik olarak seçer.",
+        "Minimum kod değişikliği ile birden fazla GPU/TPU üzerinde dağıtılmış eğitimi (distributed training) mümkün kılar.",
+        "Modelleri TensorFlow gibi farklı framework&#x27;lere dönüştürür."
+      ],
+      "correct": 2,
+      "source": "NLP_2026 · Bölüm 3 · kaynak sorusu"
+    },
+    {
+      "id": 15,
+      "question": "Soru 15<br>Bir eğitim döngüsünde yığınları (batches) neden cihaza (device) taşırız?",
+      "options": [
+        "Eğitimi daha hızlı hale getirmek için.",
+        "Çünkü hesaplama yapılabilmesi için modelin ve verilerin aynı cihazda (CPU veya GPU) bulunması zorunludur.",
+        "Bellek tasarrufu sağlamak için.",
+        "DataLoader tarafından zorunlu kılındığı için."
+      ],
+      "correct": 1,
+      "source": "NLP_2026 · Bölüm 3 · kaynak sorusu"
+    },
+    {
+      "id": 16,
+      "question": "Soru 16<br>Değerlendirme (evaluation) öncesinde model.eval() ne işe yarar?",
+      "options": [
+        "Model parametrelerini güncellenmemeleri için dondurur.",
+        "Çıkarım (inference) işlemi için dropout ve batch normalization gibi katmanların davranışını değiştirir.",
+        "Değerlendirme metrikleri için gradyan hesaplamasını etkinleştirir.",
+        "Değerlendirme metriklerini otomatik olarak hesaplar."
+      ],
+      "correct": 1,
+      "source": "NLP_2026 · Bölüm 3 · kaynak sorusu"
+    },
+    {
+      "id": 17,
+      "question": "Soru 17<br>Değerlendirme (evaluation) sırasında torch.no_grad() fonksiyonunun amacı nedir?",
+      "options": [
+        "Modelin tahmin yapmasını engellemek.",
+        "Gradyan takibini devre dışı bırakarak bellekten tasarruf etmek ve hesaplamayı hızlandırmak.",
+        "Model için değerlendirme modunu etkinleştirmek.",
+        "Çalıştırmalar arasında tutarlı sonuçlar elde edilmesini sağlamak."
+      ],
+      "correct": 1,
+      "source": "NLP_2026 · Bölüm 3 · kaynak sorusu"
+    },
+    {
+      "id": 18,
+      "question": "Soru 18<br>Eğitim döngünüzde Accelerate kullandığınızda ne değişir?",
+      "options": [
+        "Tüm eğitim döngünüzü sıfırdan yeniden yazmanız gerekir.",
+        "Önemli nesneleri accelerator.prepare() ile sararsınız (paketlersiniz) ve loss.backward() yerine accelerator.backward(loss) kullanırsınız.",
+        "Kodunuzda GPU sayısını belirtmeniz gerekir.",
+        "Farklı bir optimizer ve scheduler kullanmanız gerekir."
+      ],
+      "correct": 1,
+      "source": "NLP_2026 · Bölüm 3 · kaynak sorusu"
+    },
+    {
+      "id": 19,
+      "question": "Soru 19<br>Eğitim kaybı (training loss) düşerken doğrulama kaybı (validation loss) artmaya başladığında bu tipik olarak ne anlama gelir?",
+      "options": [
+        "Model başarılı bir şekilde öğreniyor ve gelişmeye devam edecek.",
+        "Model eğitim verisini ezberliyor (overfitting).",
+        "Öğrenme oranı (learning rate) çok düşük.",
+        "Veri seti çok küçük."
+      ],
+      "correct": 1,
+      "source": "NLP_2026 · Bölüm 3 · kaynak sorusu"
+    },
+    {
+      "id": 20,
+      "question": "Soru 20<br>Doğruluk (accuracy) eğrileri neden pürüzsüz bir artış yerine genellikle &quot;basamaklı&quot; (steppy) veya plato benzeri bir yapı gösterir?",
+      "options": [
+        "Doğruluk hesaplamasında bir hata vardır.",
+        "Doğruluk, yalnızca tahminler karar sınırlarını aştığında değişen ayrık (kesikli) bir metriktir.",
+        "Model etkili bir şekilde öğrenemiyordur.",
+        "Yığın boyutu (batch size) çok küçüktür."
+      ],
+      "correct": 1,
+      "source": "NLP_2026 · Bölüm 3 · kaynak sorusu"
+    },
+    {
+      "id": 21,
+      "question": "Soru 21<br>Dengesiz, aşırı dalgalanan (erratic) öğrenme eğrileri gözlemlediğinizde en iyi yaklaşım nedir?",
+      "options": [
+        "Yakınsamayı (convergence) hızlandırmak için öğrenme oranını artırmak.",
+        "Öğrenme oranını (learning rate) düşürmek ve muhtemelen yığın boyutunu (batch size) artırmak.",
+        "Model iyileşmeyeceği için eğitimi derhal durdurmak.",
+        "Tamamen farklı bir model mimarisine geçmek."
+      ],
+      "correct": 1,
+      "source": "NLP_2026 · Bölüm 3 · kaynak sorusu"
+    },
+    {
+      "id": 22,
+      "question": "Soru 22<br>Erken durdurmayı (early stopping) ne zaman kullanmayı düşünmelisiniz?",
+      "options": [
+        "Her zaman, çünkü her türlü ezberlemeyi (overfitting) engeller.",
+        "Doğrulama (validation) performansı iyileşmeyi bıraktığında veya kötüleşmeye başladığında.",
+        "Yalnızca eğitim kaybı (training loss) hala hızla düşüyorken.",
+        "Hiçbir zaman, çünkü modelin tam potansiyeline ulaşmasını engeller."
+      ],
+      "correct": 1,
+      "source": "NLP_2026 · Bölüm 3 · kaynak sorusu"
+    },
+    {
+      "id": 23,
+      "question": "Soru 23<br>Modelinizin yetersiz öğrendiğini (underfitting) ne gösterir?",
+      "options": [
+        "Eğitim doğruluğu, doğrulama doğruluğundan çok daha yüksektir.",
+        "Hem eğitim hem de doğrulama performansı kötüdür ve erkenden düzleşir (plato yapar).",
+        "Öğrenme eğrileri hiçbir dalgalanma olmadan çok pürüzsüzdür.",
+        "Doğrulama kaybı, eğitim kaybından daha hızlı düşüyordur."
+      ],
+      "correct": 1,
+      "source": "NLP_2026 · Bölüm 3 · kaynak sorusu"
+    },
+    {
+      "id": 24,
+      "question": "Soru 1<br>Doğruluk (accuracy) öğrenme eğrileri neden genellikle pürüzsüz olan kayıp (loss) eğrilerine kıyasla &quot;basamaklı&quot; veya plato gibi görünür?",
+      "options": [
+        "Doğruluk, kayıptan daha az güvenilir bir metriktir.",
+        "Doğruluk, yalnızca bir tahmin karar sınırını aştığında iyileşen kesikli (ayrık) bir metrikken, kayıp sürekli (kesintisiz) bir değerdir.",
+        "Bu yalnızca öğrenme oranı çok düşük olduğunda gerçekleşir.",
+        "Değerlendirme kodunda bir hata (bug) olduğunu gösterir."
+      ],
+      "correct": 1,
+      "source": "NLP_2026 · Bölüm 3 · kaynak sorusu"
+    },
+    {
+      "id": 25,
+      "question": "Soru 2<br>BERT benzeri modeller bağlamında, bir cümle çifti tokenize edilirken token_type_ids&#x27;nin temel rolü nedir?",
+      "options": [
+        "Hangi token&#x27;ların dolgu (padding) olduğunu belirtmek.",
+        "Kelime dağarcığındaki (vocabulary) her bir token için benzersiz bir kimlik (ID) sağlamak.",
+        "Her bir token&#x27;ın hangi cümleye ait olduğunu ayırt etmek.",
+        "[CLS] ve [SEP] gibi özel token&#x27;ların konumlarını işaretlemek."
+      ],
+      "correct": 2,
+      "source": "NLP_2026 · Bölüm 3 · kaynak sorusu"
+    },
+    {
+      "id": 26,
+      "question": "Soru 3<br>TrainingArguments kullanarak bir Trainer yapılandırırken, sağlamanız gereken (zorunlu) tek argüman nedir?",
+      "options": [
+        "Öğrenme oranı (learning rate).",
+        "Epoch sayısı.",
+        "Eğitilen modelin ve kontrol noktalarının (checkpoints) kaydedileceği bir klasör (output_dir).",
+        "Değerlendirme stratejisi (evaluation strategy)."
+      ],
+      "correct": 2,
+      "source": "NLP_2026 · Bölüm 3 · kaynak sorusu"
+    },
+    {
+      "id": 27,
+      "question": "Soru 4<br>Aşağıdaki öğrenme eğrisi, eğitim (training) ve doğrulama (validation) kaybını göstermektedir. En olası sorun nedir?<br>![Soru 4 öğrenme eğrisi](2026-guz-nlp03-resimler/soru-4.jpeg)",
+      "options": [
+        "Yetersiz öğrenme (Underfitting)",
+        "Yüksek öğrenme oranı (High learning rate)",
+        "Model yeterince uzun süre eğitilmemiş (The model has not trained long enough)",
+        "Ezberleme (Overfitting)"
+      ],
+      "correct": 3,
+      "source": "NLP_2026 · Bölüm 3 · kaynak sorusu"
+    },
+    {
+      "id": 28,
+      "question": "Soru 5<br>TrainingArguments içinde fp16=True ayarını yapmak neyi etkinleştirir?",
+      "options": [
+        "Tam olarak 16 epoch boyunca eğitim yapılmasını.",
+        "Tüm hesaplamalar için 16-bit tam sayı (integer) kullanılmasını.",
+        "Uyumlu GPU&#x27;larda eğitimi hızlandırabilen ve bellek kullanımını azaltabilen karma hassasiyetli (mixed-precision) eğitimi.",
+        "Yığın boyutunu (batch size) 16 olarak ayarlamayı."
+      ],
+      "correct": 2,
+      "source": "NLP_2026 · Bölüm 3 · kaynak sorusu"
+    },
+    {
+      "id": 29,
+      "question": "Soru 6<br>Aşağıdaki öğrenme eğrilerine dayanarak, modeli iyileştirmek için bir sonraki mantıklı adım ne olmalıdır?<br>![Soru 6 öğrenme eğrisi](2026-guz-nlp03-resimler/soru-6.jpeg)",
+      "options": [
+        "Dropout ve weight decay (ağırlık azaltma) eklemek.",
+        "Daha büyük bir model kullanmak veya daha fazla epoch boyunca eğitmek.",
+        "Öğrenme oranını (learning rate) düşürmek.",
+        "Erken durdurma (early stopping) kullanmak."
       ],
       "correct": 0,
-      "source": "Özgün senaryo sorusu · Hugging Face LLM Course"
+      "source": "NLP_2026 · Bölüm 3 · kaynak sorusu"
+    },
+    {
+      "id": 30,
+      "question": "Soru 7<br>Tokenizasyon işlemi için Dataset.map() fonksiyonunda batched=True kullanmanın temel performans faydası nedir?",
+      "options": [
+        "Aynı anda birden fazla örneği işleyerek, hızlı tokenizer&#x27;ların (fast tokenizers) hızından faydalanır.",
+        "Tüm örnekleri (samples) otomatik olarak aynı uzunluğa kadar doldurur (padding yapar).",
+        "Örnekleri tek tek işleyerek bellek kullanımını azaltır.",
+        "Veri setinin sırasının (order) korunmasını garanti eder."
+      ],
+      "correct": 0,
+      "source": "NLP_2026 · Bölüm 3 · kaynak sorusu"
+    },
+    {
+      "id": 31,
+      "question": "Soru 8<br>Trainer API ile eğitim sırasında doğruluğu (accuracy) izlemek (monitör etmek) istiyorsunuz. Trainer&#x27;a sağlamanız gereken iki şey nedir?",
+      "options": [
+        "eval_dataset ve bir compute_metrics fonksiyonu.",
+        "train_dataset ve bir data_collator.",
+        "model ve eval_strategy=&#x27;steps&#x27; içeren training_args.",
+        "eval_dataset ve push_to_hub=True içeren training_args."
+      ],
+      "correct": 0,
+      "source": "NLP_2026 · Bölüm 3 · kaynak sorusu"
+    },
+    {
+      "id": 32,
+      "question": "Soru 9<br>Bir PyTorch eğitim döngüsü için DataLoader oluşturmadan önce, tokenize edilmiş veri seti için bu adımlardan hangisi tipik olarak GEREKLİ DEĞİLDİR?",
+      "options": [
+        "Modelin kabul etmediği ham metin gibi sütunları kaldırmak.",
+        "label sütununu labels olarak yeniden adlandırmak.",
+        "set_format(&#x27;torch&#x27;) kullanarak veri seti formatını &#x27;torch&#x27; olarak ayarlamak.",
+        "Tüm örnekleri (samples) modelin maksimum uzunluğuna kadar manuel olarak doldurmak (padding yapmak)."
+      ],
+      "correct": 3,
+      "source": "NLP_2026 · Bölüm 3 · kaynak sorusu"
+    },
+    {
+      "id": 33,
+      "question": "Soru 10<br>DataCollatorWithPadding sınıfının temel işlevi nedir?",
+      "options": [
+        "Eğitimden önce tüm veri setini tokenize etmek.",
+        "Veri setindeki tüm örneklere kesme (truncation) uygulamak.",
+        "Her yığındaki (batch) örnekleri, yalnızca o yığının içindeki maksimum uzunluğa kadar dinamik olarak doldurmak (pad yapmak).",
+        "32 veya 64 gibi sabit boyutlu yığınlar (batches) oluşturmak."
+      ],
+      "correct": 2,
+      "source": "NLP_2026 · Bölüm 3 · kaynak sorusu"
+    },
+    {
+      "id": 34,
+      "question": "Soru 1<br>Hugging Face ekosisteminde, ham metin verilerini (cümleleri) modelin işleyebileceği sayısal dizilere dönüştüren temel araç aşağıdakilerden hangisidir?",
+      "options": [
+        "Trainer",
+        "Tokenizer",
+        "DataLoader",
+        "Optimizer"
+      ],
+      "correct": 1,
+      "source": "NLP_2026 · Bölüm 3 · kaynak sorusu"
+    },
+    {
+      "id": 35,
+      "question": "Soru 2<br>Trainer API kullanırken, modelin performansını (örneğin Accuracy veya F1 skorunu) her eğitim turunun sonunda otomatik olarak ölçmek için TrainingArguments içinde hangi ayarı yapmalıyız?",
+      "options": [
+        "fp16=True",
+        "batched=True",
+        "eval_strategy=&quot;epoch&quot;",
+        "learning_rate=5e-5"
+      ],
+      "correct": 2,
+      "source": "NLP_2026 · Bölüm 3 · kaynak sorusu"
+    },
+    {
+      "id": 36,
+      "question": "Soru 3<br>PyTorch ile kendi özel eğitim döngünüzü (training loop) yazarken kullandığınız loss.backward() komutu ne işe yarar?",
+      "options": [
+        "Modelin ağırlıklarını günceller.",
+        "Eski gradyanları sıfırlar.",
+        "Hesaplanan hatayı geriye doğru yayarak gradyanları (hataların yönünü) bulur.",
+        "Verileri ekran kartına (GPU) taşır."
+      ],
+      "correct": 2,
+      "source": "NLP_2026 · Bölüm 3 · kaynak sorusu"
     }
   ]
 }
