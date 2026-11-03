@@ -81,7 +81,7 @@ Yerel araçtan:
 
 - **ibo yapay zeka:** Kullanıcının `Yapay_Zeka_Uygulamari.ipynb` defterindeki 13 bölümün kısa özeti ve 52 özgün test sorusu.
 - **insan kaynakları vize:** `insankaynaklariyonetimi_compress.pdf` dosyasının PDF sayfa 1–73 aralığı; ilk iki ünitenin sonundaki soruların 20 özgün uyarlaması ve üçüncü ünitenin kapsanan kısmına yönelik 10 özgün soru. Üçüncü ünitenin sonu 73. sayfadan sonradır.
-- **mesut hoca nlp dersi vize:** [NLP_2026](https://github.com/mesutpolatgil/NLP_2026) deposunun kullanıcı tarafından belirtilen 0–4 soru-cevap belgelerindeki 87 sorunun tamamı ve açıklamaları. 74 tek doğru cevaplı soru çözülebilir testtedir; 13 açık uçlu veya çoklu cevaplı soru kaynak okuma bölümündedir. Kısa konu özetleri, kaynak bağlantıları ve lisans bilgileri de bulunur.
+- **mesut hoca nlp dersi vize:** 0–4 için 81 test sorusu (7 çoklu cevap grubu dahil), 6 klasik soru ve kısa cevapları, 5 sunum özeti ve bölüm içinde dinlenebilir 5 Türkçe NotebookLM sesli özeti. Kaynak: [NLP_2026](https://github.com/mesutpolatgil/NLP_2026).
 
 Kaynak notebook ve PDF GitHub deposuna eklenmez. İçeriği yeniden üretmek için
 `python scripts/generate_vize_courses.py`, veri şemasını doğrulamak için
@@ -117,3 +117,17 @@ Kaynak notebook ve PDF GitHub deposuna eklenmez. İçeriği yeniden üretmek iç
 ## 📄 Lisans
 
 MIT License
+
+## Bağlantı ve ilerleme
+
+Ders verileri uygulamayla birlikte paketlenir; ders değiştirirken ek veri isteği yapılmaz.
+Quiz ilerlemesi aynı sekmede yenilemeden sonra devam eder. Tarayıcı depolamayı
+engellese bile site açılır. Üretimdeki servis çalışanı ilk başarılı yüklemeden sonra
+uygulama ve ders metinlerini çevrimdışı açmayı sağlar. Sesler ilk dinlemede ağ gerektirir.
+Dış Google Fonts isteği kaldırılmıştır; sistem yazı tipi yedeği kullanılır.
+
+NLP içeriğini yeniden üretmek: `python scripts/generate_vize_courses.py`.
+Doğrulamak: `python scripts/validate_vize_courses.py` ve `npm run build`.
+Sesler NotebookLM'de Türkçe Özet biçiminde üretilmiş, MP3/64 kbps olarak sıkıştırılmıştır.
+Anlatımlar yaklaşık iki dakikadır; metinler kaynaklardan derlenen çalışma özetleridir,
+sesin birebir transkripti değildir. Tam PDF/slaytlar uygulamaya eklenmez.

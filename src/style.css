@@ -1056,3 +1056,10 @@ audio::-webkit-media-controls-mute-button {
   color: var(--text-primary);
   background: var(--bg-card);
 }
+/* Keep imported slide text and code readable on narrow screens. */
+.notes-section-content { overflow-wrap: anywhere; line-height: 1.75; }
+.notes-section-content pre { overflow-x: auto; white-space: pre-wrap; padding: 1rem; background: rgba(0,0,0,.22); border-radius: .5rem; }
+.notes-section-content code { font-family: Consolas, monospace; }
+.notes-section-content details { margin: .75rem 0; padding: .75rem; border: 1px solid rgba(148,163,184,.25); border-radius: .5rem; }
+.notes-section-content summary { cursor: pointer; font-weight: 600; }
+.notes-section-content a, .media-card a { color: #93c5fd; }

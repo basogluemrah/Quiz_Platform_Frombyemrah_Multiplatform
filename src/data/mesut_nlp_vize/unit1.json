@@ -114,6 +114,18 @@
     },
     {
       "id": 11,
+      "question": "Soru 11: Bir modelde gözlemlenen önyargının (bias) olası kaynakları neler olabilir?<br>A) Model, önceden eğitilmiş (pretrained) bir modelin ince ayar (fine-tuned) yapılmış versiyonudur ve önyargıyı ondan almıştır.<br>B) Modelin üzerinde eğitildiği veri seti önyargılıdır.<br>C) Modelin optimize ettiği metrik önyargılıdır.<br><strong>Doğru seçeneklerin tamamını içeren grubu seçin.</strong>",
+      "options": [
+        "A, B, C",
+        "A",
+        "B",
+        "C"
+      ],
+      "correct": 0,
+      "source": "NLP_2026 · Bölüm 1 · çoklu cevap grubu"
+    },
+    {
+      "id": 12,
       "question": "Soru 1: Çeviri veya özetleme gibi diziden-diziye (sequence-to-sequence) görevler için genellikle hangi tür Transformer mimarisi en uygundur?",
       "options": [
         "Sadece Kodlayıcı (Encoder-only, örn. BERT)",
@@ -125,7 +137,7 @@
       "source": "NLP_2026 · Bölüm 1 · kaynak sorusu"
     },
     {
-      "id": 12,
+      "id": 13,
       "question": "Soru 2: Hangi Hugging Face pipeline&#x27;ı, bu belirli etiketler üzerinde önceden ince ayar (fine-tuning) gerektirmeden, çıkarım (inference) anında sağlanan rastgele etiketleri kullanarak metin sınıflandırmaya olanak tanır?",
       "options": [
         "text-classification",
@@ -137,7 +149,7 @@
       "source": "NLP_2026 · Bölüm 1 · kaynak sorusu"
     },
     {
-      "id": 13,
+      "id": 14,
       "question": "Soru 3: Transformer modelleri için yaygın olarak kullanılan üç ana mimari kategori hangileridir?",
       "options": [
         "Evrişimli Sinir Ağları (CNN), Tekrarlayan Sinir Ağları (RNN), Dikkat Ağları (Attention Networks)",
@@ -149,7 +161,7 @@
       "source": "NLP_2026 · Bölüm 1 · kaynak sorusu"
     },
     {
-      "id": 14,
+      "id": 15,
       "question": "Soru 4: Büyük Dil Modeli (LLM) çıkarımında (inference), &#x27;sıcaklık&#x27; (temperature) örnekleme parametresi temel olarak neyi kontrol eder?",
       "options": [
         "Üretilecek maksimum token sayısını.",
@@ -161,7 +173,7 @@
       "source": "NLP_2026 · Bölüm 1 · kaynak sorusu"
     },
     {
-      "id": 15,
+      "id": 16,
       "question": "Soru 5: LLM çıkarımı sırasında kullanılan Key-Value (KV) Cache optimizasyonunun temel amacı nedir?",
       "options": [
         "Başlangıç komutunu işlemenin (prefill aşaması) hesaplama maliyetini azaltmak.",
@@ -173,7 +185,7 @@
       "source": "NLP_2026 · Bölüm 1 · kaynak sorusu"
     },
     {
-      "id": 16,
+      "id": 17,
       "question": "Soru 6: Bir Hugging Face pipeline() fonksiyonu, girdi metnini çıkarım için işlerken tipik olarak hangi üç ana üst düzey adımı gerçekleştirir?",
       "options": [
         "Tokenizasyon, Model Eğitimi, Metin Üretimi",
@@ -185,7 +197,7 @@
       "source": "NLP_2026 · Bölüm 1 · kaynak sorusu"
     },
     {
-      "id": 17,
+      "id": 18,
       "question": "Soru 7: Aşağıdakilerden hangisi Büyük Dil Modellerinin (LLM&#x27;ler) önemli bir sınırlaması olarak kabul edilir?",
       "options": [
         "Çeviri veya özetleme gibi görevleri yerine getirememesi.",
@@ -197,7 +209,7 @@
       "source": "NLP_2026 · Bölüm 1 · kaynak sorusu"
     },
     {
-      "id": 18,
+      "id": 19,
       "question": "Soru 8: Daha geniş bir alan olan Doğal Dil İşleme (NLP) ile Büyük Dil Modelleri (LLM&#x27;ler) arasındaki temel fark nedir?",
       "options": [
         "NLP metin üretimine odaklanırken, LLM&#x27;ler metin sınıflandırmasına odaklanır.",
@@ -209,7 +221,7 @@
       "source": "NLP_2026 · Bölüm 1 · kaynak sorusu"
     },
     {
-      "id": 19,
+      "id": 20,
       "question": "Soru 9: Bir komut aldıktan sonra metin üretmek için Büyük Dil Modeli (LLM) çıkarım sürecinde (inference process) tipik olarak yer alan iki farklı aşama nelerdir?",
       "options": [
         "Model Derleme ve Nicemleme",
@@ -221,7 +233,7 @@
       "source": "NLP_2026 · Bölüm 1 · kaynak sorusu"
     },
     {
-      "id": 20,
+      "id": 21,
       "question": "Soru 10: Girdideki token&#x27;ları maskelemeyi ve modeli orijinal token&#x27;ları tahmin etmesi için eğitmeyi içeren, genellikle BERT gibi kodlayıcı (encoder) modelleriyle ilişkilendirilen ön eğitim hedefi hangisidir?",
       "options": [
         "Nedensel Dil Modelleme (Causal Language Modeling - CLM)",

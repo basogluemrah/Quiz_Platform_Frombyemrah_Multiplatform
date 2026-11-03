@@ -78,6 +78,22 @@ def extract(text, unit):
                 prompt.append(line)
         correct = list(dict.fromkeys(answer_letters or marked))
         title = plain(re.sub(r'^#{1,3}\s*|^\*\*', '', prompt[0])) if prompt else ''
+        if len(correct) > 1 and all(label in options for label in correct):
+            labels = list(options)
+            right = ', '.join(label for label in labels if label in correct)
+            candidates = [right]
+            for group in [[label] for label in labels] + [labels[:-1], labels[1:]]:
+                choice = ', '.join(group)
+                if choice not in candidates:
+                    candidates.append(choice)
+                if len(candidates) == 4:
+                    break
+            question = '<br>'.join(html.escape(plain(line)) for line in prompt if not line.startswith('```'))
+            question += '<br>' + '<br>'.join(html.escape(label + ') ' + options[label]) for label in labels)
+            question += '<br><strong>Doğru seçeneklerin tamamını içeren grubu seçin.</strong>'
+            questions.append(dict(id=len(questions)+1, question=question, options=candidates,
+                                  correct=0, source=f'NLP_2026 · Bölüm {unit} · çoklu cevap grubu'))
+            continue
         if len(correct) == 1 and correct[0] in options and 2 <= len(options) <= 5:
             labels = list(options)
             question = '<br>'.join(html.escape(re.sub(r'^#{1,3}\s*', '', plain(x))) for x in prompt
@@ -106,7 +122,8 @@ def main():
                              readingOnlyQuestions=omitted))
         total += len(bank)
         print(f'unit {unit}: {count} source questions; {len(bank)} quiz; {len(omitted)} reading only')
-    save(DATA / 'practice.json', dict(sections=sections))
+    if (DATA / 'practice.json').exists():
+        (DATA / 'practice.json').unlink()
     save(SOURCE / 'manifest.json', manifest)
     courses_path = ROOT / 'src/data/courses.json'
     courses = json.loads(courses_path.read_text(encoding='utf-8'))
@@ -116,13 +133,14 @@ def main():
     save(courses_path, courses)
     units_path = DATA / 'units.json'
     units = json.loads(units_path.read_text(encoding='utf-8'))
+    units['extras'] = [extra for extra in units['extras'] if extra['id'] != 'practice']
     for extra in units['extras']:
         if extra['id'] == 'practice':
             extra.update(name='📚 Kaynak Soruları ve Cevapları', description='Beş dosyadaki tüm testler, çoklu cevaplar ve mimari soruları')
     save(units_path, units)
     notes_path = DATA / 'notes.json'
     notes = json.loads(notes_path.read_text(encoding='utf-8'))
-    notes['sections'][0]['content'] = '0–4. bölümlerin soru-cevap dosyaları, Mesut Polatgil NLP_2026 deposundan aktarılmıştır. Test bölümünde tek doğru cevaplı kaynak soruları bulunur. Kaynak Soruları ve Cevapları bölümünde çoklu doğru cevaplı ve açık uçlu sorular dahil beş dosyanın tamamı, açıklamalarıyla yer alır. Kaynakların cevap anahtarları korunmuştur; sürüme bağlı komut ve API bilgileri ders kaynağının bağlamındadır. Özetler uygulama için derlenmiştir.'
+    notes['sections'][0]['content'] = '0–4. bölümlerin soru-cevap dosyalarındaki 87 sorunun tamamı aktarılmıştır: 74 tek cevaplı ve 7 doğru seçenek grubunun seçildiği test sorusu, ayrıca Klasik Sorular bölümünde 6 açık uçlu soru. Klasik cevaplar sınav tekrarı için kısaltılmıştır. Özetler çeviri ve sunum kaynaklarından derlenmiştir. Sürüme bağlı komut/API bilgileri kaynak dersin bağlamındadır.'
     for section in notes['sections'][1:]:
         section['content'] = re.sub(r'; NLP_2026 deposunda bu bölüm görünmüyor\.', '.', section['content'])
     save(notes_path, notes)
