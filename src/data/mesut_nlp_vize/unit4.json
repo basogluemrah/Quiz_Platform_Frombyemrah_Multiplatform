@@ -4,63 +4,84 @@
   "questions": [
     {
       "id": 1,
-      "question": "Başkasının modeli güvenle yeniden kullanması için hangi dosya açıklayıcıdır?",
+      "question": "1. Hub&#x27;daki modeller ne ile sınırlıdır?",
       "options": [
-        "Model kartı",
-        "Rastgele log",
-        "Ekran resmi",
-        "Ham erişim anahtarı"
+        "Sadece 🤗 Transformers kütüphanesindeki modellerle.",
+        "🤗 Transformers ile benzer bir arayüze sahip tüm modellerle.",
+        "Hiçbir sınırlama yoktur.",
+        "Yalnızca Doğal Dil İşleme (NLP) ile ilişkili olan modellerle."
       ],
-      "correct": 0,
-      "source": "Özgün senaryo sorusu · Hugging Face LLM Course"
+      "correct": 2,
+      "source": "NLP_2026 · Bölüm 4 · kaynak sorusu"
     },
     {
       "id": 2,
-      "question": "Hub'a model gönderirken ne kesinlikle yüklenmemelidir?",
+      "question": "2. Hub&#x27;daki modelleri nasıl yönetebilirsiniz?",
       "options": [
-        "Model kartı",
-        "Uygun lisans bilgisi",
-        "Değerlendirme özeti",
-        "Erişim tokenı"
+        "Bir GCP (Google Cloud Platform) hesabı aracılığıyla.",
+        "Uçtan uca (peer-to-peer) dağıtım ağı aracılığıyla.",
+        "git ve git-lfs aracılığıyla."
       ],
-      "correct": 3,
-      "source": "Özgün senaryo sorusu · Hugging Face LLM Course"
+      "correct": 2,
+      "source": "NLP_2026 · Bölüm 4 · kaynak sorusu"
     },
     {
       "id": 3,
-      "question": "Model ve tokenizer birlikte paylaşılmazsa ne olabilir?",
+      "question": "4. Model kartı (Model Card / README.md) nedir?",
       "options": [
-        "Model otomatik küçülür",
-        "Lisans değişir",
-        "Yeniden kullanımda uyumsuzluk",
-        "Metrik garantili artar"
+        "Modelin kaba bir taslağıdır; bu yüzden model ve tokenizer dosyalarından çok daha önemsizdir.",
+        "Tekrarlanabilirlik (reproducibility), yeniden kullanılabilirlik (reusability) ve adaleti (fairness) sağlamanın temel yoludur.",
+        "Model hakkında bilgi almak için terminalden çalıştırılan bir Python betiğidir (.py)."
       ],
-      "correct": 2,
-      "source": "Özgün senaryo sorusu · Hugging Face LLM Course"
+      "correct": 1,
+      "source": "NLP_2026 · Bölüm 4 · kaynak sorusu"
     },
     {
       "id": 4,
-      "question": "Model kartında hangi bilgi yer almalıdır?",
+      "question": "7. Elinizde eğitilmiş bir model ve tokenizer var — bunları Hub&#x27;a en kolay yoldan nasıl yüklersiniz?",
       "options": [
-        "Gizli anahtar",
-        "Amaç, veri, sınırlar ve değerlendirme",
-        "Yalnız emoji",
-        "Yalnız dosya tarihi"
+        "Doğrudan model ve tokenizer üzerinde .push_to_hub() metodunu çağırarak.",
+        "Python kodunda bunları harici bir huggingface_hub sınıfı ile tek tek sarmalayarak (wrapping).",
+        "Dosyaları diske kaydedip terminalden transformers-cli upload-model komutunu çalıştırarak."
       ],
-      "correct": 1,
-      "source": "Özgün senaryo sorusu · Hugging Face LLM Course"
+      "correct": 0,
+      "source": "NLP_2026 · Bölüm 4 · kaynak sorusu"
     },
     {
       "id": 5,
-      "question": "Paylaşmadan önce veri için hangi kontrol gerekir?",
+      "question": "1. AutoModel Sınıflarının Temel Avantajı<br>Bir kontrol noktasını (checkpoint) doğrudan CamembertForMaskedLM gibi modele özgü bir sınıfla yüklemek yerine AutoModelForMaskedLM kullanmanın temel teknik gerekçesi nedir?",
       "options": [
-        "Lisans ve kişisel bilgi kontrolü",
-        "Yalnız zip boyutu",
-        "Yalnız görsel tema",
-        "Yalnız batch boyutu"
+        "Model ağırlıklarını sıkıştırarak RAM tüketimini azaltması.",
+        "Mimariden bağımsız (architecture-agnostic) olması ve checkpoint değiştiğinde kod değişikliği gerektirmemesi.",
+        "Modeli GPU olmadan sadece CPU üzerinde çalışmaya zorlaması.",
+        "pipeline() fonksiyonuna ihtiyaç duymadan çıkarım yapabilen tek sınıf olması."
+      ],
+      "correct": 1,
+      "source": "NLP_2026 · Bölüm 4 · kaynak sorusu"
+    },
+    {
+      "id": 6,
+      "question": "2. Hub Dosya Yükleme Kısıtlamaları<br>huggingface_hub kütüphanesindeki upload_file fonksiyonu yerine Git-LFS kullanılmasını zorunlu kılan temel teknik kısıtlama nedir?",
+      "options": [
+        "upload_file fonksiyonunun 5 GB&#x27;den büyük dosyaları desteklememesi.",
+        "upload_file yönteminin yalnızca metin (.txt / .json) dosyalarını yükleyebilmesi.",
+        "upload_file ile yüklenen depoların özel (private) yapılamaması.",
+        "upload_file&#x27;ın yalnızca PyTorch tensörlerini kabul etmesi."
       ],
       "correct": 0,
-      "source": "Özgün senaryo sorusu · Hugging Face LLM Course"
+      "source": "NLP_2026 · Bölüm 4 · kaynak sorusu"
+    },
+    {
+      "id": 7,
+      "question": "3. Model Kartı (README.md) ve Hub Filtreleri<br>Bir modelin Hugging Face Hub üzerinde dil/görev filtrelerinde doğru indekslenmesini ve web sayfasındaki canlı test aracının (Hosted Inference API) otomatik açılmasını sağlayan yapı hangisidir?",
+      "options": [
+        "config.json dosyasındaki model mimari parametreleri.",
+        "README.md (Model Kartı) dosyasının en başındaki YAML frontmatter meta veri bloğu.",
+        "Model ağırlık dosyasının uzantısı (.safetensors veya .bin).",
+        "tokenizer_config.json dosyasındaki özel token haritaları."
+      ],
+      "correct": 1,
+      "source": "NLP_2026 · Bölüm 4 · kaynak sorusu"
     }
   ]
 }

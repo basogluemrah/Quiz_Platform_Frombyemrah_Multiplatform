@@ -4,63 +4,39 @@
   "questions": [
     {
       "id": 1,
-      "question": "Bir örnek notebook başka bilgisayarda çalışmıyorsa önce neyi karşılaştırırsın?",
+      "question": "Soru 1: Kutuphane Kurulumu<br>Soru: Hugging Face Transformers kutuphanesini tum gerekli gelistirme bagimliliklariyla birlikte yuklemek icin kullanilan resmi pip komutu hangisidir?",
       "options": [
-        "Python ve paket sürümlerini",
-        "Grafik rengini",
-        "Dosya adının uzunluğunu",
-        "Ekran parlaklığını"
+        "pip install nlp",
+        "pip install &quot;transformers[sentencepiece]&quot;",
+        "pip install huggingface-all",
+        "pip install torch-transformers-models"
       ],
-      "correct": 0,
-      "source": "Özgün senaryo sorusu · Hugging Face LLM Course"
+      "correct": 1,
+      "source": "NLP_2026 · Bölüm 0 · kaynak sorusu"
     },
     {
       "id": 2,
-      "question": "Küçük çıkarım örneği CPU'da çalışırken eğitim çok yavaşsa en makul hızlandırıcı nedir?",
+      "question": "Soru 2: Sanal Ortam (Virtual Environment) Olusturma<br>Soru: Python&#x27;da projeye ozel, izole bir sanal ortam olusturmak icin hangi standart komut kullanilir?",
       "options": [
-        "Daha uzun dosya adı",
-        "Daha çok HTML",
-        "Daha fazla çıktı yazdırma",
-        "Uygun GPU"
+        "python create environment",
+        "pip make venv",
+        "python -m venv .env",
+        "python install venv-all"
       ],
-      "correct": 3,
-      "source": "Özgün senaryo sorusu · Hugging Face LLM Course"
+      "correct": 2,
+      "source": "NLP_2026 · Bölüm 0 · kaynak sorusu"
     },
     {
       "id": 3,
-      "question": "Tekrarlanabilir deneme için hangi bilgi kaydedilmelidir?",
+      "question": "Soru 3: Hugging Face Token Girisi<br>Soru: Hugging Face Hub uzerindeki modelleri indirmek ve terminal uzerinden kimlik dogrulamasi yapmak icin hangi komut calistirilir?",
       "options": [
-        "Yalnız klasör rengi",
-        "Yalnız kullanıcı adı",
-        "Bağımlılık ve model sürümleri",
-        "Yalnız son ekran görüntüsü"
-      ],
-      "correct": 2,
-      "source": "Özgün senaryo sorusu · Hugging Face LLM Course"
-    },
-    {
-      "id": 4,
-      "question": "Paket bağımlılıkları çakıştığında hangi araç yaklaşımı yararlıdır?",
-      "options": [
-        "Tokenları büyütmek",
-        "Ayrı sanal ortam",
-        "Aynı klasöre tüm sürümleri kopyalamak",
-        "Test verisini silmek"
+        "git huggingface connect",
+        "huggingface-cli login",
+        "python login huggingface",
+        "pip auth hf"
       ],
       "correct": 1,
-      "source": "Özgün senaryo sorusu · Hugging Face LLM Course"
-    },
-    {
-      "id": 5,
-      "question": "Aynı deneyin farklı sonuç vermesini azaltmak için hangi ayar yararlıdır?",
-      "options": [
-        "Rastgele tohum",
-        "Pencere boyutu",
-        "Dosya simgesi",
-        "Metin rengi"
-      ],
-      "correct": 0,
-      "source": "Özgün senaryo sorusu · Hugging Face LLM Course"
+      "source": "NLP_2026 · Bölüm 0 · kaynak sorusu"
     }
   ]
 }

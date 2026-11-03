@@ -46,8 +46,8 @@
     },
     {
       "id": "practice",
-      "name": "✍️ Kısa Cevap",
-      "description": "Yaratıcı kısa cevaplı sorular",
+      "name": "📚 Kaynak Soruları ve Cevapları",
+      "description": "Beş dosyadaki tüm testler, çoklu cevaplar ve mimari soruları",
       "icon": "✍️"
     }
   ]

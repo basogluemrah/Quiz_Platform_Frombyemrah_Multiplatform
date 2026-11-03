@@ -81,7 +81,7 @@ Yerel araçtan:
 
 - **ibo yapay zeka:** Kullanıcının `Yapay_Zeka_Uygulamari.ipynb` defterindeki 13 bölümün kısa özeti ve 52 özgün test sorusu.
 - **insan kaynakları vize:** `insankaynaklariyonetimi_compress.pdf` dosyasının PDF sayfa 1–73 aralığı; ilk iki ünitenin sonundaki soruların 20 özgün uyarlaması ve üçüncü ünitenin kapsanan kısmına yönelik 10 özgün soru. Üçüncü ünitenin sonu 73. sayfadan sonradır.
-- **mesut hoca nlp dersi vize:** [NLP_2026](https://github.com/mesutpolatgil/NLP_2026) deposundaki 0–1 kapsamı ile [Hugging Face LLM Course](https://huggingface.co/learn/llm-course/chapter1/1) 2–4 bölümlerine dayanan kısa özetler, 25 özgün test ve 15 kısa cevap. 2–4 için depo içeriği olduğu iddia edilmez.
+- **mesut hoca nlp dersi vize:** [NLP_2026](https://github.com/mesutpolatgil/NLP_2026) deposunun kullanıcı tarafından belirtilen 0–4 soru-cevap belgelerindeki 87 sorunun tamamı ve açıklamaları. 74 tek doğru cevaplı soru çözülebilir testtedir; 13 açık uçlu veya çoklu cevaplı soru kaynak okuma bölümündedir. Kısa konu özetleri, kaynak bağlantıları ve lisans bilgileri de bulunur.
 
 Kaynak notebook ve PDF GitHub deposuna eklenmez. İçeriği yeniden üretmek için
 `python scripts/generate_vize_courses.py`, veri şemasını doğrulamak için

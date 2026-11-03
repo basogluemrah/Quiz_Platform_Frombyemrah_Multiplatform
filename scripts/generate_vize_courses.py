@@ -318,3 +318,7 @@ course("mesut_nlp_vize", "mesut hoca nlp dersi vize", "🗣️", "#2563eb",
        nlp_units, nlp_notes, nlp_banks, nlp_qa)
 
 write(ROOT / "courses.json", courses)
+
+# Always finish with the instructor's five source documents, including open questions.
+from import_nlp_sources import main as import_nlp_sources
+import_nlp_sources()

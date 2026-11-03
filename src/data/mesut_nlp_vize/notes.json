@@ -3,7 +3,7 @@
     {
       "icon": "📖",
       "title": "Kaynak ve kapsam",
-      "content": "Mesut hocanın NLP_2026 deposunun görülebilen ana dalında 0. kurulum ve 1. Transformer bölümleri vardır. README, Hugging Face LLM Course'u dersin ana omurgası olarak tanımlar. Bu dersteki 2–4. üniteler depoda doğrulanmış ders dosyası değil, resmî Hugging Face kursunun aynı numaralı bölümlerinden hazırlanmış özgün çalışma özetidir. Soruların tamamı bu uygulama için yazılmıştır.<br><a href='https://github.com/mesutpolatgil/NLP_2026' target='_blank' rel='noopener noreferrer'>Mesut hocanın deposu</a> · <a href='https://huggingface.co/learn/llm-course/chapter1/1' target='_blank' rel='noopener noreferrer'>Hugging Face LLM Course</a>"
+      "content": "0–4. bölümlerin soru-cevap dosyaları, Mesut Polatgil NLP_2026 deposundan aktarılmıştır. Test bölümünde tek doğru cevaplı kaynak soruları bulunur. Kaynak Soruları ve Cevapları bölümünde çoklu doğru cevaplı ve açık uçlu sorular dahil beş dosyanın tamamı, açıklamalarıyla yer alır. Kaynakların cevap anahtarları korunmuştur; sürüme bağlı komut ve API bilgileri ders kaynağının bağlamındadır. Özetler uygulama için derlenmiştir."
     },
     {
       "icon": "📖",
@@ -18,17 +18,17 @@
     {
       "icon": "📖",
       "title": "2. Transformers ile kullanım",
-      "content": "Pipeline'ın arkasında tokenizer metni token kimliklerine dönüştürür; model sayısal tensörleri işleyip logits üretir; görev başlığı ve son işlem anlamlı çıktı verir. Padding dizileri aynı uzunluğa tamamlar, truncation sınırı aşan bölümü keser. Attention mask dolgu tokenlarını ayırt eder. Model ve tokenizer aynı checkpoint ile eşleşmelidir. Kaynak: Hugging Face LLM Course bölüm 2; NLP_2026 deposunda bu bölüm görünmüyor."
+      "content": "Pipeline'ın arkasında tokenizer metni token kimliklerine dönüştürür; model sayısal tensörleri işleyip logits üretir; görev başlığı ve son işlem anlamlı çıktı verir. Padding dizileri aynı uzunluğa tamamlar, truncation sınırı aşan bölümü keser. Attention mask dolgu tokenlarını ayırt eder. Model ve tokenizer aynı checkpoint ile eşleşmelidir. Kaynak: Hugging Face LLM Course bölüm 2."
     },
     {
       "icon": "📖",
       "title": "3. İnce ayar",
-      "content": "Önceden eğitilmiş model, görev etiketli veriyle belirli işe uyarlanır. Veri eğitim, doğrulama ve test olarak ayrılır; tokenizer dönüştürmesi tüm bölümlere aynı kuralı uygular. Trainer eğitim döngüsünü kolaylaştırır; metrikler görevle uyumlu seçilir. Test verisi hiperparametre ayarında kullanılmaz. Kaynak: Hugging Face LLM Course bölüm 3; NLP_2026 deposunda bu bölüm görünmüyor."
+      "content": "Önceden eğitilmiş model, görev etiketli veriyle belirli işe uyarlanır. Veri eğitim, doğrulama ve test olarak ayrılır; tokenizer dönüştürmesi tüm bölümlere aynı kuralı uygular. Trainer eğitim döngüsünü kolaylaştırır; metrikler görevle uyumlu seçilir. Test verisi hiperparametre ayarında kullanılmaz. Kaynak: Hugging Face LLM Course bölüm 3."
     },
     {
       "icon": "📖",
       "title": "4. Paylaşım",
-      "content": "Hugging Face Hub model, tokenizer, yapılandırma ve model kartını sürümlü bir depoda tutar. Model kartı amaç, veri, sınırlar ve değerlendirme bilgisini açıklar. Yalnız paylaşma yetkisi bulunan dosyalar yüklenir; erişim anahtarları, kişisel veri ve lisansı uygun olmayan eğitim verileri yayımlanmaz. Kaynak: Hugging Face LLM Course bölüm 4; NLP_2026 deposunda bu bölüm görünmüyor."
+      "content": "Hugging Face Hub model, tokenizer, yapılandırma ve model kartını sürümlü bir depoda tutar. Model kartı amaç, veri, sınırlar ve değerlendirme bilgisini açıklar. Yalnız paylaşma yetkisi bulunan dosyalar yüklenir; erişim anahtarları, kişisel veri ve lisansı uygun olmayan eğitim verileri yayımlanmaz. Kaynak: Hugging Face LLM Course bölüm 4."
     }
   ]
 }
