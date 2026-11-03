@@ -3,6 +3,8 @@
 // ===================================
 
 import coursesData from './data/courses.json';
+import { getCourseData } from './course-data.js';
+import { persistQuiz, restoreQuiz } from './quiz-session.js';
 
 // App State
 const state = {
@@ -33,6 +35,7 @@ async function init() {
   // Handle browser back/forward
   window.addEventListener('hashchange', handleRoute);
 
+  restoreQuiz(state);
   // Initial route
   handleRoute();
 }
@@ -41,6 +44,10 @@ async function init() {
 function handleRoute() {
   const hash = window.location.hash.slice(1) || 'home';
   const parts = hash.split('/');
+  if (parts[0] !== 'home' && parts[0] !== 'results' && !coursesData.courses.some(c => c.id === parts[1])) {
+    window.location.hash = 'home';
+    return;
+  }
 
   switch (parts[0]) {
     case 'course':
@@ -67,6 +74,12 @@ function handleRoute() {
         state.selectedCourse = parts[1];
         showNotes();
       }
+      break;
+    case 'classics':
+    case 'presentations':
+    case 'narration':
+      state.selectedCourse = parts[1];
+      showPractice(parts[0]);
       break;
     case 'practice':
       if (parts[1]) {
@@ -133,7 +146,7 @@ async function showUnits() {
 
   try {
     // Load units data
-    const unitsData = await import(`./data/${state.selectedCourse}/units.json`);
+    const unitsData = getCourseData(state.selectedCourse, `units`);
     const course = coursesData.courses.find(c => c.id === state.selectedCourse);
 
     app.innerHTML = `
@@ -217,6 +230,8 @@ async function showUnits() {
         const extraId = card.dataset.extra;
         if (extraId === 'notes') {
           window.location.hash = `notes/${state.selectedCourse}`;
+        } else if (['classics', 'presentations', 'narration'].includes(extraId)) {
+          window.location.hash = `${extraId}/${state.selectedCourse}`;
         } else if (extraId === 'practice') {
           window.location.hash = `practice/${state.selectedCourse}`;
         } else {
@@ -252,7 +267,7 @@ async function showExtras() {
 
   try {
     // Load audio files data
-    const audioData = await import(`./data/${state.selectedCourse}/audio.json`);
+    const audioData = getCourseData(state.selectedCourse, `audio`);
     const files = audioData.files || [];
 
     app.innerHTML = `
@@ -283,12 +298,13 @@ async function showExtras() {
                     Tarayıcınız video oynatmayı desteklemiyor.
                   </video>
                 ` : `
-                  <audio controls class="audio-player">
-                    <source src="/audio/${file.filename}" type="audio/mp4">
+                  <audio controls preload="metadata" class="audio-player">
+                    <source src="/audio/${file.filename}" type="${file.mimeType || (file.filename.endsWith(".mp3") ? "audio/mpeg" : file.filename.endsWith(".wav") ? "audio/wav" : "audio/mp4")}">
                     Tarayıcınız ses oynatmayı desteklemiyor.
                   </audio>
                 `}
               </div>
+              <a href="/audio/${file.filename}" download>Ses dosyasını indir</a>
             </div>
           `).join('') : `
             <div class="audio-empty">
@@ -348,7 +364,7 @@ async function showNotes() {
   `;
 
   try {
-    const notesData = await import(`./data/${state.selectedCourse}/notes.json`);
+    const notesData = getCourseData(state.selectedCourse, `notes`);
     const sections = notesData.sections || [];
 
     app.innerHTML = `
@@ -422,7 +438,7 @@ async function showNotes() {
 }
 
 // Practice View - Fill in the blank & Real World
-async function showPractice() {
+async function showPractice(file = 'practice') {
   state.currentView = 'practice';
   const course = coursesData.courses.find(c => c.id === state.selectedCourse);
 
@@ -434,7 +450,7 @@ async function showPractice() {
   `;
 
   try {
-    const practiceData = await import(`./data/${state.selectedCourse}/practice.json`);
+    const practiceData = getCourseData(state.selectedCourse, file);
     const sections = practiceData.sections || [];
 
     app.innerHTML = `
@@ -444,8 +460,8 @@ async function showPractice() {
         </button>
         
         <div class="header">
-          <h1>✍️ Pratik Soruları</h1>
-          <p>${course.name} - Boşluk Doldurma ve Vaka Analizleri</p>
+          <h1>${practiceData.title || "✍️ Pratik Soruları"}</h1>
+          <p>${course.name} · ${practiceData.description || "Boşluk doldurma ve vaka analizleri"}</p>
         </div>
         
         <div class="notes-list">
@@ -508,6 +524,11 @@ async function showPractice() {
 
 // Quiz View
 async function startQuiz() {
+  if (state.questions.length && state.restoredRoute === window.location.hash) {
+    state.restoredRoute = null;
+    showQuestion();
+    return;
+  }
   state.currentView = 'quiz';
   state.currentQuestionIndex = 0;
   state.answers = [];
@@ -525,12 +546,12 @@ async function startQuiz() {
     // Check if mixed or all mode
     if (state.selectedUnit === 'mixed' || state.selectedUnit === 'all') {
       // Load all units and combine questions
-      const unitsData = await import(`./data/${state.selectedCourse}/units.json`);
+      const unitsData = getCourseData(state.selectedCourse, `units`);
       let allQuestions = [];
 
       for (const unit of unitsData.units) {
         try {
-          const unitData = await import(`./data/${state.selectedCourse}/unit${unit.id}.json`);
+          const unitData = getCourseData(state.selectedCourse, `unit${unit.id}`);
           // Add unit info to each question
           const questionsWithUnit = unitData.questions.map(q => ({
             ...q,
@@ -552,7 +573,7 @@ async function startQuiz() {
       }
     } else {
       // Load specific unit
-      const questionsData = await import(`./data/${state.selectedCourse}/unit${state.selectedUnit}.json`);
+      const questionsData = getCourseData(state.selectedCourse, `unit${state.selectedUnit}`);
       state.questions = questionsData.questions;
     }
 
@@ -571,6 +592,8 @@ async function startQuiz() {
 
 // Show current question
 function showQuestion() {
+  if (!state.questions.length) { window.location.hash = `course/${state.selectedCourse}`; return; }
+  persistQuiz(state);
   const question = state.questions[state.currentQuestionIndex];
   const progress = ((state.currentQuestionIndex + 1) / state.questions.length) * 100;
   const selectedAnswer = state.answers[state.currentQuestionIndex];
@@ -690,7 +713,9 @@ function calculateScore() {
 
 // Results View
 function showResults() {
+  if (!state.questions.length) { window.location.hash = 'home'; return; }
   state.currentView = 'results';
+  persistQuiz(state);
 
   const totalQuestions = state.questions.length;
   const correctAnswers = state.score;
@@ -779,3 +804,15 @@ function showResults() {
 
 // Start the app
 init();
+
+document.addEventListener('play', event => {
+  if (event.target instanceof HTMLMediaElement) {
+    document.querySelectorAll('audio, video').forEach(player => {
+      if (player !== event.target) player.pause();
+    });
+  }
+}, true);
+
+if (import.meta.env.PROD && 'serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/sw.js').catch(() => {});
+}

@@ -1,0 +1,36 @@
+{
+  "title": "✍️ Klasik Sorular",
+  "description": "Kaynaklardaki 6 açık uçlu soru · 1–3 cümlelik kısa cevaplar",
+  "sections": [
+    {
+      "icon": "✍️",
+      "title": "Bölüm 1 · Self-Attention ve dikkat skoru",
+      "content": "<p><strong>Soru 1:</strong> Transformer mimarisindeki Self-Attention mekanizmasında, girdi kelimelerinin birbirleriyle olan ilişkisini hesaplamak için üç farklı vektör kullanılır: Query ($Q$), Key ($K$) ve Value ($V$). Geleneksel Seq2Seq modellerine kıyasla, bu üçlü matris çarpım yapısının (Scaled Dot-Product Attention) modele sağladığı en büyük mimari avantaj nedir ve matris çarpımı sonucunda elde edilen &quot;Attention Score&quot; neyi ifade eder?</p><p><strong>Kısa cevap:</strong> Self-attention, tokenlar arasındaki ilişkileri matris işlemleriyle hesaplar ve paralel işlemeyi kolaylaştırır. Dikkat ağırlıkları, her tokenın diğer tokenlardan ne kadar bilgi alacağını belirler.</p><p>Kaynak: NLP_2026 Bölüm 1. Cevap, kaynak açıklamasından kısaltılmıştır.</p>"
+    },
+    {
+      "icon": "✍️",
+      "title": "Bölüm 1 · Nedensel dikkat maskesi",
+      "content": "<p><strong>Soru 2:</strong> BERT gibi Encoder tabanlı modeller &quot;Bi-directional&quot; (çift yönlü) Attention kullanırken, GPT gibi Decoder tabanlı modeller &quot;Masked&quot; (maskeli) Attention kullanır. Masked Attention mekanizmasında maskeleme işlemi matematiksel olarak nasıl gerçekleştirilir ve bu işlemin mimarideki temel amacı nedir?</p><p><strong>Kısa cevap:</strong> Gelecekteki tokenların skorları softmax öncesinde eksi sonsuzla maskelenir; böylece dikkat ağırlıkları sıfır olur. Model bir sonraki tokenı tahmin ederken gelecekteki cevabı göremez.</p><p>Kaynak: NLP_2026 Bölüm 1. Cevap, kaynak açıklamasından kısaltılmıştır.</p>"
+    },
+    {
+      "icon": "✍️",
+      "title": "Bölüm 1 · Multi-Head Attention",
+      "content": "<p><strong>Soru 3:</strong> Modelin tek bir Attention mekanizması yerine Multi-Head Attention (Çoklu Dikkat Başlıkları) kullanması modelin öğrenme kapasitesini nasıl etkiler? Farklı &quot;Head&quot;lerin aynı anda çalışması ne tür bir bilginin yakalanmasını sağlar?</p><p><strong>Kısa cevap:</strong> Birden fazla dikkat başlığı, girdiyi farklı temsil alt uzaylarında işler. Böylece model aynı anda farklı sözdizimsel ve anlamsal ilişkileri öğrenebilir.</p><p>Kaynak: NLP_2026 Bölüm 1. Cevap, kaynak açıklamasından kısaltılmıştır.</p>"
+    },
+    {
+      "icon": "✍️",
+      "title": "Bölüm 2 · Soru 1",
+      "content": "<h3>Soru 1</h3><p>*Farklı uzunluktaki metinler aynı batch içinde verilirken neden padding yapılır? Bu işlemde attention_mask ne işe yarar?*</p><p><strong>Kısa cevap:</strong> Padding, aynı batch içindeki dizileri eşit uzunluğa getirir. Attention mask, gerçek tokenları dolgudan ayırarak dolgu konumlarının dikkate alınmasını engeller.</p><p>Kaynak: NLP_2026 Bölüm 2. Cevap, kaynak açıklamasından kısaltılmıştır.</p>"
+    },
+    {
+      "icon": "✍️",
+      "title": "Bölüm 2 · Soru 2",
+      "content": "<h3>Soru 2</h3><p>*AutoModel ile AutoModelForSequenceClassification arasındaki temel fark nedir?*</p><p><strong>Kısa cevap:</strong> AutoModel temel Transformer gövdesini ve gizli temsilleri verir. AutoModelForSequenceClassification buna bir sınıflandırma başlığı ekler ve sınıf skorları üretir.</p><p>Kaynak: NLP_2026 Bölüm 2. Cevap, kaynak açıklamasından kısaltılmıştır.</p>"
+    },
+    {
+      "icon": "✍️",
+      "title": "Bölüm 2 · Soru 3",
+      "content": "<h3>Soru 3</h3><p>*Metin üretiminde temperature parametresi neyi kontrol eder? Değeri düşürmek çıktıyı nasıl etkiler?*</p><p><strong>Kısa cevap:</strong> Temperature, token seçimindeki rastlantısallığı ayarlar. Düşük değer olasılık dağılımını keskinleştirip üretimi daha öngörülebilir; yüksek değer daha çeşitli yapar.</p><p>Kaynak: NLP_2026 Bölüm 2. Cevap, kaynak açıklamasından kısaltılmıştır.</p>"
+    }
+  ]
+}

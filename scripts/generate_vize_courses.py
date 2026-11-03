@@ -322,3 +322,5 @@ write(ROOT / "courses.json", courses)
 # Always finish with the instructor's five source documents, including open questions.
 from import_nlp_sources import main as import_nlp_sources
 import_nlp_sources()
+from build_nlp_materials import main as build_nlp_materials
+build_nlp_materials()

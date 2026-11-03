@@ -27,6 +27,18 @@
     },
     {
       "id": 3,
+      "question": "### 3. Hugging Face Hub web arayüzünü kullanarak aşağıdakilerden hangilerini yapabilirsiniz? *(Çoktan Seçmeli)<br>A) Mevcut bir depoyu çatallamak (fork).<br>B) Yeni bir model deposu oluşturmak.<br>C) Dosyaları yönetmek ve doğrudan tarayıcıda düzenlemek.<br>D) Dosya yüklemek (drag-and-drop / upload).<br>E) Sürümler arasındaki farkları (diffs) görüntülemek.<br><strong>Doğru seçeneklerin tamamını içeren grubu seçin.</strong>",
+      "options": [
+        "B, C, D, E",
+        "A",
+        "B",
+        "C"
+      ],
+      "correct": 0,
+      "source": "NLP_2026 · Bölüm 4 · çoklu cevap grubu"
+    },
+    {
+      "id": 4,
       "question": "4. Model kartı (Model Card / README.md) nedir?",
       "options": [
         "Modelin kaba bir taslağıdır; bu yüzden model ve tokenizer dosyalarından çok daha önemsizdir.",
@@ -37,7 +49,31 @@
       "source": "NLP_2026 · Bölüm 4 · kaynak sorusu"
     },
     {
-      "id": 4,
+      "id": 5,
+      "question": "### 5. 🤗 Transformers kütüphanesindeki hangi nesneler push_to_hub() metoduyla doğrudan Hub&#x27;da paylaşılabilir? *(Çoktan Seçmeli)<br>A) Bir Tokenizer<br>B) Bir Model Konfigürasyonu (Configuration)<br>C) Bir Model (AutoModelFor...)<br>D) Bir Trainer (PyTorch) veya PushToHubCallback (Keras/TensorFlow)<br><strong>Doğru seçeneklerin tamamını içeren grubu seçin.</strong>",
+      "options": [
+        "A, B, C, D",
+        "A",
+        "B",
+        "C"
+      ],
+      "correct": 0,
+      "source": "NLP_2026 · Bölüm 4 · çoklu cevap grubu"
+    },
+    {
+      "id": 6,
+      "question": "### 6. push_to_hub() metodunu veya CLI araçlarını kullanırken yapılması gereken İLK adım nedir?<br>A) Hugging Face web sitesinde tarayıcıdan oturum açmak.<br>B) Terminalde huggingface-cli login komutunu çalıştırmak.<br>C) Jupyter/Colab notebook ortamında notebook_login() fonksiyonunu çalıştırmak.<br><strong>Doğru seçeneklerin tamamını içeren grubu seçin.</strong>",
+      "options": [
+        "B, C",
+        "A",
+        "B",
+        "C"
+      ],
+      "correct": 0,
+      "source": "NLP_2026 · Bölüm 4 · çoklu cevap grubu"
+    },
+    {
+      "id": 7,
       "question": "7. Elinizde eğitilmiş bir model ve tokenizer var — bunları Hub&#x27;a en kolay yoldan nasıl yüklersiniz?",
       "options": [
         "Doğrudan model ve tokenizer üzerinde .push_to_hub() metodunu çağırarak.",
@@ -48,7 +84,19 @@
       "source": "NLP_2026 · Bölüm 4 · kaynak sorusu"
     },
     {
-      "id": 5,
+      "id": 8,
+      "question": "### 8. Repository sınıfı ile hangi Git işlemlerini doğrudan Python içerisinden yapabilirsiniz? *(Çoktan Seçmeli)<br>A) Commit işlemi (repo.git_commit())<br>B) Pull işlemi (repo.git_pull())<br>C) Push işlemi (repo.git_push())<br>D) Merge işlemi (repo.git_merge())<br><strong>Doğru seçeneklerin tamamını içeren grubu seçin.</strong>",
+      "options": [
+        "A, B, C",
+        "A",
+        "B",
+        "C"
+      ],
+      "correct": 0,
+      "source": "NLP_2026 · Bölüm 4 · çoklu cevap grubu"
+    },
+    {
+      "id": 9,
       "question": "1. AutoModel Sınıflarının Temel Avantajı<br>Bir kontrol noktasını (checkpoint) doğrudan CamembertForMaskedLM gibi modele özgü bir sınıfla yüklemek yerine AutoModelForMaskedLM kullanmanın temel teknik gerekçesi nedir?",
       "options": [
         "Model ağırlıklarını sıkıştırarak RAM tüketimini azaltması.",
@@ -60,7 +108,7 @@
       "source": "NLP_2026 · Bölüm 4 · kaynak sorusu"
     },
     {
-      "id": 6,
+      "id": 10,
       "question": "2. Hub Dosya Yükleme Kısıtlamaları<br>huggingface_hub kütüphanesindeki upload_file fonksiyonu yerine Git-LFS kullanılmasını zorunlu kılan temel teknik kısıtlama nedir?",
       "options": [
         "upload_file fonksiyonunun 5 GB&#x27;den büyük dosyaları desteklememesi.",
@@ -72,7 +120,7 @@
       "source": "NLP_2026 · Bölüm 4 · kaynak sorusu"
     },
     {
-      "id": 7,
+      "id": 11,
       "question": "3. Model Kartı (README.md) ve Hub Filtreleri<br>Bir modelin Hugging Face Hub üzerinde dil/görev filtrelerinde doğru indekslenmesini ve web sayfasındaki canlı test aracının (Hosted Inference API) otomatik açılmasını sağlayan yapı hangisidir?",
       "options": [
         "config.json dosyasındaki model mimari parametreleri.",

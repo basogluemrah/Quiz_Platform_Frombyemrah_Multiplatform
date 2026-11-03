@@ -26,6 +26,18 @@
     },
     {
       "id": 3,
+      "question": "### 3. Aşağıdakilerden hangisi subword tokenization&#x27;a bir örnektir?<br>A) WordPiece<br>B) Character-based Tokenization (Karakter tabanlı tokenization)<br>C) Splitting on whitespace and punctuation (Boşluk ve noktalama işaretlerine göre ayırma)<br>D) BPE<br>E) Unigram<br>F) Yukarıdakilerin hiçbiri<br><strong>Doğru seçeneklerin tamamını içeren grubu seçin.</strong>",
+      "options": [
+        "A, D, E",
+        "A",
+        "B",
+        "C"
+      ],
+      "correct": 0,
+      "source": "NLP_2026 · Bölüm 2 · çoklu cevap grubu"
+    },
+    {
+      "id": 4,
       "question": "4. Model head nedir?",
       "options": [
         "Temel Transformer ağının, tensorleri doğru katmanlara yönlendiren bir bileşenidir.",
@@ -36,7 +48,7 @@
       "source": "NLP_2026 · Bölüm 2 · kaynak sorusu"
     },
     {
-      "id": 4,
+      "id": 5,
       "question": "5. AutoModel nedir?",
       "options": [
         "Verileriniz üzerinde otomatik olarak eğitim yapan bir modeldir.",
@@ -47,7 +59,19 @@
       "source": "NLP_2026 · Bölüm 2 · kaynak sorusu"
     },
     {
-      "id": 5,
+      "id": 6,
+      "question": "### 6. Farklı uzunluktaki dizileri birlikte batch&#x27;lerken hangi tekniklerin farkında olunmalıdır?<br>A) Kırpma (Truncating)<br>B) Tensor döndürme (Returning tensors)<br>C) Padding (Doldurma)<br>D) Attention masking (Dikkat maskesi)<br><strong>Doğru seçeneklerin tamamını içeren grubu seçin.</strong>",
+      "options": [
+        "A, C, D",
+        "A",
+        "B",
+        "C"
+      ],
+      "correct": 0,
+      "source": "NLP_2026 · Bölüm 2 · çoklu cevap grubu"
+    },
+    {
+      "id": 7,
       "question": "7. Bir sequence classification modelinin çıktısı olan logits değerlerine SoftMax fonksiyonunu uygulamanın amacı nedir?",
       "options": [
         "Logits değerlerini daha güvenilir hale getirmek için yumuşatır.",
@@ -58,7 +82,7 @@
       "source": "NLP_2026 · Bölüm 2 · kaynak sorusu"
     },
     {
-      "id": 6,
+      "id": 8,
       "question": "8. Tokenizer API&#x27;sinin büyük bölümü hangi method etrafında şekillenmiştir?",
       "options": [
         "encode, çünkü metni ID&#x27;lere ve ID&#x27;leri tahminlere dönüştürebilir.",
@@ -70,7 +94,7 @@
       "source": "NLP_2026 · Bölüm 2 · kaynak sorusu"
     },
     {
-      "id": 7,
+      "id": 9,
       "question": "9. Bu kod örneğinde result değişkeni ne içerir?<br>from transformers import AutoTokenizer<br>tokenizer = AutoTokenizer.from_pretrained(&quot;bert-base-cased&quot;)<br>result = tokenizer.tokenize(&quot;Hello!&quot;)",
       "options": [
         "Her bir stringin bir token olduğu bir string listesi.",
@@ -81,7 +105,7 @@
       "source": "NLP_2026 · Bölüm 2 · kaynak sorusu"
     },
     {
-      "id": 8,
+      "id": 10,
       "question": "10. Aşağıdaki kodda yanlış olan bir şey var nedir?<br>from transformers import AutoTokenizer, AutoModel<br>tokenizer = AutoTokenizer.from_pretrained(&quot;bert-base-cased&quot;)<br>model = AutoModel.from_pretrained(&quot;gpt2&quot;)<br>encoded = tokenizer(&quot;Hey!&quot;, return_tensors=&quot;pt&quot;)<br>result = model(**encoded)",
       "options": [
         "Hayır, kod doğru görünüyor.",

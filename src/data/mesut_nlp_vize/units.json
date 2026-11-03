@@ -45,10 +45,22 @@
       "icon": "📖"
     },
     {
-      "id": "practice",
-      "name": "📚 Kaynak Soruları ve Cevapları",
-      "description": "Beş dosyadaki tüm testler, çoklu cevaplar ve mimari soruları",
-      "icon": "✍️"
+      "id": "classics",
+      "name": "✍️ Klasik Sorular",
+      "icon": "✍️",
+      "description": "6 kaynak sorusu ve kısa cevap"
+    },
+    {
+      "id": "presentations",
+      "name": "📊 Sunum Özetleri",
+      "icon": "📊",
+      "description": "0–4 kısa, maddeli sunum özetleri"
+    },
+    {
+      "id": "narration",
+      "name": "🎙️ Kısa Anlatımlar",
+      "icon": "🎙️",
+      "description": "Bölüm içinde dinlenebilir beş kısa sesli özet"
     }
   ]
 }

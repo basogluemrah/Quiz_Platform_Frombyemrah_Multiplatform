@@ -1,15 +1,14 @@
 # NLP kaynakları
 
-Bu klasördeki unit0–unit4 Markdown dosyaları, kullanıcının belirttiği
-mesutpolatgil/NLP_2026 deposunun soru-cevap belgeleridir (3 Kasım 2026).
-Orijinal dosyalar ve bölüm başına soru sayıları manifest.json içinde belirtilir.
-Depodaki MIT LICENSE ve kaynak belgelerindeki atıflar korunmuştur.
+unit0–unit4 dosyaları kullanıcının belirttiği NLP_2026 soru-cevap belgeleridir.
+presentations.json, incelenen 11 sunum dosyasının kaynak yollarını saklar.
+Tam çeviri ve sunum metinleri yayımlanmaz.
+MIT lisansı ve belge atıfları korunmuştur. Uygulamada tam sunum yerine 5 kısa özet gösterilir.
 
-Aktarım: python scripts/import_nlp_sources.py
+Aktarım: python scripts/generate_vize_courses.py
 
-Beş belgedeki 87 soru açıklamalarıyla birlikte okuma bölümüne aktarılır.
-74 tek cevaplı soru teste eklenir; 13 açık uçlu veya birden fazla doğru
-cevaplı soru tüm seçenekleri ve cevaplarıyla okuma bölümünde bulunur.
-HTML ve kod örnekleri çalıştırılmaz; görüntüleme için escape edilir.
-Kaynak cevap anahtarları korunur. Sürüme bağlı CLI/API ve platform
-kısıtları, kaynak dersin anlatıldığı sürüm bağlamında değerlendirilmelidir.
+87 kaynak sorusu: 74 tek cevaplı + 7 doğru seçenek grubunun seçildiği test ve 6 klasik.
+Klasik cevaplar kısaltılmıştır. Sayılar ve kaynak yolları manifest.json içindedir.
+İçerik görüntüleme öncesinde escape edilir; kaynak kod örnekleri çalıştırılmaz.
+Sesli özetler NotebookLM ile Türkçe Özet biçiminde üretilmiştir (3 Kasım 2026).
+Sürüme bağlı CLI/API bilgileri ders kaynağının bağlamında değerlendirilmelidir.

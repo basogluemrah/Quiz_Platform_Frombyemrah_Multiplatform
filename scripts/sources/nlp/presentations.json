@@ -1,0 +1,46 @@
+[
+  {
+    "unit": 0,
+    "path": "bolum-00-kurulum/01-ortam-kurulumu/sunum/2026-guz-alfa.pdf"
+  },
+  {
+    "unit": 1,
+    "path": "bolum-01-transformer-modellerine-giris/01-transformer-modelleri/sunum/2026-guz-nlp01.pdf"
+  },
+  {
+    "unit": 1,
+    "path": "bolum-01-transformer-modellerine-giris/01-transformer-modelleri/sunum/2026-guz-nlp01.pptx"
+  },
+  {
+    "unit": 2,
+    "path": "bolum-02-transformers-kullanimi/02-transformlarin-kullanimi/sunum/1_aslı_emir_süleyman_yaşar_LLM Course Bölüm 2 Sunumu(5).pptx"
+  },
+  {
+    "unit": 2,
+    "path": "bolum-02-transformers-kullanimi/02-transformlarin-kullanimi/sunum/2026-guz-nlp02.pdf"
+  },
+  {
+    "unit": 2,
+    "path": "bolum-02-transformers-kullanimi/02-transformlarin-kullanimi/sunum/2_gamze_ay_TGI, vLLM ve llama.cpp Sunumu(1).pptx"
+  },
+  {
+    "unit": 2,
+    "path": "bolum-02-transformers-kullanimi/02-transformlarin-kullanimi/sunum/3_umut_sancı_Zafiyet ve Model Davranışları.pptx"
+  },
+  {
+    "unit": 2,
+    "path": "bolum-02-transformers-kullanimi/02-transformlarin-kullanimi/sunum/4_melek_koc_Akademik Sunum Dil Model SorularÄ± (1).pptx"
+  },
+  {
+    "unit": 3,
+    "path": "bolum-03-onceden-egitilmis-bir-modelin-ince-ayarinin-yapilmasi/03-ince-ayar-finetuning/sunum/2026-guz-nlp03-slayt/2026-guz-nlp03.pptx"
+  },
+  {
+    "unit": 3,
+    "path": "bolum-03-onceden-egitilmis-bir-modelin-ince-ayarinin-yapilmasi/03-ince-ayar-finetuning/sunum/2026-guz-nlp03.pdf"
+  },
+  {
+    "unit": 4,
+    "path": "bolum-04-modellerin-ve-tokenizerlarin-paylasilmasi/04-modellerin-ve-tokenizerlarin-paylasilmasi/sunum/2026-guz-nlp04.pdf"
+  }
+]

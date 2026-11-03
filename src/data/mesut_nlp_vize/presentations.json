@@ -1,0 +1,31 @@
+{
+  "title": "📊 Sunum Özetleri",
+  "description": "0–4 kısa tekrar · 11 sunum belgesinden derlendi",
+  "sections": [
+    {
+      "icon": "📊",
+      "title": "0. Kurulum ve ortam",
+      "content": "<ul><li>Colab, kurulum gerektirmeden notebook çalıştırır; yerelde venv ile paketleri projeye özel tut.</li><li>Python ve paket sürümlerini kontrol et; notebook çekirdeğiyle kurulum ortamı aynı olmalı.</li><li>Transformers model kullanımını, Datasets veri yüklemeyi ve Tokenizers metin dönüşümünü sağlar.</li><li>Hub erişim belirtecini kaynak koda yazma; yalnız gerekli izinleri ver.</li></ul><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/mesutpolatgil/NLP_2026/blob/main/bolum-00-kurulum/01-ortam-kurulumu/sunum/2026-guz-alfa.pdf\">Kaynak: 2026-guz-alfa.pdf</a></p>"
+    },
+    {
+      "icon": "📊",
+      "title": "1. Transformer modelleri",
+      "content": "<ul><li>NLP görevleri: sınıflandırma, NER, soru cevaplama, çeviri, özetleme ve üretim.</li><li>Pipeline akışı: ön işleme → model → son işleme.</li><li>Encoder anlama/temsil, decoder üretim, encoder-decoder girdi-çıktı dönüşümü için uygundur.</li><li>Attention tokenlar arası bilgi akışını ağırlıklandırır; multi-head farklı alt uzayları işler.</li><li>Ön eğitim genel örüntüleri öğrenir; ince ayar belirli göreve uyarlar. Akıcı çıktı doğruluk garantisi değildir.</li></ul><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/mesutpolatgil/NLP_2026/blob/main/bolum-01-transformer-modellerine-giris/01-transformer-modelleri/sunum/2026-guz-nlp01.pdf\">Kaynak: 2026-guz-nlp01.pdf</a></p><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/mesutpolatgil/NLP_2026/blob/main/bolum-01-transformer-modellerine-giris/01-transformer-modelleri/sunum/2026-guz-nlp01.pptx\">Kaynak: 2026-guz-nlp01.pptx</a></p>"
+    },
+    {
+      "icon": "📊",
+      "title": "2. Transformers kullanımı",
+      "content": "<ul><li>Tokenizer metni token kimliklerine dönüştürür; model logits veya gizli temsiller üretir.</li><li>Padding batch boyutlarını eşitler; attention mask gerçek tokenları dolgudan ayırır; truncation metni keser.</li><li>AutoModel temel gövdedir; göreve özel sınıflar bir çıktı başlığı ekler. Tokenizer ve model uyumlu olmalı.</li><li>Softmax sınıf skorlarını normalize eder; temel çıktı boyutları batch, sequence ve hidden size’dır.</li><li>Ek sunumlar: TGI/vLLM/llama.cpp model sunum araçları ve zafiyet/model davranışı örnekleri. Araç seçimi donanım, hız ve bellek gereksinimine bağlıdır.</li><li>Soru sunumundaki 13 soru mevcut kaynak soru bankasıyla örtüşür; 3 açık uçlu soru Klasik Sorular bölümündedir.</li></ul><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/mesutpolatgil/NLP_2026/blob/main/bolum-02-transformers-kullanimi/02-transformlarin-kullanimi/sunum/1_asl%C4%B1_emir_s%C3%BCleyman_ya%C5%9Far_LLM%20Course%20B%C3%B6l%C3%BCm%202%20Sunumu%285%29.pptx\">Kaynak: 1_aslı_emir_süleyman_yaşar_LLM Course Bölüm 2 Sunumu(5).pptx</a></p><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/mesutpolatgil/NLP_2026/blob/main/bolum-02-transformers-kullanimi/02-transformlarin-kullanimi/sunum/2026-guz-nlp02.pdf\">Kaynak: 2026-guz-nlp02.pdf</a></p><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/mesutpolatgil/NLP_2026/blob/main/bolum-02-transformers-kullanimi/02-transformlarin-kullanimi/sunum/2_gamze_ay_TGI%2C%20vLLM%20ve%20llama.cpp%20Sunumu%281%29.pptx\">Kaynak: 2_gamze_ay_TGI, vLLM ve llama.cpp Sunumu(1).pptx</a></p><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/mesutpolatgil/NLP_2026/blob/main/bolum-02-transformers-kullanimi/02-transformlarin-kullanimi/sunum/3_umut_sanc%C4%B1_Zafiyet%20ve%20Model%20Davran%C4%B1%C5%9Flar%C4%B1.pptx\">Kaynak: 3_umut_sancı_Zafiyet ve Model Davranışları.pptx</a></p><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/mesutpolatgil/NLP_2026/blob/main/bolum-02-transformers-kullanimi/02-transformlarin-kullanimi/sunum/4_melek_koc_Akademik%20Sunum%20Dil%20Model%20Sorular%C3%84%C2%B1%20%281%29.pptx\">Kaynak: 4_melek_koc_Akademik Sunum Dil Model SorularÄ± (1).pptx</a></p>"
+    },
+    {
+      "icon": "📊",
+      "title": "3. Model ince ayarı",
+      "content": "<ul><li>Veriyi eğitim/doğrulama/test olarak ayır; Dataset.map ve batched işlemlerle tokenize et.</li><li>Dinamik padding her batch’in en uzun örneğini esas alır ve gereksiz dolguyu azaltır.</li><li>Trainer eğitim döngüsünü yönetir; TrainingArguments ayarları, compute_metrics ölçümleri belirler.</li><li>Elle eğitim: forward → loss → backward → optimizer.step → scheduler → zero_grad.</li><li>Evaluation ağırlıkları güncellemez. Accelerate dağıtık eğitimi kolaylaştırır.</li><li>Eğitim kaybı düşerken doğrulama kaybı yükselirse overfitting düşünülebilir; erken durdurma ve düzenlileştirme kullanılabilir.</li></ul><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/mesutpolatgil/NLP_2026/blob/main/bolum-03-onceden-egitilmis-bir-modelin-ince-ayarinin-yapilmasi/03-ince-ayar-finetuning/sunum/2026-guz-nlp03-slayt/2026-guz-nlp03.pptx\">Kaynak: 2026-guz-nlp03.pptx</a></p><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/mesutpolatgil/NLP_2026/blob/main/bolum-03-onceden-egitilmis-bir-modelin-ince-ayarinin-yapilmasi/03-ince-ayar-finetuning/sunum/2026-guz-nlp03.pdf\">Kaynak: 2026-guz-nlp03.pdf</a></p>"
+    },
+    {
+      "icon": "📊",
+      "title": "4. Model ve tokenizer paylaşımı",
+      "content": "<ul><li>Hub, model ve tokenizer dosyalarını sürümlü depolarda saklar.</li><li>Model, tokenizer ve yapılandırmayı uyumlu biçimde kaydet; push_to_hub veya Hub yükleme araçlarını kullan.</li><li>Model kartı: amaç, veri, eğitim, metrikler, lisans, sınırlar ve önyargılar.</li><li>YAML meta verileri dil ve görev gibi bilgileri tanımlar; modelin bulunabilirliğini destekler.</li><li>Paylaşmadan önce token, kişisel veri ve lisans kontrolü yap. Büyük dosya yöntemleri ve CLI komutları sürüme bağlıdır.</li></ul><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/mesutpolatgil/NLP_2026/blob/main/bolum-04-modellerin-ve-tokenizerlarin-paylasilmasi/04-modellerin-ve-tokenizerlarin-paylasilmasi/sunum/2026-guz-nlp04.pdf\">Kaynak: 2026-guz-nlp04.pdf</a></p>"
+    }
+  ]
+}
