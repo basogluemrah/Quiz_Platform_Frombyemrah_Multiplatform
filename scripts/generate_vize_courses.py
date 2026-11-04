@@ -231,6 +231,7 @@ hr_rows = [
     ],
 ]
 hr_banks = []
+hr_extra_bank = []
 for index, rows in enumerate(hr_rows):
     source = ("PDF ünite sonu sorularının özgün uyarlaması · s. 25–26"
               if index == 0 else
@@ -241,10 +242,13 @@ for index, rows in enumerate(hr_rows):
     page_range = ["4–28", "29–57", "58–73"][index]
     extra = questions(EXTRA_ROWS[index], f"Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. {page_range} kapsamı")
     for question in extra:
-        question["id"] += len(bank)
-    hr_banks.append(bank + extra)
-    title, content = hr_notes[index]
-    hr_notes[index] = (title, content + f" Bu üniteye ayrıca yapay zekâ tarafından hazırlanmış {len(extra)} özgün ek test sorusu eklenmiştir; bunlar kitabın ünite sonu soruları değildir.")
+        question["id"] += len(hr_extra_bank)
+    hr_extra_bank.extend(extra)
+    hr_banks.append(bank)
+hr_units.append((4, "50 Özgün Ek Soru · Genel Tekrar"))
+hr_banks.append(hr_extra_bank)
+hr_notes.append(("50 Özgün Ek Soru · Genel Tekrar",
+                 "Bu ayrı ünitedeki 50 test sorusu yapay zekâ tarafından hazırlanmıştır; kitabın ünite sonu soruları değildir. PDF'nin ilk 73 sayfasındaki İKY'ye giriş, çevre, iş analizi ve iş tasarımı konularını kapsar. İlk üç ünitedeki mevcut 30 soru korunmuştur."))
 course("ik_vize", "insan kaynakları vize", "👥", "#0d9488",
        "İnsan Kaynakları Yönetimi PDF s. 1–73: özet ve 80 soru (50 özgün ek soru)",
        hr_units, hr_notes, hr_banks)

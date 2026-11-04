@@ -1,0 +1,606 @@
+{
+  "unitId": 4,
+  "unitName": "50 Özgün Ek Soru · Genel Tekrar",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Büyümeyi hedefleyen işletmenin yeni görevler için gereken becerileri önceden belirlemesi İKY'nin hangi yönünü gösterir?",
+      "options": [
+        "Gelecekteki ihtiyaçları stratejiyle ilişkilendirmesini",
+        "Sadece geçmiş bordroları incelemesini",
+        "Eğitimi günlük işlerden tamamen ayırmasını",
+        "İnsan gücü kararlarını tesadüfe bırakmasını"
+      ],
+      "correct": 0,
+      "source": "Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. 4–28 kapsamı"
+    },
+    {
+      "id": 2,
+      "question": "Yeni bir yazılımı kullanmakta zorlanan çalışanlar için öncelikle hangi İK faaliyeti uygundur?",
+      "options": [
+        "Görev unvanlarının rastgele değiştirilmesi",
+        "Çalışma sürelerinin kayıtsız bırakılması",
+        "Başarı ölçütlerinin kaldırılması",
+        "İhtiyaca yönelik eğitim ve geliştirme"
+      ],
+      "correct": 3,
+      "source": "Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. 4–28 kapsamı"
+    },
+    {
+      "id": 3,
+      "question": "İKY'de çalışanı geliştirilebilir bir kaynak olarak görmek hangi uygulamayla tutarlıdır?",
+      "options": [
+        "Deneyimin paylaşılmasını engellemek",
+        "Bütün çalışanları tek bir maliyet kalemi olarak değerlendirmek",
+        "Bilgi ve becerilere yatırım yapmak",
+        "Öğrenme fırsatlarını azaltmak"
+      ],
+      "correct": 2,
+      "source": "Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. 4–28 kapsamı"
+    },
+    {
+      "id": 4,
+      "question": "Çalışanın sonuçlarının önceden belirlenen ölçütlerle karşılaştırılması hangi faaliyet kapsamındadır?",
+      "options": [
+        "Örgütün misyonunu belirleme",
+        "Performans değerlendirmesi",
+        "Aday havuzu oluşturma",
+        "İş başvurusu toplama"
+      ],
+      "correct": 1,
+      "source": "Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. 4–28 kapsamı"
+    },
+    {
+      "id": 5,
+      "question": "Çalışanın gelecekte üstlenebileceği görevler için gelişim yolunun belirlenmesi hangi faaliyetle ilgilidir?",
+      "options": [
+        "Kariyer yönetimi",
+        "Bordro kaydı",
+        "Ürün dağıtımı",
+        "Ham madde tedariki"
+      ],
+      "correct": 0,
+      "source": "Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. 4–28 kapsamı"
+    },
+    {
+      "id": 6,
+      "question": "Hat yöneticisinin çalışanlarına geri bildirim vermesi İK sorumluluğu açısından neyi gösterir?",
+      "options": [
+        "İKY'nin yalnız uzmanların yapabileceği bir iş olduğunu",
+        "Hat yöneticisinin çalışanlarla ilişki kurmaması gerektiğini",
+        "Geri bildirimin İKY ile ilgisiz olduğunu",
+        "İKY sorumluluğunun yöneticilerle paylaşıldığını"
+      ],
+      "correct": 3,
+      "source": "Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. 4–28 kapsamı"
+    },
+    {
+      "id": 7,
+      "question": "'Eğitim fırsatlarında görevin gerektirdiği ihtiyaçlar esas alınır' ifadesi hangi kavrama örnektir?",
+      "options": [
+        "Günlük puantaj kaydı",
+        "Tek bir çalışanın sınav sonucu",
+        "İK politikası",
+        "Eğitim başvurusunun işlem sırası"
+      ],
+      "correct": 2,
+      "source": "Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. 4–28 kapsamı"
+    },
+    {
+      "id": 8,
+      "question": "Eğitim talebinin önce yöneticiye, sonra İK birimine iletilmesini adım adım açıklayan metin nedir?",
+      "options": [
+        "Ulusal kültür boyutu",
+        "İzlek (prosedür)",
+        "Örgütsel misyon",
+        "Genel İK politikası"
+      ],
+      "correct": 1,
+      "source": "Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. 4–28 kapsamı"
+    },
+    {
+      "id": 9,
+      "question": "Yeni çalışma düzenine geçerken çalışanları bilgilendirip uyumu destekleyen İK uzmanı hangi rolü üstlenir?",
+      "options": [
+        "Değişim ajanı",
+        "Ürün dağıtıcısı",
+        "Stok kontrol sorumlusu",
+        "Dış müşteri temsilcisi"
+      ],
+      "correct": 0,
+      "source": "Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. 4–28 kapsamı"
+    },
+    {
+      "id": 10,
+      "question": "Çalışanların sorunlarını dinleyip yönetimin bunları değerlendirmesini sağlayan İK uzmanının rolü nedir?",
+      "options": [
+        "Üretim planlayıcısı",
+        "Finansal yatırım danışmanı",
+        "Tedarikçi denetçisi",
+        "Çalışan savunucusu"
+      ],
+      "correct": 3,
+      "source": "Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. 4–28 kapsamı"
+    },
+    {
+      "id": 11,
+      "question": "İK uzmanının işletmenin rekabet hedeflerini bilmesi öncelikle neden gereklidir?",
+      "options": [
+        "Çalışan görüşlerini karar sürecinden çıkarmak için",
+        "İK kayıtlarına duyulan ihtiyacı kaldırmak için",
+        "İnsan kaynağı kararlarını işletme hedefleriyle uyumlaştırmak için",
+        "Bütün üretim kararlarını tek başına almak için"
+      ],
+      "correct": 2,
+      "source": "Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. 4–28 kapsamı"
+    },
+    {
+      "id": 12,
+      "question": "Çalışanların gelişimini desteklerken işletmenin verimliliğini de gözeten karar hangi dengeyi kurar?",
+      "options": [
+        "Depo kapasitesi ile taşıma aracı sayısı arasındaki dengeyi",
+        "Örgütsel amaçlarla çalışan ihtiyaçları arasındaki dengeyi",
+        "Yalnız kısa vadeli giderlerle satış fiyatı arasındaki dengeyi",
+        "Ürün ambalajı ile reklam bütçesi arasındaki dengeyi"
+      ],
+      "correct": 1,
+      "source": "Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. 4–28 kapsamı"
+    },
+    {
+      "id": 13,
+      "question": "Bir işletmede işten ayrılmalar artarken yalnızca ücret giderine bakılması neden yetersizdir?",
+      "options": [
+        "Çalışan tatmini ve iş gücünün sürekliliği de değerlendirilmelidir",
+        "İşten ayrılma İKY'nin ilgilendiği bir konu değildir",
+        "İşten ayrılanların yerine her koşulda anında çalışan bulunur",
+        "İK faaliyetleri yalnız muhasebe kayıtlarından oluşur"
+      ],
+      "correct": 0,
+      "source": "Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. 4–28 kapsamı"
+    },
+    {
+      "id": 14,
+      "question": "Ücret yönetiminin temel konusu hangi karardır?",
+      "options": [
+        "İşletme ürününün müşteriye hangi fiyattan satılacağı",
+        "Ham maddenin hangi depoda tutulacağı",
+        "Reklamın hangi kanalda yayımlanacağı",
+        "Çalışmanın karşılığının hangi esaslarla belirleneceği"
+      ],
+      "correct": 3,
+      "source": "Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. 4–28 kapsamı"
+    },
+    {
+      "id": 15,
+      "question": "İş kazası risklerini azaltmaya yönelik çalışan bilgilendirmesi en doğrudan hangi alanla ilgilidir?",
+      "options": [
+        "Ürün konumlandırma",
+        "Finansal raporlama",
+        "İş sağlığı ve güvenliği",
+        "Dış pazarlama"
+      ],
+      "correct": 2,
+      "source": "Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. 4–28 kapsamı"
+    },
+    {
+      "id": 16,
+      "question": "Çalışanın önerisini dinleyip ilgili birimlerle paylaşmak İKY açısından hangi sonucu destekler?",
+      "options": [
+        "Geri bildirimin yalnız yukarıdan aşağıya verilmesini",
+        "Katılımı ve birimler arası iş birliğini",
+        "Bilginin tek bir kişide tutulmasını",
+        "Çalışanların karar süreçlerinden uzaklaşmasını"
+      ],
+      "correct": 1,
+      "source": "Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. 4–28 kapsamı"
+    },
+    {
+      "id": 17,
+      "question": "İK uzmanının güvenilirliğini en çok hangi davranış destekler?",
+      "options": [
+        "Benzer durumlarda tutarlı ve etik ölçütlerle karar vermesi",
+        "Karar gerekçelerini kişiye göre sürekli değiştirmesi",
+        "Verdiği sözleri kayıt tutmadan unutması",
+        "Çalışan sorunlarını incelemeden geçiştirmesi"
+      ],
+      "correct": 0,
+      "source": "Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. 4–28 kapsamı"
+    },
+    {
+      "id": 18,
+      "question": "İşletme dışındaki nitelikli aday sayısının azalması hangi çevre unsuruyla ilgilidir?",
+      "options": [
+        "İş gücü piyasası",
+        "Örgüt içi görev dağılımı",
+        "İşletmenin örgüt şeması",
+        "Birimlerin raporlama ilişkileri"
+      ],
+      "correct": 0,
+      "source": "Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. 29–57 kapsamı"
+    },
+    {
+      "id": 19,
+      "question": "Üst yönetimin eğitime bütçe ayırmayı desteklemesi hangi çevre etkenidir?",
+      "options": [
+        "Dış çevrede ulusal kültür",
+        "Dış çevrede iş gücü arzı",
+        "Dış çevrede rakip davranışı",
+        "İç çevrede yönetim tutumu"
+      ],
+      "correct": 3,
+      "source": "Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. 29–57 kapsamı"
+    },
+    {
+      "id": 20,
+      "question": "Bir rakibin uzman çalışanları çekmek için yeni fırsatlar sunması işletmeyi en doğrudan hangi konuda etkiler?",
+      "options": [
+        "Ürün barkodlarının biçiminde",
+        "Muhasebe döneminin uzunluğunda",
+        "Çalışanları elde tutma kararlarında",
+        "Depodaki ürünlerin fiziksel boyutlarında"
+      ],
+      "correct": 2,
+      "source": "Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. 29–57 kapsamı"
+    },
+    {
+      "id": 21,
+      "question": "Müşterilerin daha hızlı hizmet istemesi İK kararlarına nasıl yansıyabilir?",
+      "options": [
+        "Görev dağılımının her koşulda aynı tutulmasıyla",
+        "Hizmet becerileri ve çalışan ihtiyacının yeniden değerlendirilmesiyle",
+        "Müşteri beklentilerinin yalnız muhasebeye aktarılmasıyla",
+        "Eğitim ihtiyaçlarının değerlendirme dışı bırakılmasıyla"
+      ],
+      "correct": 1,
+      "source": "Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. 29–57 kapsamı"
+    },
+    {
+      "id": 22,
+      "question": "Çalışma yaşamına ilişkin bir düzenlemenin değişmesi çevre analizinde hangi başlıkta izlenir?",
+      "options": [
+        "Hukuki çevre",
+        "Örgüt içi kültür",
+        "İşletmenin misyonu",
+        "Birimler arası yetki dağılımı"
+      ],
+      "correct": 0,
+      "source": "Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. 29–57 kapsamı"
+    },
+    {
+      "id": 23,
+      "question": "Otomasyonun bazı görevleri değiştireceğini önceden gören İK biriminin uygun adımı nedir?",
+      "options": [
+        "Mevcut becerilerin her zaman yeterli olacağını varsaymak",
+        "Teknolojik gelişmeleri yalnız satış birimine bırakmak",
+        "İşlerin içeriği değişse de eğitim ihtiyacını incelememek",
+        "Gelecekte gerekli becerileri belirleyip gelişim planlamak"
+      ],
+      "correct": 3,
+      "source": "Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. 29–57 kapsamı"
+    },
+    {
+      "id": 24,
+      "question": "Bir işletmenin paylaşılan değer ve davranış alışkanlıkları hangi kavramla açıklanır?",
+      "options": [
+        "Dış piyasa talebi",
+        "Yasal düzenleme",
+        "Örgüt kültürü",
+        "Ulusal iş gücü arzı"
+      ],
+      "correct": 2,
+      "source": "Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. 29–57 kapsamı"
+    },
+    {
+      "id": 25,
+      "question": "Örgüt kültürü ile ulusal kültür arasındaki temel ayrım hangisidir?",
+      "options": [
+        "Ulusal kültürün yalnız tek bir işletmeyi kapsaması",
+        "Birinin örgüt, diğerinin toplum düzeyindeki değerlerle ilgili olması",
+        "İkisinin de yalnız ücret tutarını açıklaması",
+        "Örgüt kültürünün sadece işletme dışından oluşması"
+      ],
+      "correct": 1,
+      "source": "Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. 29–57 kapsamı"
+    },
+    {
+      "id": 26,
+      "question": "Kuralların ve öngörülebilirliğin güçlü biçimde tercih edilmesi hangi kültür boyutuyla en yakından ilişkilidir?",
+      "options": [
+        "Belirsizlikten kaçınma",
+        "Güç mesafesi",
+        "Bireycilik",
+        "Zaman yönelimi"
+      ],
+      "correct": 0,
+      "source": "Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. 29–57 kapsamı"
+    },
+    {
+      "id": 27,
+      "question": "Bireysel başarı yerine grup bağlılığının vurgulandığı yaklaşım hangi kültürel eğilime örnektir?",
+      "options": [
+        "Bireycilik",
+        "Düşük belirsizlikten kaçınma",
+        "Kısa vadeli yönelim",
+        "Toplumculuk"
+      ],
+      "correct": 3,
+      "source": "Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. 29–57 kapsamı"
+    },
+    {
+      "id": 28,
+      "question": "Bir kültürde astların yöneticinin kararını sorgulamaktan çekinmesi en doğrudan hangi boyutla ilişkilendirilebilir?",
+      "options": [
+        "Uzun vadeli yönelim",
+        "Düşük belirsizlikten kaçınma",
+        "Yüksek güç mesafesi",
+        "Düşük güç mesafesi"
+      ],
+      "correct": 2,
+      "source": "Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. 29–57 kapsamı"
+    },
+    {
+      "id": 29,
+      "question": "İş birliği ve yaşam kalitesine vurgu, Hofstede'nin hangi boyutunda ele alınır?",
+      "options": [
+        "Belirsizlikten kaçınma",
+        "Erillik-dişillik",
+        "Güç mesafesi",
+        "Bireycilik-toplumculuk"
+      ],
+      "correct": 1,
+      "source": "Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. 29–57 kapsamı"
+    },
+    {
+      "id": 30,
+      "question": "Gelecekteki kazanımlar için bugünden sabırla yatırım yapmak hangi kültürel eğilime daha uygundur?",
+      "options": [
+        "Uzun vadeli yönelim",
+        "Kısa vadeli yönelim",
+        "Yüksek güç mesafesi",
+        "Bireycilik"
+      ],
+      "correct": 0,
+      "source": "Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. 29–57 kapsamı"
+    },
+    {
+      "id": 31,
+      "question": "İhtiyaç duyulan bir uzmanlıkta işverenlerin talebi aday sayısını aşarsa hangi güçlük beklenir?",
+      "options": [
+        "Aday bolluğunun kendiliğinden artması",
+        "Eğitim ihtiyacının ortadan kalkması",
+        "İşe alım rekabetinin tamamen bitmesi",
+        "Uygun çalışan bulmanın zorlaşması"
+      ],
+      "correct": 3,
+      "source": "Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. 29–57 kapsamı"
+    },
+    {
+      "id": 32,
+      "question": "İşletmenin çevreden emek alıp mal ve hizmet üretmesi hangi anlayışa örnektir?",
+      "options": [
+        "Yalnız örgüt içi iletişime dayalı bir modele",
+        "İnsan kaynağını üretimden bağımsız gören bir yaklaşıma",
+        "Çevresiyle etkileşen açık sistem anlayışına",
+        "Çevreyle ilişkisi olmayan kapalı bir yapı anlayışına"
+      ],
+      "correct": 2,
+      "source": "Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. 29–57 kapsamı"
+    },
+    {
+      "id": 33,
+      "question": "Sendikalarla ilişkilerin izlenmesi İKY çevre analizinde neden önemlidir?",
+      "options": [
+        "İş gücü piyasasının yerini tamamen aldıkları için",
+        "Çalışma ilişkileri ve çalışan talepleri üzerinde etkileri olduğu için",
+        "Ürün tasarımını tek başlarına belirledikleri için",
+        "İşletmenin bütün yönetim görevlerini devraldıkları için"
+      ],
+      "correct": 1,
+      "source": "Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. 29–57 kapsamı"
+    },
+    {
+      "id": 34,
+      "question": "Bir işin kime rapor verdiğini ve hangi görevleri içerdiğini öğrenmek için öncelikle hangi belge incelenir?",
+      "options": [
+        "İş tanımı",
+        "Adayın kişisel özgeçmişi",
+        "İşletmenin satış raporu",
+        "Eğitim katılım listesi"
+      ],
+      "correct": 0,
+      "source": "Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. 58–73 kapsamı"
+    },
+    {
+      "id": 35,
+      "question": "'Bu iş için veri yorumlama becerisi gerekir' ifadesi en doğrudan nereye yazılır?",
+      "options": [
+        "Ürün fiyat listesine",
+        "Günlük üretim çizelgesine",
+        "İşletmenin gelir tablosuna",
+        "İş gereklerine"
+      ],
+      "correct": 3,
+      "source": "Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. 58–73 kapsamı"
+    },
+    {
+      "id": 36,
+      "question": "'Haftalık stok raporunu hazırlamak' ifadesi iş analizi çıktılarından hangisine uygundur?",
+      "options": [
+        "İşi yapacak kişinin deneyim süresine",
+        "İşi yapacak kişinin yabancı dil düzeyine",
+        "İş tanımına",
+        "İşi yapacak kişinin eğitim düzeyine"
+      ],
+      "correct": 2,
+      "source": "Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. 58–73 kapsamı"
+    },
+    {
+      "id": 37,
+      "question": "Bir görevin içeriği değiştiğinde eski iş analizini kullanmayı sürdürmek hangi riski doğurur?",
+      "options": [
+        "Bütün becerilerin otomatik olarak gelişmesini",
+        "Seçme ve eğitim kararlarının güncel işle uyuşmamasını",
+        "Görevlerin kendiliğinden standartlaşmasını",
+        "Çalışan ihtiyacının kesin olarak azalmasını"
+      ],
+      "correct": 1,
+      "source": "Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. 58–73 kapsamı"
+    },
+    {
+      "id": 38,
+      "question": "İş analizi ile performans değerlendirmesi arasındaki temel ayrım hangisidir?",
+      "options": [
+        "Birinin işi, diğerinin çalışanın belirli ölçütlere göre başarısını incelemesi",
+        "İkisinin de yalnız işin unvanını değiştirmesi",
+        "İş analizinin sadece ücret ödemesini kaydetmesi",
+        "Performans değerlendirmesinin işin görevlerini hiç dikkate almaması"
+      ],
+      "correct": 0,
+      "source": "Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. 58–73 kapsamı"
+    },
+    {
+      "id": 39,
+      "question": "Analistin çalışanın işi yapışını doğrudan izlemesi hangi bilgi toplama yöntemidir?",
+      "options": [
+        "Görüşme",
+        "Kişilik envanteri",
+        "Örgüt şeması çizimi",
+        "Gözlem"
+      ],
+      "correct": 3,
+      "source": "Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. 58–73 kapsamı"
+    },
+    {
+      "id": 40,
+      "question": "Çalışanın görünmeyen zihinsel karar süreçlerini anlamak için hangi yöntem gözlemi tamamlayabilir?",
+      "options": [
+        "Sadece iş unvanını kaydetmek",
+        "Yalnız günlük giriş saatini incelemek",
+        "Çalışanla yapılandırılmış görüşme yapmak",
+        "Yalnız iş masasının büyüklüğünü ölçmek"
+      ],
+      "correct": 2,
+      "source": "Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. 58–73 kapsamı"
+    },
+    {
+      "id": 41,
+      "question": "İş analizi için hem çalışanla hem yöneticisiyle görüşmek hangi amaca hizmet eder?",
+      "options": [
+        "Görevler arasındaki ilişkileri göz ardı etmeye",
+        "İşe ilişkin bilgileri farklı bakışlardan karşılaştırmaya",
+        "İşin gereklerini belirlemekten vazgeçmeye",
+        "İşin görevlerini çalışan kişiliğiyle tamamen eşitlemeye"
+      ],
+      "correct": 1,
+      "source": "Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. 58–73 kapsamı"
+    },
+    {
+      "id": 42,
+      "question": "İş analizi sonucunda belirlenen beceriler işe alımda nasıl kullanılabilir?",
+      "options": [
+        "Aday değerlendirme ölçütlerini işle ilişkilendirerek",
+        "Adayları görevden bağımsız rastgele sıralayarak",
+        "Gerekli becerileri değerlendirme dışı tutarak",
+        "Sadece başvuru tarihine göre karar vererek"
+      ],
+      "correct": 0,
+      "source": "Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. 58–73 kapsamı"
+    },
+    {
+      "id": 43,
+      "question": "İş analizi verileri çalışan eğitimine nasıl katkı sağlar?",
+      "options": [
+        "Her çalışan için aynı eğitimin zorunlu olduğunu kanıtlar",
+        "Eğitim sonuçlarını ölçmeyi gereksiz kılar",
+        "İşin değişmesinin eğitimle ilişkisini ortadan kaldırır",
+        "Gerekli beceriler ile mevcut beceriler arasındaki ihtiyacı belirlemeye yardım eder"
+      ],
+      "correct": 3,
+      "source": "Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. 58–73 kapsamı"
+    },
+    {
+      "id": 44,
+      "question": "Bir çalışana kendi işini planlama ve sonuçlarını kontrol etme yetkisi verilmesi neye örnektir?",
+      "options": [
+        "İş rotasyonuna",
+        "Yalnız yatay iş genişletmeye",
+        "İş zenginleştirmeye",
+        "İş basitleştirmeye"
+      ],
+      "correct": 2,
+      "source": "Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. 58–73 kapsamı"
+    },
+    {
+      "id": 45,
+      "question": "Kasada çalışan kişinin belirli dönemlerde danışma görevine geçmesi hangi uygulamadır?",
+      "options": [
+        "Performans puanlama",
+        "İş rotasyonu",
+        "İş zenginleştirme",
+        "İş gerekleri yazımı"
+      ],
+      "correct": 1,
+      "source": "Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. 58–73 kapsamı"
+    },
+    {
+      "id": 46,
+      "question": "Bir raporlama çalışanına karar yetkisi değişmeden benzer düzeyde ikinci bir rapor görevi eklenmesi nedir?",
+      "options": [
+        "İş genişletme",
+        "İş zenginleştirme",
+        "İş rotasyonu",
+        "İşin bütünüyle kaldırılması"
+      ],
+      "correct": 0,
+      "source": "Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. 58–73 kapsamı"
+    },
+    {
+      "id": 47,
+      "question": "İş genişletme ile iş zenginleştirmeyi ayıran temel ölçüt hangisidir?",
+      "options": [
+        "Birinde iş analizi bulunup diğerinde hiçbir görev olmaması",
+        "İkisinin farklı adlarla aynı yetki artışını zorunlu kılması",
+        "Birinin yalnız ücret, diğerinin yalnız çalışma saatiyle ilgili olması",
+        "Görev sayısının artması ile yetki ve sorumluluk derinliğinin artması arasındaki fark"
+      ],
+      "correct": 3,
+      "source": "Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. 58–73 kapsamı"
+    },
+    {
+      "id": 48,
+      "question": "Görevin çok küçük, tekrarlanan parçalara ayrılması iş tasarımında hangi riski artırabilir?",
+      "options": [
+        "Görev çeşitliliğinin zorunlu olarak artmasını",
+        "Çalışanın bütün işi kontrol etmesini",
+        "Monotonluğu",
+        "Karar yetkisinin sürekli genişlemesini"
+      ],
+      "correct": 2,
+      "source": "Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. 58–73 kapsamı"
+    },
+    {
+      "id": 49,
+      "question": "İş rotasyonuna geçilen birimde ilk dönemde hatalar artarsa hangi önlem uygundur?",
+      "options": [
+        "Geri bildirim vermeyi tamamen bırakmak",
+        "Yeni görevler için uyum eğitimi ve rehberlik sağlamak",
+        "Çalışanın yeni görevi eğitim almadan bildiğini varsaymak",
+        "Görevlerin nasıl yapıldığını açıklamamak"
+      ],
+      "correct": 1,
+      "source": "Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. 58–73 kapsamı"
+    },
+    {
+      "id": 50,
+      "question": "Ekip üyelerinin görevleri birbirinin çıktısına bağlıysa iş analizinde ne incelenmelidir?",
+      "options": [
+        "Üyeler arasındaki iş akışı ve koordinasyon ihtiyacı",
+        "Yalnız her üyenin unvanının uzunluğu",
+        "Sadece bireysel masa düzeni",
+        "Ekip hedeflerinden bağımsız kişisel tercihler"
+      ],
+      "correct": 0,
+      "source": "Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. 58–73 kapsamı"
+    }
+  ]
+}
