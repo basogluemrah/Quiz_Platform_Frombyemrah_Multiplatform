@@ -5,7 +5,7 @@ from pathlib import Path
 root = Path(__file__).resolve().parents[1] / "src" / "data"
 courses = json.loads((root / "courses.json").read_text(encoding="utf-8"))["courses"]
 assert len({course["id"] for course in courses}) == len(courses)
-expected = {"ibo_ai": (13, 52), "ik_vize": (3, 30), "mesut_nlp_vize": (5, 81)}
+expected = {"ibo_ai": (13, 52), "ik_vize": (3, 80), "mesut_nlp_vize": (5, 81)}
 for course_id, (unit_count, question_count) in expected.items():
     assert any(course["id"] == course_id for course in courses)
     base = root / course_id
@@ -25,6 +25,12 @@ for course_id, (unit_count, question_count) in expected.items():
     notes = json.loads((base / "notes.json").read_text(encoding="utf-8"))["sections"]
     assert len(notes) >= unit_count
     print(f"{course_id}: {unit_count} units, {question_count} questions, {len(notes)} notes")
+
+hr_banks = [json.loads((root / f'ik_vize/unit{unit}.json').read_text(encoding='utf-8'))['questions']
+            for unit in range(1, 4)]
+assert [len(bank) for bank in hr_banks] == [27, 26, 27]
+assert sum('Özgün ek soru' in q['source'] for bank in hr_banks for q in bank) == 50
+assert all(len(set(q['options'])) == 4 for bank in hr_banks for q in bank)
 
 classics = json.loads((root / 'mesut_nlp_vize/classics.json').read_text(encoding='utf-8'))
 assert len(classics['sections']) == 6

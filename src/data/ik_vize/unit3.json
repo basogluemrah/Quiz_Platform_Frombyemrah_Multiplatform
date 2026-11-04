@@ -121,6 +121,210 @@
       ],
       "correct": 3,
       "source": "Özgün soru · PDF s. 58–73"
+    },
+    {
+      "id": 11,
+      "question": "Bir işin kime rapor verdiğini ve hangi görevleri içerdiğini öğrenmek için öncelikle hangi belge incelenir?",
+      "options": [
+        "İş tanımı",
+        "Adayın kişisel özgeçmişi",
+        "İşletmenin satış raporu",
+        "Eğitim katılım listesi"
+      ],
+      "correct": 0,
+      "source": "Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. 58–73 kapsamı"
+    },
+    {
+      "id": 12,
+      "question": "'Bu iş için veri yorumlama becerisi gerekir' ifadesi en doğrudan nereye yazılır?",
+      "options": [
+        "Ürün fiyat listesine",
+        "Günlük üretim çizelgesine",
+        "İşletmenin gelir tablosuna",
+        "İş gereklerine"
+      ],
+      "correct": 3,
+      "source": "Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. 58–73 kapsamı"
+    },
+    {
+      "id": 13,
+      "question": "'Haftalık stok raporunu hazırlamak' ifadesi iş analizi çıktılarından hangisine uygundur?",
+      "options": [
+        "İşi yapacak kişinin deneyim süresine",
+        "İşi yapacak kişinin yabancı dil düzeyine",
+        "İş tanımına",
+        "İşi yapacak kişinin eğitim düzeyine"
+      ],
+      "correct": 2,
+      "source": "Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. 58–73 kapsamı"
+    },
+    {
+      "id": 14,
+      "question": "Bir görevin içeriği değiştiğinde eski iş analizini kullanmayı sürdürmek hangi riski doğurur?",
+      "options": [
+        "Bütün becerilerin otomatik olarak gelişmesini",
+        "Seçme ve eğitim kararlarının güncel işle uyuşmamasını",
+        "Görevlerin kendiliğinden standartlaşmasını",
+        "Çalışan ihtiyacının kesin olarak azalmasını"
+      ],
+      "correct": 1,
+      "source": "Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. 58–73 kapsamı"
+    },
+    {
+      "id": 15,
+      "question": "İş analizi ile performans değerlendirmesi arasındaki temel ayrım hangisidir?",
+      "options": [
+        "Birinin işi, diğerinin çalışanın belirli ölçütlere göre başarısını incelemesi",
+        "İkisinin de yalnız işin unvanını değiştirmesi",
+        "İş analizinin sadece ücret ödemesini kaydetmesi",
+        "Performans değerlendirmesinin işin görevlerini hiç dikkate almaması"
+      ],
+      "correct": 0,
+      "source": "Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. 58–73 kapsamı"
+    },
+    {
+      "id": 16,
+      "question": "Analistin çalışanın işi yapışını doğrudan izlemesi hangi bilgi toplama yöntemidir?",
+      "options": [
+        "Görüşme",
+        "Kişilik envanteri",
+        "Örgüt şeması çizimi",
+        "Gözlem"
+      ],
+      "correct": 3,
+      "source": "Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. 58–73 kapsamı"
+    },
+    {
+      "id": 17,
+      "question": "Çalışanın görünmeyen zihinsel karar süreçlerini anlamak için hangi yöntem gözlemi tamamlayabilir?",
+      "options": [
+        "Sadece iş unvanını kaydetmek",
+        "Yalnız günlük giriş saatini incelemek",
+        "Çalışanla yapılandırılmış görüşme yapmak",
+        "Yalnız iş masasının büyüklüğünü ölçmek"
+      ],
+      "correct": 2,
+      "source": "Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. 58–73 kapsamı"
+    },
+    {
+      "id": 18,
+      "question": "İş analizi için hem çalışanla hem yöneticisiyle görüşmek hangi amaca hizmet eder?",
+      "options": [
+        "Görevler arasındaki ilişkileri göz ardı etmeye",
+        "İşe ilişkin bilgileri farklı bakışlardan karşılaştırmaya",
+        "İşin gereklerini belirlemekten vazgeçmeye",
+        "İşin görevlerini çalışan kişiliğiyle tamamen eşitlemeye"
+      ],
+      "correct": 1,
+      "source": "Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. 58–73 kapsamı"
+    },
+    {
+      "id": 19,
+      "question": "İş analizi sonucunda belirlenen beceriler işe alımda nasıl kullanılabilir?",
+      "options": [
+        "Aday değerlendirme ölçütlerini işle ilişkilendirerek",
+        "Adayları görevden bağımsız rastgele sıralayarak",
+        "Gerekli becerileri değerlendirme dışı tutarak",
+        "Sadece başvuru tarihine göre karar vererek"
+      ],
+      "correct": 0,
+      "source": "Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. 58–73 kapsamı"
+    },
+    {
+      "id": 20,
+      "question": "İş analizi verileri çalışan eğitimine nasıl katkı sağlar?",
+      "options": [
+        "Her çalışan için aynı eğitimin zorunlu olduğunu kanıtlar",
+        "Eğitim sonuçlarını ölçmeyi gereksiz kılar",
+        "İşin değişmesinin eğitimle ilişkisini ortadan kaldırır",
+        "Gerekli beceriler ile mevcut beceriler arasındaki ihtiyacı belirlemeye yardım eder"
+      ],
+      "correct": 3,
+      "source": "Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. 58–73 kapsamı"
+    },
+    {
+      "id": 21,
+      "question": "Bir çalışana kendi işini planlama ve sonuçlarını kontrol etme yetkisi verilmesi neye örnektir?",
+      "options": [
+        "İş rotasyonuna",
+        "Yalnız yatay iş genişletmeye",
+        "İş zenginleştirmeye",
+        "İş basitleştirmeye"
+      ],
+      "correct": 2,
+      "source": "Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. 58–73 kapsamı"
+    },
+    {
+      "id": 22,
+      "question": "Kasada çalışan kişinin belirli dönemlerde danışma görevine geçmesi hangi uygulamadır?",
+      "options": [
+        "Performans puanlama",
+        "İş rotasyonu",
+        "İş zenginleştirme",
+        "İş gerekleri yazımı"
+      ],
+      "correct": 1,
+      "source": "Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. 58–73 kapsamı"
+    },
+    {
+      "id": 23,
+      "question": "Bir raporlama çalışanına karar yetkisi değişmeden benzer düzeyde ikinci bir rapor görevi eklenmesi nedir?",
+      "options": [
+        "İş genişletme",
+        "İş zenginleştirme",
+        "İş rotasyonu",
+        "İşin bütünüyle kaldırılması"
+      ],
+      "correct": 0,
+      "source": "Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. 58–73 kapsamı"
+    },
+    {
+      "id": 24,
+      "question": "İş genişletme ile iş zenginleştirmeyi ayıran temel ölçüt hangisidir?",
+      "options": [
+        "Birinde iş analizi bulunup diğerinde hiçbir görev olmaması",
+        "İkisinin farklı adlarla aynı yetki artışını zorunlu kılması",
+        "Birinin yalnız ücret, diğerinin yalnız çalışma saatiyle ilgili olması",
+        "Görev sayısının artması ile yetki ve sorumluluk derinliğinin artması arasındaki fark"
+      ],
+      "correct": 3,
+      "source": "Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. 58–73 kapsamı"
+    },
+    {
+      "id": 25,
+      "question": "Görevin çok küçük, tekrarlanan parçalara ayrılması iş tasarımında hangi riski artırabilir?",
+      "options": [
+        "Görev çeşitliliğinin zorunlu olarak artmasını",
+        "Çalışanın bütün işi kontrol etmesini",
+        "Monotonluğu",
+        "Karar yetkisinin sürekli genişlemesini"
+      ],
+      "correct": 2,
+      "source": "Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. 58–73 kapsamı"
+    },
+    {
+      "id": 26,
+      "question": "İş rotasyonuna geçilen birimde ilk dönemde hatalar artarsa hangi önlem uygundur?",
+      "options": [
+        "Geri bildirim vermeyi tamamen bırakmak",
+        "Yeni görevler için uyum eğitimi ve rehberlik sağlamak",
+        "Çalışanın yeni görevi eğitim almadan bildiğini varsaymak",
+        "Görevlerin nasıl yapıldığını açıklamamak"
+      ],
+      "correct": 1,
+      "source": "Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. 58–73 kapsamı"
+    },
+    {
+      "id": 27,
+      "question": "Ekip üyelerinin görevleri birbirinin çıktısına bağlıysa iş analizinde ne incelenmelidir?",
+      "options": [
+        "Üyeler arasındaki iş akışı ve koordinasyon ihtiyacı",
+        "Yalnız her üyenin unvanının uzunluğu",
+        "Sadece bireysel masa düzeni",
+        "Ekip hedeflerinden bağımsız kişisel tercihler"
+      ],
+      "correct": 0,
+      "source": "Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. 58–73 kapsamı"
     }
   ]
 }

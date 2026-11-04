@@ -1,6 +1,7 @@
 """Generate source-attributed study courses from reviewed, original question banks."""
 import json
 from pathlib import Path
+from hr_extra_questions import EXTRA_ROWS
 
 ROOT = Path(__file__).resolve().parents[1] / "src" / "data"
 
@@ -236,9 +237,16 @@ for index, rows in enumerate(hr_rows):
               "PDF ünite sonu sorularının özgün uyarlaması · s. 54–55"
               if index == 1 else
               "Özgün soru · PDF s. 58–73")
-    hr_banks.append(questions(rows, source))
+    bank = questions(rows, source)
+    page_range = ["4–28", "29–57", "58–73"][index]
+    extra = questions(EXTRA_ROWS[index], f"Özgün ek soru · Yapay zekâ tarafından hazırlanmıştır · PDF s. {page_range} kapsamı")
+    for question in extra:
+        question["id"] += len(bank)
+    hr_banks.append(bank + extra)
+    title, content = hr_notes[index]
+    hr_notes[index] = (title, content + f" Bu üniteye ayrıca yapay zekâ tarafından hazırlanmış {len(extra)} özgün ek test sorusu eklenmiştir; bunlar kitabın ünite sonu soruları değildir.")
 course("ik_vize", "insan kaynakları vize", "👥", "#0d9488",
-       "İnsan Kaynakları Yönetimi PDF s. 1–73: özet ve 30 soru",
+       "İnsan Kaynakları Yönetimi PDF s. 1–73: özet ve 80 soru (50 özgün ek soru)",
        hr_units, hr_notes, hr_banks)
 
 nlp_units = [
